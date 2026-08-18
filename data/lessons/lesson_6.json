@@ -1,0 +1,53 @@
+{
+  "id": "l6",
+  "title": "What is a Business?",
+  "module": " Module 1 - Foundation",
+  "order": "Page 6 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every product you use every day exists because someone started a business. Businesses solve problems and earn money by providing products or services."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You notice there is no tea shop near your school. You decide to sell tea and snacks every morning. Students buy from you because it is convenient. You earn money while solving a problem. Congratulations—you've started a business."
+    },
+    {
+      "type": "p",
+      "value": "A business is any activity that provides goods or services to customers in exchange for money. It can be very small, like a roadside tea stall, or very large, like Tata, Reliance, or Infosys."
+    },
+    {
+      "type": "example",
+      "value": "A grocery store, a bakery, a software company, a hospital, and an online shopping website are all businesses because they provide value to customers."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Businesses create value. Companies are one way of organizing a business. We'll learn about companies in the next lesson.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main purpose of a business?",
+      "choices": [
+        "To solve problems by providing goods or services.",
+        "To print money.",
+        "To avoid customers."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these is a business?",
+      "choices": [
+        "Tea shop",
+        "Hospital",
+        "Software company",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    }
+  ],
+  "previousLesson": "l5",
+  "nextLesson": "l7"
+}

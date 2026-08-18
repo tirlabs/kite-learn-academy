@@ -1,0 +1,42 @@
+{
+  "id": "l21",
+  "title": "Choosing a Stock Broker",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 21 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Before you can invest in the stock market, you need to choose a stock broker. A broker provides the platform you'll use to buy, sell, and track your investments."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> If you want to shop online, you might choose Amazon or Flipkart. Both let you buy products, but each has different features. Stock brokers work in a similar way."
+    },
+    {
+      "type": "p",
+      "value": "Some brokers focus on low costs, while others provide research reports, advisory services, or banking integration. The best broker depends on your needs."
+    },
+    {
+      "type": "example",
+      "value": "Popular brokers in India include Zerodha, Groww, Upstox, Angel One, ICICI Direct, Kotak Securities and HDFC Sky."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>As a beginner, choose a broker with a simple interface, low fees, and good customer support.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the primary job of a stock broker?",
+      "choices": [
+        "Help investors buy and sell shares.",
+        "Issue new currency.",
+        "Control stock prices."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l20",
+  "nextLesson": "l22"
+}

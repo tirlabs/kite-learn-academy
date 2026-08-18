@@ -1,0 +1,42 @@
+{
+  "id": "l51",
+  "title": "What is a Trend?",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 51 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "One of the first things traders and investors look for is the trend. A trend tells us the overall direction in which a stock is moving."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You're walking uphill on a mountain. Even if you occasionally step down to avoid a rock, your overall direction is still upward. Stock prices behave in the same way."
+    },
+    {
+      "type": "p",
+      "value": "There are three main types of trends: Uptrend, Downtrend and Sideways Trend."
+    },
+    {
+      "type": "example",
+      "value": "If a stock keeps making higher highs and higher lows, it is generally in an Uptrend."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The trend is your friend. Never ignore the overall direction of the market.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does a trend show?",
+      "choices": [
+        "The overall direction of a stock's movement.",
+        "The company's annual profit.",
+        "The number of employees."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l50",
+  "nextLesson": "l52"
+}

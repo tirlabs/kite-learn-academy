@@ -1,0 +1,56 @@
+{
+  "id": "l54",
+  "title": "Breakout & Breakdown",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 54 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Sometimes a stock moves beyond its support or resistance level. These important movements are called Breakouts and Breakdowns."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A locked door blocks your path. Once the door opens, you can move freely into the next room. A breakout is similar—the stock moves beyond a level that was previously stopping it."
+    },
+    {
+      "type": "p",
+      "value": "A Breakout happens when the price moves above resistance. A Breakdown happens when the price falls below support."
+    },
+    {
+      "type": "example",
+      "value": "A stock trades below ₹1,000 for several weeks. One day it closes at ₹1,030 with strong volume. This may be a breakout."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Not every breakout succeeds. Some fail and quickly reverse direction.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Many traders wait for confirmation before acting on a breakout.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "A breakout occurs when price moves...",
+      "choices": [
+        "Above resistance.",
+        "Below support.",
+        "Sideways."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A breakdown occurs when price moves...",
+      "choices": [
+        "Below support.",
+        "Above resistance.",
+        "Nowhere."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l53",
+  "nextLesson": "l55"
+}

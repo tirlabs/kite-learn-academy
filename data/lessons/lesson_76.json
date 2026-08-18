@@ -1,0 +1,42 @@
+{
+  "id": "l76",
+  "title": "Dividend",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 76 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "When a company earns profits, it can either reinvest the money back into the business or share a portion of the profits with its shareholders. This payment is called a Dividend."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Four friends own a mango farm. After selling the harvest and paying all expenses, they decide to share part of the profit equally among themselves. That shared profit is similar to a dividend."
+    },
+    {
+      "type": "p",
+      "value": "Not every company pays dividends. Fast-growing companies often reinvest profits to expand, while mature companies may regularly reward shareholders with dividends."
+    },
+    {
+      "type": "example",
+      "value": "If a company declares a dividend of ₹10 per share and you own 100 shares, you will receive ₹1,000 before applicable taxes."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>A company not paying dividends is not necessarily a bad company. It may be investing its profits for future growth.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is a dividend?",
+      "choices": [
+        "A portion of company profits shared with shareholders.",
+        "A government tax.",
+        "A brokerage fee."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l75",
+  "nextLesson": "l77"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "l11",
+  "title": "Why Stock Markets Exist",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 11 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "In the previous lesson, you learned that a share represents ownership in a company. But where do people actually buy and sell these shares? That's where the stock market comes in."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Farmers from different villages gather every Sunday in one big marketplace to buy and sell fruits and vegetables. Instead of travelling to every farm individually, everyone meets in one place. The stock market works in a very similar way, except people buy and sell shares instead of vegetables."
+    },
+    {
+      "type": "p",
+      "value": "A stock market is a place where buyers and sellers meet to trade shares of public companies. It provides a safe, organized, and transparent way to buy and sell ownership in businesses."
+    },
+    {
+      "type": "example",
+      "value": "If you want to buy one share of Reliance Industries, you don't call Reliance directly. You buy it through the stock market."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Think of the stock market as a giant marketplace for company ownership.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main purpose of a stock market?",
+      "choices": [
+        "To buy and sell company shares.",
+        "To manufacture products.",
+        "To print money."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is traded in the stock market?",
+      "choices": [
+        "Vegetables",
+        "Shares of companies",
+        "Cars"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "previousLesson": "l10",
+  "nextLesson": "l12"
+}

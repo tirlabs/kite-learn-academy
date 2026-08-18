@@ -1,0 +1,33 @@
+{
+  "id": "l95",
+  "title": "Taxes on Stock Market Investments",
+  "module": " Module 9 - Advanced Investing & Your Journey",
+  "order": "Page 95 of 100",
+  "readingTime": "10 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Profits from investing may be taxable depending on the type of investment and how long you held it."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ Tax rules change over time. Always verify the latest rules before making financial decisions."
+    },
+    {
+      "type": "tip",
+      "value": " Understanding taxes is part of becoming a complete investor."
+    },
+    {
+      "type": "quiz",
+      "question": "Should investors understand tax implications before investing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l94",
+  "nextLesson": "l96"
+}

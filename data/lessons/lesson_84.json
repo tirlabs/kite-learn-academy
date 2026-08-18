@@ -1,0 +1,42 @@
+{
+  "id": "l84",
+  "title": "Risk vs Reward",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 84 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every investment has a balance between the amount you could lose and the amount you hope to gain. This is called the Risk-Reward Ratio."
+    },
+    {
+      "type": "story",
+      "value": "🎣 <strong>Imagine This:</strong> You wouldn't spend ₹1,000 on fishing equipment to catch a fish worth only ₹100. Similarly, investors compare potential reward with potential risk before making a decision."
+    },
+    {
+      "type": "p",
+      "value": "Many traders look for opportunities where the potential reward is greater than the possible loss."
+    },
+    {
+      "type": "example",
+      "value": "If your maximum expected loss is ₹100 but your expected profit is ₹300, your Risk-Reward Ratio is 1:3."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>A good investment is not just about high returns—it should also have sensible risk.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "A Risk-Reward Ratio of 1:3 means...",
+      "choices": [
+        "You risk ₹1 to potentially earn ₹3.",
+        "You earn ₹1 by risking ₹3.",
+        "There is no risk."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l83",
+  "nextLesson": "l85"
+}

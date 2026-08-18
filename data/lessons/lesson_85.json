@@ -1,0 +1,60 @@
+{
+  "id": "l85",
+  "title": "Stop Loss",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 85 of 100",
+  "readingTime": "10 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "A Stop Loss is a predefined price at which an investor or trader decides to exit a position to limit further losses."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Every modern building has fire exits. You hope you'll never need them, but they're essential if something goes wrong. A Stop Loss serves the same purpose in investing."
+    },
+    {
+      "type": "p",
+      "value": "Setting a Stop Loss helps remove emotions from investing by deciding in advance how much loss you're willing to accept."
+    },
+    {
+      "type": "example",
+      "value": "You buy a stock at ₹500 and decide you'll exit if it falls to ₹470. Your Stop Loss is ₹470."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>A Stop Loss does not guarantee your exact exit price during extremely fast market movements.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Protecting your capital is just as important as growing it.</strong>"
+    },
+    {
+      "type": "fact",
+      "value": " Long-term investors may use wider mental stop losses based on business fundamentals, while active traders often use predefined technical stop losses."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the purpose of a Stop Loss?",
+      "choices": [
+        "To limit potential losses.",
+        "To increase brokerage.",
+        "To guarantee profits."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why do many investors use a Stop Loss?",
+      "choices": [
+        "To control risk and reduce emotional decisions.",
+        "To make prices go up.",
+        "To receive dividends."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l84",
+  "nextLesson": "l86"
+}

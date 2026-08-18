@@ -1,0 +1,57 @@
+{
+  "id": "l49",
+  "title": "Common Candlestick Patterns",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 49 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Sometimes one or more candlesticks form patterns that help traders understand market sentiment. These are called candlestick patterns."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Farmers often look at dark clouds to guess whether it might rain. The clouds don't guarantee rain, but they provide clues. Candlestick patterns work in a similar way."
+    },
+    {
+      "type": "p",
+      "value": "Some popular patterns include Doji, Hammer, Shooting Star, Bullish Engulfing and Bearish Engulfing. These patterns indicate possible changes in buying or selling pressure."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>No candlestick pattern guarantees that a stock will move in a particular direction. They provide probabilities, not certainty.</strong>"
+    },
+    {
+      "type": "example",
+      "value": "A Hammer appearing after a sharp fall may suggest that buyers are becoming stronger, but it should always be confirmed using other information."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Never make investment decisions using only one candlestick pattern.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What do candlestick patterns mainly provide?",
+      "choices": [
+        "Clues about market sentiment.",
+        "Guaranteed future prices.",
+        "Company financial statements."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these is a candlestick pattern?",
+      "choices": [
+        "Hammer",
+        "Doji",
+        "Bullish Engulfing",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    }
+  ],
+  "previousLesson": "l48",
+  "nextLesson": "l50"
+}

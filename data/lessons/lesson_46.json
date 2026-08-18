@@ -1,0 +1,52 @@
+{
+  "id": "l46",
+  "title": "OHLC Explained",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 46 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every candlestick tells four important prices: Open, High, Low and Close. Together, these are called OHLC."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Think about a cricket match. The team starts with 0 runs (Open), reaches its highest score before the innings ends (High), never goes below 0 (Low), and finishes with a final score (Close). A stock's trading day follows a similar journey."
+    },
+    {
+      "type": "p",
+      "value": "The Open Price is where trading begins. The High is the highest price reached during the period. The Low is the lowest price, and the Close is the final traded price before the period ends."
+    },
+    {
+      "type": "example",
+      "value": "Open ₹100 • High ₹108 • Low ₹98 • Close ₹105. These four values together form one candlestick."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Every candlestick is simply a visual representation of these four prices.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does OHLC stand for?",
+      "choices": [
+        "Open, High, Low, Close",
+        "Open, Hold, Limit, Close",
+        "Order, High, Low, Chart"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which price represents the final traded price?",
+      "choices": [
+        "Close",
+        "High",
+        "Open"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l45",
+  "nextLesson": "l47"
+}

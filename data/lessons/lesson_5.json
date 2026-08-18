@@ -1,0 +1,52 @@
+{
+  "id": "l5",
+  "title": "Different Ways to Invest Money",
+  "module": " Module 1 - Foundation",
+  "order": "Page 5 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "People invest because they want their money to grow faster than inflation. There is no single investment that is best for everyone."
+    },
+    {
+      "type": "story",
+      "value": " Imagine five friends each have ₹10,000. One keeps it in a bank, another buys gold, another invests in mutual funds, another buys shares, and another starts a small business. After several years, each investment performs differently."
+    },
+    {
+      "type": "p",
+      "value": "Some common investment options include Fixed Deposits (FDs), Gold, Real Estate, Mutual Funds, Stocks, Government Bonds, and starting your own business."
+    },
+    {
+      "type": "example",
+      "value": "Each investment has different levels of risk, return, and time commitment. Learning these differences helps you make better financial decisions."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The stock market is just one of many investment options. Throughout this course, we'll understand why many investors choose it for long-term wealth creation.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these is an investment option?",
+      "choices": [
+        "Gold",
+        "Stocks",
+        "Mutual Funds",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Do all investments have the same risk and return?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "previousLesson": "l4",
+  "nextLesson": "l6"
+}

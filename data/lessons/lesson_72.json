@@ -1,0 +1,46 @@
+{
+  "id": "l72",
+  "title": "Price to Earnings Ratio (P/E Ratio)",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 72 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "The Price to Earnings Ratio, or P/E Ratio, helps investors understand how much they are paying for every ₹1 of a company's earnings."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Two houses earn the same monthly rent, but one costs ₹50 lakh and the other costs ₹1 crore. The second house is much more expensive compared to the income it generates. Investors use the P/E Ratio in a similar way."
+    },
+    {
+      "type": "p",
+      "value": "A high P/E may indicate that investors expect strong future growth. A low P/E may suggest lower expectations or that the stock could be undervalued."
+    },
+    {
+      "type": "example",
+      "value": "If a stock trades at ₹500 and its EPS is ₹25, then the P/E Ratio is 20."
+    },
+    {
+      "type": "fact",
+      "value": " Formula: P/E = Share Price ÷ EPS"
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>A high P/E is not always bad, and a low P/E is not always good. Always compare companies in the same industry.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does the P/E Ratio compare?",
+      "choices": [
+        "Share Price and Earnings Per Share.",
+        "Assets and Liabilities.",
+        "Revenue and Expenses."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l71",
+  "nextLesson": "l73"
+}

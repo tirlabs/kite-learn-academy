@@ -1,0 +1,53 @@
+{
+  "id": "l15",
+  "title": "What is a Stock Broker?",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 15 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "You cannot directly walk into the NSE or BSE and buy shares yourself. You need a registered stock broker."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> When buying a house, most people work through a real estate agent who helps complete the transaction. In the stock market, a broker performs a similar role by helping investors buy and sell shares."
+    },
+    {
+      "type": "p",
+      "value": "A stock broker is a SEBI-registered company that provides a platform to buy and sell shares on stock exchanges."
+    },
+    {
+      "type": "example",
+      "value": "Popular stock brokers in India include Zerodha, Groww, Angel One, Upstox and ICICI Direct."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>When you click 'Buy' in Zerodha or Groww, your broker sends your order to the stock exchange.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Why do investors need a stock broker?",
+      "choices": [
+        "To access the stock exchange and place buy/sell orders.",
+        "To print share certificates.",
+        "To create new companies."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these is a stock broker in India?",
+      "choices": [
+        "Zerodha",
+        "Groww",
+        "Angel One",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    }
+  ],
+  "previousLesson": "l14",
+  "nextLesson": "l16"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "l24",
+  "title": "Searching for a Stock",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 24 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every listed company has a trading symbol that helps investors quickly find it on the stock exchange."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Just as you search for a contact by name on your phone, you search for a company using its name or trading symbol."
+    },
+    {
+      "type": "p",
+      "value": "Typing 'Infosys', 'Reliance', or 'TCS' into your broker's search box immediately displays the company's stock."
+    },
+    {
+      "type": "example",
+      "value": "Most trading apps also show the current price, daily change, charts, and company information."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Always double-check the company name before placing an order.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Why do trading apps have a search feature?",
+      "choices": [
+        "To quickly find listed companies.",
+        "To calculate taxes.",
+        "To contact SEBI."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l23",
+  "nextLesson": "l25"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "l35",
+  "title": "Volume",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 35 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Volume tells us how many shares were traded during a specific period. It helps us understand how active a stock is."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Two vegetable markets both sell tomatoes. One sells 20 bags in a day, while the other sells 2,000 bags. The second market clearly has much more activity. Volume works exactly the same way in the stock market."
+    },
+    {
+      "type": "p",
+      "value": "High volume usually means many buyers and sellers are actively trading the stock. Low volume means fewer people are participating."
+    },
+    {
+      "type": "example",
+      "value": "If Reliance trades 2 crore shares today, its trading volume for the day is 2 crore shares."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Volume tells you how much interest there is in a stock. Price tells you where it is trading.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does trading volume represent?",
+      "choices": [
+        "The number of shares traded.",
+        "The company's annual profit.",
+        "The stock's future price."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "High trading volume usually indicates...",
+      "choices": [
+        "Many buyers and sellers are active.",
+        "The company is closing.",
+        "The stock cannot be traded."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l34",
+  "nextLesson": "l36"
+}

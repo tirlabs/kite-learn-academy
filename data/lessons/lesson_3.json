@@ -1,0 +1,48 @@
+{
+  "id": "l3",
+  "title": "Saving vs Investing",
+  "module": " Module 1 - Foundation",
+  "order": "Page 3 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Saving and investing are often confused, but they are not the same. Saving protects your money. Investing helps your money grow."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Think About This:</strong> One child keeps ₹1,000 safely in a box. Another uses the ₹1,000 to buy a small plant, waters it regularly, and eventually sells the fruits it produces. One protected money, the other made money work."
+    },
+    {
+      "type": "p",
+      "value": "Savings are usually kept in cash or bank accounts where they are safe but grow slowly. Investments carry some risk but have the potential to earn much higher returns over time."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Remember:</strong> First build savings for emergencies, then begin investing for long-term goals."
+    },
+    {
+      "type": "quiz",
+      "question": "Which helps your money grow over time?",
+      "choices": [
+        "Investing",
+        "Keeping cash under your pillow",
+        "Spending everything"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which is generally safer?",
+      "choices": [
+        "Saving",
+        "Investing",
+        "Neither"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l2",
+  "nextLesson": "l4"
+}

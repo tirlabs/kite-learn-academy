@@ -1,0 +1,26 @@
+{
+  "id": "l99",
+  "title": "20 Golden Rules Every Investor Should Remember",
+  "module": " Module 9 - Advanced Investing & Your Journey",
+  "order": "Page 99 of 100",
+  "readingTime": "12 mins read",
+  "difficulty": "Level: All Levels",
+  "blocks": [
+    {
+      "type": "fact",
+      "value": "1. Invest only what you understand.\n2. Never invest borrowed money.\n3. Diversify.\n4. Think long term.\n5. Stay patient.\n6. Ignore market noise.\n7. Don't chase tips.\n8. Review your portfolio.\n9. Keep learning.\n10. Protect your capital.\n11. Don't panic.\n12. Don't get greedy.\n13. Focus on quality.\n14. Read annual reports.\n15. Track expenses.\n16. Respect risk.\n17. Invest regularly.\n18. Continue learning.\n19. Trust your process.\n20. Wealth is built over decades, not days."
+    },
+    {
+      "type": "quiz",
+      "question": "Which rule is the most important?",
+      "choices": [
+        "Follow a disciplined process consistently",
+        "Buy every trending stock",
+        "Try to get rich quickly"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l98",
+  "nextLesson": "l100"
+}

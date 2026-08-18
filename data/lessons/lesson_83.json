@@ -1,0 +1,46 @@
+{
+  "id": "l83",
+  "title": "Position Sizing",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 83 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Position sizing means deciding how much money to invest in a single stock. Even a good company can become a risky investment if too much money is invested in it."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A balanced meal contains rice, vegetables, dal and fruits. Eating only one food in a very large quantity isn't healthy. Your investment portfolio should also be balanced."
+    },
+    {
+      "type": "p",
+      "value": "Many experienced investors avoid putting a very large percentage of their portfolio into a single stock."
+    },
+    {
+      "type": "example",
+      "value": "An investor with ₹5,00,000 may decide not to invest more than ₹50,000 in any one company."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Even the best companies can face unexpected problems.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Good investing is about managing position size as much as choosing good companies.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is position sizing?",
+      "choices": [
+        "Deciding how much money to invest in one investment.",
+        "Choosing a stock exchange.",
+        "Selecting a broker."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l82",
+  "nextLesson": "l84"
+}

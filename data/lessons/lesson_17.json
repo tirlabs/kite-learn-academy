@@ -1,0 +1,52 @@
+{
+  "id": "l17",
+  "title": "What is a Trading Account?",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 17 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "A Demat Account stores your shares, but a Trading Account helps you buy and sell them."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A shopping cart helps you purchase products online, while your cupboard stores them after delivery. Similarly, a Trading Account is used to place orders, while a Demat Account stores your shares."
+    },
+    {
+      "type": "p",
+      "value": "Whenever you click the Buy or Sell button in apps like Zerodha or Groww, you are using your Trading Account."
+    },
+    {
+      "type": "example",
+      "value": "The Trading Account sends your order to the stock exchange. After the purchase is completed, the shares move into your Demat Account."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Trading Account = Buying & Selling. Demat Account = Storing.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main purpose of a Trading Account?",
+      "choices": [
+        "Buying and selling shares",
+        "Storing shares",
+        "Creating companies"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Where are shares stored after purchase?",
+      "choices": [
+        "Trading Account",
+        "Demat Account",
+        "Savings Account"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "previousLesson": "l16",
+  "nextLesson": "l18"
+}

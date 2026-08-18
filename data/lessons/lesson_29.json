@@ -1,0 +1,52 @@
+{
+  "id": "l29",
+  "title": "Order Book, Holdings & Positions",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 29 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Once you start placing orders, your trading app will show different sections such as Orders, Holdings and Positions. Understanding these sections is essential."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Think of your school bag. One pocket contains homework, another contains completed assignments, and another holds books you are currently reading. Your trading app organizes your investments in a similar way."
+    },
+    {
+      "type": "p",
+      "value": "The Order Book shows orders you've placed. Holdings display investments you currently own. Positions show trades that are still active for the day."
+    },
+    {
+      "type": "example",
+      "value": "If you buy Infosys for long-term investing, it appears in Holdings. If you're doing intraday trading, it appears in Positions until the trade is completed."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Don't confuse Holdings with Positions. Holdings are long-term investments, while Positions usually represent active trades.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Where do long-term investments appear?",
+      "choices": [
+        "Holdings",
+        "Positions",
+        "Order Book"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "The Order Book shows...",
+      "choices": [
+        "Orders you have placed",
+        "Only profits",
+        "Bank balance"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l28",
+  "nextLesson": "l30"
+}

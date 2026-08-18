@@ -1,0 +1,46 @@
+{
+  "id": "l58",
+  "title": "Moving Average Convergence Divergence (MACD)",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 58 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "MACD is a technical indicator used to identify trend direction, momentum and possible changes in market movement."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> While riding a bicycle downhill, your speed tells you not only where you're going but also how quickly you're getting there. MACD measures both direction and momentum."
+    },
+    {
+      "type": "p",
+      "value": "MACD compares two Exponential Moving Averages (EMAs). Traders often watch where the MACD Line crosses the Signal Line."
+    },
+    {
+      "type": "example",
+      "value": "When the MACD Line crosses above the Signal Line, some traders view it as a possible bullish signal."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>MACD signals should always be confirmed using price action and other indicators.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>MACD is most effective when used to confirm an existing trend rather than predict one.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "MACD is mainly used to understand...",
+      "choices": [
+        "Trend and momentum",
+        "Company revenue",
+        "Dividend payments"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l57",
+  "nextLesson": "l59"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "l71",
+  "title": "Earnings Per Share (EPS)",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 71 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "After a company earns a profit, investors often ask a simple question: 'How much of that profit belongs to each share?' The answer is called Earnings Per Share (EPS)."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A pizza is shared among 4 friends. Each person gets 2 slices. If the same pizza is shared among 8 friends, each gets only 1 slice. The total pizza hasn't changed—only the number of people sharing it. EPS works the same way."
+    },
+    {
+      "type": "p",
+      "value": "EPS tells us how much profit is earned for each outstanding share of the company. A higher EPS generally indicates better profitability."
+    },
+    {
+      "type": "example",
+      "value": "If a company earns ₹100 crore in profit and has 10 crore shares, its EPS is ₹10."
+    },
+    {
+      "type": "fact",
+      "value": " Formula: EPS = Net Profit ÷ Total Outstanding Shares"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>EPS is more useful when compared with previous years and with similar companies.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does EPS measure?",
+      "choices": [
+        "Profit earned for each share.",
+        "Company revenue.",
+        "Total company assets."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l70",
+  "nextLesson": "l72"
+}

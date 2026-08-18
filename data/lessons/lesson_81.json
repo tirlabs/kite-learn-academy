@@ -1,0 +1,42 @@
+{
+  "id": "l81",
+  "title": "What is Risk?",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 81 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every investment carries some level of risk. Risk simply means there is a possibility that your investment may not perform as expected or that you may lose part of your money."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Riding a bicycle is generally safe, but there is always a chance of falling. Wearing a helmet doesn't remove the risk, but it reduces the damage. Investing works the same way."
+    },
+    {
+      "type": "p",
+      "value": "The goal of investing is not to eliminate risk completely. Instead, the goal is to understand risk and manage it wisely."
+    },
+    {
+      "type": "example",
+      "value": "Buying shares of a single unknown company is generally riskier than investing in several well-established companies."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Successful investors don't avoid risk—they manage it.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is risk in investing?",
+      "choices": [
+        "The possibility of losing money or earning lower-than-expected returns.",
+        "Guaranteed profits.",
+        "Paying brokerage charges."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l80",
+  "nextLesson": "l82"
+}

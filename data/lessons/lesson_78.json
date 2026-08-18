@@ -1,0 +1,46 @@
+{
+  "id": "l78",
+  "title": "Promoter Holding",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 78 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Promoters are the founders or controlling owners of a company. Promoter Holding tells us how much of the company they continue to own."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A family builds a successful hotel. Years later, they still own 70% of it. This shows they continue to have confidence in the business they created."
+    },
+    {
+      "type": "p",
+      "value": "Many investors prefer companies where promoters continue to hold a meaningful stake because it aligns their interests with other shareholders."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>High promoter holding alone is not enough. Always consider the company's financial performance and corporate governance.</strong>"
+    },
+    {
+      "type": "example",
+      "value": "If promoters increase their ownership over time, some investors see it as a positive sign. If they reduce it significantly, investors may try to understand the reason."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Look for trends in promoter holding over several quarters instead of focusing on one number.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Who are promoters?",
+      "choices": [
+        "Founders or controlling owners of a company.",
+        "Stock brokers.",
+        "Government regulators."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l77",
+  "nextLesson": "l79"
+}

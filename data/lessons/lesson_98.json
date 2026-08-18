@@ -1,0 +1,30 @@
+{
+  "id": "l98",
+  "title": "Building Your Personal Investment Plan",
+  "module": " Module 9 - Advanced Investing & Your Journey",
+  "order": "Page 98 of 100",
+  "readingTime": "10 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "fact",
+      "value": "Create your own investing checklist:\n\n✅ Emergency Fund\n✅ Health Insurance\n✅ Clear High-Interest Debt\n✅ Define Financial Goals\n✅ Decide Asset Allocation\n✅ Invest Regularly\n✅ Review Every 6–12 Months"
+    },
+    {
+      "type": "tip",
+      "value": " A written investment plan helps you stay disciplined during market ups and downs."
+    },
+    {
+      "type": "quiz",
+      "question": "Why should every investor have an investment plan?",
+      "choices": [
+        "To make consistent decisions",
+        "To guarantee profits",
+        "To avoid learning"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l97",
+  "nextLesson": "l99"
+}

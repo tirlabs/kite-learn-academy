@@ -1,0 +1,52 @@
+{
+  "id": "l4",
+  "title": "What is Inflation?",
+  "module": " Module 1 - Foundation",
+  "order": "Page 4 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Have you ever heard your parents say, 'Things were much cheaper when we were young'? That is inflation."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A burger cost ₹50 five years ago. Today the same burger costs ₹80. Your money buys fewer burgers than before."
+    },
+    {
+      "type": "p",
+      "value": "Inflation means the prices of goods and services increase over time. As prices rise, the purchasing power of your money decreases."
+    },
+    {
+      "type": "example",
+      "value": "If you keep ₹1,000 in a drawer for many years, it will still be ₹1,000. But because prices increase, it may buy fewer things in the future."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>This is one of the biggest reasons people invest instead of only saving.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Inflation means...",
+      "choices": [
+        "Prices generally increase over time.",
+        "Everything becomes free.",
+        "Money automatically doubles."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What happens to purchasing power during inflation?",
+      "choices": [
+        "It decreases.",
+        "It increases forever.",
+        "It stays exactly the same."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l3",
+  "nextLesson": "l5"
+}

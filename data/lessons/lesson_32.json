@@ -1,0 +1,43 @@
+{
+  "id": "l32",
+  "title": "Why Stock Prices Rise",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 32 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "A company's share price rises when more people want to buy it than sell it. But what makes people suddenly want to buy a company?"
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A company launches an amazing new mobile phone that becomes a huge success. Investors believe the company will earn more profits in the future, so many people rush to buy its shares."
+    },
+    {
+      "type": "p",
+      "value": "Good quarterly results, new products, higher profits, expansion plans, government support, and positive investor confidence can all increase demand for a stock."
+    },
+    {
+      "type": "example",
+      "value": "If Infosys announces better-than-expected profits, investors may buy more shares, causing the price to rise."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Stock prices move based on what investors expect about the future, not only what happened today.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these can increase a company's share price?",
+      "choices": [
+        "Better profits",
+        "Strong future growth",
+        "Higher investor demand",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    }
+  ],
+  "previousLesson": "l31",
+  "nextLesson": "l33"
+}

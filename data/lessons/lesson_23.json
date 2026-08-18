@@ -1,0 +1,42 @@
+{
+  "id": "l23",
+  "title": "Understanding the Trading App",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 23 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Whether you use Zerodha, Groww, Upstox or another broker, most trading apps have a very similar layout."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Every smartphone looks a little different, but almost all have contacts, messages, settings and a camera. Trading apps follow the same idea."
+    },
+    {
+      "type": "p",
+      "value": "You'll usually see Watchlists, Holdings, Positions, Orders, Funds, Portfolio and your Profile section."
+    },
+    {
+      "type": "example",
+      "value": "Your Watchlist helps you track stocks without buying them immediately."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Spend a few days exploring the app before making your first investment.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Which section usually shows the shares you already own?",
+      "choices": [
+        "Holdings",
+        "Settings",
+        "Search"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l22",
+  "nextLesson": "l24"
+}

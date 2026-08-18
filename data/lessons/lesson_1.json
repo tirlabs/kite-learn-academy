@@ -1,0 +1,66 @@
+{
+  "id": "l1",
+  "title": "What is Money?",
+  "module": " Module 1 - Foundation",
+  "order": "Page 1 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Before we learn about stocks, investing, or the stock market, we first need to understand one of the greatest inventions in human history — money. Every financial decision you make starts with understanding what money really is."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Thousands of years ago, you had a basket full of fresh apples but wanted some milk. You visited a dairy farmer, but he didn't want apples—he wanted wheat instead. Now you had to find a farmer who had wheat and was willing to exchange it for your apples. Buying even simple things became frustrating because both people had to want exactly what the other had."
+    },
+    {
+      "type": "p",
+      "value": "This method of exchanging goods directly was called the <strong>Barter System</strong>. While it worked for small communities, it became difficult as more people, products, and trades were involved."
+    },
+    {
+      "type": "story",
+      "value": " <strong>The Big Idea:</strong> People slowly realized that instead of exchanging goods directly, everyone could agree to use a common item as payment. Different civilizations used shells, salt, beads, metal coins, and eventually paper currency. Today we use printed money and digital payments because everyone trusts and accepts them."
+    },
+    {
+      "type": "p",
+      "value": "Money is simply something that everyone agrees has value. It makes buying, selling, saving, and measuring value easy. Without money, modern life, businesses, and even the stock market would not be possible."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Remember:</strong> Money itself is not wealth. It is simply a tool that stores the value of your hard work today so you can exchange it for something else tomorrow."
+    },
+    {
+      "type": "quiz",
+      "question": "Why was the Barter System difficult?",
+      "choices": [
+        "Both people had to want exactly what the other person was offering.",
+        "People were not allowed to trade goods.",
+        "There was too much money available."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main purpose of money?",
+      "choices": [
+        "To make buying and selling easier.",
+        "To increase the number of goods in the world.",
+        "To replace businesses."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these was used as money by different civilizations before paper currency?",
+      "choices": [
+        "Cowrie shells and salt",
+        "Mobile phones",
+        "Plastic cards"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": null,
+  "nextLesson": "l2"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "l73",
+  "title": "Price to Book Ratio (P/B Ratio)",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 73 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "The Price to Book (P/B) Ratio compares a company's market value with the value of its assets after subtracting liabilities."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Suppose a company owns buildings, machines and cash worth ₹100 crore after paying all debts. If investors value the company at ₹150 crore, they are paying more than the book value because they expect future growth."
+    },
+    {
+      "type": "p",
+      "value": "The P/B Ratio is commonly used when analysing banks, financial institutions and asset-heavy businesses."
+    },
+    {
+      "type": "example",
+      "value": "A P/B Ratio of 2 means investors are paying twice the company's book value."
+    },
+    {
+      "type": "fact",
+      "value": " Formula: P/B = Share Price ÷ Book Value Per Share"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The P/B Ratio is especially useful when comparing companies in the same sector.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "P/B Ratio compares...",
+      "choices": [
+        "Market Price and Book Value.",
+        "Profit and Revenue.",
+        "Debt and Cash."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l72",
+  "nextLesson": "l74"
+}

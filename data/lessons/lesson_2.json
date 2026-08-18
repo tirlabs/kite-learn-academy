@@ -1,0 +1,48 @@
+{
+  "id": "l2",
+  "title": "Why Should We Save Money?",
+  "module": " Module 1 - Foundation",
+  "order": "Page 2 of 100",
+  "readingTime": "4 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Imagine receiving ₹100 today. You could spend it immediately on snacks, or you could save it for something bigger that you really want later. Saving is simply choosing tomorrow over today."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A bicycle costs ₹8,000. Instead of asking your parents to buy it immediately, you save ₹500 every month. After several months, you proudly buy it using your own savings."
+    },
+    {
+      "type": "p",
+      "value": "People save money for many reasons: emergencies, education, travel, buying a house, retirement, or simply to feel financially secure."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Golden Rule:</strong> Spend what is left after saving, not save what is left after spending."
+    },
+    {
+      "type": "quiz",
+      "question": "Why do people save money?",
+      "choices": [
+        "To prepare for future needs.",
+        "To make their wallet heavier.",
+        "To avoid working."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Saving helps you...",
+      "choices": [
+        "Prepare for emergencies.",
+        "Print more money.",
+        "Reduce the price of products."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l1",
+  "nextLesson": "l3"
+}

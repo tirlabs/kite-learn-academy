@@ -1,0 +1,56 @@
+{
+  "id": "l55",
+  "title": "Moving Average",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 55 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Stock prices move up and down every day, making charts look noisy. A Moving Average smooths these movements and helps us see the overall trend more clearly."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Standing on a beach, individual waves constantly move up and down. But if you watch the sea from far away, you notice its overall direction. A Moving Average works the same way by smoothing daily price fluctuations."
+    },
+    {
+      "type": "p",
+      "value": "A Moving Average is calculated by taking the average closing price over a selected number of periods, such as 20 days or 50 days."
+    },
+    {
+      "type": "example",
+      "value": "A 20-Day Moving Average represents the average closing price of the last 20 trading days and updates every new trading day."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Moving Averages help identify trends—they do not predict future prices.</strong>"
+    },
+    {
+      "type": "fact",
+      "value": " Commonly used Moving Averages include the 20-Day, 50-Day, 100-Day and 200-Day Moving Average."
+    },
+    {
+      "type": "quiz",
+      "question": "Why do traders use Moving Averages?",
+      "choices": [
+        "To identify the overall trend more clearly.",
+        "To guarantee profits.",
+        "To calculate company revenue."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A Moving Average is based on...",
+      "choices": [
+        "Average prices over a selected period.",
+        "Company profits only.",
+        "Number of employees."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l54",
+  "nextLesson": "l56"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "l20",
+  "title": "Complete Stock Market Flow",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 20 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Congratulations! You now understand the basic building blocks of the stock market. Let's connect everything you've learned into one complete picture."
+    },
+    {
+      "type": "story",
+      "value": " <strong>The Journey:</strong> A company needs money to grow. It divides ownership into shares. Those shares are listed on stock exchanges like NSE and BSE. Investors use SEBI-registered brokers such as Zerodha or Groww to buy those shares. Orders are matched on the stock exchange, and the purchased shares are stored safely in the investor's Demat Account."
+    },
+    {
+      "type": "p",
+      "value": "This entire system works together every trading day, allowing millions of investors to buy and sell shares safely and efficiently."
+    },
+    {
+      "type": "example",
+      "value": "You decide to buy one share of Infosys. You log into your broker, place an order using your Trading Account, the NSE matches your order with a seller, and the share is delivered to your Demat Account."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>You now understand how the Indian stock market works from a beginner's perspective. The next module will teach you how to actually buy your first stock.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Where are shares finally stored after purchase?",
+      "choices": [
+        "Trading Account",
+        "Demat Account",
+        "Savings Account"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which organization regulates the Indian stock market?",
+      "choices": [
+        "SEBI",
+        "NSE",
+        "BSE"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which comes first when buying a share?",
+      "choices": [
+        "Broker → Exchange → Seller Match → Demat Account",
+        "Demat Account → Company → Exchange",
+        "Bank → RBI → Company"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l19",
+  "nextLesson": "l21"
+}

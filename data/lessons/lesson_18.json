@@ -1,0 +1,52 @@
+{
+  "id": "l18",
+  "title": "How Shares are Bought and Sold",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 18 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Buying a share may seem complicated, but it actually happens in just a few seconds through a series of connected systems."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You open Zerodha, search for Reliance, enter the quantity, and press Buy. Within seconds, your request travels through your broker to the stock exchange, where another investor agrees to sell at the same price."
+    },
+    {
+      "type": "p",
+      "value": "Once a buyer and seller agree on the price, the trade is executed. The shares are transferred to the buyer's Demat Account, and the money is transferred to the seller."
+    },
+    {
+      "type": "example",
+      "value": "You buy 5 shares of TCS. Another investor sells 5 shares of TCS. The stock exchange matches both orders automatically."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The stock exchange acts like a smart matching system that connects buyers and sellers instantly.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Who matches buyers and sellers?",
+      "choices": [
+        "Stock Exchange",
+        "Company CEO",
+        "Bank Manager"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "When does a trade happen?",
+      "choices": [
+        "When a buyer and seller agree on the price",
+        "Whenever someone opens the app",
+        "Only at the end of the month"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l17",
+  "nextLesson": "l19"
+}

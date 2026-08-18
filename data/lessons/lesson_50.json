@@ -1,0 +1,66 @@
+{
+  "id": "l50",
+  "title": "Reading Your First Chart",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 50 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Congratulations! You now know enough to understand a basic stock chart. Before learning technical indicators, let's combine everything you've learned so far."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Learning the stock market is like learning to read. First you learned letters, then words, then sentences. Charts are the first complete paragraph you can now understand."
+    },
+    {
+      "type": "p",
+      "value": "When looking at a chart, start by identifying the timeframe, observe whether the overall trend is moving up or down, notice the trading volume, and then study the candlesticks."
+    },
+    {
+      "type": "example",
+      "value": "If you see higher prices over several weeks, increasing volume and mostly bullish candles, buyers have generally been stronger during that period."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Don't try to predict tomorrow's price yet. First become comfortable reading what has already happened.</strong>"
+    },
+    {
+      "type": "fact",
+      "value": " You have completed the first 50 lessons! You now understand money, businesses, companies, the stock market, buying shares, price movement and reading charts."
+    },
+    {
+      "type": "quiz",
+      "question": "When reading a chart, what should you identify first?",
+      "choices": [
+        "The timeframe",
+        "The CEO",
+        "The broker"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main purpose of studying charts?",
+      "choices": [
+        "To understand price behaviour.",
+        "To guarantee profits.",
+        "To calculate taxes."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "After completing Module 5, what comes next?",
+      "choices": [
+        "Learning technical analysis tools and indicators.",
+        "Opening another Demat account.",
+        "Creating a new company."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l49",
+  "nextLesson": "l51"
+}

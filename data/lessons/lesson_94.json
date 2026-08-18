@@ -1,0 +1,38 @@
+{
+  "id": "l94",
+  "title": "Systematic Investment Plan (SIP)",
+  "module": " Module 9 - Advanced Investing & Your Journey",
+  "order": "Page 94 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "A SIP allows you to invest a fixed amount regularly instead of investing one large amount at once."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Planting one seed every week slowly creates a beautiful garden. Investing regularly through SIP builds wealth over time."
+    },
+    {
+      "type": "example",
+      "value": "Investing ₹5,000 every month into a Mutual Fund is an example of SIP."
+    },
+    {
+      "type": "tip",
+      "value": " Consistency often matters more than timing the market."
+    },
+    {
+      "type": "quiz",
+      "question": "SIP helps investors...",
+      "choices": [
+        "Invest regularly",
+        "Predict markets",
+        "Avoid all risks"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l93",
+  "nextLesson": "l95"
+}

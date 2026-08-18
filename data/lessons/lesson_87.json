@@ -1,0 +1,42 @@
+{
+  "id": "l87",
+  "title": "Building Your Portfolio",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 87 of 100",
+  "readingTime": "10 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "A portfolio is the complete collection of all your investments. Building a good portfolio is about choosing investments that work well together."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A football team doesn't consist of only strikers. It also needs defenders, midfielders and a goalkeeper. A strong investment portfolio also requires balance."
+    },
+    {
+      "type": "p",
+      "value": "A well-diversified portfolio may include companies from sectors such as Banking, IT, Pharma, FMCG, Energy and Manufacturing."
+    },
+    {
+      "type": "example",
+      "value": "Instead of buying five IT companies, an investor might choose one IT company, one bank, one pharma company, one FMCG company and one energy company."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>A portfolio should reduce unnecessary risk without reducing long-term opportunities.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is an investment portfolio?",
+      "choices": [
+        "The complete collection of your investments.",
+        "Only one stock.",
+        "Your Demat Account."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l86",
+  "nextLesson": "l88"
+}

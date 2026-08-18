@@ -1,0 +1,52 @@
+{
+  "id": "l26",
+  "title": "Limit Order",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 26 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Unlike a Market Order, a Limit Order lets you decide the exact price at which you want to buy or sell a share."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You visit a shop to buy a mobile phone. The shopkeeper asks ₹20,000, but you say, 'I'll buy it only if the price drops to ₹18,500.' You leave your offer and wait. A Limit Order works exactly like that."
+    },
+    {
+      "type": "p",
+      "value": "Your order will only be executed if the market reaches the price you specified. Otherwise, the order remains pending or expires."
+    },
+    {
+      "type": "example",
+      "value": "A stock is trading at ₹1,020. You place a Limit Buy Order at ₹1,000. Your order will execute only if someone is willing to sell at ₹1,000."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Use Limit Orders when getting the right price is more important than immediate execution.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "When does a Limit Order execute?",
+      "choices": [
+        "Only when the specified price is reached.",
+        "Immediately at any price.",
+        "Only after market closes."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which order gives you control over the execution price?",
+      "choices": [
+        "Limit Order",
+        "Market Order",
+        "Both are identical"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l25",
+  "nextLesson": "l27"
+}

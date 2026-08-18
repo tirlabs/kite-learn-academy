@@ -1,0 +1,46 @@
+{
+  "id": "l88",
+  "title": "Investment Psychology",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 88 of 100",
+  "readingTime": "10 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Many investment mistakes are caused by emotions rather than lack of knowledge. Fear and greed influence market decisions every day."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> At an amusement park, some people panic on a roller coaster while others enjoy the ride. The ride is the same, but people's reactions are different. The stock market often feels similar."
+    },
+    {
+      "type": "p",
+      "value": "Fear causes investors to sell during market crashes, while greed encourages them to buy after prices have already risen significantly."
+    },
+    {
+      "type": "example",
+      "value": "Many beginners buy stocks after hearing exciting news, only to panic and sell when prices temporarily fall."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Emotional decisions are one of the biggest reasons investors lose money.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Create an investment plan before buying a stock, and follow your plan instead of your emotions.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Which two emotions most commonly affect investors?",
+      "choices": [
+        "Fear and Greed",
+        "Joy and Surprise",
+        "Curiosity and Patience"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l87",
+  "nextLesson": "l89"
+}

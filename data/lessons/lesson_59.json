@@ -1,0 +1,42 @@
+{
+  "id": "l59",
+  "title": "Volume Weighted Average Price (VWAP)",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 59 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "VWAP stands for Volume Weighted Average Price. It shows the average price of a stock throughout the trading day while considering trading volume."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Imagine calculating the average marks of a class. Students with more exams contribute more to the final average. VWAP follows a similar idea by giving more importance to trades with higher volume."
+    },
+    {
+      "type": "p",
+      "value": "Many professional traders use VWAP to understand whether a stock is trading above or below its average price for the day."
+    },
+    {
+      "type": "example",
+      "value": "If the current price is above VWAP, buyers may currently have greater control. If it's below VWAP, sellers may be stronger."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>VWAP is mainly used for intraday trading because it resets every trading day.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "VWAP considers...",
+      "choices": [
+        "Both price and volume",
+        "Only price",
+        "Only company profits"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l58",
+  "nextLesson": "l60"
+}

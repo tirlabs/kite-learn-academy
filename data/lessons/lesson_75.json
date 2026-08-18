@@ -1,0 +1,46 @@
+{
+  "id": "l75",
+  "title": "Return on Capital Employed (ROCE)",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 75 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Return on Capital Employed (ROCE) measures how efficiently a company uses all of its capital—including shareholders' money and borrowed money—to generate profits."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Two factory owners each invest ₹50 lakh of their own money and borrow another ₹50 lakh from the bank. The owner who earns higher profits from the combined ₹1 crore is using capital more efficiently. ROCE measures this."
+    },
+    {
+      "type": "p",
+      "value": "Unlike ROE, which focuses only on shareholders' equity, ROCE considers the total capital employed in the business."
+    },
+    {
+      "type": "example",
+      "value": "Capital-intensive industries such as manufacturing, power and infrastructure often use ROCE as an important performance measure."
+    },
+    {
+      "type": "fact",
+      "value": " Formula: ROCE = EBIT ÷ Capital Employed × 100"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Many experienced investors prefer companies that consistently maintain a healthy ROCE over several years.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "ROCE measures how efficiently a company uses...",
+      "choices": [
+        "Its total capital.",
+        "Only revenue.",
+        "Only share price."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l74",
+  "nextLesson": "l76"
+}

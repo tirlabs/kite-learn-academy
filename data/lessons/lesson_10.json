@@ -1,0 +1,66 @@
+{
+  "id": "l10",
+  "title": "What is a Share?",
+  "module": " Module 1 - Foundation",
+  "order": "Page 10 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "A share represents a small piece of ownership in a company. When you buy a share, you become one of the company's owners."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A pizza is cut into eight equal slices. If you own one slice, you own one-eighth of the pizza. Companies work in a similar way—they divide ownership into millions of small pieces called shares."
+    },
+    {
+      "type": "p",
+      "value": "Instead of selling the entire company to one person, a company divides itself into many shares. Investors buy these shares and become part owners."
+    },
+    {
+      "type": "example",
+      "value": "If a company has 1,000 shares and you own 10 of them, you own 1% of that company."
+    },
+    {
+      "type": "story",
+      "value": " Think of a large apartment building with 100 flats. Owning one flat doesn't mean you own the whole building—you simply own one small part. Buying shares works in exactly the same way."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>This simple idea of shared ownership is the foundation of the entire stock market.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Buying a share means...",
+      "choices": [
+        "You become a part owner of a company.",
+        "You become the CEO.",
+        "You lend money to the company forever."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "If a company has 100 shares and you own 5, what percentage do you own?",
+      "choices": [
+        "2%",
+        "5%",
+        "10%"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does a share represent?",
+      "choices": [
+        "A small piece of ownership.",
+        "A loan receipt.",
+        "A government certificate."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l9",
+  "nextLesson": "l11"
+}

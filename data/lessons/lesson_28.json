@@ -1,0 +1,52 @@
+{
+  "id": "l28",
+  "title": "Intraday Trading (MIS)",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 28 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Intraday trading means buying and selling shares on the same trading day. You do not keep the shares overnight."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A taxi driver earns money by making many trips in one day rather than owning the passengers' destination. Intraday traders try to profit from small price movements during the day."
+    },
+    {
+      "type": "p",
+      "value": "Intraday trading involves higher risk because prices can change quickly within minutes. It requires experience, discipline and risk management."
+    },
+    {
+      "type": "example",
+      "value": "You buy a stock at ₹500 in the morning and sell it at ₹507 before the market closes. This is an intraday trade."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Beginners should first understand investing before attempting intraday trading.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is intraday trading?",
+      "choices": [
+        "Buying and selling on the same day.",
+        "Holding shares for years.",
+        "Buying mutual funds."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Intraday trading generally carries...",
+      "choices": [
+        "Higher risk",
+        "No risk",
+        "Guaranteed profits"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l27",
+  "nextLesson": "l29"
+}

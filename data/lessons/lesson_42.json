@@ -1,0 +1,52 @@
+{
+  "id": "l42",
+  "title": "Understanding the X & Y Axis",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 42 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every stock chart has two important axes that help us understand what we're looking at."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Your school calendar shows dates from left to right, while your report card shows marks from bottom to top. Stock charts combine these two ideas."
+    },
+    {
+      "type": "p",
+      "value": "The horizontal (X) axis represents time. The vertical (Y) axis represents the stock's price."
+    },
+    {
+      "type": "example",
+      "value": "If a point appears on March 1st at ₹500, it means the stock traded around ₹500 on that date."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Always read the axes before interpreting any chart.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does the X-axis usually represent?",
+      "choices": [
+        "Time",
+        "Volume",
+        "Profit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What does the Y-axis represent?",
+      "choices": [
+        "Price",
+        "Company name",
+        "Broker name"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l41",
+  "nextLesson": "l43"
+}

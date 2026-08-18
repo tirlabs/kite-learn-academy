@@ -1,0 +1,60 @@
+{
+  "id": "l65",
+  "title": "Technical Analysis Practice",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 65 of 100",
+  "readingTime": "10 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Congratulations! You now know the most common concepts and indicators used in technical analysis. Let's combine everything into one practical approach."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Learning to drive isn't about knowing what the steering wheel, brakes and accelerator do individually. Real driving begins when you use all of them together. Technical analysis works the same way."
+    },
+    {
+      "type": "p",
+      "value": "Whenever you open a stock chart, follow a simple checklist instead of jumping to conclusions."
+    },
+    {
+      "type": "fact",
+      "value": "✅ Step 1: Identify the trend.\n✅ Step 2: Mark important support and resistance levels.\n✅ Step 3: Check the trading volume.\n✅ Step 4: Observe indicators like EMA, RSI or MACD.\n✅ Step 5: Look for confirmation before making a decision."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Technical analysis improves probabilities—it never guarantees future prices.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The best way to learn technical analysis is by practising on hundreds of real charts.</strong>"
+    },
+    {
+      "type": "fact",
+      "value": " Congratulations! You have completed Module 6 and now understand the core concepts of technical analysis."
+    },
+    {
+      "type": "quiz",
+      "question": "What should you identify first while analysing a chart?",
+      "choices": [
+        "The overall trend",
+        "Dividend history",
+        "Company address"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main purpose of technical analysis?",
+      "choices": [
+        "To improve the probability of making informed decisions.",
+        "To predict the future with certainty.",
+        "To replace company research."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l64",
+  "nextLesson": "l66"
+}

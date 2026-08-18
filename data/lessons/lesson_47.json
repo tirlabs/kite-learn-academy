@@ -1,0 +1,42 @@
+{
+  "id": "l47",
+  "title": "Understanding Timeframes",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 47 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "A stock chart can display prices over different periods of time. These periods are called timeframes."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You can view your life through a daily diary, a monthly calendar, or a yearly photo album. Each gives a different perspective. Stock charts work exactly the same way."
+    },
+    {
+      "type": "p",
+      "value": "Common timeframes include 1 minute, 5 minutes, 15 minutes, 1 hour, 1 day, 1 week and 1 month."
+    },
+    {
+      "type": "example",
+      "value": "A daily chart creates one candle for each trading day, while a weekly chart creates one candle for the entire week."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Long-term investors usually prefer daily or weekly charts, while traders often use shorter timeframes.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is a timeframe?",
+      "choices": [
+        "The period represented by one candle.",
+        "The company's age.",
+        "The stock's market value."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l46",
+  "nextLesson": "l48"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "l48",
+  "title": "Bullish & Bearish Candles",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 48 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Candles quickly show whether buyers or sellers were stronger during a trading period."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Imagine a tug of war between two teams. One team represents buyers and the other represents sellers. At the end of the game, the winning team determines the direction of the candle."
+    },
+    {
+      "type": "p",
+      "value": "A Bullish candle usually appears green and means the closing price was higher than the opening price. A Bearish candle usually appears red and means the closing price was lower than the opening price."
+    },
+    {
+      "type": "example",
+      "value": "Open ₹500, Close ₹520 → Bullish Candle. Open ₹520, Close ₹500 → Bearish Candle."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The candle's color tells who won the battle between buyers and sellers.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "A Bullish candle usually means...",
+      "choices": [
+        "The price closed above the opening price.",
+        "The stock stopped trading.",
+        "The company paid dividends."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Who is stronger during a Bearish candle?",
+      "choices": [
+        "Sellers",
+        "Buyers",
+        "Neither"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l47",
+  "nextLesson": "l49"
+}

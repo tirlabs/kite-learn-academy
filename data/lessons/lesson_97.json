@@ -1,0 +1,34 @@
+{
+  "id": "l97",
+  "title": "Long-Term vs Short-Term Investing",
+  "module": " Module 9 - Advanced Investing & Your Journey",
+  "order": "Page 97 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Some investors hold stocks for days or weeks, while others hold them for many years."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Planting a mango tree requires patience, but it provides fruit for years. Long-term investing often follows the same principle."
+    },
+    {
+      "type": "tip",
+      "value": " Time in the market has historically mattered more than trying to perfectly time the market."
+    },
+    {
+      "type": "quiz",
+      "question": "Long-term investing usually focuses on...",
+      "choices": [
+        "Business growth over many years",
+        "Daily price movements",
+        "Hourly charts"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l96",
+  "nextLesson": "l98"
+}

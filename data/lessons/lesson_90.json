@@ -1,0 +1,59 @@
+{
+  "id": "l90",
+  "title": "Building Your Investment Strategy",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 90 of 100",
+  "readingTime": "12 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Congratulations! You now understand the foundations of investing. The final step is combining everything you've learned into a simple investment strategy."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Building a house requires bricks, cement, steel, doors and windows. Each material is useful on its own, but only together do they create a home. Investing works the same way."
+    },
+    {
+      "type": "fact",
+      "value": "✅ A simple investing checklist:\n1. Understand the business.\n2. Check revenue and profit growth.\n3. Review debt and financial ratios.\n4. Study the price chart.\n5. Identify the trend.\n6. Diversify your investments.\n7. Invest only what you can afford.\n8. Stay patient and think long term."
+    },
+    {
+      "type": "example",
+      "value": "Instead of buying a stock simply because someone recommended it, use this checklist to make an informed decision."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>No strategy guarantees profits. A disciplined process improves your chances of making better investment decisions over time.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The best investors don't try to be right every time—they focus on making good decisions consistently.</strong>"
+    },
+    {
+      "type": "fact",
+      "value": " Congratulations! You have completed Module 8 and are now ready to explore advanced investing topics."
+    },
+    {
+      "type": "quiz",
+      "question": "What is the most important part of a successful investment strategy?",
+      "choices": [
+        "Following a disciplined process consistently.",
+        "Finding guaranteed multibagger stocks.",
+        "Buying every stock that is trending."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Should you invest without understanding the business?",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l89",
+  "nextLesson": "l91"
+}

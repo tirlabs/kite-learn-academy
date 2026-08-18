@@ -1,0 +1,42 @@
+{
+  "id": "l79",
+  "title": "Annual Report",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 79 of 100",
+  "readingTime": "10 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every listed company publishes an Annual Report that explains its business performance, financial results, risks and future plans."
+    },
+    {
+      "type": "story",
+      "value": "<strong>Imagine This:</strong> At the end of every school year, students receive a report card summarizing their performance. An Annual Report is the company's report card."
+    },
+    {
+      "type": "p",
+      "value": "An Annual Report usually includes the Chairman's Message, Management Discussion, Financial Statements, Auditor's Report, Corporate Governance Report and Notes to the Accounts."
+    },
+    {
+      "type": "example",
+      "value": "Before investing in a company, many experienced investors read at least the business overview, management discussion and financial statements from its Annual Report."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>You don't need to read every page. Start with the business overview, risks and financial highlights.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main purpose of an Annual Report?",
+      "choices": [
+        "To summarize the company's yearly performance.",
+        "To announce daily share prices.",
+        "To calculate brokerage charges."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l78",
+  "nextLesson": "l80"
+}

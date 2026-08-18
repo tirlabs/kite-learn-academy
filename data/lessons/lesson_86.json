@@ -1,0 +1,42 @@
+{
+  "id": "l86",
+  "title": "Asset Allocation",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 86 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Asset Allocation means dividing your money across different types of investments instead of investing everything in one place."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A healthy meal contains rice, vegetables, dal and fruits. Eating only one food every day isn't balanced. Your investments should also be balanced across different asset classes."
+    },
+    {
+      "type": "p",
+      "value": "Common asset classes include Stocks, Mutual Funds, Fixed Deposits, Gold, Bonds and Cash. The right mix depends on your age, financial goals and ability to handle risk."
+    },
+    {
+      "type": "example",
+      "value": "A young investor may choose 70% Stocks, 20% Mutual Funds and 10% Cash, while someone nearing retirement may prefer a more conservative allocation."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Don't ask 'Which investment is best?' Ask 'What combination of investments is best for me?'</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is Asset Allocation?",
+      "choices": [
+        "Dividing investments across different asset classes.",
+        "Buying only one stock.",
+        "Keeping all money in cash."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l85",
+  "nextLesson": "l87"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "l93",
+  "title": "Exchange Traded Funds (ETFs)",
+  "module": " Module 9 - Advanced Investing & Your Journey",
+  "order": "Page 93 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "An ETF is a basket of investments that trades on the stock exchange just like a normal share."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Instead of buying every fruit individually, you buy one fruit basket. ETFs work similarly by giving exposure to multiple investments at once."
+    },
+    {
+      "type": "example",
+      "value": "NIFTYBEES is an ETF that tracks the Nifty 50 Index."
+    },
+    {
+      "type": "tip",
+      "value": " ETFs combine diversification with the convenience of buying a single stock."
+    },
+    {
+      "type": "quiz",
+      "question": "ETFs are traded...",
+      "choices": [
+        "On the Stock Exchange",
+        "Only through banks",
+        "Only through RBI"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l92",
+  "nextLesson": "l94"
+}

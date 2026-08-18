@@ -1,0 +1,52 @@
+{
+  "id": "l19",
+  "title": "Who Participates in the Stock Market?",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 19 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Millions of people participate in the stock market every day. They all have different goals, investment amounts, and strategies."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A cricket stadium has players, coaches, umpires, spectators, and commentators. The stock market also has different participants, each playing an important role."
+    },
+    {
+      "type": "p",
+      "value": "Retail investors are individuals like you and me. Domestic Institutional Investors (DIIs) include Indian mutual funds and insurance companies. Foreign Institutional Investors (FIIs) are large investors from other countries."
+    },
+    {
+      "type": "example",
+      "value": "When mutual funds invest thousands of crores into Indian companies, they are participating as DIIs."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Retail investors may buy a few shares, while institutions may buy lakhs of shares in a single transaction.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Who is a retail investor?",
+      "choices": [
+        "An individual investing their own money",
+        "A stock exchange",
+        "The Government of India"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "FII stands for...",
+      "choices": [
+        "Foreign Institutional Investor",
+        "Financial Investment Index",
+        "Federal Investment Institution"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l18",
+  "nextLesson": "l20"
+}

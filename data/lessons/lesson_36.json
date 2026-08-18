@@ -1,0 +1,42 @@
+{
+  "id": "l36",
+  "title": "Market Capitalization",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 36 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Many beginners think a ₹5,000 stock is bigger than a ₹500 stock. This is not true. To know how big a company really is, we use Market Capitalization."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Two apartment buildings have flats for sale. One has 20 luxury flats worth ₹1 crore each, while another has 500 flats worth ₹20 lakh each. Looking only at one flat's price doesn't tell you which building is larger."
+    },
+    {
+      "type": "p",
+      "value": "Market Capitalization (Market Cap) is the total value of all a company's outstanding shares. It is calculated as Share Price × Total Number of Shares."
+    },
+    {
+      "type": "example",
+      "value": "If a company has 10 crore shares and each share is worth ₹100, its Market Capitalization is ₹1,000 crore."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Never judge a company by its share price alone. Market Capitalization tells you its actual size.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Market Capitalization is calculated using...",
+      "choices": [
+        "Share Price × Total Shares",
+        "Profit × Employees",
+        "Revenue × Years"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l35",
+  "nextLesson": "l37"
+}

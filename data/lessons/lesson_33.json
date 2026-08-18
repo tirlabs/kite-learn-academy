@@ -1,0 +1,42 @@
+{
+  "id": "l33",
+  "title": "Why Stock Prices Fall",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 33 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Just as stock prices rise when demand increases, they fall when more investors want to sell than buy."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A restaurant receives many complaints about poor food quality. Customers stop visiting, and profits fall. Investors lose confidence and begin selling their shares."
+    },
+    {
+      "type": "p",
+      "value": "Poor financial results, bad news, weak management decisions, economic uncertainty, or market panic can all reduce demand for a company's shares."
+    },
+    {
+      "type": "example",
+      "value": "If a company reports a major loss instead of profit, many investors may decide to sell, causing the share price to decline."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>A falling stock price doesn't always mean the company is bad. Sometimes the overall market is simply reacting to temporary events.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Stock prices generally fall when...",
+      "choices": [
+        "More people want to sell than buy.",
+        "Everyone wants to buy.",
+        "No company exists."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l32",
+  "nextLesson": "l34"
+}

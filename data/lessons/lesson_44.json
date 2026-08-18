@@ -1,0 +1,42 @@
+{
+  "id": "l44",
+  "title": "Bar Chart",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 44 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "A Bar Chart provides more information than a Line Chart. It shows the Open, High, Low and Close prices for each trading period."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Instead of only knowing your exam's final score, your teacher also records your starting practice score, highest mock test score, lowest score and final exam score. A Bar Chart tells a similar story about a stock."
+    },
+    {
+      "type": "p",
+      "value": "Each vertical bar represents one trading period and shows how much the price moved during that time."
+    },
+    {
+      "type": "example",
+      "value": "A daily bar represents one full trading day. A weekly bar represents one entire week."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Bar charts contain more information than line charts but are still relatively simple to understand.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "A Bar Chart shows...",
+      "choices": [
+        "Open, High, Low and Close prices.",
+        "Only closing prices.",
+        "Company profits."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l43",
+  "nextLesson": "l45"
+}

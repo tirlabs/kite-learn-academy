@@ -1,0 +1,52 @@
+{
+  "id": "l27",
+  "title": "Delivery Investing (CNC)",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 27 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Delivery investing means buying shares to keep them for more than one trading day. The shares are delivered to your Demat Account."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Buying a house to live in for many years is very different from buying it in the morning and selling it in the evening. Delivery investing follows the first approach."
+    },
+    {
+      "type": "p",
+      "value": "Most long-term investors use CNC (Cash and Carry) or Delivery mode because they intend to hold shares for weeks, months, or even years."
+    },
+    {
+      "type": "example",
+      "value": "You buy 20 shares of Infosys today and decide to keep them for five years. This is delivery investing."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Long-term wealth is generally created through patient investing rather than frequent trading.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "In Delivery (CNC), where do the shares go?",
+      "choices": [
+        "Demat Account",
+        "Trading Account",
+        "Savings Account"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Delivery investing is mainly used for...",
+      "choices": [
+        "Long-term investing",
+        "Only intraday trading",
+        "Currency exchange"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l26",
+  "nextLesson": "l28"
+}

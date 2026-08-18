@@ -1,0 +1,42 @@
+{
+  "id": "l38",
+  "title": "Upper Circuit & Lower Circuit",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 38 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "To prevent extreme price movements in a single day, stock exchanges impose price limits called Upper Circuit and Lower Circuit."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Roads have speed limits to prevent accidents. Similarly, stock markets have daily price limits to reduce panic buying and panic selling."
+    },
+    {
+      "type": "p",
+      "value": "An Upper Circuit is the maximum price a stock can rise in a day, while a Lower Circuit is the maximum it can fall."
+    },
+    {
+      "type": "example",
+      "value": "If a stock has a 10% Upper Circuit and closed yesterday at ₹100, it cannot trade above ₹110 today."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Circuits protect investors from sudden extreme price movements.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Why are circuits introduced?",
+      "choices": [
+        "To reduce extreme price movements.",
+        "To increase brokerage charges.",
+        "To stop companies from trading."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l37",
+  "nextLesson": "l39"
+}

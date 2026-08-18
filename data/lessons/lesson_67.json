@@ -1,0 +1,42 @@
+{
+  "id": "l67",
+  "title": "Revenue",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 67 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Revenue is the total amount of money a company earns by selling its products or services before deducting any expenses."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Your restaurant serves 200 meals in a day at ₹300 each. Your total sales for the day are ₹60,000. That is your revenue."
+    },
+    {
+      "type": "p",
+      "value": "Revenue tells us how much business a company is doing, but it does not tell us whether the company is making a profit."
+    },
+    {
+      "type": "example",
+      "value": "Two companies may both earn ₹1,000 crore in revenue, but one may be profitable while the other may be losing money."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Revenue is often called the 'Top Line' because it appears at the top of the Profit & Loss Statement.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Revenue represents...",
+      "choices": [
+        "Total sales before expenses.",
+        "Profit after tax.",
+        "Company assets."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l66",
+  "nextLesson": "l68"
+}

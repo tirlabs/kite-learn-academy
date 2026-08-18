@@ -1,0 +1,46 @@
+{
+  "id": "l61",
+  "title": "Bollinger Bands",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 61 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Bollinger Bands help traders understand whether a stock is trading unusually high or unusually low compared to its recent average."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A balloon expands and shrinks depending on the air inside it. Similarly, Bollinger Bands widen when the market becomes more volatile and narrow when prices become calm."
+    },
+    {
+      "type": "p",
+      "value": "Bollinger Bands consist of three lines: a middle Moving Average, an Upper Band and a Lower Band."
+    },
+    {
+      "type": "example",
+      "value": "When prices repeatedly touch the upper band, the stock may be trading strongly. When they approach the lower band, it may indicate weakness or a possible reversal."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Touching a Bollinger Band does not automatically mean the price will reverse.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Bollinger Bands work best when combined with trend analysis and RSI.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What happens to Bollinger Bands during high volatility?",
+      "choices": [
+        "They become wider.",
+        "They disappear.",
+        "They become a straight line."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l60",
+  "nextLesson": "l62"
+}

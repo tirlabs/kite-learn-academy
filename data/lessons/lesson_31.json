@@ -1,0 +1,42 @@
+{
+  "id": "l31",
+  "title": "Demand and Supply",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 31 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every price in the stock market is decided by one simple principle: Demand and Supply. This same principle decides the price of almost everything around us."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> An ice cream shop has only 10 ice creams left on a hot summer day, but 100 people want to buy one. Since demand is much higher than supply, the shopkeeper can increase the price."
+    },
+    {
+      "type": "p",
+      "value": "Demand means the number of people willing to buy something. Supply means the number of people willing to sell it. Prices rise when demand is greater than supply, and prices fall when supply is greater than demand."
+    },
+    {
+      "type": "example",
+      "value": "If thousands of investors suddenly want to buy Reliance shares while very few people are selling them, the share price will usually increase."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The stock market doesn't decide prices. Buyers and sellers do.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "When does a stock price usually increase?",
+      "choices": [
+        "When demand is greater than supply.",
+        "When nobody wants to buy.",
+        "When companies stop trading."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l30",
+  "nextLesson": "l32"
+}

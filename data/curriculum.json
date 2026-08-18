@@ -1,0 +1,574 @@
+[
+  {
+    "moduleId": "m1",
+    "moduleName": " Module 1 - Foundation",
+    "description": "Understand money before understanding stocks.",
+    "colorClass": "theme-blue",
+    "lessons": [
+      {
+        "id": "l1",
+        "title": "What is Money?",
+        "file": "data/lessons/lesson_1.json"
+      },
+      {
+        "id": "l2",
+        "title": "Why Should We Save Money?",
+        "file": "data/lessons/lesson_2.json"
+      },
+      {
+        "id": "l3",
+        "title": "Saving vs Investing",
+        "file": "data/lessons/lesson_3.json"
+      },
+      {
+        "id": "l4",
+        "title": "What is Inflation?",
+        "file": "data/lessons/lesson_4.json"
+      },
+      {
+        "id": "l5",
+        "title": "Different Ways to Invest Money",
+        "file": "data/lessons/lesson_5.json"
+      },
+      {
+        "id": "l6",
+        "title": "What is a Business?",
+        "file": "data/lessons/lesson_6.json"
+      },
+      {
+        "id": "l7",
+        "title": "What is a Company?",
+        "file": "data/lessons/lesson_7.json"
+      },
+      {
+        "id": "l8",
+        "title": "Private vs Public Company",
+        "file": "data/lessons/lesson_8.json"
+      },
+      {
+        "id": "l9",
+        "title": "Why Companies Need Money",
+        "file": "data/lessons/lesson_9.json"
+      },
+      {
+        "id": "l10",
+        "title": "What is a Share?",
+        "file": "data/lessons/lesson_10.json"
+      }
+    ]
+  },
+  {
+    "moduleId": "m2",
+    "moduleName": " Module 2 - Stock Market Basics",
+    "description": "Understand how the Indian stock market works.",
+    "colorClass": "theme-green",
+    "lessons": [
+      {
+        "id": "l11",
+        "title": "Why Stock Markets Exist",
+        "file": "data/lessons/lesson_11.json"
+      },
+      {
+        "id": "l12",
+        "title": "What is NSE?",
+        "file": "data/lessons/lesson_12.json"
+      },
+      {
+        "id": "l13",
+        "title": "What is BSE?",
+        "file": "data/lessons/lesson_13.json"
+      },
+      {
+        "id": "l14",
+        "title": "What is SEBI?",
+        "file": "data/lessons/lesson_14.json"
+      },
+      {
+        "id": "l15",
+        "title": "What is a Stock Broker?",
+        "file": "data/lessons/lesson_15.json"
+      },
+      {
+        "id": "l16",
+        "title": "What is a Demat Account?",
+        "file": "data/lessons/lesson_16.json"
+      },
+      {
+        "id": "l17",
+        "title": "What is a Trading Account?",
+        "file": "data/lessons/lesson_17.json"
+      },
+      {
+        "id": "l18",
+        "title": "How Shares are Bought and Sold",
+        "file": "data/lessons/lesson_18.json"
+      },
+      {
+        "id": "l19",
+        "title": "Market Participants (Retail, FIIs, DIIs)",
+        "file": "data/lessons/lesson_19.json"
+      },
+      {
+        "id": "l20",
+        "title": "Complete Stock Market Flow",
+        "file": "data/lessons/lesson_20.json"
+      }
+    ]
+  },
+  {
+    "moduleId": "m3",
+    "moduleName": " Module 3 - Buying Your First Stock",
+    "description": "Learn how to actually invest.",
+    "colorClass": "theme-orange",
+    "lessons": [
+      {
+        "id": "l21",
+        "title": "Choosing a Broker",
+        "file": "data/lessons/lesson_21.json"
+      },
+      {
+        "id": "l22",
+        "title": "Opening a Demat Account",
+        "file": "data/lessons/lesson_22.json"
+      },
+      {
+        "id": "l23",
+        "title": "Understanding Zerodha / Groww Dashboard",
+        "file": "data/lessons/lesson_23.json"
+      },
+      {
+        "id": "l24",
+        "title": "Searching for a Stock",
+        "file": "data/lessons/lesson_24.json"
+      },
+      {
+        "id": "l25",
+        "title": "Market Orders",
+        "file": "data/lessons/lesson_25.json"
+      },
+      {
+        "id": "l26",
+        "title": "Limit Orders",
+        "file": "data/lessons/lesson_26.json"
+      },
+      {
+        "id": "l27",
+        "title": "Delivery (CNC)",
+        "file": "data/lessons/lesson_27.json"
+      },
+      {
+        "id": "l28",
+        "title": "Intraday (MIS)",
+        "file": "data/lessons/lesson_28.json"
+      },
+      {
+        "id": "l29",
+        "title": "Order Book, Holdings & Positions",
+        "file": "data/lessons/lesson_29.json"
+      },
+      {
+        "id": "l30",
+        "title": "Selling Your First Share",
+        "file": "data/lessons/lesson_30.json"
+      }
+    ]
+  },
+  {
+    "moduleId": "m4",
+    "moduleName": " Module 4 - Understanding Prices",
+    "description": "Why prices move.",
+    "colorClass": "theme-red",
+    "lessons": [
+      {
+        "id": "l31",
+        "title": "Demand and Supply",
+        "file": "data/lessons/lesson_31.json"
+      },
+      {
+        "id": "l32",
+        "title": "Why Stock Prices Rise",
+        "file": "data/lessons/lesson_32.json"
+      },
+      {
+        "id": "l33",
+        "title": "Why Stock Prices Fall",
+        "file": "data/lessons/lesson_33.json"
+      },
+      {
+        "id": "l34",
+        "title": "Bid & Ask Price",
+        "file": "data/lessons/lesson_34.json"
+      },
+      {
+        "id": "l35",
+        "title": "Volume",
+        "file": "data/lessons/lesson_35.json"
+      },
+      {
+        "id": "l36",
+        "title": "Market Capitalization",
+        "file": "data/lessons/lesson_36.json"
+      },
+      {
+        "id": "l37",
+        "title": "52 Week High & Low",
+        "file": "data/lessons/lesson_37.json"
+      },
+      {
+        "id": "l38",
+        "title": "Upper Circuit & Lower Circuit",
+        "file": "data/lessons/lesson_38.json"
+      },
+      {
+        "id": "l39",
+        "title": "Liquidity",
+        "file": "data/lessons/lesson_39.json"
+      },
+      {
+        "id": "l40",
+        "title": "Volatility",
+        "file": "data/lessons/lesson_40.json"
+      }
+    ]
+  },
+  {
+    "moduleId": "m5",
+    "moduleName": " Module 5 - Reading Charts",
+    "description": "Learn to read price movements.",
+    "colorClass": "theme-yellow",
+    "lessons": [
+      {
+        "id": "l41",
+        "title": "What is a Stock Chart?",
+        "file": "data/lessons/lesson_41.json"
+      },
+      {
+        "id": "l42",
+        "title": "X & Y Axis",
+        "file": "data/lessons/lesson_42.json"
+      },
+      {
+        "id": "l43",
+        "title": "Line Chart",
+        "file": "data/lessons/lesson_43.json"
+      },
+      {
+        "id": "l44",
+        "title": "Bar Chart",
+        "file": "data/lessons/lesson_44.json"
+      },
+      {
+        "id": "l45",
+        "title": "Candlestick Chart",
+        "file": "data/lessons/lesson_45.json"
+      },
+      {
+        "id": "l46",
+        "title": "OHLC Explained",
+        "file": "data/lessons/lesson_46.json"
+      },
+      {
+        "id": "l47",
+        "title": "Timeframes",
+        "file": "data/lessons/lesson_47.json"
+      },
+      {
+        "id": "l48",
+        "title": "Bullish & Bearish Candles",
+        "file": "data/lessons/lesson_48.json"
+      },
+      {
+        "id": "l49",
+        "title": "Important Candlestick Patterns",
+        "file": "data/lessons/lesson_49.json"
+      },
+      {
+        "id": "l50",
+        "title": "Reading Your First Chart",
+        "file": "data/lessons/lesson_50.json"
+      }
+    ]
+  },
+  {
+    "moduleId": "m6",
+    "moduleName": " Module 6 - Technical Analysis",
+    "description": "Master the basics of technical analysis.",
+    "colorClass": "theme-purple",
+    "lessons": [
+      {
+        "id": "l51",
+        "title": "What is a Trend?",
+        "file": "data/lessons/lesson_51.json"
+      },
+      {
+        "id": "l52",
+        "title": "Support",
+        "file": "data/lessons/lesson_52.json"
+      },
+      {
+        "id": "l53",
+        "title": "Resistance",
+        "file": "data/lessons/lesson_53.json"
+      },
+      {
+        "id": "l54",
+        "title": "Breakout & Breakdown",
+        "file": "data/lessons/lesson_54.json"
+      },
+      {
+        "id": "l55",
+        "title": "Moving Average",
+        "file": "data/lessons/lesson_55.json"
+      },
+      {
+        "id": "l56",
+        "title": "Exponential Moving Average (EMA)",
+        "file": "data/lessons/lesson_56.json"
+      },
+      {
+        "id": "l57",
+        "title": "Relative Strength Index (RSI)",
+        "file": "data/lessons/lesson_57.json"
+      },
+      {
+        "id": "l58",
+        "title": "Moving Average Convergence Divergence (MACD)",
+        "file": "data/lessons/lesson_58.json"
+      },
+      {
+        "id": "l59",
+        "title": "Volume Weighted Average Price (VWAP)",
+        "file": "data/lessons/lesson_59.json"
+      },
+      {
+        "id": "l60",
+        "title": "Choosing the Right Indicator",
+        "file": "data/lessons/lesson_60.json"
+      },
+      {
+        "id": "l61",
+        "title": "Bollinger Bands",
+        "file": "data/lessons/lesson_61.json"
+      },
+      {
+        "id": "l62",
+        "title": "Average True Range (ATR)",
+        "file": "data/lessons/lesson_62.json"
+      },
+      {
+        "id": "l63",
+        "title": "Volume Analysis",
+        "file": "data/lessons/lesson_63.json"
+      },
+      {
+        "id": "l64",
+        "title": "Combining Indicators",
+        "file": "data/lessons/lesson_64.json"
+      },
+      {
+        "id": "l65",
+        "title": "Technical Analysis Practice",
+        "file": "data/lessons/lesson_65.json"
+      }
+    ]
+  },
+  {
+    "moduleId": "m7",
+    "moduleName": " Module 7 - Fundamental Analysis",
+    "description": "Understand businesses before investing.",
+    "colorClass": "theme-teal",
+    "lessons": [
+      {
+        "id": "l66",
+        "title": "Reading Company Information",
+        "file": "data/lessons/lesson_66.json"
+      },
+      {
+        "id": "l67",
+        "title": "Revenue",
+        "file": "data/lessons/lesson_67.json"
+      },
+      {
+        "id": "l68",
+        "title": "Profit",
+        "file": "data/lessons/lesson_68.json"
+      },
+      {
+        "id": "l69",
+        "title": "Assets & Liabilities",
+        "file": "data/lessons/lesson_69.json"
+      },
+      {
+        "id": "l70",
+        "title": "Debt",
+        "file": "data/lessons/lesson_70.json"
+      },
+      {
+        "id": "l71",
+        "title": "EPS",
+        "file": "data/lessons/lesson_71.json"
+      },
+      {
+        "id": "l72",
+        "title": "PE Ratio",
+        "file": "data/lessons/lesson_72.json"
+      },
+      {
+        "id": "l73",
+        "title": "PB Ratio",
+        "file": "data/lessons/lesson_73.json"
+      },
+      {
+        "id": "l74",
+        "title": "ROE",
+        "file": "data/lessons/lesson_74.json"
+      },
+      {
+        "id": "l75",
+        "title": "ROCE",
+        "file": "data/lessons/lesson_75.json"
+      },
+      {
+        "id": "l76",
+        "title": "Dividend",
+        "file": "data/lessons/lesson_76.json"
+      },
+      {
+        "id": "l77",
+        "title": "Shareholding Pattern",
+        "file": "data/lessons/lesson_77.json"
+      },
+      {
+        "id": "l78",
+        "title": "Promoter Holding",
+        "file": "data/lessons/lesson_78.json"
+      },
+      {
+        "id": "l79",
+        "title": "Annual Report",
+        "file": "data/lessons/lesson_79.json"
+      },
+      {
+        "id": "l80",
+        "title": "Quarterly Results",
+        "file": "data/lessons/lesson_80.json"
+      }
+    ]
+  },
+  {
+    "moduleId": "m8",
+    "moduleName": " Module 8 - Risk Management & Portfolio Building",
+    "description": "Protect your capital and build a strong portfolio.",
+    "colorClass": "theme-indigo",
+    "lessons": [
+      {
+        "id": "l81",
+        "title": "What is Risk?",
+        "file": "data/lessons/lesson_81.json"
+      },
+      {
+        "id": "l82",
+        "title": "Diversification",
+        "file": "data/lessons/lesson_82.json"
+      },
+      {
+        "id": "l83",
+        "title": "Position Sizing",
+        "file": "data/lessons/lesson_83.json"
+      },
+      {
+        "id": "l84",
+        "title": "Risk vs Reward",
+        "file": "data/lessons/lesson_84.json"
+      },
+      {
+        "id": "l85",
+        "title": "Stop Loss",
+        "file": "data/lessons/lesson_85.json"
+      },
+      {
+        "id": "l86",
+        "title": "Asset Allocation",
+        "file": "data/lessons/lesson_86.json"
+      },
+      {
+        "id": "l87",
+        "title": "Building Your Portfolio",
+        "file": "data/lessons/lesson_87.json"
+      },
+      {
+        "id": "l88",
+        "title": "Investment Psychology",
+        "file": "data/lessons/lesson_88.json"
+      },
+      {
+        "id": "l89",
+        "title": "Common Investing Mistakes",
+        "file": "data/lessons/lesson_89.json"
+      },
+      {
+        "id": "l90",
+        "title": "Building Your Investment Strategy",
+        "file": "data/lessons/lesson_90.json"
+      }
+    ]
+  },
+  {
+    "moduleId": "m9",
+    "moduleName": " Module 9 - Advanced Investing & Your Journey",
+    "description": "Complete your journey from beginner to confident investor.",
+    "colorClass": "theme-crimson",
+    "lessons": [
+      {
+        "id": "l91",
+        "title": "What is an IPO?",
+        "file": "data/lessons/lesson_91.json"
+      },
+      {
+        "id": "l92",
+        "title": "Mutual Funds",
+        "file": "data/lessons/lesson_92.json"
+      },
+      {
+        "id": "l93",
+        "title": "Exchange Traded Funds (ETFs)",
+        "file": "data/lessons/lesson_93.json"
+      },
+      {
+        "id": "l94",
+        "title": "Systematic Investment Plan (SIP)",
+        "file": "data/lessons/lesson_94.json"
+      },
+      {
+        "id": "l95",
+        "title": "Taxes on Stock Market Investments",
+        "file": "data/lessons/lesson_95.json"
+      },
+      {
+        "id": "l96",
+        "title": "Corporate Actions",
+        "file": "data/lessons/lesson_96.json"
+      },
+      {
+        "id": "l97",
+        "title": "Long-Term vs Short-Term Investing",
+        "file": "data/lessons/lesson_97.json"
+      },
+      {
+        "id": "l98",
+        "title": "Building Your Personal Investment Plan",
+        "file": "data/lessons/lesson_98.json"
+      },
+      {
+        "id": "l99",
+        "title": "20 Golden Rules Every Investor Should Remember",
+        "file": "data/lessons/lesson_99.json"
+      },
+      {
+        "id": "l100",
+        "title": "Congratulations! Your Investing Journey Begins",
+        "file": "data/lessons/lesson_100.json"
+      }
+    ]
+  }
+]

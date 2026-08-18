@@ -1,0 +1,51 @@
+{
+  "id": "l25",
+  "title": "Market Order",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 25 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "When you place a Market Order, you are telling the exchange, 'Buy or sell this share immediately at the best available price.'"
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You walk into a vegetable market and say, 'Give me 2 kg of tomatoes at today's price.' You don't negotiate—you simply buy at the current market price."
+    },
+    {
+      "type": "p",
+      "value": "A Market Order is executed quickly, but the exact price may be slightly different from what you saw a moment earlier because stock prices change continuously."
+    },
+    {
+      "type": "example",
+      "value": "If Infosys is trading around ₹1,650 and you place a Market Order, your purchase may happen at ₹1,649.80 or ₹1,650.30 depending on available sellers."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Market Orders are useful when quick execution is more important than getting an exact price.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does a Market Order do?",
+      "choices": [
+        "Executes immediately at the best available market price.",
+        "Waits until your preferred price arrives.",
+        "Cancels automatically."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Can the execution price differ slightly from the displayed price?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l24",
+  "nextLesson": "l26"
+}

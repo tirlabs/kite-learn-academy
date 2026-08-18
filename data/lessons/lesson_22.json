@@ -1,0 +1,42 @@
+{
+  "id": "l22",
+  "title": "Opening a Demat & Trading Account",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 22 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Today, opening a Demat and Trading Account usually takes less than 30 minutes and can be completed online."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Opening a new bank account can now be done using your mobile phone. Stock brokers have made investing just as simple."
+    },
+    {
+      "type": "p",
+      "value": "Most brokers require your PAN card, Aadhaar card, bank account, mobile number, email address and a cancelled cheque or bank proof."
+    },
+    {
+      "type": "example",
+      "value": "After completing eKYC and verification, your account is activated and ready for investing."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Always use your own PAN, bank account and mobile number while opening your investment account.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Which document is generally mandatory for opening a Demat account?",
+      "choices": [
+        "PAN Card",
+        "Passport",
+        "Driving Licence only"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l21",
+  "nextLesson": "l23"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "l16",
+  "title": "What is a Demat Account?",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 16 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "When you buy shares, you need a safe place to store them. Just like money is stored in a bank account, shares are stored in a Demat Account."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You buy a gold necklace. Instead of carrying it everywhere, you keep it safely in a bank locker. A Demat Account works like a digital locker for your shares."
+    },
+    {
+      "type": "p",
+      "value": "Demat stands for Dematerialized Account. Instead of receiving paper share certificates, your ownership is stored electronically."
+    },
+    {
+      "type": "example",
+      "value": "If you buy 10 shares of Infosys today, they will appear in your Demat Account once the transaction is completed."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>You own the shares in your Demat Account even if you change your stock broker later.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is stored in a Demat Account?",
+      "choices": [
+        "Shares and securities",
+        "Cash only",
+        "Property documents"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Demat stands for...",
+      "choices": [
+        "Dematerialized",
+        "Demonstrated",
+        "Demographic"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l15",
+  "nextLesson": "l17"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "l8",
+  "title": "Private vs Public Company",
+  "module": " Module 1 - Foundation",
+  "order": "Page 8 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Not every company allows the public to become owners. Companies are mainly classified as Private Companies and Public Companies."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Your family owns a bakery. Only your family members own it. This is similar to a private company. Years later, your bakery becomes famous across India. You invite thousands of people to invest and become owners. Now it becomes a public company."
+    },
+    {
+      "type": "p",
+      "value": "Private companies are owned by a small group of people. Public companies allow anyone to buy ownership through shares listed on a stock exchange."
+    },
+    {
+      "type": "example",
+      "value": "Many startups begin as private companies before becoming public companies through an IPO."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Only public companies can usually be bought and sold on the stock market.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Who can buy shares of a public company?",
+      "choices": [
+        "Only family members.",
+        "Anyone through the stock market.",
+        "Only the government."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A startup usually begins as...",
+      "choices": [
+        "A public company.",
+        "A private company.",
+        "A government company."
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "previousLesson": "l7",
+  "nextLesson": "l9"
+}

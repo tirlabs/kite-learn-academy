@@ -1,0 +1,42 @@
+{
+  "id": "l14",
+  "title": "What is SEBI?",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 14 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Whenever money is involved, rules are important. SEBI is the organization that regulates India's stock market."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Roads would become dangerous without traffic police and traffic signals. Similarly, stock markets need rules to ensure everyone trades fairly."
+    },
+    {
+      "type": "p",
+      "value": "SEBI stands for Securities and Exchange Board of India. It protects investors, regulates stock exchanges, and ensures companies follow the rules."
+    },
+    {
+      "type": "example",
+      "value": "If a company tries to cheat investors or manipulate share prices, SEBI has the authority to investigate and take action."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Think of SEBI as the referee of the Indian stock market.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is SEBI's primary role?",
+      "choices": [
+        "Regulate and protect the stock market.",
+        "Sell shares to investors.",
+        "Own all companies."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l13",
+  "nextLesson": "l15"
+}

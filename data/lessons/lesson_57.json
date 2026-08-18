@@ -1,0 +1,56 @@
+{
+  "id": "l57",
+  "title": "Relative Strength Index (RSI)",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 57 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "The Relative Strength Index (RSI) is a momentum indicator that helps traders understand whether a stock may be overbought or oversold."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> If you sprint continuously for a long distance, you'll eventually become tired and slow down. Similarly, when a stock rises too quickly, it may pause or fall before continuing."
+    },
+    {
+      "type": "p",
+      "value": "RSI ranges from 0 to 100. Traditionally, values above 70 indicate that a stock may be overbought, while values below 30 suggest it may be oversold."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Overbought does not always mean the price will immediately fall, and oversold does not guarantee it will rise.</strong>"
+    },
+    {
+      "type": "example",
+      "value": "If RSI reaches 75 after a strong rally, traders may become cautious and look for additional confirmation before buying."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Never use RSI alone. Combine it with trends and support/resistance.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "RSI values usually range between...",
+      "choices": [
+        "0 to 100",
+        "1 to 1000",
+        "-100 to 100"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Traditionally, RSI above 70 may indicate...",
+      "choices": [
+        "Overbought",
+        "Oversold",
+        "Dividend announcement"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l56",
+  "nextLesson": "l58"
+}

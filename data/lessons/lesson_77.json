@@ -1,0 +1,42 @@
+{
+  "id": "l77",
+  "title": "Shareholding Pattern",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 77 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "The Shareholding Pattern shows who owns the company's shares. It helps investors understand which groups have confidence in the business."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A pizza is shared among family members, friends and neighbours. Looking at who owns how many slices tells you how ownership is distributed. Companies work in the same way."
+    },
+    {
+      "type": "p",
+      "value": "Typical categories include Promoters, Foreign Institutional Investors (FIIs), Domestic Institutional Investors (DIIs), Mutual Funds and Retail Investors."
+    },
+    {
+      "type": "example",
+      "value": "If promoters own 55%, FIIs own 20%, DIIs own 15% and retail investors own 10%, that is the company's shareholding pattern."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Changes in shareholding over time can provide useful insights into investor confidence.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does the Shareholding Pattern show?",
+      "choices": [
+        "Who owns the company's shares.",
+        "The company's yearly profits.",
+        "The daily stock price."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l76",
+  "nextLesson": "l78"
+}

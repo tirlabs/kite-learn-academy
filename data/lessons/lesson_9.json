@@ -1,0 +1,52 @@
+{
+  "id": "l9",
+  "title": "Why Companies Need Money",
+  "module": " Module 1 - Foundation",
+  "order": "Page 9 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every growing company eventually needs more money. It may want to build factories, hire employees, open new branches, or develop new products."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Your bakery is doing very well. Customers from other cities want your products. Opening ten new bakeries costs ₹5 crore, but you don't have enough money. You now need outside funding."
+    },
+    {
+      "type": "p",
+      "value": "Companies usually have two main ways to raise money: borrow money as a loan, or invite people to become owners by buying shares."
+    },
+    {
+      "type": "example",
+      "value": "Instead of borrowing huge amounts from banks, many companies choose to sell ownership through shares to raise capital."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Raising money from investors allows companies to grow without taking too much debt.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Why do companies raise money?",
+      "choices": [
+        "To grow their business.",
+        "To reduce customers.",
+        "To stop selling products."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "One way companies raise money is by...",
+      "choices": [
+        "Selling ownership through shares.",
+        "Destroying products.",
+        "Closing branches."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l8",
+  "nextLesson": "l10"
+}

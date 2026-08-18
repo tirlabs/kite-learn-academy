@@ -1,0 +1,42 @@
+{
+  "id": "l56",
+  "title": "Exponential Moving Average (EMA)",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 56 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "The Exponential Moving Average (EMA) is a special type of Moving Average that gives more importance to recent prices. This allows it to react faster when prices change."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> When driving a car, you pay much more attention to the traffic directly in front of you than to traffic an hour ago. EMA follows the same idea by giving greater weight to recent prices."
+    },
+    {
+      "type": "p",
+      "value": "Because EMA responds more quickly than a Simple Moving Average (SMA), many traders use it to identify short-term trends."
+    },
+    {
+      "type": "example",
+      "value": "A 20 EMA will react faster to today's price movement than a 20 SMA because recent prices have greater influence."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>EMA is one of the most commonly used indicators for identifying trends and possible entry points.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What makes EMA different from SMA?",
+      "choices": [
+        "EMA gives more weight to recent prices.",
+        "EMA ignores recent prices.",
+        "EMA only works on weekly charts."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l55",
+  "nextLesson": "l57"
+}

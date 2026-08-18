@@ -1,0 +1,42 @@
+{
+  "id": "l62",
+  "title": "Average True Range (ATR)",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 62 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Average True Range (ATR) measures how much a stock typically moves during a trading period. It measures volatility, not direction."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Some beaches have calm waves while others have huge crashing waves. ATR measures the size of the waves, not whether they move left or right."
+    },
+    {
+      "type": "p",
+      "value": "A higher ATR means the stock usually experiences larger price movements. A lower ATR indicates more stable price movements."
+    },
+    {
+      "type": "example",
+      "value": "If Stock A usually moves ₹2 per day and Stock B usually moves ₹40 per day, Stock B has a much higher ATR."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Many traders use ATR while deciding Stop Loss levels.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "ATR mainly measures...",
+      "choices": [
+        "Volatility",
+        "Company profits",
+        "Dividend yield"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l61",
+  "nextLesson": "l63"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "l41",
+  "title": "What is a Stock Chart?",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 41 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Until now, you've learned why stock prices move. But how do investors understand what has happened over time? The answer is a stock chart."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Every month your teacher records your marks in Maths. Looking at a single month's score tells very little, but seeing all your scores on a graph instantly shows whether you're improving or struggling. A stock chart does the same thing for share prices."
+    },
+    {
+      "type": "p",
+      "value": "A stock chart is a visual representation of how a stock's price has changed over time. Instead of reading thousands of numbers, investors can quickly understand trends by looking at a chart."
+    },
+    {
+      "type": "example",
+      "value": "If Reliance moved from ₹2,200 to ₹2,700 over six months, a chart makes that movement easy to understand."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Charts don't predict the future—they help us understand what has happened so we can make better decisions.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Why do investors use stock charts?",
+      "choices": [
+        "To understand price movements over time.",
+        "To print share certificates.",
+        "To calculate taxes."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l40",
+  "nextLesson": "l42"
+}

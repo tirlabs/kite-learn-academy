@@ -1,0 +1,34 @@
+{
+  "id": "l92",
+  "title": "Mutual Funds",
+  "module": " Module 9 - Advanced Investing & Your Journey",
+  "order": "Page 92 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "A Mutual Fund pools money from many investors and invests it in a diversified portfolio managed by professionals."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Instead of everyone driving separately, a bus carries many passengers together. Mutual Funds pool everyone's money and invest it together."
+    },
+    {
+      "type": "tip",
+      "value": " Mutual Funds are suitable for people who don't have time to analyse individual companies."
+    },
+    {
+      "type": "quiz",
+      "question": "Who manages a Mutual Fund?",
+      "choices": [
+        "Professional Fund Managers",
+        "Stock Exchange",
+        "SEBI"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l91",
+  "nextLesson": "l93"
+}

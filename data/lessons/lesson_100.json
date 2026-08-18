@@ -1,0 +1,42 @@
+{
+  "id": "l100",
+  "title": "Congratulations! Your Investing Journey Begins",
+  "module": "🏆 Course Complete",
+  "order": "Page 100 of 100",
+  "readingTime": "10 mins read",
+  "difficulty": "Level: Graduate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Congratulations! You have completed 100 lessons covering the complete journey from understanding money to building a disciplined investment strategy."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> The day you learned the alphabet wasn't the day you became a great writer. It was simply the beginning. In the same way, completing this course isn't the end—it's the start of your investing journey."
+    },
+    {
+      "type": "fact",
+      "value": "You now understand:\n\n✅ Money\n✅ Saving & Investing\n✅ Businesses & Companies\n✅ Shares\n✅ Stock Market\n✅ NSE, BSE & SEBI\n✅ Demat & Trading Accounts\n✅ Buying & Selling Stocks\n✅ Price Movement\n✅ Charts\n✅ Technical Analysis\n✅ Fundamental Analysis\n✅ Risk Management\n✅ Portfolio Building\n✅ IPOs, Mutual Funds, ETFs & SIPs\n✅ Taxes & Corporate Actions"
+    },
+    {
+      "type": "tip",
+      "value": " The best investment you will ever make is continuing to learn. Read books, follow quality businesses, stay disciplined, and let time work in your favor."
+    },
+    {
+      "type": "fact",
+      "value": "🏆 Welcome to the lifelong journey of investing.\n\nRemember:\n\n'You don't need to become rich overnight.\nYou need to become wiser every year.'"
+    },
+    {
+      "type": "quiz",
+      "question": "What should you do after completing this course?",
+      "choices": [
+        "Continue learning, practise patiently, and invest with discipline.",
+        "Invest all your savings in one stock immediately.",
+        "Stop learning because you know everything."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l99",
+  "nextLesson": null
+}

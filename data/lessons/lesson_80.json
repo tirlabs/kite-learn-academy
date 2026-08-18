@@ -1,0 +1,60 @@
+{
+  "id": "l80",
+  "title": "Quarterly Results",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 80 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Instead of waiting for the end of the year, listed companies publish their financial performance every quarter. These updates are called Quarterly Results."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Rather than waiting until the end of the school year, your teachers review your progress after every term. This helps everyone understand how you're performing throughout the year. Quarterly Results serve the same purpose for companies."
+    },
+    {
+      "type": "p",
+      "value": "Investors closely watch quarterly revenue, profit, margins, expenses and management commentary to understand whether the business is improving or facing challenges."
+    },
+    {
+      "type": "example",
+      "value": "If a company reports 20% higher revenue and 25% higher profit compared to the same quarter last year, investors may view the results positively."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Never judge a company based on a single quarter. Look for consistent performance over multiple quarters and years.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Long-term investors focus on trends rather than reacting to one good or bad quarterly result.</strong>"
+    },
+    {
+      "type": "fact",
+      "value": " Congratulations! You have completed Module 7 and now understand the foundations of Fundamental Analysis."
+    },
+    {
+      "type": "quiz",
+      "question": "Why do companies publish Quarterly Results?",
+      "choices": [
+        "To update investors about business performance every three months.",
+        "To decide the stock price.",
+        "To calculate brokerage charges."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Should investors rely on only one quarterly result?",
+      "choices": [
+        "No, they should look at long-term trends.",
+        "Yes, one quarter is enough.",
+        "Quarterly results are not useful."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l79",
+  "nextLesson": "l81"
+}

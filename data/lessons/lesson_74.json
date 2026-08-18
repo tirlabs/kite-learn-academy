@@ -1,0 +1,46 @@
+{
+  "id": "l74",
+  "title": "Return on Equity (ROE)",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 74 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Return on Equity (ROE) measures how efficiently a company uses shareholders' money to generate profits."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Two farmers each receive ₹10 lakh to grow crops. One earns ₹1 lakh profit while the other earns ₹3 lakh. The second farmer used the investment more efficiently. ROE measures this efficiency in companies."
+    },
+    {
+      "type": "p",
+      "value": "A consistently high ROE often indicates that a company is generating strong returns from shareholders' investments."
+    },
+    {
+      "type": "example",
+      "value": "If shareholders invested ₹100 crore and the company earns ₹20 crore profit, the ROE is 20%."
+    },
+    {
+      "type": "fact",
+      "value": " Formula: ROE = Net Profit ÷ Shareholders' Equity × 100"
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>ROE should always be analysed together with the company's debt levels.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "ROE measures how efficiently a company uses...",
+      "choices": [
+        "Shareholders' money.",
+        "Government funds.",
+        "Bank deposits."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l73",
+  "nextLesson": "l75"
+}

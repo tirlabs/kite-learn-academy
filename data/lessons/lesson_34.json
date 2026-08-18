@@ -1,0 +1,52 @@
+{
+  "id": "l34",
+  "title": "Bid Price & Ask Price",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 34 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Whenever you look at a stock, you'll notice there isn't just one price. There are buyers offering one price and sellers asking for another."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Someone wants to buy your used bike for ₹45,000, but you want ₹47,000. Until both of you agree on the same price, the sale doesn't happen."
+    },
+    {
+      "type": "p",
+      "value": "The highest price a buyer is willing to pay is called the Bid Price. The lowest price a seller is willing to accept is called the Ask Price."
+    },
+    {
+      "type": "example",
+      "value": "Bid Price = ₹999.80, Ask Price = ₹1,000.20. A trade happens when a buyer and seller agree."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The smaller the gap between Bid and Ask, the easier it is to trade the stock.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the Bid Price?",
+      "choices": [
+        "Highest price a buyer is willing to pay.",
+        "Lowest price a seller wants.",
+        "Yesterday's closing price."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A trade occurs when...",
+      "choices": [
+        "Buyer and seller agree on the price.",
+        "The market closes.",
+        "The broker approves it manually."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l33",
+  "nextLesson": "l35"
+}

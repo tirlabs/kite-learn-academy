@@ -1,0 +1,52 @@
+{
+  "id": "l45",
+  "title": "Candlestick Chart",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 45 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "The Candlestick Chart is the most popular chart used by traders and investors around the world. It provides the same information as a Bar Chart but is much easier to read."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Think of a candle with a body and a wick. The candle's body tells most of the story, while the wick shows how far prices travelled during the day."
+    },
+    {
+      "type": "p",
+      "value": "Each candlestick represents one trading period and shows four prices: Open, High, Low and Close. The color of the candle quickly tells whether buyers or sellers were stronger."
+    },
+    {
+      "type": "example",
+      "value": "If a stock opens at ₹500 and closes at ₹520, the candle usually appears green, showing that buyers pushed the price higher."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Most professional traders use candlestick charts because they provide maximum information in a simple visual format.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Why are Candlestick Charts so popular?",
+      "choices": [
+        "They clearly show Open, High, Low and Close prices in an easy-to-read format.",
+        "They predict future prices with certainty.",
+        "They replace the stock market."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What does each candlestick represent?",
+      "choices": [
+        "One trading period.",
+        "One company.",
+        "One investor."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l44",
+  "nextLesson": "l46"
+}

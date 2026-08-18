@@ -1,0 +1,42 @@
+{
+  "id": "l89",
+  "title": "Common Investing Mistakes",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 89 of 100",
+  "readingTime": "10 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Even experienced investors make mistakes. The goal is not to avoid every mistake, but to avoid the costly ones."
+    },
+    {
+      "type": "fact",
+      "value": "❌ Common mistakes include:\n• Investing without research\n• Putting all money into one stock\n• Following social media tips blindly\n• Buying because of FOMO\n• Selling because of panic\n• Ignoring company fundamentals\n• Trading without a plan"
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Driving without knowing your destination usually leads to wrong turns. Investing without a plan often leads to expensive mistakes."
+    },
+    {
+      "type": "example",
+      "value": "An investor buys a stock because a friend recommends it, without understanding the business. A few weeks later, the price falls sharply and the investor sells in panic."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Good investing is usually boring. Chasing 'quick money' often leads to unnecessary losses.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these is a common investing mistake?",
+      "choices": [
+        "Buying without research",
+        "Diversifying investments",
+        "Studying company results"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l88",
+  "nextLesson": "l90"
+}

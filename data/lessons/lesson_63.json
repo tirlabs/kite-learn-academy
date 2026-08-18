@@ -1,0 +1,46 @@
+{
+  "id": "l63",
+  "title": "Volume Analysis",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 63 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Earlier you learned what volume is. Now let's understand how traders use volume to confirm price movements."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Imagine two concerts. One is attended by 50 people and another by 50,000 people. The second event clearly has much stronger public participation. Volume tells a similar story in the stock market."
+    },
+    {
+      "type": "p",
+      "value": "When prices rise with increasing volume, it often suggests stronger buying interest. When prices rise with very low volume, traders become more cautious."
+    },
+    {
+      "type": "example",
+      "value": "If a stock breaks above resistance with unusually high volume, many traders consider the breakout more reliable."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>High volume alone is not a buy signal. Always consider price action and the overall trend.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Volume is often called the fuel behind a price move.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Why do traders study volume?",
+      "choices": [
+        "To confirm the strength of price movements.",
+        "To calculate taxes.",
+        "To measure company revenue."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l62",
+  "nextLesson": "l64"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "l64",
+  "title": "Combining Indicators",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 64 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Professional traders rarely rely on a single indicator. Instead, they combine different tools that support each other."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A doctor doesn't diagnose a patient using only body temperature. They also check blood pressure, oxygen level, medical history and symptoms. Traders follow a similar approach."
+    },
+    {
+      "type": "p",
+      "value": "A common combination is Trend + Support/Resistance + RSI + Volume. If all four point in the same direction, traders have greater confidence in their decision."
+    },
+    {
+      "type": "example",
+      "value": "A stock is in an uptrend, bounces from support, RSI rises above 50 and volume increases. Some traders consider this a stronger setup than using any one indicator alone."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Adding too many indicators often creates confusion rather than clarity.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Master a few indicators before adding new ones to your charts.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Why do traders combine indicators?",
+      "choices": [
+        "To gain more confidence in a trading decision.",
+        "To guarantee profits.",
+        "To make charts look more colourful."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l63",
+  "nextLesson": "l65"
+}

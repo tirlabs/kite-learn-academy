@@ -1,0 +1,42 @@
+{
+  "id": "l82",
+  "title": "Diversification",
+  "module": " Module 8 - Risk Management & Portfolio Building",
+  "order": "Page 82 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Diversification means spreading your investments across different companies or asset types instead of putting all your money into one investment."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> If you carry ten eggs in one basket and it falls, you may lose everything. If you divide the eggs into several baskets, one accident won't destroy them all."
+    },
+    {
+      "type": "p",
+      "value": "By investing across different companies and sectors, poor performance from one investment may be balanced by better performance from others."
+    },
+    {
+      "type": "example",
+      "value": "Instead of investing ₹1,00,000 in one company, an investor may spread it across banking, IT, pharma, FMCG and energy companies."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Diversification reduces risk, but it cannot eliminate it completely.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main purpose of diversification?",
+      "choices": [
+        "To reduce overall investment risk.",
+        "To guarantee profits.",
+        "To increase brokerage."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l81",
+  "nextLesson": "l83"
+}

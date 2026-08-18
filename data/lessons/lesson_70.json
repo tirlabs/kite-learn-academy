@@ -1,0 +1,56 @@
+{
+  "id": "l70",
+  "title": "Debt",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 70 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Most companies borrow money at some stage of their growth. This borrowed money is called debt."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A company wants to build a new factory costing ₹500 crore. Instead of waiting many years to save the money, it borrows from a bank and repays the loan gradually from future profits."
+    },
+    {
+      "type": "p",
+      "value": "Debt itself is not bad. Borrowing to expand a successful business can be a smart decision. Problems arise when a company borrows more than it can comfortably repay."
+    },
+    {
+      "type": "example",
+      "value": "Many infrastructure companies have significant debt because building roads, airports or power plants requires large investments."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Very high debt combined with falling profits can put a company under financial pressure.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Always look at debt together with a company's ability to earn profits and generate cash.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Is debt always a bad thing?",
+      "choices": [
+        "No. Responsible borrowing can help a company grow.",
+        "Yes. Every company should avoid debt completely.",
+        "Debt has no effect on businesses."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "When can debt become a problem?",
+      "choices": [
+        "When a company struggles to repay it.",
+        "When a company earns strong profits.",
+        "When a company has valuable assets."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l69",
+  "nextLesson": "l71"
+}

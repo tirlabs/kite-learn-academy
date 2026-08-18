@@ -1,0 +1,42 @@
+{
+  "id": "l39",
+  "title": "Liquidity",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 39 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Liquidity tells us how easily a stock can be bought or sold without causing a significant change in its price."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Selling a popular smartphone is usually easy because many buyers exist. Selling an old rare machine may take weeks because very few people want it. Stocks behave similarly."
+    },
+    {
+      "type": "p",
+      "value": "Highly liquid stocks have many buyers and sellers. Illiquid stocks may take longer to buy or sell and can experience larger price changes."
+    },
+    {
+      "type": "example",
+      "value": "Large companies like Reliance and Infosys are generally highly liquid because millions of shares are traded daily."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>High liquidity usually means easier trading and smaller differences between Bid and Ask prices.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "A highly liquid stock is...",
+      "choices": [
+        "Easy to buy and sell.",
+        "Always profitable.",
+        "Never falls in price."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l38",
+  "nextLesson": "l40"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "l40",
+  "title": "Volatility",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 40 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Volatility measures how much a stock's price moves over a period of time. Some stocks move very little, while others rise and fall rapidly."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> One amusement park ride moves slowly and smoothly. Another is a fast roller coaster with sudden twists and drops. Stock prices behave in a similar way."
+    },
+    {
+      "type": "p",
+      "value": "High volatility means prices change quickly and by larger amounts. Low volatility means prices move more steadily."
+    },
+    {
+      "type": "example",
+      "value": "A stock moving from ₹100 to ₹130 and back to ₹105 within a week is considered more volatile than one moving gradually from ₹100 to ₹103."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>High volatility creates both higher opportunities and higher risks.</strong>"
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>Volatility is not the same as risk. A good company can still experience short-term volatility.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does high volatility indicate?",
+      "choices": [
+        "Large and frequent price movements.",
+        "Guaranteed profits.",
+        "No trading activity."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which stock is more volatile?",
+      "choices": [
+        "A stock moving between ₹100 and ₹130 in a week.",
+        "A stock moving between ₹100 and ₹102 in a week.",
+        "Both are equally volatile."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l39",
+  "nextLesson": "l41"
+}

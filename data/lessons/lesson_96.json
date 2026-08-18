@@ -1,0 +1,34 @@
+{
+  "id": "l96",
+  "title": "Corporate Actions",
+  "module": " Module 9 - Advanced Investing & Your Journey",
+  "order": "Page 96 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Companies occasionally make changes that affect shareholders. These events are called Corporate Actions."
+    },
+    {
+      "type": "fact",
+      "value": "Common corporate actions include Bonus Shares, Stock Splits, Rights Issues and Dividends."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A shop rewards loyal customers with bonus coupons. Companies may also reward shareholders through different corporate actions."
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these is a Corporate Action?",
+      "choices": [
+        "Stock Split",
+        "IPO",
+        "Trading Volume"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l95",
+  "nextLesson": "l97"
+}

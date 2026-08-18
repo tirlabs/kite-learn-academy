@@ -1,0 +1,42 @@
+{
+  "id": "l12",
+  "title": "What is NSE?",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 12 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "India has multiple stock exchanges. The largest one is the National Stock Exchange, commonly called the NSE."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A city has several sports stadiums where cricket matches happen. One stadium hosts the biggest tournaments because it has better facilities. Similarly, the NSE is India's largest stock exchange by trading activity."
+    },
+    {
+      "type": "p",
+      "value": "The National Stock Exchange was established in 1992 to bring modern, electronic trading to India. Today, millions of investors use it every day."
+    },
+    {
+      "type": "example",
+      "value": "Most popular Indian companies like Reliance, Infosys, TCS, HDFC Bank and ICICI Bank are traded on the NSE."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>NIFTY 50, India's most popular stock market index, belongs to the NSE.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "NSE stands for...",
+      "choices": [
+        "National Stock Exchange",
+        "National Savings Exchange",
+        "New Share Exchange"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l11",
+  "nextLesson": "l13"
+}

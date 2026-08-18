@@ -1,0 +1,42 @@
+{
+  "id": "l69",
+  "title": "Assets & Liabilities",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 69 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every company owns valuable things and also owes money to others. These are called Assets and Liabilities."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You own a house worth ₹80 lakh and have ₹10 lakh in savings. These are your assets. If you still owe ₹20 lakh on a home loan, that's your liability."
+    },
+    {
+      "type": "p",
+      "value": "Assets include cash, buildings, machinery, inventory and investments. Liabilities include loans, unpaid bills and other financial obligations."
+    },
+    {
+      "type": "example",
+      "value": "A manufacturing company may own factories worth hundreds of crores while also having bank loans used to build those factories."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Strong companies usually have valuable assets and manageable liabilities.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these is an asset?",
+      "choices": [
+        "Factory",
+        "Bank loan",
+        "Credit card bill"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l68",
+  "nextLesson": "l70"
+}

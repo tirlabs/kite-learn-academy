@@ -1,0 +1,42 @@
+{
+  "id": "l52",
+  "title": "Support",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 52 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Support is a price level where buyers usually become active, preventing the stock from falling further."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Drop a basketball onto the floor. The floor stops it from falling further and the ball bounces back. Support acts like the floor for a stock price."
+    },
+    {
+      "type": "p",
+      "value": "When a stock reaches a support level, many investors believe it is a good buying opportunity, increasing demand."
+    },
+    {
+      "type": "example",
+      "value": "If a stock repeatedly falls to around ₹500 and then rises again, ₹500 may be acting as a support level."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Support is an area, not an exact price.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Support is where...",
+      "choices": [
+        "Buyers usually become stronger.",
+        "The company pays dividends.",
+        "The stock exchange closes."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l51",
+  "nextLesson": "l53"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "l60",
+  "title": "Choosing the Right Indicator",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 60 of 100",
+  "readingTime": "9 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Many beginners believe that adding more indicators makes trading easier. In reality, too many indicators often create confusion instead of clarity."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You're driving a car while ten different people give you directions at the same time. Instead of helping, they confuse you. Using too many indicators on a chart can feel exactly the same."
+    },
+    {
+      "type": "p",
+      "value": "Each indicator has a different purpose. Moving Averages help identify trends, RSI measures momentum, MACD confirms momentum changes, and VWAP helps intraday traders understand average price."
+    },
+    {
+      "type": "example",
+      "value": "A beginner might start with just one Moving Average and RSI instead of adding ten different indicators."
+    },
+    {
+      "type": "warning",
+      "value": "⚠️ <strong>No indicator can predict the future with certainty. Indicators are tools that support decision-making, not replacements for good judgment.</strong>"
+    },
+    {
+      "type": "tip",
+      "value": " <strong>The best traders often use fewer indicators but understand them deeply.</strong>"
+    },
+    {
+      "type": "fact",
+      "value": " You have now completed the fundamentals of Technical Analysis. In the next lessons, you'll learn additional indicators and how to combine them effectively."
+    },
+    {
+      "type": "quiz",
+      "question": "Should beginners use many indicators together?",
+      "choices": [
+        "No, it's usually better to master a few indicators first.",
+        "Yes, more indicators always improve accuracy.",
+        "Indicators are never useful."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main purpose of indicators?",
+      "choices": [
+        "To support decision-making.",
+        "To guarantee profits.",
+        "To replace market knowledge."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l59",
+  "nextLesson": "l61"
+}

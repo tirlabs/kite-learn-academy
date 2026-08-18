@@ -1,0 +1,62 @@
+{
+  "id": "l30",
+  "title": "Selling Your First Share",
+  "module": " Module 3 - Buying Your First Stock",
+  "order": "Page 30 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Buying a share is only half of the journey. At some point, you may decide to sell it to book profits, reduce losses, or invest your money elsewhere."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> You bought a bicycle for ₹5,000. Two years later, someone offers you ₹6,500. You decide to sell it because you've made a profit. Selling shares works in a similar way."
+    },
+    {
+      "type": "p",
+      "value": "To sell a share, simply select it from your Holdings, choose the quantity, and place either a Market Order or a Limit Order. Once a buyer matches your order, the shares are sold and the money is credited to your trading account."
+    },
+    {
+      "type": "example",
+      "value": "You purchased one share of TCS at ₹3,200. A few months later, it reaches ₹3,650. You sell it and earn a profit of ₹450 before taxes and charges."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Congratulations! You now understand the complete journey—from opening an account to buying and selling your very first share.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "How can you sell a share?",
+      "choices": [
+        "Select it from Holdings and place a Sell Order.",
+        "Delete the app.",
+        "Call the company CEO."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "After a successful sale, what do you receive?",
+      "choices": [
+        "Money from the buyer",
+        "Another share automatically",
+        "A new Demat Account"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which type of order can be used while selling?",
+      "choices": [
+        "Market Order",
+        "Limit Order",
+        "Both Market and Limit Orders"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "previousLesson": "l29",
+  "nextLesson": "l31"
+}

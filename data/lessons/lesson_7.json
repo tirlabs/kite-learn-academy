@@ -1,0 +1,53 @@
+{
+  "id": "l7",
+  "title": "What is a Company?",
+  "module": " Module 1 - Foundation",
+  "order": "Page 7 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "As businesses grow, they need better organization. A company is simply a business that is legally registered and recognized by the government."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Your tea shop becomes so popular that you open 20 branches across different cities. You hire employees, maintain accounts, pay taxes, and register your business. It is no longer just a small shop—it has become a company."
+    },
+    {
+      "type": "p",
+      "value": "Companies can own property, hire employees, borrow money, pay taxes, sign contracts, and continue operating even if their owners change."
+    },
+    {
+      "type": "example",
+      "value": "Apple, Reliance, Infosys, Tata Consultancy Services (TCS), and HDFC Bank are all companies."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Every large company started as a small business.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "A company is...",
+      "choices": [
+        "A legally registered business.",
+        "Only a large building.",
+        "A government office."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these is a company?",
+      "choices": [
+        "Infosys",
+        "Reliance",
+        "Apple",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    }
+  ],
+  "previousLesson": "l6",
+  "nextLesson": "l8"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "l91",
+  "title": "What is an IPO?",
+  "module": " Module 9 - Advanced Investing & Your Journey",
+  "order": "Page 91 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "An Initial Public Offering (IPO) is the first time a private company offers its shares to the public through a stock exchange."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A successful family-owned bakery wants to open stores across India. Instead of borrowing all the money from banks, it invites the public to become part owners by buying shares."
+    },
+    {
+      "type": "example",
+      "value": "Many well-known Indian companies became publicly listed through an IPO before their shares started trading on NSE and BSE."
+    },
+    {
+      "type": "tip",
+      "value": " Buying an IPO doesn't automatically mean you'll make profits. Research is just as important."
+    },
+    {
+      "type": "quiz",
+      "question": "IPO stands for...",
+      "choices": [
+        "Initial Public Offering",
+        "Indian Public Ownership",
+        "Investment Purchase Order"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l90",
+  "nextLesson": "l92"
+}

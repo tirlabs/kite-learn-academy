@@ -1,0 +1,42 @@
+{
+  "id": "l53",
+  "title": "Resistance",
+  "module": " Module 6 - Technical Analysis",
+  "order": "Page 53 of 100",
+  "readingTime": "7 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Resistance is a price level where sellers usually become active, making it difficult for the stock to move higher."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Throw a ball towards the ceiling. The ceiling stops it from moving higher. Resistance acts like the ceiling for stock prices."
+    },
+    {
+      "type": "p",
+      "value": "When prices reach resistance, many investors decide to sell, increasing supply."
+    },
+    {
+      "type": "example",
+      "value": "If a stock repeatedly reaches ₹800 before falling again, ₹800 may be acting as a resistance level."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Like support, resistance is also an area rather than a single exact number.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Resistance is where...",
+      "choices": [
+        "Sellers usually become stronger.",
+        "Only buyers are active.",
+        "Companies announce dividends."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l52",
+  "nextLesson": "l54"
+}

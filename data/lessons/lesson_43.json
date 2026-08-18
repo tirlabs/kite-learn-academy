@@ -1,0 +1,42 @@
+{
+  "id": "l43",
+  "title": "Line Chart",
+  "module": " Module 5 - Reading Charts",
+  "order": "Page 43 of 100",
+  "readingTime": "6 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "The simplest type of stock chart is a Line Chart. It joins the closing prices of a stock using a continuous line."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Every evening you note down the outside temperature. At the end of the month, you connect all the points with a pencil. You've just created a line chart."
+    },
+    {
+      "type": "p",
+      "value": "Line charts are easy to understand and are useful for identifying the overall direction of a stock."
+    },
+    {
+      "type": "example",
+      "value": "If the line steadily moves upward over several months, the stock has generally been increasing in price."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Line charts are perfect for beginners because they clearly show trends without too much detail.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "A Line Chart is created using...",
+      "choices": [
+        "Closing prices",
+        "Company profits",
+        "Trading volume"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l42",
+  "nextLesson": "l44"
+}

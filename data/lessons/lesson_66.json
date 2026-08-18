@@ -1,0 +1,42 @@
+{
+  "id": "l66",
+  "title": "Reading Company Information",
+  "module": " Module 7 - Fundamental Analysis",
+  "order": "Page 66 of 100",
+  "readingTime": "8 mins read",
+  "difficulty": "Level: Intermediate",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Technical Analysis studies price charts. Fundamental Analysis studies the business itself. Before investing, it's important to understand what a company does and how it earns money."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Before buying a house, you don't just look at its paint. You inspect the structure, location, documents and condition. Buying shares should be no different."
+    },
+    {
+      "type": "p",
+      "value": "Every listed company publishes information such as its business activities, products, financial results, promoters and annual reports. Investors use this information to evaluate whether the company is worth investing in."
+    },
+    {
+      "type": "example",
+      "value": "When researching Infosys, you might learn that it provides IT consulting and software services to customers across the world."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Never invest in a company whose business you don't understand.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "Fundamental Analysis mainly studies...",
+      "choices": [
+        "The business behind the company.",
+        "Only the stock chart.",
+        "Only the stock price."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l65",
+  "nextLesson": "l67"
+}

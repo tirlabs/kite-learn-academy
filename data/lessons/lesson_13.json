@@ -1,0 +1,42 @@
+{
+  "id": "l13",
+  "title": "What is BSE?",
+  "module": " Module 2 - Stock Market Basics",
+  "order": "Page 13 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "The Bombay Stock Exchange (BSE) is India's oldest stock exchange and one of the oldest in the world."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> Think of an old, respected university that has educated students for more than 100 years. The BSE has a similarly rich history in India's financial markets."
+    },
+    {
+      "type": "p",
+      "value": "The BSE was established in 1875. Today, thousands of companies are listed on it and millions of trades happen every day."
+    },
+    {
+      "type": "example",
+      "value": "The SENSEX is the benchmark index of the Bombay Stock Exchange."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>Most major companies are listed on both NSE and BSE.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "BSE stands for...",
+      "choices": [
+        "Bombay Stock Exchange",
+        "Business Stock Exchange",
+        "Basic Share Exchange"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l12",
+  "nextLesson": "l14"
+}

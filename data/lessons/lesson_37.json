@@ -1,0 +1,42 @@
+{
+  "id": "l37",
+  "title": "52 Week High & 52 Week Low",
+  "module": " Module 4 - Understanding Prices",
+  "order": "Page 37 of 100",
+  "readingTime": "5 mins read",
+  "difficulty": "Level: Beginner",
+  "blocks": [
+    {
+      "type": "p",
+      "value": "Every stock has a highest and lowest price over the last 52 weeks. These are called the 52 Week High and 52 Week Low."
+    },
+    {
+      "type": "story",
+      "value": " <strong>Imagine This:</strong> A student scored between 62 and 98 marks throughout the year. The highest score was 98 and the lowest was 62. Stocks also have yearly highs and lows."
+    },
+    {
+      "type": "p",
+      "value": "These values help investors understand where the current price stands compared to the last one year."
+    },
+    {
+      "type": "example",
+      "value": "If a stock's current price is ₹980, the 52 Week High is ₹1,000 and the Low is ₹600, the stock is trading near its yearly high."
+    },
+    {
+      "type": "tip",
+      "value": " <strong>A stock near its 52 Week High is not automatically expensive, and one near its 52 Week Low is not automatically cheap.</strong>"
+    },
+    {
+      "type": "quiz",
+      "question": "What does the 52 Week High represent?",
+      "choices": [
+        "The highest price in the last one year.",
+        "The highest profit of the company.",
+        "The highest dividend paid."
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "previousLesson": "l36",
+  "nextLesson": "l38"
+}
