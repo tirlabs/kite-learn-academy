@@ -33,6 +33,39 @@ body {
     overflow-x: hidden;
 }
 
+/* KiteLearn standard feedback treatment (shared across authentication flows) */
+.kl-feedback {
+    display: block;
+    margin: 12px 0;
+    padding: 11px 13px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.kl-feedback--error {
+    color: #B91C1C;
+    background: #FEF2F2;
+    border-color: #FECACA;
+}
+
+.kl-feedback--success {
+    color: #166534;
+    background: #F0FDF4;
+    border-color: #BBF7D0;
+}
+
+.kl-feedback--info {
+    color: #1D4ED8;
+    background: #EFF6FF;
+    border-color: #BFDBFE;
+}
+
+.kl-feedback.hidden {
+    display: none;
+}
+
 .hidden {
     display: none !important;
 }
@@ -4009,4 +4042,605 @@ html.dark .theme-switch-thumb {
         left: 3px;
         right: auto;
     }
+}
+
+/* KiteLearn — cohesive dark theme overrides
+   Append this file's contents to css/style.css. Light mode is untouched. */
+html.dark {
+  color-scheme: dark;
+  --white: #0b1220;
+  --black: #f8fafc;
+  --dark-grey: #e2e8f0;
+  --light-grey: #111c2e;
+  --border-color: #263449;
+  --muted-text: #aab6c8;
+  --text-primary: #f8fafc;
+  --surface-secondary: #172033;
+  --fill-tip: #10291f;
+  --color-surface-dark: #172033;
+}
+
+html.dark body,
+html.dark #marketing-canvas,
+html.dark #dashboard-canvas,
+html.dark #textbook-canvas,
+html.dark .view-panel {
+  background: #0b1220;
+  color: #f8fafc;
+}
+
+/* Header and navigation */
+html.dark .brilliant-navbar {
+  background: #0f1929;
+  border-bottom: 1px solid #263449;
+  box-shadow: 0 4px 18px rgba(0,0,0,.18);
+}
+html.dark .logo-text,
+html.dark .nav-left .logo-text,
+html.dark .dashboard-header-block h2,
+html.dark .dashboard-learning-intro h1,
+html.dark .brilliant-card h3,
+html.dark .brilliant-card h2 {
+  color: #f8fafc;
+}
+html.dark .brilliant-btn-secondary,
+html.dark .nav-right button {
+  background: #172033;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+html.dark .brilliant-btn-secondary:hover,
+html.dark .nav-right button:hover {
+  background: #22314a;
+  border-color: #476080;
+}
+
+/* Dashboard hero: replace the light blue hard-coded surface */
+html.dark .dashboard-learning-card {
+  background: linear-gradient(115deg, #14233a 0%, #172b49 58%, #13243d 100%);
+  border: 1px solid #2a4263;
+  box-shadow: 0 12px 32px rgba(0,0,0,.16);
+}
+html.dark .dashboard-learning-intro .dashboard-hero-label {
+  background: rgba(59,130,246,.16);
+  color: #93c5fd;
+  border: 1px solid rgba(96,165,250,.22);
+}
+html.dark .dashboard-learning-intro h1 { color: #f8fafc; }
+html.dark .dashboard-learning-intro h1 span { color: #60a5fa; }
+html.dark .dashboard-learning-intro p,
+html.dark .dashboard-header-block p,
+html.dark .dashboard-current-lesson .resume-text-left p,
+html.dark .resume-text-left p {
+  color: #b5c2d4;
+}
+html.dark .dashboard-current-lesson { border-left-color: #344a68; }
+html.dark .dashboard-current-lesson button {
+  background: #2563eb;
+  color: #fff;
+}
+
+/* Module tiles and learning cards */
+html.dark .brilliant-card,
+html.dark .preview-card-node,
+html.dark .module-dashboard-action-card,
+html.dark .resume-learning-card,
+html.dark .resume-learning-strip,
+html.dark .resume-learning-card:hover {
+  background: #121e30;
+  color: #e2e8f0;
+  border: 1px solid #263a54;
+  box-shadow: 0 5px 16px rgba(0,0,0,.14);
+}
+html.dark .brilliant-card:hover,
+html.dark .preview-card-node:hover {
+  background: #172840;
+  border-color: #3b5d86;
+  transform: translateY(-2px);
+}
+html.dark .brilliant-card p,
+html.dark .preview-card-node p,
+html.dark .module-dashboard-action-card p {
+  color: #aab6c8;
+}
+html.dark .brilliant-card button,
+html.dark .brilliant-card .card-action,
+html.dark .brilliant-card .module-action {
+  background: #1e2d43;
+  color: #bfdbfe;
+}
+
+/* Footer: no more bright white block at the bottom */
+html.dark .app-brand-footer,
+html.dark .marketing-footer,
+html.dark .dashboard-footer {
+  background: linear-gradient(180deg, #101b2c 0%, #0b1220 100%);
+  border-top: 1px solid #263449;
+}
+html.dark .footer-logo-text,
+html.dark .footer-links-column h4 { color: #e2e8f0; }
+html.dark .footer-brand-tagline,
+html.dark .footer-links-column a,
+html.dark .footer-copyright-bar { color: #9eacc0; }
+html.dark .footer-copyright-bar { border-top-color: #263449; }
+html.dark .finance-symbol,
+html.dark .footer-decoration { color: #60a5fa; }
+
+/* Profile and authentication dialogs */
+html.dark .modal-backdrop {
+  background: rgba(2, 6, 23, .76);
+  backdrop-filter: blur(7px);
+}
+html.dark .modal-box,
+html.dark .profile-modal-box,
+html.dark .modal-card {
+  background: #121e30;
+  color: #f8fafc;
+  border: 1px solid #34465f;
+  box-shadow: 0 24px 70px rgba(0,0,0,.48);
+}
+html.dark .modal-box h3,
+html.dark .profile-modal-box h3,
+html.dark .modal-box label,
+html.dark .profile-field-label { color: #f1f5f9; }
+html.dark .modal-sub,
+html.dark .profile-language-note { color: #aab6c8; }
+html.dark .modal-close { color: #aab6c8; }
+html.dark .modal-close:hover { color: #fff; }
+html.dark input,
+html.dark textarea,
+html.dark select,
+html.dark .profile-select,
+html.dark #profile-name,
+html.dark #profile-email {
+  background: #0d1727;
+  color: #f1f5f9;
+  border-color: #34465f;
+}
+html.dark input[readonly] { color: #aab6c8; background: #172338; }
+html.dark input::placeholder,
+html.dark textarea::placeholder { color: #7889a2; }
+html.dark .kl-feedback--success {
+  color: #bbf7d0;
+  background: #123326;
+  border-color: #245b40;
+}
+html.dark .kl-feedback--error {
+  color: #fecaca;
+  background: #3a1d25;
+  border-color: #71313c;
+}
+html.dark .kl-feedback--info {
+  color: #bfdbfe;
+  background: #172d4a;
+  border-color: #294d78;
+}
+
+/* Lesson reader and navigation */
+html.dark .sidebar-guide,
+html.dark .reading-viewport-frame,
+html.dark .reading-max-width,
+html.dark #active-lesson-payload,
+html.dark .platform-container {
+  background: #0b1220;
+  color: #e2e8f0;
+}
+html.dark .sidebar-guide { border-color: #263449; }
+html.dark .sidebar-lessons-ul li,
+html.dark .sidebar-lessons-ul a { color: #b5c2d4; }
+html.dark .sidebar-lessons-ul li:hover,
+html.dark .sidebar-lessons-ul a:hover { background: #172840; color: #bfdbfe; }
+html.dark #active-lesson-payload h1,
+html.dark #active-lesson-payload h2,
+html.dark #active-lesson-payload h3,
+html.dark #active-lesson-payload h4 { color: #f8fafc; }
+html.dark #active-lesson-payload p,
+html.dark #active-lesson-payload li { color: #c0cada; }
+html.dark #active-lesson-payload blockquote,
+html.dark #active-lesson-payload table,
+html.dark #active-lesson-payload th,
+html.dark #active-lesson-payload td {
+  background-color: #121e30;
+  color: #dbe5f2;
+  border-color: #34465f;
+}
+html.dark .reader-example-box,
+html.dark .reader-warning-box,
+html.dark .reader-fact-box,
+html.dark .lesson-share-card {
+  background: #142238;
+  color: #dbe5f2;
+  border-color: #34465f;
+}
+
+/* Search */
+html.dark #global-lesson-search-input {
+  background-color: #172338;
+  color: #f1f5f9;
+  border-color: #34465f;
+}
+html.dark .search-results-dropdown {
+  background: #121e30;
+  border-color: #34465f;
+}
+html.dark .search-result-item { color: #e2e8f0; border-color: #263449; }
+html.dark .search-result-item:hover { background: #1b2b42; }
+
+/* Certificate */
+html.dark .certificate-card { background: #121e30; color: #e2e8f0; }
+html.dark .cert-inner-border { border-color: #34465f; }
+html.dark .cert-title,
+html.dark .cert-subtitle { color: #f1f5f9; }
+html.dark .cert-description,
+html.dark .cert-footer-label { color: #aab6c8; }
+html.dark .cert-footer-value { color: #e2e8f0; }
+
+/* Mobile keeps the same dark palette */
+@media (max-width: 767px) {
+  html.dark .dashboard-learning-card { background: linear-gradient(145deg, #14233a, #172b49); }
+  html.dark .app-brand-footer { background: #0b1220; }
+}
+
+
+
+/* =====================================================
+   KITELEARN — PROFILE MODAL LAYOUT FIX
+   Scoped only to the profile modal.
+   ===================================================== */
+
+.profile-modal-box {
+    width: min(100%, 480px);
+    max-width: 480px;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.profile-modal-box #profile-form {
+    display: block;
+    width: 100%;
+}
+
+.profile-modal-box .profile-field-label {
+    display: block;
+    width: 100%;
+    margin: 0 0 7px;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.profile-modal-box input,
+.profile-modal-box select,
+.profile-modal-box .profile-select {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    height: 48px;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+    padding: 0 14px;
+    border-radius: 10px;
+    font: inherit;
+}
+
+.profile-modal-box .profile-language-note {
+    display: block;
+    margin: -8px 0 16px;
+    line-height: 1.5;
+    font-size: 0.82rem;
+}
+
+.profile-modal-box #profile-feedback {
+    margin-bottom: 16px;
+}
+
+.profile-modal-box #profile-save-btn {
+    display: block;
+    width: 100%;
+}
+
+html.dark .profile-modal-box {
+    background: #172033;
+    border: 1px solid #334155;
+    color: #f8fafc;
+}
+
+html.dark .profile-modal-box input,
+html.dark .profile-modal-box select {
+    background: #0f1a2b;
+    color: #f8fafc;
+    border: 1px solid #3b4d66;
+}
+
+html.dark .profile-modal-box input:focus,
+html.dark .profile-modal-box select:focus {
+    border-color: #60a5fa;
+    outline: none;
+}
+
+html.dark .profile-modal-box select option {
+    background: #172033;
+    color: #f8fafc;
+}
+
+html.dark .profile-modal-box .modal-sub,
+html.dark .profile-modal-box .profile-language-note {
+    color: #aab6c8;
+}
+
+@media (max-width: 520px) {
+    .profile-modal-box {
+        padding: 1.5rem 1.25rem;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+}
+
+
+/* KiteLearn dark theme — public landing journey banner */
+
+html.dark .journey-banner {
+    background: #111c30;
+    border-color: #263750;
+}
+
+html.dark .journey-banner h2 {
+    color: #f8fafc;
+}
+
+html.dark .journey-banner h2 span {
+    color: #60a5fa;
+}
+
+html.dark .journey-banner p {
+    color: #aab6c8;
+}
+
+html.dark .journey-banner .journey-label {
+    background: #1e3354;
+    color: #93baff;
+}
+
+html.dark .journey-banner-visual {
+    color: #60a5fa;
+}
+
+
+/* =========================================================
+   KITELEARN — SECONDARY PAGES DARK MODE
+   About | Privacy Policy | Terms | 404
+   Colour overrides only. Preserve existing layouts.
+   ========================================================= */
+
+html.dark .secondary-page {
+    color: #f8fafc;
+}
+
+html.dark .secondary-page-hero {
+    background: #111c30;
+    border-color: #263750;
+}
+
+html.dark .secondary-page-hero h1 {
+    color: #f8fafc;
+}
+
+html.dark .secondary-page-hero h1 span {
+    color: #60a5fa;
+}
+
+html.dark .secondary-page-hero p {
+    color: #aab6c8;
+}
+
+html.dark .secondary-page-eyebrow {
+    background: #1e3354;
+    color: #93baff;
+}
+
+html.dark .secondary-content-card {
+    background: #131f32;
+    border-color: #263750;
+    box-shadow: none;
+}
+
+html.dark .secondary-content-card h2 {
+    color: #f8fafc;
+}
+
+html.dark .secondary-content-card p,
+html.dark .secondary-content-card li {
+    color: #cbd5e1;
+}
+
+html.dark .secondary-content-card li::marker {
+    color: #60a5fa;
+}
+
+html.dark .about-learning-item {
+    background: #19263a;
+    border-color: #30415a;
+}
+
+html.dark .about-learning-item strong {
+    color: #f8fafc;
+}
+
+html.dark .about-learning-item span {
+    color: #aab6c8;
+}
+
+html.dark .secondary-contact-card {
+    background: #142744;
+    border-color: #29466d;
+}
+
+html.dark .secondary-contact-card a {
+    color: #60a5fa;
+}
+
+/* 404 page */
+html.dark #marketing-canvas.error-page .page-not-found-card {
+    background: #111c30;
+    border-color: #263750;
+}
+
+html.dark #marketing-canvas.error-page .page-not-found-card h1 {
+    color: #f8fafc;
+}
+
+html.dark #marketing-canvas.error-page .page-not-found-card h1 span {
+    color: #60a5fa;
+}
+
+html.dark #marketing-canvas.error-page .page-not-found-card p {
+    color: #aab6c8;
+}
+
+
+/* =========================================================
+   KiteLearn certificate artwork renderer
+   Fixed 1536 × 1024 artwork; all dynamic fields scale with it.
+   ========================================================= */
+#certificate-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+    background: rgba(5, 13, 29, .88);
+    backdrop-filter: blur(7px);
+}
+#certificate-modal-backdrop.hidden { display: none !important; }
+
+#certificate-modal-backdrop .certificate-viewer {
+    position: relative;
+    width: min(96vw, calc((100vh - 104px) * 1.5));
+    max-width: 1536px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+#certificate-modal-backdrop .certificate-stage {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    background: #fff url("../images/certificate-template.png") center / 100% 100% no-repeat;
+    box-shadow: 0 18px 60px rgba(0, 0, 0, .32);
+    container-type: inline-size;
+    isolation: isolate;
+}
+#certificate-modal-backdrop .certificate-overlay {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    color: #101d3d;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1.08;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+#certificate-modal-backdrop .certificate-name {
+    left: 50%;
+    top: 40.05%;
+    width: 62%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(19px, 5.0cqw, 76px);
+    font-weight: 700;
+    letter-spacing: -.025em;
+}
+#certificate-modal-backdrop .certificate-date {
+    left: 74.0%;
+    top: 80.1%;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(10px, 1.95cqw, 30px);
+    font-weight: 700;
+}
+#certificate-modal-backdrop .cert-close-btn {
+    position: absolute;
+    z-index: 5;
+    top: -34px;
+    right: -2px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #dbe5f5;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+#certificate-modal-backdrop .cert-close-btn:hover { color: #fff; }
+#certificate-modal-backdrop .certificate-actions {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#certificate-modal-backdrop .cert-download-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    min-height: 40px;
+    padding: 9px 18px;
+    border: 1px solid #d6a52b;
+    border-radius: 8px;
+    background: #fff;
+    color: #14213d;
+    font: 700 14px/1.2 Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0,0,0,.18);
+}
+#certificate-modal-backdrop .cert-download-btn:hover { background: #fff8e6; }
+#certificate-modal-backdrop .cert-download-btn:disabled { opacity: .65; cursor: wait; }
+body.certificate-modal-open { overflow: hidden; }
+
+@media (max-width: 640px) {
+    #certificate-modal-backdrop { padding: 14px 10px; }
+    #certificate-modal-backdrop .certificate-viewer {
+        width: min(96vw, calc((100vh - 100px) * 1.5));
+    }
+    #certificate-modal-backdrop .certificate-name {
+        font-size: clamp(13px, 5cqw, 32px);
+        width: 65%;
+    }
+    #certificate-modal-backdrop .certificate-date {
+        font-size: clamp(8px, 1.9cqw, 13px);
+    }
+    #certificate-modal-backdrop .cert-close-btn {
+        top: -29px;
+        right: 0;
+    }
+    #certificate-modal-backdrop .cert-download-btn {
+        min-height: 36px;
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+}
+@media print {
+    #certificate-modal-backdrop {
+        position: static;
+        display: block !important;
+        padding: 0;
+        background: #fff;
+        backdrop-filter: none;
+    }
+    #certificate-modal-backdrop .certificate-viewer { width: 100%; max-width: none; }
+    #certificate-modal-backdrop .certificate-stage {
+        width: 100%;
+        box-shadow: none;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    #certificate-modal-backdrop .cert-close-btn,
+    #certificate-modal-backdrop .certificate-actions { display: none !important; }
 }
