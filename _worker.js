@@ -127,6 +127,15 @@ async function handleApiRequest(request, env) {
   if (url.pathname === "/api/admin/user" && request.method === "GET") {
     return getAdminUserDetail(request, env);
   }
+  if (url.pathname === "/api/admin/invitations" && request.method === "POST") {
+    return createAdminInvitation(request, env);
+  }
+  if (url.pathname === "/api/admin/bootstrap" && request.method === "POST") {
+    return bootstrapFirstAdmin(request, env);
+  }
+  if (url.pathname === "/api/admin/accept-invitation" && request.method === "POST") {
+    return acceptAdminInvitation(request, env);
+  }
 
   if (url.pathname === "/api/progress/quiz" && request.method === "POST") {
     return saveQuizAttempt(request, env);
@@ -1084,8 +1093,11 @@ async function getAdminOverview(request, env) {
         SUM(CASE WHEN email_verified = 1 THEN 1 ELSE 0 END) AS verified,
         SUM(CASE WHEN created_at >= ? THEN 1 ELSE 0 END) AS new_in_range
         FROM users WHERE status = 'active'`).bind(since),
-      env.DB.prepare(`SELECT COUNT(DISTINCT user_id) AS active
-        FROM lesson_progress WHERE last_accessed_at >= ?`).bind(since),
+      env.DB.prepare(`SELECT COUNT(*) AS active FROM (
+          SELECT user_id FROM lesson_progress WHERE last_accessed_at >= ?
+          UNION
+          SELECT user_id FROM quiz_attempts WHERE attempted_at >= ?
+        )`).bind(since, since),
       env.DB.prepare(`SELECT COUNT(*) AS total,
         SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS completed
         FROM lesson_progress`),
@@ -1134,14 +1146,38 @@ async function getAdminUsers(request, env) {
     const activeRaw = url.searchParams.get("activeDays") || "0";
     const activeDays = ["7", "30", "90", "inactive"].includes(activeRaw) ? activeRaw : "0";
     const joinedSince = joinedDays ? new Date(Date.now() - joinedDays * 86400000).toISOString() : "";
-    const activeSince = ["7", "30", "90"].includes(activeDays) ? new Date(Date.now() - Number(activeDays) * 86400000).toISOString() : "";
+    // "Inactive" means no lesson or quiz activity in the last 30 days.
+    // Accounts with no learning history are therefore included as inactive.
+    const activeSince = activeDays === "inactive"
+      ? new Date(Date.now() - 30 * 86400000).toISOString()
+      : ["7", "30", "90"].includes(activeDays)
+        ? new Date(Date.now() - Number(activeDays) * 86400000).toISOString()
+        : "";
     const limit = 25, offset = (page - 1) * limit;
     const pattern = `%${search.replace(/[\\%_]/g, "\\$&")}%`;
-    const filters = `(? = '' OR u.name LIKE ? ESCAPE '\\' OR u.email LIKE ? ESCAPE '\\')
+    const filters = `u.role != 'admin' AND u.status = 'active'
+      AND (? = '' OR u.name LIKE ? ESCAPE '\\' OR u.email LIKE ? ESCAPE '\\')
       AND (? = '' OR u.created_at >= ?)
-      AND (? = '0' OR (? = 'inactive' AND NOT EXISTS (SELECT 1 FROM lesson_progress lp WHERE lp.user_id = u.id) AND NOT EXISTS (SELECT 1 FROM quiz_attempts qa WHERE qa.user_id = u.id))
-        OR (? != 'inactive' AND (EXISTS (SELECT 1 FROM lesson_progress lp WHERE lp.user_id = u.id AND lp.last_accessed_at >= ?) OR EXISTS (SELECT 1 FROM quiz_attempts qa WHERE qa.user_id = u.id AND qa.attempted_at >= ?))))`;
-    const filterBinds = [search, pattern, pattern, joinedSince, joinedSince, activeDays, activeDays, activeDays, activeSince, activeSince];
+      AND (
+        ? = '0'
+        OR (
+          ? = 'inactive'
+          AND NOT EXISTS (SELECT 1 FROM lesson_progress lp WHERE lp.user_id = u.id AND lp.last_accessed_at >= ?)
+          AND NOT EXISTS (SELECT 1 FROM quiz_attempts qa WHERE qa.user_id = u.id AND qa.attempted_at >= ?)
+        )
+        OR (
+          ? IN ('7', '30', '90')
+          AND (
+            EXISTS (SELECT 1 FROM lesson_progress lp WHERE lp.user_id = u.id AND lp.last_accessed_at >= ?)
+            OR EXISTS (SELECT 1 FROM quiz_attempts qa WHERE qa.user_id = u.id AND qa.attempted_at >= ?)
+          )
+        )
+      )`;
+    const filterBinds = [
+      search, pattern, pattern, joinedSince, joinedSince,
+      activeDays, activeDays, activeSince, activeSince,
+      activeDays, activeSince, activeSince
+    ];
     const [count, rows] = await Promise.all([
       env.DB.prepare(`SELECT COUNT(*) AS total FROM users u WHERE ${filters}`).bind(...filterBinds).first(),
       env.DB.prepare(`SELECT u.id, u.name, u.email, u.role, u.email_verified,
@@ -1170,7 +1206,8 @@ async function getAdminUserDetail(request, env) {
     const url = new URL(request.url), id = (url.searchParams.get("id") || "").trim();
     if (!id || id.length > 100) return jsonResponse({ error: "A valid user ID is required." }, 400);
     const user = await env.DB.prepare(`SELECT id, name, email, role, email_verified,
-      status, created_at, updated_at FROM users WHERE id = ? LIMIT 1`).bind(id).first();
+      status, created_at, updated_at FROM users
+      WHERE id = ? AND role != 'admin' AND status = 'active' LIMIT 1`).bind(id).first();
     if (!user) return jsonResponse({ error: "User not found." }, 404);
     const [lessons, quizzes, prefs, quizSummary] = await Promise.all([
       env.DB.prepare(`SELECT lesson_id, status, last_accessed_at, completed_at
@@ -1189,6 +1226,327 @@ async function getAdminUserDetail(request, env) {
   } catch (error) {
     console.error("Admin user detail error:", error);
     return jsonResponse({ error: "Unable to load user details." }, 500);
+  }
+}
+
+// ============================================================
+// ADMIN INVITATIONS AND FIRST-ADMIN BOOTSTRAP
+// ============================================================
+
+function normalizeAdminEmail(value) {
+  return typeof value === "string" ? value.trim().toLowerCase() : "";
+}
+
+function validAdminEmail(email) {
+  return email.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function constantTimeStringEqual(a, b) {
+  const left = encoder.encode(String(a || ""));
+  const right = encoder.encode(String(b || ""));
+  if (left.length !== right.length || !left.length) return false;
+  let difference = 0;
+  for (let i = 0; i < left.length; i++) difference |= left[i] ^ right[i];
+  return difference === 0;
+}
+
+async function deliverAdminInvitation(env, email, token) {
+  if (!env.RESEND_API_KEY || !env.APP_BASE_URL) {
+    throw new Error("Admin invitation email is not configured.");
+  }
+  const base = new URL(env.APP_BASE_URL);
+  if (base.protocol !== "https:" && base.hostname !== "localhost") {
+    throw new Error("APP_BASE_URL must use HTTPS.");
+  }
+  const invitationUrl = new URL("/admin-setup.html", base);
+  invitationUrl.searchParams.set("token", token);
+  const response = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${env.RESEND_API_KEY}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      from: "KiteLearn <accounts@mail.kitelearn.in>",
+      to: [email],
+      subject: "Your KiteLearn administrator invitation",
+      html: `<div style="font-family:Arial,sans-serif;max-width:560px;margin:auto;color:#14213D"><h2>KiteLearn administrator access</h2><p>You have been invited to administer KiteLearn.</p><p style="margin:28px 0"><a href="${invitationUrl.toString()}" style="background:#2563EB;color:#fff;padding:13px 22px;text-decoration:none;border-radius:7px;display:inline-block">Set up administrator account</a></p><p>This invitation expires in 24 hours and can only be used once.</p><p>If you were not expecting this invitation, you can ignore this email.</p><hr><p style="font-size:12px;color:#666">KiteLearn - A Personal Tutor for the Stock Market</p></div>`
+    })
+  });
+  if (!response.ok) throw new Error(`Invitation email delivery failed (${response.status}).`);
+}
+
+async function createInvitationRecord(env, email, invitedBy, options = {}) {
+  const token = generateSecureToken();
+  const tokenHash = await hashToken(token);
+  const now = new Date().toISOString();
+  const expiresAt = new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString();
+  const invitationId = crypto.randomUUID();
+
+  await env.DB.batch([
+    env.DB.prepare(`UPDATE admin_invitations SET used_at = ?
+      WHERE email_normalized = ? AND used_at IS NULL`).bind(now, email),
+
+    env.DB.prepare(`INSERT INTO admin_invitations
+      (id, email, email_normalized, token_hash, expires_at, invited_by)
+      VALUES (?, ?, ?, ?, ?, ?)`)
+      .bind(invitationId, email, email, tokenHash, expiresAt, invitedBy)
+  ]);
+
+  // Local dry-run: return the invitation URL without sending email.
+  if (options.localDryRun === true) {
+    const invitationUrl = new URL("/admin-setup.html", env.APP_BASE_URL);
+    invitationUrl.searchParams.set("token", token);
+
+    return {
+      ok: true,
+      dryRun: true,
+      message: "Local administrator invitation created. No email was sent.",
+      invitationUrl: invitationUrl.toString(),
+      expiresAt
+    };
+  }
+
+  try {
+    await deliverAdminInvitation(env, email, token);
+  } catch (error) {
+    await env.DB.prepare(`
+      UPDATE admin_invitations
+      SET used_at = ?
+      WHERE id = ? AND used_at IS NULL
+    `).bind(new Date().toISOString(), invitationId).run();
+
+    throw error;
+  }
+
+  return {
+    ok: true,
+    message: `Administrator invitation sent to ${email}.`
+  };
+}
+
+async function bootstrapFirstAdmin(request, env) {
+  if (request.method !== "POST") {
+    return jsonResponse({ error: "Method not allowed." }, 405);
+  }
+
+  const supplied = request.headers.get("X-KiteLearn-Bootstrap-Secret") || "";
+  const expected = env.ADMIN_BOOTSTRAP_SECRET || "";
+  const allowedEmail = normalizeAdminEmail(env.ADMIN_BOOTSTRAP_EMAIL);
+
+  if (!expected || !constantTimeStringEqual(supplied, expected)) {
+    return jsonResponse({ error: "Bootstrap authorization failed." }, 403);
+  }
+
+  if (!allowedEmail || !validAdminEmail(allowedEmail)) {
+    return jsonResponse({ error: "Bootstrap email is not configured." }, 503);
+  }
+
+  // Dry-run is allowed only when both URLs resolve to loopback.
+  let localDryRun = false;
+
+  if (env.ADMIN_BOOTSTRAP_DRY_RUN === "true") {
+    let requestHost = "";
+    let appHost = "";
+
+    try {
+      requestHost = new URL(request.url).hostname;
+      appHost = new URL(env.APP_BASE_URL || "").hostname;
+    } catch { }
+
+    const loopbackHosts = new Set(["127.0.0.1", "localhost", "::1"]);
+
+    localDryRun =
+      loopbackHosts.has(requestHost) &&
+      loopbackHosts.has(appHost);
+
+    if (!localDryRun) {
+      return jsonResponse({
+        error: "Local dry-run is only permitted on loopback."
+      }, 403);
+    }
+  }
+
+  try {
+    // Limit bootstrap attempts.
+    if (!(await enforceAuthRateLimit(
+      request,
+      env,
+      "admin_bootstrap",
+      allowedEmail,
+      3,
+      3600
+    ))) {
+      return jsonResponse({
+        error: "Too many bootstrap attempts. Try again later."
+      }, 429);
+    }
+
+    const existingAdmin = await env.DB.prepare(`
+      SELECT 1 AS found
+      FROM users
+      WHERE role = 'admin'
+      LIMIT 1
+    `).first();
+
+    if (existingAdmin) {
+      return jsonResponse({
+        error: "Initial administrator is already provisioned. Use an existing administrator to invite another."
+      }, 409);
+    }
+
+    const existingUser = await env.DB.prepare(`
+      SELECT id
+      FROM users
+      WHERE email_normalized = ?
+      LIMIT 1
+    `).bind(allowedEmail).first();
+
+    if (existingUser) {
+      return jsonResponse({
+        error: "An account already exists for the bootstrap email. Contact support for secure recovery."
+      }, 409);
+    }
+
+    return jsonResponse(
+      await createInvitationRecord(
+        env,
+        allowedEmail,
+        null,
+        { localDryRun }
+      ),
+      202
+    );
+
+  } catch (error) {
+    console.error("Admin bootstrap error:", error);
+
+    return jsonResponse({
+      error: "Unable to create the initial administrator invitation."
+    }, 500);
+  }
+}
+
+async function createAdminInvitation(request, env) {
+  if (!isSameOriginRequest(request)) return jsonResponse({ error: "Invalid request origin." }, 403);
+  const auth = await requireAdmin(request, env);
+  if (auth.error) return auth.error;
+  let body;
+  try { body = await readJsonBody(request); }
+  catch { return jsonResponse({ error: "Invalid request body." }, 400); }
+  const email = normalizeAdminEmail(body.email);
+  if (!validAdminEmail(email)) return jsonResponse({ error: "Enter a valid email address." }, 400);
+
+  // Limit invitation creation to reduce email abuse if an admin session is compromised.
+  if (!(await enforceAuthRateLimit(
+    request,
+    env,
+    "admin_invitation_create",
+    auth.user.user_id,
+    5,
+    3600
+  ))) {
+    return jsonResponse({
+      error: "Too many administrator invitations. Please try again in an hour."
+    }, 429);
+  }
+
+  try {
+    const existing = await env.DB.prepare(`SELECT id FROM users WHERE email_normalized = ? LIMIT 1`).bind(email).first();
+    if (existing) return jsonResponse({ error: "An account already exists for this email address." }, 409);
+    const pending = await env.DB.prepare(`SELECT id FROM admin_invitations
+      WHERE email_normalized = ? AND used_at IS NULL AND expires_at > ? LIMIT 1`)
+      .bind(email, new Date().toISOString()).first();
+    if (pending) return jsonResponse({ error: "A valid invitation has already been sent to this address." }, 409);
+    // Enable email-free invitations only on local loopback.
+    let localDryRun = false;
+
+    if (env.ADMIN_BOOTSTRAP_DRY_RUN === "true") {
+      let requestHost = "";
+      let appHost = "";
+
+      try {
+        requestHost = new URL(request.url).hostname;
+        appHost = new URL(env.APP_BASE_URL || "").hostname;
+      } catch { }
+
+      const loopbackHosts = new Set(["127.0.0.1", "localhost", "::1"]);
+
+      localDryRun =
+        loopbackHosts.has(requestHost) &&
+        loopbackHosts.has(appHost);
+
+      if (!localDryRun) {
+        return jsonResponse({
+          error: "Local dry-run is only permitted on loopback."
+        }, 403);
+      }
+    }
+
+    return jsonResponse(
+      await createInvitationRecord(
+        env,
+        email,
+        auth.user.user_id,
+        { localDryRun }
+      ),
+      202
+    );
+  } catch (error) {
+    console.error("Admin invitation error:", error);
+    return jsonResponse({ error: "Unable to create administrator invitation." }, 500);
+  }
+}
+
+async function acceptAdminInvitation(request, env) {
+  if (!isSameOriginRequest(request)) return jsonResponse({ error: "Invalid request origin." }, 403);
+  let body;
+  try { body = await readJsonBody(request); }
+  catch { return jsonResponse({ error: "Invalid request body." }, 400); }
+  const token = typeof body.token === "string" ? body.token : "";
+  const name = typeof body.name === "string" ? body.name.trim().replace(/\s+/g, " ") : "";
+  const password = typeof body.password === "string" ? body.password : "";
+  if (!/^[A-Za-z0-9_-]{20,200}$/.test(token)) return jsonResponse({ error: "This invitation is invalid or expired." }, 400);
+  if (name.length < 2 || name.length > 80) return jsonResponse({ error: "Name must be between 2 and 80 characters." }, 400);
+  if (password.length < 8 || password.length > 128) return jsonResponse({ error: "Password must be between 8 and 128 characters." }, 400);
+  try {
+    // Limit invitation acceptance attempts by both IP and token identity.
+    // The shared auth_rate_limits table is already used by login and other auth flows.
+    if (!(await enforceAuthRateLimit(request, env, "admin_invitation_accept", token, 5, 900))) {
+      return jsonResponse({ error: "Too many setup attempts. Please wait 15 minutes and try again." }, 429);
+    }
+
+    const tokenHash = await hashToken(token);
+    const invitation = await env.DB.prepare(`SELECT id, email, email_normalized
+      FROM admin_invitations WHERE token_hash = ? AND used_at IS NULL AND expires_at > ? LIMIT 1`)
+      .bind(tokenHash, new Date().toISOString()).first();
+    if (!invitation) return jsonResponse({ error: "This invitation is invalid, expired or already used." }, 400);
+    const existing = await env.DB.prepare(`SELECT id FROM users WHERE email_normalized = ? LIMIT 1`)
+      .bind(invitation.email_normalized).first();
+    if (existing) return jsonResponse({ error: "An account already exists for this email. Contact an administrator." }, 409);
+    const passwordHash = await hashPassword(password);
+    const userId = crypto.randomUUID();
+    // A unique marker prevents two simultaneous submissions from consuming one token twice.
+    const consumedMarker = `${new Date().toISOString()}|${crypto.randomUUID()}`;
+    const results = await env.DB.batch([
+      env.DB.prepare(`UPDATE admin_invitations SET used_at = ?
+        WHERE id = ? AND token_hash = ? AND used_at IS NULL AND expires_at > ?`)
+        .bind(consumedMarker, invitation.id, tokenHash, new Date().toISOString()),
+      env.DB.prepare(`INSERT INTO users
+        (id, name, email, email_normalized, password_hash, role, email_verified, status)
+        SELECT ?, ?, email, email_normalized, ?, 'admin', 1, 'active'
+        FROM admin_invitations WHERE id = ? AND token_hash = ? AND used_at = ?`)
+        .bind(userId, name, passwordHash, invitation.id, tokenHash, consumedMarker),
+      env.DB.prepare(`INSERT INTO user_preferences (user_id)
+        SELECT id FROM users WHERE id = ? AND role = 'admin'`).bind(userId)
+    ]);
+    if (results[0]?.meta?.changes !== 1 || results[1]?.meta?.changes !== 1) {
+      return jsonResponse({ error: "This invitation is invalid, expired or already used." }, 400);
+    }
+    return jsonResponse({ ok: true, message: "Administrator account created. You can now sign in." });
+  } catch (error) {
+    console.error("Accept admin invitation error:", error);
+    return jsonResponse({ error: "Unable to complete administrator setup." }, 500);
   }
 }
 
@@ -1528,70 +1886,70 @@ function escapeHtml(value) {
 
 
 async function resendVerificationEmail(request, env) {
-    const genericResponse = () => jsonResponse({
-        ok: true,
-        message: "If an unverified account exists for this email, a verification email will be sent."
-    });
+  const genericResponse = () => jsonResponse({
+    ok: true,
+    message: "If an unverified account exists for this email, a verification email will be sent."
+  });
 
-    if (!env.DB || !env.RESEND_API_KEY || !env.APP_BASE_URL) {
-        return jsonResponse(
-            { error: "Verification service is not configured." },
-            503
-        );
-    }
+  if (!env.DB || !env.RESEND_API_KEY || !env.APP_BASE_URL) {
+    return jsonResponse(
+      { error: "Verification service is not configured." },
+      503
+    );
+  }
 
-    if (!isSameOriginRequest(request)) {
-        return jsonResponse(
-            { error: "Invalid request origin." },
-            403
-        );
-    }
+  if (!isSameOriginRequest(request)) {
+    return jsonResponse(
+      { error: "Invalid request origin." },
+      403
+    );
+  }
 
-    let body;
+  let body;
 
-    try {
-        body = await readJsonBody(request);
-    } catch {
-        return jsonResponse({ error: "Invalid request body." }, 400);
-    }
+  try {
+    body = await readJsonBody(request);
+  } catch {
+    return jsonResponse({ error: "Invalid request body." }, 400);
+  }
 
-    const email = typeof body.email === "string"
-        ? body.email.trim().toLowerCase()
-        : "";
+  const email = typeof body.email === "string"
+    ? body.email.trim().toLowerCase()
+    : "";
+
+  if (
+    !email ||
+    email.length > 254 ||
+    !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+  ) {
+    return jsonResponse({ error: "Enter a valid email address." }, 400);
+  }
+
+  if (!(await enforceAuthRateLimit(request, env, "resend-verification", email, 3, 3600))) {
+    return genericResponse();
+  }
+
+  let appUrl;
+
+  try {
+    appUrl = new URL(env.APP_BASE_URL);
 
     if (
-        !email ||
-        email.length > 254 ||
-        !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+      appUrl.protocol !== "https:" &&
+      appUrl.hostname !== "localhost"
     ) {
-        return jsonResponse({ error: "Enter a valid email address." }, 400);
+      throw new Error("APP_BASE_URL must use HTTPS.");
     }
+  } catch (error) {
+    console.error("Invalid APP_BASE_URL:", error);
+    return jsonResponse(
+      { error: "Verification service is not configured correctly." },
+      503
+    );
+  }
 
-    if (!(await enforceAuthRateLimit(request, env, "resend-verification", email, 3, 3600))) {
-        return genericResponse();
-    }
-
-    let appUrl;
-
-    try {
-        appUrl = new URL(env.APP_BASE_URL);
-
-        if (
-            appUrl.protocol !== "https:" &&
-            appUrl.hostname !== "localhost"
-        ) {
-            throw new Error("APP_BASE_URL must use HTTPS.");
-        }
-    } catch (error) {
-        console.error("Invalid APP_BASE_URL:", error);
-        return jsonResponse(
-            { error: "Verification service is not configured correctly." },
-            503
-        );
-    }
-
-    try {
-        const user = await env.DB.prepare(`
+  try {
+    const user = await env.DB.prepare(`
             SELECT id, name, email
             FROM users
             WHERE email_normalized = ?
@@ -1600,19 +1958,19 @@ async function resendVerificationEmail(request, env) {
             LIMIT 1
         `).bind(email).first();
 
-        // Same response for unknown, verified and inactive accounts.
-        if (!user) {
-            return genericResponse();
-        }
+    // Same response for unknown, verified and inactive accounts.
+    if (!user) {
+      return genericResponse();
+    }
 
-        const now = new Date();
-        const nowIso = now.toISOString();
-        const oneHourAgo = new Date(
-            now.getTime() - 60 * 60 * 1000
-        ).toISOString();
+    const now = new Date();
+    const nowIso = now.toISOString();
+    const oneHourAgo = new Date(
+      now.getTime() - 60 * 60 * 1000
+    ).toISOString();
 
-        // Maximum three verification tokens per account per hour.
-        const recentCount = await env.DB.prepare(`
+    // Maximum three verification tokens per account per hour.
+    const recentCount = await env.DB.prepare(`
             SELECT COUNT(*) AS total
             FROM auth_tokens
             WHERE user_id = ?
@@ -1620,21 +1978,21 @@ async function resendVerificationEmail(request, env) {
               AND created_at >= ?
         `).bind(user.id, oneHourAgo).first();
 
-        if ((recentCount?.total || 0) >= 3) {
-            return genericResponse();
-        }
+    if ((recentCount?.total || 0) >= 3) {
+      return genericResponse();
+    }
 
-        const token = generateSecureToken();
-        const tokenHash = await hashToken(token);
-        const tokenId = crypto.randomUUID();
+    const token = generateSecureToken();
+    const tokenHash = await hashToken(token);
+    const tokenId = crypto.randomUUID();
 
-        const expiresAt = new Date(
-            now.getTime() + 24 * 60 * 60 * 1000
-        ).toISOString();
+    const expiresAt = new Date(
+      now.getTime() + 24 * 60 * 60 * 1000
+    ).toISOString();
 
-        // Invalidate old links and create the new token atomically.
-        await env.DB.batch([
-            env.DB.prepare(`
+    // Invalidate old links and create the new token atomically.
+    await env.DB.batch([
+      env.DB.prepare(`
                 UPDATE auth_tokens
                 SET used_at = ?
                 WHERE user_id = ?
@@ -1642,46 +2000,46 @@ async function resendVerificationEmail(request, env) {
                   AND used_at IS NULL
             `).bind(nowIso, user.id),
 
-            env.DB.prepare(`
+      env.DB.prepare(`
                 INSERT INTO auth_tokens (
                     id, user_id, token_hash, purpose, expires_at
                 )
                 VALUES (?, ?, ?, 'email_verification', ?)
             `).bind(tokenId, user.id, tokenHash, expiresAt)
-        ]);
+    ]);
 
-        const verificationUrl = new URL(
-            "/verify-email.html",
-            appUrl
-        );
+    const verificationUrl = new URL(
+      "/verify-email.html",
+      appUrl
+    );
 
-        verificationUrl.searchParams.set("token", token);
+    verificationUrl.searchParams.set("token", token);
 
-        const emailResult = await sendVerificationEmail(
-            env.RESEND_API_KEY,
-            user.email,
-            user.name,
-            verificationUrl.toString()
-        );
+    const emailResult = await sendVerificationEmail(
+      env.RESEND_API_KEY,
+      user.email,
+      user.name,
+      verificationUrl.toString()
+    );
 
-        if (!emailResult.ok) {
-            console.error(
-                "Resend verification delivery failed:",
-                emailResult.status
-            );
-        }
-
-        // Do not reveal whether an account exists or email delivery succeeded.
-        return genericResponse();
-
-    } catch (error) {
-        console.error("Resend verification error:", error);
-
-        return jsonResponse(
-            { error: "Unable to process your request. Please try again." },
-            500
-        );
+    if (!emailResult.ok) {
+      console.error(
+        "Resend verification delivery failed:",
+        emailResult.status
+      );
     }
+
+    // Do not reveal whether an account exists or email delivery succeeded.
+    return genericResponse();
+
+  } catch (error) {
+    console.error("Resend verification error:", error);
+
+    return jsonResponse(
+      { error: "Unable to process your request. Please try again." },
+      500
+    );
+  }
 }
 
 async function verifyStudentEmail(request, env) {
@@ -1847,12 +2205,12 @@ async function requestPasswordReset(request, env) {
   try {
     const user = await env.DB.prepare(`SELECT id, name, email FROM users WHERE email_normalized = ? AND status = 'active' AND email_verified = 1 LIMIT 1`).bind(email).first();
     if (!user) return generic();
-    const recent = await env.DB.prepare(`SELECT COUNT(*) AS total FROM auth_tokens WHERE user_id = ? AND purpose = 'password_reset' AND created_at >= ?`).bind(user.id, new Date(Date.now()-3600000).toISOString()).first();
+    const recent = await env.DB.prepare(`SELECT COUNT(*) AS total FROM auth_tokens WHERE user_id = ? AND purpose = 'password_reset' AND created_at >= ?`).bind(user.id, new Date(Date.now() - 3600000).toISOString()).first();
     if ((recent?.total || 0) >= 3) return generic();
     const token = generateSecureToken();
     const tokenHash = await hashToken(token);
     const now = new Date().toISOString();
-    const expires = new Date(Date.now()+3600000).toISOString();
+    const expires = new Date(Date.now() + 3600000).toISOString();
     await env.DB.batch([
       env.DB.prepare(`UPDATE auth_tokens SET used_at = ? WHERE user_id = ? AND purpose = 'password_reset' AND used_at IS NULL`).bind(now, user.id),
       env.DB.prepare(`INSERT INTO auth_tokens (id,user_id,token_hash,purpose,expires_at) VALUES (?,?,?,'password_reset',?)`).bind(crypto.randomUUID(), user.id, tokenHash, expires)

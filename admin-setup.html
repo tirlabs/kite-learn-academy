@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#14213D">
+<meta name="referrer" content="no-referrer">
+<title>Administrator Setup | KiteLearn</title>
+<style>
+:root{--blue:#2563EB;--navy:#14213D;--muted:#64748B;--bg:#F8FAFC}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:var(--bg);font-family:Arial,Helvetica,sans-serif;color:var(--navy)}.card{width:100%;max-width:460px;padding:40px 32px;background:#fff;border:1px solid #E2E8F0;border-radius:18px;box-shadow:0 12px 40px rgba(20,33,61,.07)}.brand{display:block;width:190px;max-width:100%;margin:0 auto 30px}h1{font-size:25px;margin:0 0 10px;text-align:center}p{color:var(--muted);font-size:14px;line-height:1.6;text-align:center;margin:0 0 24px}label{display:block;font-size:13px;font-weight:700;margin:14px 0 7px}input{width:100%;padding:14px;border:1px solid #CBD5E1;border-radius:8px;font-size:15px}button,.back{display:block;width:100%;padding:14px 18px;border:0;border-radius:9px;background:var(--blue);color:white;font-size:15px;font-weight:700;text-align:center;text-decoration:none;cursor:pointer;margin-top:18px}button:disabled{opacity:.6;cursor:wait}.message{display:none;margin:16px 0;padding:12px;border-radius:8px;font-size:14px;line-height:1.5}.message.show{display:block}.success{background:#F0FDF4;color:#166534;border:1px solid #BBF7D0}.error{background:#FEF2F2;color:#B91C1C;border:1px solid #FECACA}.back{background:var(--navy)}
+</style>
+<script>
+/* Capture the invitation token and scrub it before the page loads other resources. */
+let invitationToken = "";
+try {
+  const params = new URLSearchParams(window.location.search);
+  invitationToken = params.get("token") || "";
+  window.history.replaceState({}, document.title, window.location.pathname);
+} catch {
+  invitationToken = "";
+}
+</script>
+</head>
+<body>
+<main class="card">
+  <img src="kitelearn-logo-final.png" alt="KiteLearn" class="brand">
+  <h1>Set up administrator access</h1>
+  <p>Complete your KiteLearn administrator account. This invitation can only be used once and expires after 24 hours.</p>
+  <form id="setup-form">
+    <label for="name">Your name</label>
+    <input id="name" type="text" minlength="2" maxlength="80" autocomplete="name" required>
+    <label for="password">Create password</label>
+    <input id="password" type="password" minlength="8" maxlength="128" autocomplete="new-password" required>
+    <label for="confirm">Confirm password</label>
+    <input id="confirm" type="password" minlength="8" maxlength="128" autocomplete="new-password" required>
+    <div id="message" class="message" role="status" aria-live="polite"></div>
+    <button id="submit" type="submit">Create administrator account</button>
+  </form>
+  <a class="back" href="/admin.html">Go to administrator sign in</a>
+</main>
+<script>
+const form = document.getElementById("setup-form");
+const msg = document.getElementById("message");
+const btn = document.getElementById("submit");
+
+function show(text, type) {
+  msg.textContent = text;
+  msg.className = "message show " + type;
+}
+
+if (!/^[A-Za-z0-9_-]{20,200}$/.test(invitationToken)) {
+  show("This invitation link is missing or invalid. Ask an administrator to send a new invitation.", "error");
+  btn.disabled = true;
+}
+
+form.addEventListener("submit", async event => {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const passwordInput = document.getElementById("password");
+  const confirmInput = document.getElementById("confirm");
+  const password = passwordInput.value;
+  const confirm = confirmInput.value;
+
+  if (password !== confirm) {
+    show("The passwords do not match.", "error");
+    return;
+  }
+
+  if (!invitationToken) {
+    show("This invitation link is missing or invalid. Ask an administrator to send a new invitation.", "error");
+    btn.disabled = true;
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = "Creating account…";
+
+  try {
+    const response = await fetch("/api/admin/accept-invitation", {
+      method: "POST",
+      credentials: "same-origin",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({token: invitationToken, name, password})
+    });
+    const data = await response.json().catch(() => ({}));
+
+    if (!response.ok || !data.ok) {
+      throw new Error(data.error || "Unable to complete setup.");
+    }
+
+    show(data.message || "Administrator account created. You can now sign in.", "success");
+    form.querySelectorAll("input").forEach(input => {
+      input.value = "";
+      input.disabled = true;
+    });
+    invitationToken = "";
+    btn.textContent = "Account created";
+    btn.disabled = true;
+  } catch (error) {
+    show(error.message || "Unable to complete setup.", "error");
+    btn.disabled = false;
+    btn.textContent = "Create administrator account";
+  }
+});
+</script>
+</body>
+</html>
