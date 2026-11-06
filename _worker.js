@@ -1,6 +1,6 @@
 const SESSION_COOKIE = "__Host-kitelearn_session";
 const SESSION_DURATION_SECONDS = 30 * 24 * 60 * 60;
-const PASSWORD_ITERATIONS = 600_000;
+const PASSWORD_ITERATIONS = 100_000;
 const PASSWORD_HASH_VERSION = "pbkdf2-sha256";
 
 const encoder = new TextEncoder();
