@@ -24,3 +24,7 @@ pnpm-debug.log*
 # Temporary files
 *.tmp
 *.temp
+.wrangler/
+_worker.bundle
+
+.dev.vars

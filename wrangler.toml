@@ -1,0 +1,16 @@
+name = "kitelearn"
+pages_build_output_dir = ""
+compatibility_date = "2026-07-11"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kitelearn-db"
+database_id = "ccd384b8-45e8-454b-a88b-d9ef9cff16cc"
+preview_database_id = "DB"
+
+[env.production]
+
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "kitelearn-db"
+database_id = "ccd384b8-45e8-454b-a88b-d9ef9cff16cc"

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#14213D">
+    <title>Verify Email | KiteLearn</title>
+
+    <style>
+        :root {
+            --blue: #2563EB;
+            --navy: #14213D;
+            --yellow: #FACC15;
+            --muted: #64748B;
+            --background: #F8FAFC;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            background: var(--background);
+            font-family: Arial, Helvetica, sans-serif;
+            color: var(--navy);
+        }
+
+        .card {
+            width: 100%;
+            max-width: 440px;
+            padding: 42px 32px;
+            text-align: center;
+            background: #fff;
+            border: 1px solid #E2E8F0;
+            border-radius: 18px;
+            box-shadow: 0 12px 40px rgba(20, 33, 61, 0.07);
+        }
+
+        .brand {
+            font-size: 27px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 34px;
+        }
+
+        .brand span {
+            color: var(--blue);
+        }
+
+        .icon {
+            width: 68px;
+            height: 68px;
+            display: grid;
+            place-items: center;
+            margin: 0 auto 22px;
+            border-radius: 50%;
+            background: #EFF6FF;
+            color: var(--blue);
+            font-size: 30px;
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: 25px;
+        }
+
+        p {
+            color: var(--muted);
+            font-size: 15px;
+            line-height: 1.7;
+            margin: 0 0 25px;
+        }
+
+        button,
+        .home-link {
+            display: block;
+            width: 100%;
+            padding: 14px 20px;
+            border: 0;
+            border-radius: 9px;
+            background: var(--blue);
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            opacity: 0.65;
+            cursor: wait;
+        }
+
+        .home-link {
+            margin-top: 12px;
+            background: var(--navy);
+        }
+
+        .message {
+            display: none;
+            margin-top: 20px;
+            padding: 13px;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .message.success {
+            display: block;
+            color: #166534;
+            background: #F0FDF4;
+            border: 1px solid #BBF7D0;
+        }
+
+        .message.error {
+            display: block;
+            color: #B91C1C;
+            background: #FEF2F2;
+            border: 1px solid #FECACA;
+        }
+
+        /* Recovery controls stay hidden until verification needs recovery. */
+        .resend-section {
+            display: none;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .resend-section p {
+            margin: 0 0 12px;
+            text-align: center;
+        }
+
+        .resend-section input {
+            display: block;
+            width: 100%;
+            min-height: 46px;
+            padding: 12px 14px;
+            margin: 0 0 10px;
+            border: 1px solid #CBD5E1;
+            border-radius: 9px;
+            background: #fff;
+            color: var(--navy);
+            font: inherit;
+            font-size: 15px;
+            outline: none;
+        }
+
+        .resend-section input:focus {
+            border-color: var(--blue);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+        }
+
+        .resend-section button {
+            background: var(--blue);
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #94A3B8;
+            font-size: 12px;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 34px 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="card">
+        <div class="brand">Kite<span>Learn</span></div>
+
+        <div class="icon" id="status-icon">✉</div>
+
+        <h1 id="heading">Verify your email</h1>
+
+        <p id="description">
+            One final step! Confirm your email address to activate
+            your KiteLearn account and begin learning.
+        </p>
+
+        <button id="verify-button" type="button">
+            Verify Email Address
+        </button>
+
+        <div id="message" class="message" role="status"
+             aria-live="polite"></div>
+
+        <div id="resend-section" class="resend-section">
+            <p>Need a fresh verification link?</p>
+
+            <input
+                type="email"
+                id="resend-email"
+                placeholder="Enter your registered email"
+                autocomplete="email"
+                required
+            >
+
+            <button id="resend-button" type="button">
+                Send New Verification Link
+            </button>
+        </div>
+
+        <a class="home-link" href="/">Go to KiteLearn</a>
+
+        <div class="footer">
+            KiteLearn — A Personal Tutor for the Stock Market
+        </div>
+    </main>
+
+    <script>
+        const token = new URLSearchParams(
+            window.location.search
+        ).get("token");
+
+        const button = document.getElementById("verify-button");
+        const heading = document.getElementById("heading");
+        const description = document.getElementById("description");
+        const message = document.getElementById("message");
+        const icon = document.getElementById("status-icon");
+
+        const resendSection = document.getElementById("resend-section");
+        const resendEmail = document.getElementById("resend-email");
+        const resendButton = document.getElementById("resend-button");
+
+        function showMessage(text, type) {
+            message.textContent = text;
+            message.className = "message " + type;
+        }
+
+        function showResendOption() {
+            resendSection.style.display = "block";
+            button.style.display = "none";
+        }
+
+        if (!token || !/^[A-Za-z0-9_-]{20,200}$/.test(token)) {
+            heading.textContent = "Invalid verification link";
+            description.textContent =
+                "This link is missing or invalid. Please request a new verification email.";
+
+            icon.textContent = "!";
+            showMessage(
+                "Please check that you opened the complete link from your email.",
+                "error"
+            );
+            showResendOption();
+        }
+
+        button.addEventListener("click", async () => {
+            if (!token || !/^[A-Za-z0-9_-]{20,200}$/.test(token)) {
+                return;
+            }
+
+            button.disabled = true;
+            button.textContent = "Verifying...";
+            message.className = "message";
+
+            try {
+                const response = await fetch("/api/verify-email", {
+                    method: "POST",
+                    credentials: "same-origin",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ token })
+                });
+
+                const result = await response.json();
+
+                if (!response.ok || !result.ok) {
+                    throw new Error(
+                        result.error || "Verification failed."
+                    );
+                }
+
+                heading.textContent = "Email verified!";
+                description.textContent =
+                    "Your KiteLearn account is now verified. You can sign in and start your learning journey.";
+
+                icon.textContent = "✓";
+                icon.style.background = "#F0FDF4";
+                icon.style.color = "#16A34A";
+
+                button.style.display = "none";
+                resendSection.style.display = "none";
+
+                showMessage(
+                    "Your email address has been successfully verified.",
+                    "success"
+                );
+
+                // Remove the token from the visible URL.
+                window.history.replaceState(
+                    {},
+                    document.title,
+                    window.location.pathname
+                );
+
+            } catch (error) {
+                showMessage(
+                    error.message || "Verification failed. Please request a new link.",
+                    "error"
+                );
+                showResendOption();
+            }
+        });
+
+        resendButton.addEventListener("click", async () => {
+            const email = resendEmail.value.trim();
+
+            if (!email || !resendEmail.checkValidity()) {
+                showMessage("Please enter a valid email address.", "error");
+                return;
+            }
+
+            resendButton.disabled = true;
+            resendButton.textContent = "Sending...";
+
+            try {
+                const response = await fetch("/api/resend-verification", {
+                    method: "POST",
+                    credentials: "same-origin",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ email })
+                });
+
+                const result = await response.json();
+
+                if (!response.ok || !result.ok) {
+                    throw new Error(
+                        result.error || "Unable to process your request."
+                    );
+                }
+
+                showMessage(
+                    "If an unverified account exists for this email, a verification email will be sent. Please check your inbox.",
+                    "success"
+                );
+
+                resendEmail.value = "";
+
+            } catch (error) {
+                showMessage(
+                    error.message || "Unable to process your request. Please try again.",
+                    "error"
+                );
+            } finally {
+                resendButton.disabled = false;
+                resendButton.textContent = "Send New Verification Link";
+            }
+        });
+    </script>
+</body>
+</html>
