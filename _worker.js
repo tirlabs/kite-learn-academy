@@ -43,7 +43,7 @@ export default {
         response = await env.ASSETS.fetch(request);
       }
 
-      return applyHeaders(response);
+      return applyHeaders(response, pathname.startsWith("/api/admin/"));
     } catch (error) {
       console.error("KiteLearn Worker error:", error);
 
@@ -115,6 +115,17 @@ async function handleApiRequest(request, env) {
 
   if (url.pathname === "/api/progress/lesson" && request.method === "POST") {
     return updateLessonProgress(request, env);
+  }
+
+  // Admin APIs: every request is independently authenticated and authorized.
+  if (url.pathname === "/api/admin/overview" && request.method === "GET") {
+    return getAdminOverview(request, env);
+  }
+  if (url.pathname === "/api/admin/users" && request.method === "GET") {
+    return getAdminUsers(request, env);
+  }
+  if (url.pathname === "/api/admin/user" && request.method === "GET") {
+    return getAdminUserDetail(request, env);
   }
 
   if (url.pathname === "/api/progress/quiz" && request.method === "POST") {
@@ -1044,6 +1055,140 @@ async function saveQuizAttempt(request, env) {
       { error: "Unable to save quiz attempt." },
       500
     );
+  }
+}
+
+
+// ============================================================
+// ADMIN ANALYTICS (read-only)
+// ============================================================
+
+async function requireAdmin(request, env) {
+  const user = await authenticateRequest(request, env);
+  if (!user || !user.email_verified || user.role !== "admin") {
+    return { error: jsonResponse({ error: "Administrator access required." }, 403) };
+  }
+  return { user };
+}
+
+async function getAdminOverview(request, env) {
+  const auth = await requireAdmin(request, env);
+  if (auth.error) return auth.error;
+  try {
+    const url = new URL(request.url);
+    const range = [7, 30, 90].includes(Number(url.searchParams.get("days")))
+      ? Number(url.searchParams.get("days")) : 30;
+    const since = new Date(Date.now() - range * 86400000).toISOString();
+    const results = await env.DB.batch([
+      env.DB.prepare(`SELECT COUNT(*) AS total,
+        SUM(CASE WHEN email_verified = 1 THEN 1 ELSE 0 END) AS verified,
+        SUM(CASE WHEN created_at >= ? THEN 1 ELSE 0 END) AS new_in_range
+        FROM users WHERE status = 'active'`).bind(since),
+      env.DB.prepare(`SELECT COUNT(DISTINCT user_id) AS active
+        FROM lesson_progress WHERE last_accessed_at >= ?`).bind(since),
+      env.DB.prepare(`SELECT COUNT(*) AS total,
+        SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS completed
+        FROM lesson_progress`),
+      env.DB.prepare(`SELECT COUNT(*) AS total, SUM(is_correct) AS correct,
+        COUNT(DISTINCT user_id) AS learners FROM quiz_attempts`),
+      env.DB.prepare(`SELECT substr(created_at, 1, 10) AS day, COUNT(*) AS count
+        FROM users WHERE created_at >= ? AND status = 'active'
+        GROUP BY substr(created_at, 1, 10) ORDER BY day`).bind(since),
+      env.DB.prepare(`SELECT lesson_id, COUNT(*) AS learners,
+        SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS completions
+        FROM lesson_progress GROUP BY lesson_id ORDER BY learners DESC LIMIT 8`),
+      env.DB.prepare(`SELECT COALESCE(p.language, 'en') AS language, COUNT(*) AS users
+        FROM users u LEFT JOIN user_preferences p ON p.user_id = u.id
+        WHERE u.status = 'active' GROUP BY COALESCE(p.language, 'en') ORDER BY users DESC`)
+    ]);
+    const first = r => r?.results?.[0] || {};
+    const u = first(results[0]), p = first(results[2]), q = first(results[3]);
+    return jsonResponse({
+      ok: true, range,
+      metrics: {
+        totalUsers: Number(u.total || 0), verifiedUsers: Number(u.verified || 0),
+        newUsers: Number(u.new_in_range || 0), activeLearners: Number(first(results[1]).active || 0),
+        lessonRecords: Number(p.total || 0), lessonsCompleted: Number(p.completed || 0),
+        quizAttempts: Number(q.total || 0), correctAnswers: Number(q.correct || 0),
+        quizAccuracy: Number(q.total ? Math.round((q.correct || 0) * 100 / q.total) : 0),
+        quizLearners: Number(q.learners || 0)
+      },
+      signups: results[4]?.results || [], popularLessons: results[5]?.results || [],
+      languages: results[6]?.results || []
+    });
+  } catch (error) {
+    console.error("Admin overview error:", error);
+    return jsonResponse({ error: "Unable to load admin analytics." }, 500);
+  }
+}
+
+async function getAdminUsers(request, env) {
+  const auth = await requireAdmin(request, env);
+  if (auth.error) return auth.error;
+  try {
+    const url = new URL(request.url);
+    const search = (url.searchParams.get("q") || "").trim().slice(0, 100);
+    const page = Math.max(1, Math.min(10000, Number(url.searchParams.get("page")) || 1));
+    const joinedRaw = Number(url.searchParams.get("joinedDays")) || 0;
+    const joinedDays = [7, 30, 90].includes(joinedRaw) ? joinedRaw : 0;
+    const activeRaw = url.searchParams.get("activeDays") || "0";
+    const activeDays = ["7", "30", "90", "inactive"].includes(activeRaw) ? activeRaw : "0";
+    const joinedSince = joinedDays ? new Date(Date.now() - joinedDays * 86400000).toISOString() : "";
+    const activeSince = ["7", "30", "90"].includes(activeDays) ? new Date(Date.now() - Number(activeDays) * 86400000).toISOString() : "";
+    const limit = 25, offset = (page - 1) * limit;
+    const pattern = `%${search.replace(/[\\%_]/g, "\\$&")}%`;
+    const filters = `(? = '' OR u.name LIKE ? ESCAPE '\\' OR u.email LIKE ? ESCAPE '\\')
+      AND (? = '' OR u.created_at >= ?)
+      AND (? = '0' OR (? = 'inactive' AND NOT EXISTS (SELECT 1 FROM lesson_progress lp WHERE lp.user_id = u.id) AND NOT EXISTS (SELECT 1 FROM quiz_attempts qa WHERE qa.user_id = u.id))
+        OR (? != 'inactive' AND (EXISTS (SELECT 1 FROM lesson_progress lp WHERE lp.user_id = u.id AND lp.last_accessed_at >= ?) OR EXISTS (SELECT 1 FROM quiz_attempts qa WHERE qa.user_id = u.id AND qa.attempted_at >= ?))))`;
+    const filterBinds = [search, pattern, pattern, joinedSince, joinedSince, activeDays, activeDays, activeDays, activeSince, activeSince];
+    const [count, rows] = await Promise.all([
+      env.DB.prepare(`SELECT COUNT(*) AS total FROM users u WHERE ${filters}`).bind(...filterBinds).first(),
+      env.DB.prepare(`SELECT u.id, u.name, u.email, u.role, u.email_verified,
+          u.status, u.created_at,
+          MAX(
+            COALESCE((SELECT MAX(lp.last_accessed_at) FROM lesson_progress lp WHERE lp.user_id = u.id), ''),
+            COALESCE((SELECT MAX(qa.attempted_at) FROM quiz_attempts qa WHERE qa.user_id = u.id), '')
+          ) AS last_activity,
+          (SELECT COUNT(*) FROM lesson_progress lp WHERE lp.user_id = u.id AND lp.status = 'completed') AS lessons_completed,
+          (SELECT COUNT(*) FROM quiz_attempts qa WHERE qa.user_id = u.id) AS quiz_attempts
+        FROM users u WHERE ${filters}
+        ORDER BY u.created_at DESC LIMIT ? OFFSET ?`)
+        .bind(...filterBinds, limit, offset).all()
+    ]);
+    return jsonResponse({ ok: true, page, pageSize: limit, total: Number(count?.total || 0), users: rows.results || [] });
+  } catch (error) {
+    console.error("Admin users error:", error);
+    return jsonResponse({ error: "Unable to load users." }, 500);
+  }
+}
+
+async function getAdminUserDetail(request, env) {
+  const auth = await requireAdmin(request, env);
+  if (auth.error) return auth.error;
+  try {
+    const url = new URL(request.url), id = (url.searchParams.get("id") || "").trim();
+    if (!id || id.length > 100) return jsonResponse({ error: "A valid user ID is required." }, 400);
+    const user = await env.DB.prepare(`SELECT id, name, email, role, email_verified,
+      status, created_at, updated_at FROM users WHERE id = ? LIMIT 1`).bind(id).first();
+    if (!user) return jsonResponse({ error: "User not found." }, 404);
+    const [lessons, quizzes, prefs, quizSummary] = await Promise.all([
+      env.DB.prepare(`SELECT lesson_id, status, last_accessed_at, completed_at
+        FROM lesson_progress WHERE user_id = ? ORDER BY last_accessed_at DESC`).bind(id).all(),
+      env.DB.prepare(`SELECT lesson_id, question_id, is_correct, attempted_at
+        FROM quiz_attempts WHERE user_id = ? ORDER BY attempted_at DESC LIMIT 200`).bind(id).all(),
+      env.DB.prepare(`SELECT theme, language FROM user_preferences WHERE user_id = ?`).bind(id).first(),
+      env.DB.prepare(`SELECT COUNT(*) AS total, SUM(is_correct) AS correct
+        FROM quiz_attempts WHERE user_id = ?`).bind(id).first()
+    ]);
+    return jsonResponse({
+      ok: true, user: { ...user, language: prefs?.language || "en", theme: prefs?.theme || "system" },
+      lessons: lessons.results || [], quizzes: quizzes.results || [],
+      quizSummary: { total: Number(quizSummary?.total || 0), correct: Number(quizSummary?.correct || 0) }
+    });
+  } catch (error) {
+    console.error("Admin user detail error:", error);
+    return jsonResponse({ error: "Unable to load user details." }, 500);
   }
 }
 

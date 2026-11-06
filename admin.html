@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KiteLearn Admin</title><link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<div id="login-view" class="login-shell">
+  <form id="login-form" class="login-card">
+    <img src="kitelearn-logo-final.png" alt="KiteLearn" class="brand">
+    <span class="eyebrow">ADMINISTRATION</span><h1>Welcome back</h1>
+    <p>Sign in with your administrator account.</p>
+    <label>Email address<input id="login-email" type="email" autocomplete="username" required></label>
+    <label>Password<input id="login-password" type="password" autocomplete="current-password" required></label>
+    <p id="login-error" class="feedback" role="alert"></p>
+    <button class="primary-btn" type="submit">Sign in</button>
+    <a href="/" class="back-link">← Back to KiteLearn</a>
+  </form>
+</div>
+<div id="admin-app" class="app-shell hidden">
+  <aside class="sidebar">
+    <a class="brand-link" href="/"><img src="kitelearn-logo-final.png" alt="KiteLearn"></a>
+    <div class="side-label">WORKSPACE</div>
+    <button class="nav-item active" data-view="overview"><span>▦</span> Overview</button>
+    <button class="nav-item" data-view="users"><span>♙</span> Users</button>
+    <div class="sidebar-bottom"><div class="admin-identity"><span class="avatar">A</span><div><b id="admin-name">Admin</b><small>Administrator</small></div></div><button id="logout-btn" class="logout-btn">Sign out</button></div>
+  </aside>
+  <main class="main-area">
+    <header class="topbar"><div><div class="eyebrow">KITELEARN / ADMIN</div><h1 id="page-title">Overview</h1></div><div class="top-actions"><select id="date-range" aria-label="Analytics date range"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option></select><button id="refresh-btn" class="icon-btn" title="Refresh">↻</button></div></header>
+    <section id="overview-view" class="view">
+      <div class="welcome-row"><div><h2>Your learning platform at a glance</h2><p>Understand signups, engagement and learning progress.</p></div><span id="updated-at" class="muted"></span></div>
+      <div class="metric-grid">
+        <article class="metric-card"><span>Total users</span><strong id="m-total">—</strong><small id="m-verified">— verified</small></article>
+        <article class="metric-card"><span>New signups</span><strong id="m-new">—</strong><small id="range-label">In selected period</small></article>
+        <article class="metric-card"><span>Active learners</span><strong id="m-active">—</strong><small>Accessed a lesson in period</small></article>
+        <article class="metric-card"><span>Lessons completed</span><strong id="m-completed">—</strong><small id="m-records">— tracked lesson records</small></article>
+        <article class="metric-card"><span>Quiz attempts</span><strong id="m-quizzes">—</strong><small id="m-accuracy">—% correct</small></article>
+      </div>
+      <div class="panel-grid">
+        <article class="panel signup-panel"><div class="panel-heading"><div><h3>Signup activity</h3><p>New accounts by day</p></div></div><div id="signup-chart" class="chart-area"><div class="empty-state">Loading signups…</div></div></article>
+        <article class="panel"><div class="panel-heading"><div><h3>Learning languages</h3><p>Registered users by preference</p></div></div><div id="language-list" class="simple-list"><div class="empty-state">Loading…</div></div></article>
+      </div>
+      <article class="panel"><div class="panel-heading"><div><h3>Most engaged lessons</h3><p>Based on recorded learner activity</p></div></div><div class="table-wrap"><table><thead><tr><th>Lesson</th><th>Learners</th><th>Completions</th></tr></thead><tbody id="popular-lessons"><tr><td colspan="3" class="empty-state">Loading…</td></tr></tbody></table></div></article>
+      <p class="data-note">Metrics reflect records currently stored in KiteLearn. Active learner means a learner with lesson activity in the selected period; it does not measure time spent.</p>
+    </section>
+    <section id="users-view" class="view hidden">
+      <div class="welcome-row"><div><h2>Student accounts</h2><p>Search accounts and review individual learning activity.</p></div><button id="export-btn" class="secondary-btn">↓ Export current page CSV</button></div>
+      <div class="panel user-panel"><div class="user-toolbar">
+          <input id="user-search" type="search" placeholder="Search by name or email">
+          <select id="joined-filter" aria-label="Filter by registration date"><option value="0">All registration dates</option><option value="7">Joined in last 7 days</option><option value="30">Joined in last 30 days</option><option value="90">Joined in last 90 days</option></select>
+          <select id="activity-filter" aria-label="Filter by last activity"><option value="0">Any activity</option><option value="7">Active in last 7 days</option><option value="30">Active in last 30 days</option><option value="90">Active in last 90 days</option><option value="inactive">No activity</option></select>
+          <span id="user-count" class="muted"></span>
+        </div>
+        <div class="table-wrap"><table><thead><tr><th>Student</th><th>Joined</th><th>Verification</th><th>Lessons</th><th>Quiz attempts</th><th>Last activity</th></tr></thead><tbody id="users-table"><tr><td colspan="6" class="empty-state">Loading users…</td></tr></tbody></table></div>
+        <div class="pagination"><button id="prev-page" class="secondary-btn">Previous</button><span id="page-label">Page 1</span><button id="next-page" class="secondary-btn">Next</button></div>
+      </div>
+    </section>
+  </main>
+</div>
+<div id="user-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-name"><div class="modal-card"><button id="modal-close" class="modal-close" aria-label="Close">×</button><div class="eyebrow">LEARNER PROFILE</div><h2 id="modal-name">Student</h2><p id="modal-email" class="muted"></p><div id="modal-meta" class="profile-stats"></div>
+      <div id="modal-summary" class="profile-summary"></div>
+      <div class="profile-section"><h3>Lesson activity <span id="modal-lesson-count" class="section-count"></span></h3><div id="modal-lessons" class="activity-list"></div></div>
+      <div class="profile-section"><h3>Recent quiz attempts <span id="modal-quiz-count" class="section-count"></span></h3><div id="modal-quizzes" class="activity-list"></div></div></div></div>
+<script src="js/admin.js" defer></script>
+</body></html>
