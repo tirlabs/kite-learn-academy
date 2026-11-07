@@ -364,21 +364,77 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    // Learner dashboard metrics are derived from the curriculum and saved server progress.
+    function renderLearnerProgressOverview(modules) {
+        const host = document.getElementById("learner-progress-overview");
+        if (!host) return;
+
+        const allModules = Array.isArray(modules) ? modules : [];
+        const allLessons = allModules.flatMap(module => Array.isArray(module.lessons) ? module.lessons : []);
+        const lessonRecords = Array.isArray(studentProgress?.lessons) ? studentProgress.lessons : [];
+        const quizAttempts = Array.isArray(studentProgress?.quizAttempts) ? studentProgress.quizAttempts : [];
+        const completedIds = new Set(lessonRecords
+            .filter(record => record?.status === "completed")
+            .map(record => record.lesson_id));
+        const completedCount = allLessons.filter(lesson => completedIds.has(lesson.id)).length;
+        const totalLessons = allLessons.length;
+        const attemptCount = quizAttempts.length;
+        const correctCount = quizAttempts.filter(attempt => attempt?.is_correct === true || Number(attempt?.is_correct) === 1).length;
+        const accuracy = attemptCount ? Math.round((correctCount / attemptCount) * 100) : null;
+        const courseProgress = totalLessons ? Math.round((completedCount / totalLessons) * 100) : 0;
+        const number = value => new Intl.NumberFormat().format(value);
+
+        host.innerHTML = `
+            <article class="learner-stat-card">
+                <span class="learner-stat-label">Lessons completed</span>
+                <strong class="learner-stat-value">${number(completedCount)}<small> / ${number(totalLessons)}</small></strong>
+                <span class="learner-stat-note">Completed lessons</span>
+            </article>
+            <article class="learner-stat-card">
+                <span class="learner-stat-label">Quiz questions attempted</span>
+                <strong class="learner-stat-value">${number(attemptCount)}</strong>
+                <span class="learner-stat-note">Including repeat attempts</span>
+            </article>
+            <article class="learner-stat-card">
+                <span class="learner-stat-label">Quiz accuracy</span>
+                <strong class="learner-stat-value">${accuracy === null ? "—" : accuracy + "%"}</strong>
+                <span class="learner-stat-note">${number(correctCount)} correct ${attemptCount ? "out of " + number(attemptCount) : "· no attempts yet"}</span>
+            </article>
+            <article class="learner-stat-card learner-stat-card-progress">
+                <span class="learner-stat-label">Course progress</span>
+                <strong class="learner-stat-value">${totalLessons ? courseProgress + "%" : "—"}</strong>
+                <span class="learner-stat-note">${number(completedCount)} of ${number(totalLessons)} lessons completed</span>
+                <div class="learner-progress-track" role="progressbar" aria-label="Overall course progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${courseProgress}"><span class="learner-progress-fill" style="width:${courseProgress}%"></span></div>
+            </article>`;
+    }
+
     // Authenticated Student Module Grid Selection Hub Screen
     function renderAuthenticatedHub(modules) {
         gridAuthDashboardModules.innerHTML = "";
         const styles = ['mod-blue', 'mod-green', 'mod-orange', 'mod-red', 'mod-yellow'];
+        const lessonRecords = Array.isArray(studentProgress?.lessons) ? studentProgress.lessons : [];
+        const completedIds = new Set(lessonRecords.filter(record => record?.status === "completed").map(record => record.lesson_id));
+
+        renderLearnerProgressOverview(modules);
 
         modules.forEach((mod, idx) => {
+            const lessons = Array.isArray(mod.lessons) ? mod.lessons : [];
+            const completed = lessons.filter(lesson => completedIds.has(lesson.id)).length;
+            const total = lessons.length;
+            const percent = total ? Math.round(completed * 100 / total) : 0;
             const card = document.createElement("div");
-            card.className = `brilliant-card ${styles[idx % styles.length]}`;
+            card.className = `brilliant-card ${styles[idx % styles.length]} learner-module-card`;
             card.innerHTML = `
                 <div>
                     <h3>${mod.moduleName}</h3>
                     <p>${mod.description}</p>
                 </div>
+                <div class="learner-module-progress">
+                    <div class="learner-module-progress-meta"><span>${completed} of ${total} lessons completed</span><strong>${percent}%</strong></div>
+                    <div class="learner-progress-track" role="progressbar" aria-label="${mod.moduleName} progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent}"><span class="learner-progress-fill" style="width:${percent}%"></span></div>
+                </div>
                 <div class="card-meta-row">
-                    <span class="chapter-badge">${mod.lessons.length} Chapters →</span>
+                    <span class="chapter-badge">${total} Lessons →</span>
                 </div>
             `;
             card.addEventListener("click", () => enterTextbookEnvironment(mod));
@@ -569,7 +625,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 class="quiz-choice-row"
                 data-question-index="${questionIndex}"
                 data-answer-index="${choiceIdx}"
-                onclick="checkChoiceSelection(${questionIndex}, ${choiceIdx}, this)">
+                onclick="selectQuizChoice(${questionIndex}, ${choiceIdx}, ${block.correctAnswer}, this)"
+                role="radio"
+                aria-checked="false"
+                tabindex="0">
                 ${choice}
             </div>
         `;
@@ -577,13 +636,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     });
 
                     markup += `
-            <div
-                class="quiz-feedback"
-                id="quiz-feedback-${questionIndex}"
-                aria-live="polite">
-            </div>
-        </div>
-    `;
+            <div class="quiz-feedback" id="quiz-feedback-${questionIndex}" aria-live="polite"></div>
+        `;
                 }
             });
 
@@ -810,6 +864,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     savedLesson.status = "completed";
                     savedLesson.completed_at = new Date().toISOString();
+                    renderLearnerProgressOverview(appCurriculumRegistry);
                 }
 
             } catch (error) {
@@ -840,93 +895,61 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    window.checkChoiceSelection = async function (
-        questionIndex,
-        selectedAnswer,
-        elementNodeRef
-    ) {
-        const choiceRows = elementNodeRef
-            .closest(".reader-quiz-container")
-            .querySelectorAll(".quiz-choice-row");
+    // Radio-style quiz: one active choice per question, with immediate feedback.
+    // Learners can change their choice; the previous choice is always cleared.
+    const quizSaveTimers = new Map();
 
-        const feedback = document.getElementById(
-            `quiz-feedback-${questionIndex}`
-        );
+    window.selectQuizChoice = function (questionIndex, selectedAnswer, correctAnswer, elementNodeRef) {
+        const quizContainer = elementNodeRef.closest(".reader-quiz-container");
+        if (!quizContainer) return;
 
-        // Prevent repeated clicks while saving
-        if (elementNodeRef.dataset.submitting === "true") return;
+        const choiceRows = quizContainer.querySelectorAll(".quiz-choice-row");
+        const feedback = document.getElementById(`quiz-feedback-${questionIndex}`);
+        const isCorrect = Number(selectedAnswer) === Number(correctAnswer);
 
         choiceRows.forEach(row => {
-            row.style.pointerEvents = "none";
-            row.style.opacity = "0.7";
+            row.classList.remove("is-selected", "is-correct", "is-incorrect");
+            row.setAttribute("aria-checked", "false");
         });
 
-        elementNodeRef.dataset.submitting = "true";
+        elementNodeRef.classList.add(isCorrect ? "is-correct" : "is-incorrect");
+        elementNodeRef.setAttribute("aria-checked", "true");
+        quizContainer.dataset.selectedAnswer = String(selectedAnswer);
 
-        try {
-
-            const result = await apiRequest("/api/progress/quiz", {
-                method: "POST",
-                body: JSON.stringify({
-                    lessonId: stateActiveLesson.id,
-                    questionIndex,
-                    selectedAnswer
-                })
-            });
-
-
-            if (result.isCorrect) {
-                elementNodeRef.style.borderColor = "var(--brilliant-green)";
-                elementNodeRef.style.backgroundColor = "var(--fill-tip)";
-                elementNodeRef.style.color = "#dcfce7";
-
-                feedback.textContent = "Correct! Brilliant work.";
-            } else {
-                elementNodeRef.style.borderColor = "var(--brilliant-red)";
-                elementNodeRef.style.backgroundColor = "#3b171b";
-                elementNodeRef.style.color = "#fecaca";
-
-                feedback.textContent = "Not quite! The correct answer is option "
-                    + (result.correctAnswer + 1) + ".";
-            }
-
-
-            // Allow another attempt while preserving this attempt in history
-            choiceRows.forEach(row => {
-                row.style.pointerEvents = "";
-                row.style.opacity = "";
-            });
-
-            elementNodeRef.dataset.submitting = "false";
-
-            if (!studentProgress) {
-                await refreshStudentProgress();
-            }
-
-            if (studentProgress) {
-                studentProgress.quizAttempts.unshift({
-                    lesson_id: result.lessonId,
-                    question_id: result.questionId,
-                    selected_answer: selectedAnswer,
-                    is_correct: result.isCorrect ? 1 : 0,
-                    attempted_at: new Date().toISOString()
-                });
-            }
-
-        } catch (error) {
-
-            choiceRows.forEach(row => {
-                row.style.pointerEvents = "";
-                row.style.opacity = "";
-            });
-
-            elementNodeRef.dataset.submitting = "false";
-
-            feedback.textContent = "Unable to save your answer. Please try again.";
-
-            console.error("Quiz submission failed:", error);
-
+        if (feedback) {
+            feedback.textContent = isCorrect ? "Correct! Brilliant work." : "Not quite. Try another option.";
+            feedback.classList.toggle("is-correct", isCorrect);
+            feedback.classList.toggle("is-incorrect", !isCorrect);
         }
+
+        // Save the latest choice after a short pause, so quick changes don't create duplicate attempts.
+        const timerKey = `${stateActiveLesson.id}:${questionIndex}`;
+        const existingTimer = quizSaveTimers.get(timerKey);
+        if (existingTimer) clearTimeout(existingTimer);
+        quizSaveTimers.set(timerKey, setTimeout(async () => {
+            quizSaveTimers.delete(timerKey);
+            const answerToSave = Number(quizContainer.dataset.selectedAnswer);
+            try {
+                const result = await apiRequest("/api/progress/quiz", {
+                    method: "POST",
+                    body: JSON.stringify({ lessonId: stateActiveLesson.id, questionIndex, selectedAnswer: answerToSave })
+                });
+                if (!studentProgress) await refreshStudentProgress();
+                if (studentProgress) {
+                    studentProgress.quizAttempts.unshift({
+                        lesson_id: result.lessonId,
+                        question_id: result.questionId,
+                        selected_answer: answerToSave,
+                        is_correct: result.isCorrect ? 1 : 0,
+                        attempted_at: new Date().toISOString()
+                    });
+                    renderLearnerProgressOverview(appCurriculumRegistry);
+                }
+            } catch (error) {
+                if (feedback) feedback.textContent = "Selection shown, but saving failed. Please select an option again.";
+                console.error("Quiz answer save failed:", error);
+            }
+        }, 600));
     };
 
     function routeToDashboardHubView() {
