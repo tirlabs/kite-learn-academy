@@ -599,47 +599,61 @@ document.addEventListener("DOMContentLoaded", () => {
     </div>
 `;
 
-            stateActiveLesson.blocks.forEach(block => {
-                if (block.type === "p") markup += `<p class="reader-p">${block.value}</p>`;
-                else if (block.type === "story") markup += `<div class="reader-story-box">${block.value}</div>`;
-                else if (block.type === "tip") markup += `<div class="reader-tip-box">${block.value}</div>`;
-                else if (block.type === "example") markup += `<div class="reader-example-box">${block.value}</div>`;
-                else if (block.type === "warning") markup += `<div class="reader-warning-box">${block.value}</div>`;
-                else if (block.type === "fact") markup += `<div class="reader-fact-box">${block.value}</div>`;
-                else if (block.type === "quiz") {
+            let quizSectionOpen = false;
+
+            stateActiveLesson.blocks.forEach((block, blockIndex) => {
+                if (block.type === "quiz") {
+                    if (!quizSectionOpen) {
+                        markup += `<div class="reader-quiz-container">`;
+                        quizSectionOpen = true;
+                    }
 
                     const questionIndex = stateActiveLesson.blocks
-                        .filter((item, index) =>
-                            item.type === "quiz" && index <= stateActiveLesson.blocks.indexOf(block)
-                        ).length - 1;
+                        .slice(0, blockIndex + 1)
+                        .filter(item => item.type === "quiz").length - 1;
 
                     markup += `
-        <div class="reader-quiz-container">
-            <div class="quiz-question-title">${block.question}</div>
-    `;
+                        <div class="quiz-question-block">
+                            <div class="quiz-question-title">${block.question}</div>
+                    `;
 
                     block.choices.forEach((choice, choiceIdx) => {
-
                         markup += `
-            <div
-                class="quiz-choice-row"
-                data-question-index="${questionIndex}"
-                data-answer-index="${choiceIdx}"
-                onclick="selectQuizChoice(${questionIndex}, ${choiceIdx}, ${block.correctAnswer}, this)"
-                role="radio"
-                aria-checked="false"
-                tabindex="0">
-                ${choice}
-            </div>
-        `;
-
+                            <div
+                                class="quiz-choice-row"
+                                data-question-index="${questionIndex}"
+                                data-answer-index="${choiceIdx}"
+                                onclick="selectQuizChoice(${questionIndex}, ${choiceIdx}, ${block.correctAnswer}, this)"
+                                role="radio"
+                                aria-checked="false"
+                                tabindex="0">
+                                ${choice}
+                            </div>
+                        `;
                     });
 
                     markup += `
-            <div class="quiz-feedback" id="quiz-feedback-${questionIndex}" aria-live="polite"></div>
-        `;
+                            <div class="quiz-feedback" id="quiz-feedback-${questionIndex}" aria-live="polite"></div>
+                        </div>
+                    `;
+                } else {
+                    if (quizSectionOpen) {
+                        markup += `</div>`;
+                        quizSectionOpen = false;
+                    }
+
+                    if (block.type === "p") markup += `<p class="reader-p">${block.value}</p>`;
+                    else if (block.type === "story") markup += `<div class="reader-story-box">${block.value}</div>`;
+                    else if (block.type === "tip") markup += `<div class="reader-tip-box">${block.value}</div>`;
+                    else if (block.type === "example") markup += `<div class="reader-example-box">${block.value}</div>`;
+                    else if (block.type === "warning") markup += `<div class="reader-warning-box">${block.value}</div>`;
+                    else if (block.type === "fact") markup += `<div class="reader-fact-box">${block.value}</div>`;
                 }
             });
+
+            if (quizSectionOpen) {
+                markup += `</div>`;
+            }
 
             markup += `
 
@@ -900,10 +914,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const quizSaveTimers = new Map();
 
     window.selectQuizChoice = function (questionIndex, selectedAnswer, correctAnswer, elementNodeRef) {
-        const quizContainer = elementNodeRef.closest(".reader-quiz-container");
-        if (!quizContainer) return;
+        const questionContainer = elementNodeRef.closest(".quiz-question-block");
+        if (!questionContainer) return;
 
-        const choiceRows = quizContainer.querySelectorAll(".quiz-choice-row");
+        const choiceRows = questionContainer.querySelectorAll(".quiz-choice-row");
         const feedback = document.getElementById(`quiz-feedback-${questionIndex}`);
         const isCorrect = Number(selectedAnswer) === Number(correctAnswer);
 
@@ -914,7 +928,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         elementNodeRef.classList.add(isCorrect ? "is-correct" : "is-incorrect");
         elementNodeRef.setAttribute("aria-checked", "true");
-        quizContainer.dataset.selectedAnswer = String(selectedAnswer);
+        questionContainer.dataset.selectedAnswer = String(selectedAnswer);
 
         if (feedback) {
             feedback.textContent = isCorrect ? "Correct! Brilliant work." : "Not quite. Try another option.";
@@ -922,19 +936,26 @@ document.addEventListener("DOMContentLoaded", () => {
             feedback.classList.toggle("is-incorrect", !isCorrect);
         }
 
-        // Save the latest choice after a short pause, so quick changes don't create duplicate attempts.
         const timerKey = `${stateActiveLesson.id}:${questionIndex}`;
         const existingTimer = quizSaveTimers.get(timerKey);
         if (existingTimer) clearTimeout(existingTimer);
+
         quizSaveTimers.set(timerKey, setTimeout(async () => {
             quizSaveTimers.delete(timerKey);
-            const answerToSave = Number(quizContainer.dataset.selectedAnswer);
+            const answerToSave = Number(questionContainer.dataset.selectedAnswer);
+
             try {
                 const result = await apiRequest("/api/progress/quiz", {
                     method: "POST",
-                    body: JSON.stringify({ lessonId: stateActiveLesson.id, questionIndex, selectedAnswer: answerToSave })
+                    body: JSON.stringify({
+                        lessonId: stateActiveLesson.id,
+                        questionIndex,
+                        selectedAnswer: answerToSave
+                    })
                 });
+
                 if (!studentProgress) await refreshStudentProgress();
+
                 if (studentProgress) {
                     studentProgress.quizAttempts.unshift({
                         lesson_id: result.lessonId,
@@ -943,10 +964,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         is_correct: result.isCorrect ? 1 : 0,
                         attempted_at: new Date().toISOString()
                     });
+
                     renderLearnerProgressOverview(appCurriculumRegistry);
                 }
             } catch (error) {
-                if (feedback) feedback.textContent = "Selection shown, but saving failed. Please select an option again.";
+                if (feedback) {
+                    feedback.textContent = "Selection shown, but saving failed. Please select an option again.";
+                }
                 console.error("Quiz answer save failed:", error);
             }
         }, 600));
@@ -1468,32 +1492,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
         stateActiveLesson.blocks.forEach(block => {
 
-            if (block.type === "p") {
-                const cleanText = block.value.replace(/<[^>]*>/g, "");
-                lessonText += cleanText + "\n\n";
-            }
-
-            if (block.type === "story") {
-                const cleanText = block.value.replace(/<[^>]*>/g, "");
-                lessonText += cleanText + "\n\n";
-            }
-
-            if (block.type === "tip") {
-                const cleanText = block.value.replace(/<[^>]*>/g, "");
-                lessonText += cleanText + "\n\n";
-            }
-
-            if (block.type === "example") {
-                const cleanText = block.value.replace(/<[^>]*>/g, "");
-                lessonText += cleanText + "\n\n";
-            }
-
-            if (block.type === "warning") {
-                const cleanText = block.value.replace(/<[^>]*>/g, "");
-                lessonText += cleanText + "\n\n";
-            }
-
-            if (block.type === "fact") {
+            if (
+                block.type === "p" ||
+                block.type === "story" ||
+                block.type === "tip" ||
+                block.type === "example" ||
+                block.type === "warning" ||
+                block.type === "fact"
+            ) {
                 const cleanText = block.value.replace(/<[^>]*>/g, "");
                 lessonText += cleanText + "\n\n";
             }
