@@ -1,0 +1,36 @@
+{
+  "id": "ppf",
+  "title": "PPF Calculator",
+  "description": "Estimate the value of annual contributions under an assumed PPF interest rate.",
+  "category": "personal",
+  "assumptions": "Assumes each annual contribution is made at the beginning of the year and interest is compounded annually. The rate is an editable assumption, not a rate guarantee.",
+  "fields": [
+    {
+      "name": "annualDeposit",
+      "label": "Annual contribution",
+      "unit": "₹",
+      "default": 150000,
+      "min": 500,
+      "max": 150000,
+      "step": 500
+    },
+    {
+      "name": "annualRate",
+      "label": "Assumed annual interest rate",
+      "unit": "%",
+      "default": 7.1,
+      "min": 0,
+      "max": 20,
+      "step": 0.1
+    },
+    {
+      "name": "years",
+      "label": "Investment period",
+      "unit": "Years",
+      "default": 15,
+      "min": 15,
+      "max": 50,
+      "step": 1
+    }
+  ]
+}

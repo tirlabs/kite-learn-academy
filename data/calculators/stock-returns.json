@@ -1,0 +1,63 @@
+{
+  "id": "stock-returns",
+  "title": "Stock Returns Calculator",
+  "description": "Estimate a share investment result including entered charges and dividends.",
+  "category": "market",
+  "assumptions": "Uses your entered charges and dividends. Excludes any tax or costs not entered. Past returns do not predict future performance.",
+  "fields": [
+    {
+      "name": "buyPrice",
+      "label": "Purchase price per share",
+      "unit": "₹",
+      "default": 100,
+      "min": 0.01,
+      "max": 10000000,
+      "step": 0.5
+    },
+    {
+      "name": "sellPrice",
+      "label": "Selling price per share",
+      "unit": "₹",
+      "default": 125,
+      "min": 0.01,
+      "max": 10000000,
+      "step": 0.5
+    },
+    {
+      "name": "quantity",
+      "label": "Quantity",
+      "unit": "Shares",
+      "default": 100,
+      "min": 1,
+      "max": 100000000,
+      "step": 1
+    },
+    {
+      "name": "buyCharges",
+      "label": "Purchase charges",
+      "unit": "₹",
+      "default": 20,
+      "min": 0,
+      "max": 10000000,
+      "step": 1
+    },
+    {
+      "name": "sellCharges",
+      "label": "Selling charges",
+      "unit": "₹",
+      "default": 20,
+      "min": 0,
+      "max": 10000000,
+      "step": 1
+    },
+    {
+      "name": "dividends",
+      "label": "Total dividends received",
+      "unit": "₹",
+      "default": 0,
+      "min": 0,
+      "max": 100000000,
+      "step": 1
+    }
+  ]
+}

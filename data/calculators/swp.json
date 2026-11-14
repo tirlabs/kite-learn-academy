@@ -1,0 +1,45 @@
+{
+  "id": "swp",
+  "title": "SWP Calculator",
+  "description": "Estimate how a portfolio may change while making regular withdrawals.",
+  "category": "investment",
+  "assumptions": "Assumes monthly growth at annual rate divided by 12, followed by a month-end withdrawal. Actual returns are variable.",
+  "fields": [
+    {
+      "name": "corpus",
+      "label": "Starting corpus",
+      "unit": "₹",
+      "default": 1000000,
+      "min": 1,
+      "max": 1000000000,
+      "step": 10000
+    },
+    {
+      "name": "monthlyWithdrawal",
+      "label": "Monthly withdrawal",
+      "unit": "₹",
+      "default": 10000,
+      "min": 0,
+      "max": 100000000,
+      "step": 500
+    },
+    {
+      "name": "annualRate",
+      "label": "Assumed annual return",
+      "unit": "%",
+      "default": 8,
+      "min": 0,
+      "max": 100,
+      "step": 0.5
+    },
+    {
+      "name": "years",
+      "label": "Withdrawal period",
+      "unit": "Years",
+      "default": 10,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "fd",
+  "title": "FD Calculator",
+  "description": "Estimate fixed-deposit maturity using an assumed rate and compounding frequency.",
+  "category": "personal",
+  "assumptions": "Assumes a constant rate and selected compounding frequency. Actual bank terms, payout options, premature withdrawal rules and tax may differ.",
+  "fields": [
+    {
+      "name": "principal",
+      "label": "Deposit amount",
+      "unit": "₹",
+      "default": 100000,
+      "min": 1,
+      "max": 1000000000,
+      "step": 1000
+    },
+    {
+      "name": "annualRate",
+      "label": "Annual interest rate",
+      "unit": "%",
+      "default": 7,
+      "min": 0,
+      "max": 30,
+      "step": 0.1
+    },
+    {
+      "name": "years",
+      "label": "Deposit period",
+      "unit": "Years",
+      "default": 3,
+      "min": 0.25,
+      "max": 20,
+      "step": 0.25
+    },
+    {
+      "name": "frequency",
+      "label": "Compounding frequency",
+      "unit": "Times per year",
+      "default": 4,
+      "min": 1,
+      "max": 12,
+      "step": 1
+    }
+  ]
+}

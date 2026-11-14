@@ -1,0 +1,150 @@
+/* KiteLearn calculator experience — extends the shared public-page identity. */
+.kl-calculator-main{max-width:980px}
+.kl-calculator-intro{max-width:720px;color:#475569;font-size:18px;margin:0 0 28px}
+.kl-calculator-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.82fr);gap:22px;align-items:start}
+.kl-calculator-card{background:#fff;border:1px solid var(--kl-line);border-radius:18px;padding:clamp(20px,3vw,30px);box-shadow:0 8px 30px rgba(20,33,61,.04)}
+.kl-calculator-card h2{font-size:21px;line-height:1.3;margin:0 0 22px}
+.kl-field{display:block;margin:0 0 20px}
+.kl-field-label{display:flex;justify-content:space-between;gap:12px;font-size:14px;font-weight:650;margin-bottom:8px;color:var(--kl-navy)}
+.kl-field input{width:100%;min-height:48px;border:1px solid #cbd5e1;border-radius:10px;padding:11px 13px;font:inherit;font-size:17px;color:var(--kl-navy);background:#fff}
+.kl-field input:focus{outline:3px solid rgba(37,99,235,.16);border-color:var(--kl-blue)}
+.kl-field-hint{display:block;color:var(--kl-muted);font-size:12px;margin-top:6px}
+.kl-field-actions{display:flex;justify-content:flex-end;margin-top:-10px;margin-bottom:20px}
+.kl-text-button{border:0;background:transparent;color:var(--kl-blue);font:inherit;font-size:13px;font-weight:700;cursor:pointer;padding:5px}
+.kl-result-card{background:#14213d;color:#fff;border-radius:18px;padding:26px;box-shadow:0 12px 34px rgba(20,33,61,.14)}
+.kl-result-label{color:#cbd5e1;font-size:13px;font-weight:600}
+.kl-result-total{font-size:clamp(30px,4vw,40px);font-weight:800;letter-spacing:-.04em;line-height:1.15;margin:8px 0 22px;overflow-wrap:anywhere}
+.kl-result-row{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid rgba(255,255,255,.16);font-size:14px}
+.kl-result-row strong{font-variant-numeric:tabular-nums;text-align:right}
+.kl-result-chart{height:13px;display:flex;overflow:hidden;border-radius:99px;background:#334155;margin:20px 0 12px}
+.kl-result-chart span{display:block;height:100%;transition:width .18s ease}
+.kl-bar-invested{background:#93c5fd}.kl-bar-growth{background:#facc15}
+.kl-chart-legend{display:grid;gap:8px;font-size:12px;color:#e2e8f0}
+.kl-chart-legend span{display:flex;justify-content:space-between;gap:10px}
+.kl-chart-legend b{font-weight:650;font-variant-numeric:tabular-nums}
+.kl-calculator-error{background:#fef2f2;border:1px solid #fecaca;color:#991b1b;border-radius:10px;padding:12px 14px;font-size:14px;margin-top:14px}
+.kl-calculator-note{font-size:12px;color:#cbd5e1;line-height:1.6;margin:18px 0 0}
+.kl-explain-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:22px}
+.kl-explain-card{background:#fff;border:1px solid var(--kl-line);border-radius:16px;padding:20px}
+.kl-explain-card h3{font-size:16px;margin:0 0 8px}.kl-explain-card p{font-size:14px;color:#475569;line-height:1.7;margin:0}
+.kl-formula{background:#f1f5f9;border-radius:12px;padding:16px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:14px;overflow-wrap:anywhere;color:#14213d}
+.kl-faq{border-top:1px solid var(--kl-line);padding:18px 0}.kl-faq h3{font-size:16px;margin:0 0 7px}.kl-faq p{font-size:14px;color:#475569;line-height:1.7;margin:0}
+.kl-related-lessons{display:flex;flex-wrap:wrap;gap:10px}.kl-related-lessons a{border:1px solid #dbeafe;background:#eff6ff;padding:9px 12px;border-radius:999px;font-size:13px;font-weight:650}
+.kl-disclaimer{font-size:13px;color:#64748b;line-height:1.7}
+@media(max-width:760px){.kl-calculator-layout{grid-template-columns:1fr}.kl-calculator-intro{font-size:16px}.kl-explain-grid{grid-template-columns:1fr}}
+
+/* Shared layout for the calculator family */
+.kl-calculator-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.85fr);gap:16px;align-items:start;margin:22px 0}.kl-field{display:grid;gap:7px;margin:14px 0;font-weight:600}.kl-field span{display:flex;justify-content:space-between;gap:12px}.kl-field small{font-weight:400;color:#64748b}.kl-field input,.kl-field textarea{width:100%;box-sizing:border-box;border:1px solid #d8e1ed;border-radius:9px;padding:12px;font:inherit;color:#14213d;background:#fff}.kl-error{padding:14px;border:1px solid #fecaca;border-radius:10px;background:#fff1f2;color:#991b1b}.kl-faq{border-top:1px solid #e2e8f0;padding:12px 0}.kl-faq h3{margin:0 0 6px}@media(max-width:720px){.kl-calculator-layout{grid-template-columns:1fr}}
+
+/* Calculator directory — visual language aligned with KiteLearn secondary pages. */
+.kl-tools-main{max-width:900px;padding-top:34px}
+.kl-tools-hero{position:relative;overflow:hidden;background:#f1f6ff;border:1px solid #dbeafe;border-radius:20px;padding:clamp(26px,5vw,46px);margin:0 0 34px}
+.kl-tools-hero:after{content:"";position:absolute;width:190px;height:190px;border:1px solid rgba(37,99,235,.12);border-radius:50%;right:-76px;top:-112px;pointer-events:none}
+.kl-tools-eyebrow,.kl-tools-section-kicker{display:inline-block;color:#2563eb;font-size:11px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+.kl-tools-hero h1{position:relative;z-index:1;color:#14213d;font-size:clamp(30px,5vw,43px);line-height:1.12;letter-spacing:-.04em;margin:13px 0 12px;max-width:680px}
+.kl-tools-hero h1 span{color:#2563eb}
+.kl-tools-hero p{position:relative;z-index:1;color:#64748b;font-size:16px;line-height:1.75;max-width:650px;margin:0}
+.kl-tools-highlights{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.kl-tools-highlights span{display:inline-flex;align-items:center;gap:5px;padding:7px 12px;border:1px solid #dbeafe;border-radius:999px;background:rgba(255,255,255,.76);color:#475569;font-size:12px;font-weight:600}
+.kl-tools-highlights b{color:#14213d;font-weight:800}
+.kl-tool-category{margin:0 0 30px}
+.kl-tool-category-heading{display:flex;align-items:end;justify-content:space-between;gap:18px;margin:0 2px 16px}
+.kl-tool-category-heading h2{font-size:23px;line-height:1.25;letter-spacing:-.025em;color:#14213d;margin:5px 0 5px}
+.kl-tool-category-heading p{font-size:14px;color:#64748b;margin:0;line-height:1.6}
+.kl-tool-count{flex:none;padding:6px 10px;border-radius:8px;background:#eff6ff;color:#2563eb;font-size:10px;letter-spacing:.08em;font-weight:800}
+.kl-tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.kl-tool-card{min-width:0;display:flex;align-items:flex-start;gap:14px;padding:19px;background:#fff;border:1px solid #e2e8f0;border-radius:15px;box-shadow:0 5px 20px rgba(20,33,61,.035);color:#14213d;text-decoration:none;transition:border-color .16s ease,box-shadow .16s ease,transform .16s ease}
+.kl-tool-card:hover{border-color:#bfdbfe;box-shadow:0 10px 26px rgba(37,99,235,.09);transform:translateY(-2px);text-decoration:none}
+.kl-tool-card:focus-visible{outline:3px solid rgba(37,99,235,.25);outline-offset:3px}
+.kl-tool-card-icon{display:none}
+.kl-tool-card-body{display:flex;flex:1;min-width:0;flex-direction:column;align-items:flex-start;gap:6px}
+.kl-tool-card-body strong{font-size:15px;line-height:1.4;font-weight:750;color:#14213d}
+.kl-tool-card-body>span{font-size:13px;line-height:1.6;color:#64748b}
+.kl-tool-card-body em{display:flex;align-items:center;gap:7px;margin-top:5px;color:#2563eb;font-size:12px;font-style:normal;font-weight:750}
+.kl-tool-card-body em b{font-size:16px;line-height:1}
+.kl-tools-principles{display:flex;gap:17px;align-items:flex-start;margin:38px 0 4px;padding:24px;background:#f1f6ff;border:1px solid #dbeafe;border-radius:17px}
+.kl-tools-principles-mark{flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:11px;background:#dbeafe;color:#2563eb;font-size:20px}
+.kl-tools-principles h2{font-size:18px;color:#14213d;margin:0 0 6px}
+.kl-tools-principles p{font-size:14px;line-height:1.7;color:#64748b;margin:0 0 10px}
+.kl-tools-principles a{font-size:13px;font-weight:750}
+@media(max-width:650px){.kl-tools-main{padding-top:25px}.kl-tools-hero{border-radius:16px;margin-bottom:28px}.kl-tools-hero p{font-size:15px}.kl-tool-category-heading{align-items:flex-start}.kl-tool-category-heading h2{font-size:21px}.kl-tool-grid{grid-template-columns:1fr;gap:10px}.kl-tool-card{padding:16px}.kl-tools-principles{padding:19px}}
+
+/* Cleaner, consistent calculator-card alignment: no mixed decorative glyphs. */
+.kl-tool-card{gap:0;min-height:112px}
+.kl-tool-card-body{width:100%;min-height:100%;gap:7px}
+.kl-tool-card-body em{width:100%;justify-content:space-between;margin-top:auto;padding-top:5px}
+.kl-tool-card-body em b{font-size:17px;font-weight:600}
+
+
+/* RC2 — all non-SIP calculator input/result sections follow the SIP visual system. */
+.kl-calculator-layout > form.kl-calculator-input-card{
+  display:block;min-width:0;margin:0;padding:clamp(20px,3vw,30px);
+  background:#fff;border:1px solid var(--kl-line);border-radius:18px;
+  box-shadow:0 8px 30px rgba(20,33,61,.04);color:var(--kl-navy);
+}
+.kl-calculator-layout > form.kl-calculator-input-card h2{
+  margin:0 0 22px;color:var(--kl-navy);font-size:21px;line-height:1.3;
+}
+.kl-calculator-layout > form.kl-calculator-input-card .kl-field{
+  display:block;margin:0 0 20px;font-weight:400;
+}
+.kl-calculator-layout > form.kl-calculator-input-card .kl-field > span:first-child,
+.kl-calculator-layout > form.kl-calculator-input-card .kl-field-label{
+  display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+  margin:0 0 8px;color:var(--kl-navy);font-size:14px;font-weight:650;
+}
+.kl-calculator-layout > form.kl-calculator-input-card .kl-field small{
+  color:var(--kl-navy);font-size:13px;font-weight:600;
+}
+.kl-calculator-layout > form.kl-calculator-input-card input:not([type="checkbox"]):not([type="radio"]),
+.kl-calculator-layout > form.kl-calculator-input-card select,
+.kl-calculator-layout > form.kl-calculator-input-card textarea{
+  box-sizing:border-box;width:100%;min-height:52px;padding:11px 13px;
+  border:1px solid #cbd5e1;border-radius:10px;background:#fff;
+  color:var(--kl-navy);font:inherit;font-size:16px;
+}
+.kl-calculator-layout > form.kl-calculator-input-card input:focus,
+.kl-calculator-layout > form.kl-calculator-input-card select:focus,
+.kl-calculator-layout > form.kl-calculator-input-card textarea:focus{
+  outline:3px solid rgba(37,99,235,.16);border-color:var(--kl-blue);
+}
+.kl-calculator-layout > form.kl-calculator-input-card .kl-field-hint,
+.kl-calculator-layout > form.kl-calculator-input-card .kl-field small.kl-field-hint{
+  display:block;margin-top:7px;color:var(--kl-muted);font-size:12px;
+  line-height:1.55;font-weight:400;
+}
+.kl-calculator-layout > form.kl-calculator-input-card > .kl-button,
+.kl-calculator-layout > form.kl-calculator-input-card > button[type="reset"]{
+  display:block;margin:2px 0 0 auto;padding:5px;border:0;background:transparent;
+  color:var(--kl-blue);font:inherit;font-size:13px;font-weight:700;cursor:pointer;
+  box-shadow:none;
+}
+.kl-calculator-layout > form.kl-calculator-input-card > .kl-button:hover,
+.kl-calculator-layout > form.kl-calculator-input-card > button[type="reset"]:hover{
+  text-decoration:underline;background:transparent;
+}
+.kl-calculator-layout > .kl-result-card{
+  min-width:0;margin:0;padding:26px;background:#14213d;color:#fff;
+  border:0;border-radius:18px;box-shadow:0 12px 34px rgba(20,33,61,.14);
+}
+.kl-calculator-layout > .kl-result-card .kl-result-label{color:#cbd5e1}
+.kl-calculator-layout > .kl-result-card .kl-result-total{
+  color:#fff;font-size:clamp(30px,4vw,40px);font-weight:800;
+  letter-spacing:-.04em;line-height:1.15;margin:8px 0 22px;overflow-wrap:anywhere;
+}
+.kl-calculator-layout > .kl-result-card .kl-result-row{
+  display:flex;justify-content:space-between;gap:12px;padding:12px 0;
+  border-top:1px solid rgba(255,255,255,.16);font-size:14px;
+}
+.kl-calculator-layout > .kl-result-card .kl-result-row strong{
+  color:#facc15;font-variant-numeric:tabular-nums;text-align:right;
+}
+.kl-calculator-layout > .kl-result-card .kl-calculator-note{
+  color:#cbd5e1;font-size:12px;line-height:1.6;
+}
+.kl-calculator-layout > .kl-result-card[hidden]{display:none}
+@media(max-width:760px){
+  .kl-calculator-layout{grid-template-columns:minmax(0,1fr);gap:16px}
+  .kl-calculator-layout > form.kl-calculator-input-card,
+  .kl-calculator-layout > .kl-result-card{padding:22px}
+}

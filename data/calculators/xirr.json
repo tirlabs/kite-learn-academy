@@ -1,0 +1,18 @@
+{
+  "id": "xirr",
+  "title": "XIRR Calculator",
+  "description": "Estimate annualised return for investments and withdrawals on different dates.",
+  "category": "investment",
+  "assumptions": "Enter one cash flow per line as YYYY-MM-DD,amount. Investments are negative and receipts are positive. At least one of each is required.",
+  "fields": [
+    {
+      "name": "cashflows",
+      "label": "Dated cash flows",
+      "unit": "CSV",
+      "default": "2024-01-01,-100000\n2024-07-01,-25000\n2025-01-01,15000\n2025-12-31,130000",
+      "min": null,
+      "max": null,
+      "step": null
+    }
+  ]
+}

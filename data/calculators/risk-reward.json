@@ -1,0 +1,45 @@
+{
+  "id": "risk-reward",
+  "title": "Risk-Reward Calculator",
+  "description": "Compare the potential price risk with a target price reward.",
+  "category": "market",
+  "assumptions": "A scenario calculator only. It does not account for gaps, slippage, liquidity, execution costs or the possibility that a stop order executes at a different price.",
+  "fields": [
+    {
+      "name": "entry",
+      "label": "Entry price",
+      "unit": "₹",
+      "default": 100,
+      "min": 0.01,
+      "max": 10000000,
+      "step": 0.5
+    },
+    {
+      "name": "stop",
+      "label": "Stop-loss price",
+      "unit": "₹",
+      "default": 95,
+      "min": 0.01,
+      "max": 10000000,
+      "step": 0.5
+    },
+    {
+      "name": "target",
+      "label": "Target price",
+      "unit": "₹",
+      "default": 115,
+      "min": 0.01,
+      "max": 10000000,
+      "step": 0.5
+    },
+    {
+      "name": "quantity",
+      "label": "Quantity",
+      "unit": "Shares",
+      "default": 100,
+      "min": 1,
+      "max": 100000000,
+      "step": 1
+    }
+  ]
+}

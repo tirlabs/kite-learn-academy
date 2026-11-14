@@ -1,0 +1,63 @@
+{
+  "id": "retirement",
+  "title": "Retirement Calculator",
+  "description": "Estimate a retirement corpus from future expenses and an assumed post-retirement return.",
+  "category": "personal",
+  "assumptions": "Assumes expenses rise with inflation until retirement and remain level in real terms thereafter. Uses a constant annual post-retirement return and year-end withdrawals.",
+  "fields": [
+    {
+      "name": "currentAge",
+      "label": "Current age",
+      "unit": "Years",
+      "default": 35,
+      "min": 18,
+      "max": 70,
+      "step": 1
+    },
+    {
+      "name": "retirementAge",
+      "label": "Retirement age",
+      "unit": "Years",
+      "default": 60,
+      "min": 40,
+      "max": 75,
+      "step": 1
+    },
+    {
+      "name": "monthlyExpense",
+      "label": "Monthly expenses today",
+      "unit": "₹",
+      "default": 50000,
+      "min": 1,
+      "max": 100000000,
+      "step": 1000
+    },
+    {
+      "name": "inflationRate",
+      "label": "Assumed annual inflation",
+      "unit": "%",
+      "default": 6,
+      "min": 0,
+      "max": 20,
+      "step": 0.5
+    },
+    {
+      "name": "postReturn",
+      "label": "Assumed annual return after retirement",
+      "unit": "%",
+      "default": 7,
+      "min": 0,
+      "max": 30,
+      "step": 0.5
+    },
+    {
+      "name": "retirementYears",
+      "label": "Years in retirement",
+      "unit": "Years",
+      "default": 25,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    }
+  ]
+}

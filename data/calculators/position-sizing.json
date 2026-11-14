@@ -1,0 +1,45 @@
+{
+  "id": "position-sizing",
+  "title": "Position Sizing Calculator",
+  "description": "Estimate quantity from a chosen capital-risk amount and entry-to-stop distance.",
+  "category": "market",
+  "assumptions": "Uses the chosen risk percentage and entry-to-stop distance. Does not guarantee the maximum loss; gaps, slippage and execution costs can increase losses.",
+  "fields": [
+    {
+      "name": "capital",
+      "label": "Trading capital",
+      "unit": "₹",
+      "default": 100000,
+      "min": 1,
+      "max": 1000000000,
+      "step": 1000
+    },
+    {
+      "name": "riskPercent",
+      "label": "Risk per trade",
+      "unit": "%",
+      "default": 1,
+      "min": 0.01,
+      "max": 100,
+      "step": 0.25
+    },
+    {
+      "name": "entry",
+      "label": "Entry price",
+      "unit": "₹",
+      "default": 250,
+      "min": 0.01,
+      "max": 10000000,
+      "step": 0.5
+    },
+    {
+      "name": "stop",
+      "label": "Stop-loss price",
+      "unit": "₹",
+      "default": 240,
+      "min": 0.01,
+      "max": 10000000,
+      "step": 0.5
+    }
+  ]
+}

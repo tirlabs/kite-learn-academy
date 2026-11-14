@@ -1,0 +1,36 @@
+{
+  "id": "lumpsum",
+  "title": "Lumpsum Calculator",
+  "description": "Estimate how a one-time investment may grow over time.",
+  "category": "investment",
+  "assumptions": "Assumes one investment at the beginning and annual compounding. Excludes taxes, fees and inflation.",
+  "fields": [
+    {
+      "name": "principal",
+      "label": "Initial investment",
+      "unit": "₹",
+      "default": 100000,
+      "min": 1,
+      "max": 1000000000,
+      "step": 1000
+    },
+    {
+      "name": "annualRate",
+      "label": "Assumed annual return",
+      "unit": "%",
+      "default": 12,
+      "min": 0,
+      "max": 100,
+      "step": 0.5
+    },
+    {
+      "name": "years",
+      "label": "Investment duration",
+      "unit": "Years",
+      "default": 10,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    }
+  ]
+}

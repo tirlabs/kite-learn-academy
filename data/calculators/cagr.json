@@ -1,0 +1,36 @@
+{
+  "id": "cagr",
+  "title": "CAGR Calculator",
+  "description": "Calculate the compound annual growth rate between two values.",
+  "category": "investment",
+  "assumptions": "CAGR is a smoothed annual growth rate. It does not show the path or volatility between the start and end values.",
+  "fields": [
+    {
+      "name": "startValue",
+      "label": "Starting value",
+      "unit": "₹",
+      "default": 100000,
+      "min": 0.01,
+      "max": 1000000000,
+      "step": 1000
+    },
+    {
+      "name": "endValue",
+      "label": "Ending value",
+      "unit": "₹",
+      "default": 200000,
+      "min": 0.01,
+      "max": 1000000000,
+      "step": 1000
+    },
+    {
+      "name": "years",
+      "label": "Time period",
+      "unit": "Years",
+      "default": 5,
+      "min": 0.01,
+      "max": 100,
+      "step": 0.5
+    }
+  ]
+}
