@@ -3,30 +3,95 @@
   "title": "Long-Term vs Short-Term Investing",
   "module": " Module 9 - Advanced Investing & Your Journey",
   "order": "Page 97 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": 4,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Some investors hold stocks for days or weeks, while others hold them for many years."
+      "value": "Short-term investing generally involves a shorter holding period, while long-term investing means holding investments for several years or longer. There is no single number of days that defines every situation. The important question is when you need the money and how much uncertainty you can reasonably accept before that date."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Planting a mango tree requires patience, but it provides fruit for years. Long-term investing often follows the same principle."
+      "value": "<strong>Imagine This:</strong> Money needed for a school fee next month has a very different purpose from money being saved for a goal twenty years away. The time available should influence how much market uncertainty you take with each amount."
+    },
+    {
+      "type": "p",
+      "value": "Short-term trading often focuses on price movements over days, weeks or months. It can require frequent monitoring and may involve more transaction costs, emotional pressure and the risk of reacting to noise. A short-term price movement does not necessarily tell you whether a company's long-term business is strong."
+    },
+    {
+      "type": "p",
+      "value": "Long-term investing usually gives more attention to business quality, earnings, competitive position, management and valuation over time. It can allow a business more time to grow, but it does not remove the risk of poor decisions, business failure, overpaying or broad market declines."
+    },
+    {
+      "type": "example",
+      "value": "Suppose you need ₹50,000 for a payment in six months. If that money is invested in a volatile share and the price falls just before the payment date, you may be forced to sell at a loss. Money intended for a distant goal may have more time to remain invested through market ups and downs, but it still needs an allocation suited to your circumstances."
+    },
+    {
+      "type": "p",
+      "value": "Short-term and long-term approaches are not simply good versus bad. A person's goal, knowledge, time available, costs and ability to handle losses all matter. Someone can also have multiple goals, each with a different time horizon and investment approach."
     },
     {
       "type": "tip",
-      "value": " Time in the market has historically mattered more than trying to perfectly time the market."
+      "value": "Start by assigning a date to each financial goal. Keep money needed soon in suitable, accessible options, and choose a longer-term approach only for money that can genuinely remain invested."
+    },
+    {
+      "type": "warning",
+      "value": "A longer holding period does not guarantee a positive return. Patience is not a reason to ignore a deteriorating business, and short-term trading is not a shortcut to quick or certain profits."
     },
     {
       "type": "quiz",
-      "question": "Long-term investing usually focuses on...",
+      "question": "What mainly determines whether a goal is short-term or long-term?",
       "choices": [
-        "Business growth over many years",
-        "Daily price movements",
-        "Hourly charts"
+        "When the money is needed",
+        "The company's logo",
+        "The exchange name",
+        "Number of app notifications"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why treat money needed in six months differently from money needed in fifteen years?",
+      "choices": [
+        "The goals have different timelines and capacity for volatility",
+        "All investments behave the same",
+        "Short-term money must be in shares",
+        "Long-term money has no risk"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Does holding a share for many years guarantee a profit?",
+      "choices": [
+        "Yes, always",
+        "No, the business and market can still perform poorly",
+        "Only for large companies",
+        "Only when dividends are paid"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is a possible challenge of frequent short-term trading?",
+      "choices": [
+        "No price movement",
+        "Costs and emotional pressure",
+        "Guaranteed returns",
+        "No need to manage risk"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is sensible for money needed soon?",
+      "choices": [
+        "Take maximum market risk",
+        "Prioritise suitable stability and access",
+        "Invest it all in one trending share",
+        "Ignore the deadline"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l96",

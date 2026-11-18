@@ -3,38 +3,91 @@
   "title": "Choosing a Stock Broker",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 21 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Before you can invest in the stock market, you need to choose a stock broker. A broker provides the platform you'll use to buy, sell, and track your investments."
+      "value": "Now that you understand how shares are bought and sold, the next step is choosing a stock broker. A stock broker gives you access to a trading platform where you can search for shares and place buy or sell orders. You will use this service whenever you want to trade through the stock market."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> If you want to shop online, you might choose Amazon or Flipkart. Both let you buy products, but each has different features. Stock brokers work in a similar way."
+      "value": "<strong>Imagine This:</strong> If you want to shop online, you may compare different shopping apps before choosing one. They may sell similar products, but their prices, features and customer support can be different. Stock brokers are similar in one way: they help you access the stock market, but the services they offer may differ."
     },
     {
       "type": "p",
-      "value": "Some brokers focus on low costs, while others provide research reports, advisory services, or banking integration. The best broker depends on your needs."
+      "value": "Some brokers focus on keeping costs low and offering simple apps. Others may provide research reports, market information, learning material or banking services as part of a wider offering. Some services may cost extra. A broker's app may look attractive, but what matters is whether the broker is reliable, properly registered and clear about its charges."
+    },
+    {
+      "type": "p",
+      "value": "Before choosing a broker, check that it is registered with SEBI and is a member of the relevant stock exchange. Read its fee list and understand brokerage, account charges and other costs that may apply. Also look at how easy it is to use the app, how you can contact customer support and how the broker explains important account and order information."
     },
     {
       "type": "example",
-      "value": "Popular brokers in India include Zerodha, Groww, Upstox, Angel One, ICICI Direct, Kotak Securities and HDFC Sky."
+      "value": "<strong>For example:</strong> Imagine two brokers offer a basic platform. One charges less but has limited support. The other charges a little more and offers support that is easier to reach. The cheaper option is not automatically the better choice. Think about the service you need and the total cost before deciding."
+    },
+    {
+      "type": "p",
+      "value": "You may hear names such as Zerodha, Groww, Upstox, Angel One, ICICI Direct, Kotak Securities and HDFC Sky. These are examples of brokers or broking platforms available in India, not a ranking or recommendation. Services, charges and features can change, so check the latest information directly with the broker."
     },
     {
       "type": "tip",
-      "value": " <strong>As a beginner, choose a broker with a simple interface, low fees, and good customer support.</strong>"
+      "value": "As a beginner, choose a broker that is properly registered, explains its charges clearly, offers a platform you can understand and provides support when you need it. Do not choose a broker only because an advertisement promises easy profits."
     },
     {
       "type": "quiz",
-      "question": "What is the primary job of a stock broker?",
+      "question": "What is the main job of a stock broker?",
       "choices": [
-        "Help investors buy and sell shares.",
+        "Help investors place buy and sell orders through a stock exchange.",
         "Issue new currency.",
-        "Control stock prices."
+        "Control the prices of all shares.",
+        "Decide which companies can make a profit."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which is important to check before choosing a broker?",
+      "choices": [
+        "Only the colour of its app.",
+        "Its registration, charges, platform and customer support.",
+        "Whether it promises daily returns.",
+        "Whether its name is popular."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why should you read a broker's fee list?",
+      "choices": [
+        "To know the costs that may apply to your account and trades.",
+        "To find out which share will rise tomorrow.",
+        "To avoid opening a bank account.",
+        "To make sure every order is completed."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Are the broker names in this lesson a ranking of the best brokers?",
+      "choices": [
+        "Yes, they are ranked from best to worst.",
+        "Yes, all offer exactly the same service.",
+        "No, they are examples; you should compare current services yourself.",
+        "No, none of them provide broking services."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement is a sensible way to choose a broker?",
+      "choices": [
+        "Choose the one that guarantees profits.",
+        "Choose only the one with the most advertisements.",
+        "Choose the one with the simplest logo.",
+        "Compare registration, total costs, ease of use and support."
+      ],
+      "correctAnswer": 3
     }
   ],
   "previousLesson": "l20",

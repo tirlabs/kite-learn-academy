@@ -3,48 +3,91 @@
   "title": "Why Stock Markets Exist",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 11 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "In the previous lesson, you learned that a share represents ownership in a company. But where do people actually buy and sell these shares? That's where the stock market comes in."
+      "value": "In the previous lesson, you learned that a share represents ownership in a company. But where do people buy and sell those shares? This is where the stock market comes in. It brings people who want to buy shares together with people who want to sell them."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Farmers from different villages gather every Sunday in one big marketplace to buy and sell fruits and vegetables. Instead of travelling to every farm individually, everyone meets in one place. The stock market works in a very similar way, except people buy and sell shares instead of vegetables."
+      "value": "<strong>Imagine This:</strong> Farmers from different villages bring their fruits and vegetables to one large market. Buyers can visit the market, compare what is available and choose what they want. The farmers do not have to find every buyer on their own. A stock market works in a similar way, but what people buy and sell are shares and other financial products."
     },
     {
       "type": "p",
-      "value": "A stock market is a place where buyers and sellers meet to trade shares of public companies. It provides a safe, organized, and transparent way to buy and sell ownership in businesses."
+      "value": "A <strong>stock market</strong> is a system where investors can buy and sell shares through recognised stock exchanges. It gives buyers and sellers a common place, clear rules and a way to place orders. The exchange brings matching orders together. This makes trading more organised than asking other people one by one if they want to buy or sell a share."
+    },
+    {
+      "type": "p",
+      "value": "Stock markets are useful to companies too. A company can raise money by issuing shares to investors. The money it raises can help the company build, grow or develop new products. After shares are listed, investors may buy and sell them among themselves. In that later trading, the money usually goes from the buyer to the seller, not to the company."
     },
     {
       "type": "example",
-      "value": "If you want to buy one share of Reliance Industries, you don't call Reliance directly. You buy it through the stock market."
+      "value": "<strong>For example:</strong> Suppose you want to buy one share of a listed company. You place a buy order through your stock broker. The exchange's system can match it with a suitable sell order from another investor. You do not need to contact that investor yourself."
+    },
+    {
+      "type": "p",
+      "value": "A stock market does not decide that a company is good or that its share price must rise. Prices can go up or down as buyers and sellers respond to company news, business results and many other factors. The market helps people trade; it does not remove the risk of investing."
     },
     {
       "type": "tip",
-      "value": " <strong>Think of the stock market as a giant marketplace for company ownership.</strong>"
+      "value": "Think of the stock market as an organised marketplace for investments. It helps companies raise money when they issue shares and gives investors a place to trade those shares with one another."
     },
     {
       "type": "quiz",
       "question": "What is the main purpose of a stock market?",
       "choices": [
-        "To buy and sell company shares.",
-        "To manufacture products.",
-        "To print money."
+        "To manufacture products for companies.",
+        "To provide an organised way to buy and sell shares and other securities.",
+        "To guarantee that every investor makes a profit.",
+        "To decide how much every company must earn."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "How can a company raise money through shares?",
+      "choices": [
+        "By issuing shares to investors.",
+        "By asking the stock exchange to print money.",
+        "By changing the price of its products.",
+        "By making investors open savings accounts."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "What is traded in the stock market?",
+      "question": "After a company's shares are listed, who usually receives the money when one investor buys shares from another?",
       "choices": [
-        "Vegetables",
-        "Shares of companies",
-        "Cars"
+        "The company every time.",
+        "The stock market regulator.",
+        "The investor who sells the shares.",
+        "The company's employees."
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What does the stock exchange help do?",
+      "choices": [
+        "Match suitable buy and sell orders under its rules.",
+        "Choose which investor must become rich.",
+        "Guarantee that share prices only rise.",
+        "Decide what products a company should make."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about the stock market is correct?",
+      "choices": [
+        "It removes all investment risk.",
+        "It guarantees that listed companies will succeed.",
+        "It helps people trade, but share prices can still rise or fall.",
+        "It is used only by very wealthy people."
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l10",

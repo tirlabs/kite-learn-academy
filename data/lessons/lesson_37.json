@@ -1,38 +1,91 @@
 {
   "id": "l37",
-  "title": "52 Week High & 52 Week Low",
+  "title": "52-Week High and 52-Week Low",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 37 of 100",
-  "readingTime": "5 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Every stock has a highest and lowest price over the last 52 weeks. These are called the 52 Week High and 52 Week Low."
+      "value": "A stock's <strong>52-Week High</strong> is the highest price at which it has traded during the past 52 weeks. Its <strong>52-Week Low</strong> is the lowest price during the same period. These figures give you a recent price range to compare with the stock's current market price."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A student scored between 62 and 98 marks throughout the year. The highest score was 98 and the lowest was 62. Stocks also have yearly highs and lows."
+      "value": "<strong>Imagine This:</strong> A student tracks their test scores for a year. The highest score is 98 and the lowest is 62. If the student scores 90 today, you can see that the latest result is closer to the highest score than to the lowest. The 52-week high and low give a similar reference range for a stock's price."
     },
     {
       "type": "p",
-      "value": "These values help investors understand where the current price stands compared to the last one year."
+      "value": "The period is a rolling 52 weeks, not necessarily the calendar year from January to December. As each trading day passes, the period moves forward. A new high or low may be recorded if the stock trades above or below the prices seen during that period."
     },
     {
       "type": "example",
-      "value": "If a stock's current price is ₹980, the 52 Week High is ₹1,000 and the Low is ₹600, the stock is trading near its yearly high."
+      "value": "<strong>For example:</strong> Suppose a stock's 52-week high is ₹1,000 and its 52-week low is ₹600. If its current price is ₹980, it is trading close to its 52-week high. If the current price is ₹620, it is trading close to its 52-week low. This describes its position in the range; it does not explain why the price is there."
+    },
+    {
+      "type": "p",
+      "value": "Investors sometimes use these levels to understand recent price behaviour or to identify areas where a stock has previously reached a high or low. However, a stock near its 52-week high is not automatically expensive, and a stock near its 52-week low is not automatically cheap. To judge value, you need to study the company's earnings, prospects, financial position and valuation."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Do not treat the 52-week high or low as a guaranteed ceiling or floor.</strong> A stock can move above its previous high or below its previous low when new information and trading activity change the price."
     },
     {
       "type": "tip",
-      "value": " <strong>A stock near its 52 Week High is not automatically expensive, and one near its 52 Week Low is not automatically cheap.</strong>"
+      "value": "Use the 52-week range as historical context. It tells you where the stock has traded over the past year, not where it must trade next."
     },
     {
       "type": "quiz",
-      "question": "What does the 52 Week High represent?",
+      "question": "What does a stock's 52-Week High represent?",
       "choices": [
-        "The highest price in the last one year.",
-        "The highest profit of the company.",
-        "The highest dividend paid."
+        "Its highest trading price during the past 52 weeks.",
+        "Its highest annual profit.",
+        "The highest dividend paid in its history.",
+        "The highest price predicted for next year."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Is the 52-week period always the same as the calendar year?",
+      "choices": [
+        "Yes, it always starts on 1 January.",
+        "Yes, it ends on 31 December.",
+        "No, it is a rolling period of 52 weeks.",
+        "No, it covers only the last 52 trading days."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "A stock has a 52-week high of ₹800 and a low of ₹500. Its current price is ₹780. What can you say?",
+      "choices": [
+        "It is trading near its 52-week low.",
+        "It is trading near its 52-week high.",
+        "It must be overvalued.",
+        "It must rise to ₹800."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Does a stock near its 52-week low automatically become a bargain?",
+      "choices": [
+        "Yes, because lower prices always mean better value.",
+        "Yes, because it cannot fall further.",
+        "No, because the stock exchange prevents further falls.",
+        "No, you need to study the business and its valuation."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Can a stock move above its previous 52-week high?",
+      "choices": [
+        "Yes, if trading takes place at a higher price.",
+        "No, the 52-week high is a permanent limit.",
+        "Only if the company changes its name.",
+        "Only after the calendar year ends."
       ],
       "correctAnswer": 0
     }

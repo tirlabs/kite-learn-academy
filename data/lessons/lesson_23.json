@@ -3,38 +3,91 @@
   "title": "Understanding the Trading App",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 23 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "3 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Whether you use Zerodha, Groww, Upstox or another broker, most trading apps have a very similar layout."
+      "value": "Once your Trading and Demat Accounts are ready, you will use your broker's app or website to follow the market and place orders. Different brokers arrange their apps in different ways, but most provide a few common sections. Learning what these sections do will help you use the app with more confidence."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Every smartphone looks a little different, but almost all have contacts, messages, settings and a camera. Trading apps follow the same idea."
+      "value": "<strong>Imagine This:</strong> Different smartphone brands may arrange their settings in different places, but most phones have a camera, contacts and messages. Trading apps are similar. The design may change, but the main tools are usually familiar."
     },
     {
       "type": "p",
-      "value": "You'll usually see Watchlists, Holdings, Positions, Orders, Funds, Portfolio and your Profile section."
+      "value": "A <strong>Watchlist</strong> lets you follow selected shares without buying them. <strong>Search</strong> helps you find a company or security. The <strong>Orders</strong> section shows the buy and sell instructions you have placed and their status. An order may be open, partly completed, completed or rejected."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Holdings</strong> generally shows shares and other investments held in your Demat account for delivery. <strong>Positions</strong> usually shows your current trading positions, such as intraday trades and other open positions. The <strong>Funds</strong> or <strong>Balance</strong> section shows money available for trading and related balances. The exact names and details can vary between brokers."
     },
     {
       "type": "example",
-      "value": "Your Watchlist helps you track stocks without buying them immediately."
+      "value": "<strong>For example:</strong> You add a company's share to your Watchlist to follow its price. You have not bought it yet. Later, you place a buy order. You can check Orders to see whether it has been completed. After the purchase is settled and the shares are credited, you can usually find them under Holdings."
+    },
+    {
+      "type": "p",
+      "value": "Some apps also provide charts, company details, news, statements, reports and learning material. These tools can help you find information, but they do not tell you with certainty whether a share is a good investment. Learn what each screen shows before using it to make a decision."
     },
     {
       "type": "tip",
-      "value": " <strong>Spend a few days exploring the app before making your first investment.</strong>"
+      "value": "Remember the difference: a Watchlist tracks shares you are interested in, Orders shows instructions you have placed, Holdings shows securities you own, and Positions shows your current market positions. Check the status and details instead of guessing."
     },
     {
       "type": "quiz",
-      "question": "Which section usually shows the shares you already own?",
+      "question": "Which section usually lets you follow a share without buying it?",
       "choices": [
         "Holdings",
-        "Settings",
-        "Search"
+        "Watchlist",
+        "Funds",
+        "Profile"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Where can you check whether a buy order is still open or completed?",
+      "choices": [
+        "Orders",
+        "Watchlist",
+        "Profile",
+        "Help"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which section generally shows shares held for delivery after settlement?",
+      "choices": [
+        "Search",
+        "Funds",
+        "Holdings",
+        "Settings"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What does the Funds or Balance section usually show?",
+      "choices": [
+        "The company's yearly profit.",
+        "Only the NIFTY 50 value.",
+        "Your list of favourite shares.",
+        "Money available for trading and related balances."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "You add a share to your Watchlist. What does that mean?",
+      "choices": [
+        "You now own the share.",
+        "You are following it, but you have not bought it.",
+        "The broker has guaranteed its price.",
+        "The company has opened an account for you."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l22",

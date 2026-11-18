@@ -105,7 +105,7 @@
       },
       {
         "id": "l19",
-        "title": "Market Participants (Retail, FIIs, DIIs)",
+        "title": "Who Participates in the Stock Market?",
         "file": "data/lessons/lesson_19.json"
       },
       {
@@ -123,17 +123,17 @@
     "lessons": [
       {
         "id": "l21",
-        "title": "Choosing a Broker",
+        "title": "Choosing a Stock Broker",
         "file": "data/lessons/lesson_21.json"
       },
       {
         "id": "l22",
-        "title": "Opening a Demat Account",
+        "title": "Opening a Demat & Trading Account",
         "file": "data/lessons/lesson_22.json"
       },
       {
         "id": "l23",
-        "title": "Understanding Zerodha / Groww Dashboard",
+        "title": "Understanding the Trading App",
         "file": "data/lessons/lesson_23.json"
       },
       {
@@ -143,22 +143,22 @@
       },
       {
         "id": "l25",
-        "title": "Market Orders",
+        "title": "Market Order",
         "file": "data/lessons/lesson_25.json"
       },
       {
         "id": "l26",
-        "title": "Limit Orders",
+        "title": "Limit Order",
         "file": "data/lessons/lesson_26.json"
       },
       {
         "id": "l27",
-        "title": "Delivery (CNC)",
+        "title": "Delivery Investing (CNC)",
         "file": "data/lessons/lesson_27.json"
       },
       {
         "id": "l28",
-        "title": "Intraday (MIS)",
+        "title": "Intraday Trading (MIS)",
         "file": "data/lessons/lesson_28.json"
       },
       {
@@ -196,7 +196,7 @@
       },
       {
         "id": "l34",
-        "title": "Bid & Ask Price",
+        "title": "Bid Price & Ask Price",
         "file": "data/lessons/lesson_34.json"
       },
       {
@@ -211,7 +211,7 @@
       },
       {
         "id": "l37",
-        "title": "52 Week High & Low",
+        "title": "52 Week High & 52 Week Low",
         "file": "data/lessons/lesson_37.json"
       },
       {
@@ -244,7 +244,7 @@
       },
       {
         "id": "l42",
-        "title": "X & Y Axis",
+        "title": "Understanding the X & Y Axis",
         "file": "data/lessons/lesson_42.json"
       },
       {
@@ -269,7 +269,7 @@
       },
       {
         "id": "l47",
-        "title": "Timeframes",
+        "title": "Understanding Timeframes",
         "file": "data/lessons/lesson_47.json"
       },
       {
@@ -279,7 +279,7 @@
       },
       {
         "id": "l49",
-        "title": "Important Candlestick Patterns",
+        "title": "Common Candlestick Patterns",
         "file": "data/lessons/lesson_49.json"
       },
       {
@@ -405,27 +405,27 @@
       },
       {
         "id": "l71",
-        "title": "EPS",
+        "title": "Earnings Per Share (EPS)",
         "file": "data/lessons/lesson_71.json"
       },
       {
         "id": "l72",
-        "title": "PE Ratio",
+        "title": "Price to Earnings Ratio (P/E Ratio)",
         "file": "data/lessons/lesson_72.json"
       },
       {
         "id": "l73",
-        "title": "PB Ratio",
+        "title": "Price to Book Ratio (P/B Ratio)",
         "file": "data/lessons/lesson_73.json"
       },
       {
         "id": "l74",
-        "title": "ROE",
+        "title": "Return on Equity (ROE)",
         "file": "data/lessons/lesson_74.json"
       },
       {
         "id": "l75",
-        "title": "ROCE",
+        "title": "Return on Capital Employed (ROCE)",
         "file": "data/lessons/lesson_75.json"
       },
       {

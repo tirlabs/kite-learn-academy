@@ -3,48 +3,91 @@
   "title": "Delivery Investing (CNC)",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 27 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Delivery investing means buying shares to keep them for more than one trading day. The shares are delivered to your Demat Account."
+      "value": "When you buy shares with the intention of owning them beyond the trading day, you are generally making a <strong>delivery trade</strong>. After the trade is completed and settled, the shares are credited to your Demat Account. You can then hold them and follow the company's progress as an investor."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Buying a house to live in for many years is very different from buying it in the morning and selling it in the evening. Delivery investing follows the first approach."
+      "value": "<strong>Imagine This:</strong> Buying a bicycle to use for years is different from borrowing one for a short ride and returning it the same day. Delivery investing is closer to owning the bicycle. You buy the shares and hold them as part of your investments rather than trying to trade every small price movement."
     },
     {
       "type": "p",
-      "value": "Most long-term investors use CNC (Cash and Carry) or Delivery mode because they intend to hold shares for weeks, months, or even years."
+      "value": "Some brokers use the label <strong>CNC (Cash and Carry)</strong> for delivery orders in shares. The exact product names and features can differ between brokers. In a delivery trade, you generally pay for the shares and, after settlement, they are held in your Demat Account."
+    },
+    {
+      "type": "p",
+      "value": "Delivery investing can suit people who want to study a company and hold its shares for weeks, months or years. But holding a share for a long time does not automatically make it a good investment. A company's business can improve or weaken, and its share price can rise or fall while you own it."
     },
     {
       "type": "example",
-      "value": "You buy 20 shares of Infosys today and decide to keep them for five years. This is delivery investing."
+      "value": "<strong>For example:</strong> You buy 20 shares of a company after studying its business and deciding that it fits your goals. Once the trade is settled, the shares are credited to your Demat Account. You may choose to hold them for several years, review the company from time to time and sell if your decision or needs change."
+    },
+    {
+      "type": "p",
+      "value": "Delivery mode does not mean you must hold a share forever. You can decide to sell later, subject to market hours, trading rules and the broker's process. Also, the label CNC or Delivery is a broker's product name; check the current rules and details in your own app."
     },
     {
       "type": "tip",
-      "value": " <strong>Long-term wealth is generally created through patient investing rather than frequent trading.</strong>"
+      "value": "Delivery investing is about owning shares rather than trying to finish a trade on the same day. Take time to understand the company and remember that long-term holding does not remove investment risk."
     },
     {
       "type": "quiz",
-      "question": "In Delivery (CNC), where do the shares go?",
+      "question": "What usually happens to shares bought for delivery after settlement?",
       "choices": [
-        "Demat Account",
-        "Trading Account",
-        "Savings Account"
+        "They are deleted from the account.",
+        "They are credited to the investor's Demat Account.",
+        "They are transferred to the broker's personal account.",
+        "They become a bank deposit."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does CNC commonly stand for in broker apps?",
+      "choices": [
+        "Cash and Carry",
+        "Company Net Cost",
+        "Current National Capital",
+        "Cash Not Confirmed"
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Delivery investing is mainly used for...",
+      "question": "Why might an investor choose delivery investing?",
       "choices": [
-        "Long-term investing",
-        "Only intraday trading",
-        "Currency exchange"
+        "To guarantee a fixed return.",
+        "To avoid learning about the company.",
+        "To own shares as an investment beyond the trading day.",
+        "To make every trade an intraday trade."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Does holding a share for many years guarantee a profit?",
+      "choices": [
+        "Yes, always.",
+        "Yes, if it is a large company.",
+        "Yes, if it is in the NIFTY 50.",
+        "No, the business and share price can still change."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about delivery mode is correct?",
+      "choices": [
+        "It means the investor can never sell the share.",
+        "It is generally used when shares are bought to be held as investments.",
+        "It guarantees that the share price will rise.",
+        "It means the shares are held only in a bank account."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l26",

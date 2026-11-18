@@ -3,24 +3,109 @@
   "title": "Building Your Personal Investment Plan",
   "module": " Module 9 - Advanced Investing & Your Journey",
   "order": "Page 98 of 100",
-  "readingTime": "10 mins read",
+  "readingTime": 5,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
-      "type": "fact",
-      "value": "Create your own investing checklist:\n\n✅ Emergency Fund\n✅ Health Insurance\n✅ Clear High-Interest Debt\n✅ Define Financial Goals\n✅ Decide Asset Allocation\n✅ Invest Regularly\n✅ Review Every 6–12 Months"
+      "type": "p",
+      "value": "A personal investment plan connects your money decisions to your life goals. It helps you decide what you are investing for, when you may need the money, how much you can invest and how much uncertainty you can reasonably accept. A useful plan is not a complicated document; it is a clear set of decisions you can understand and follow."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Build your plan in these six steps.</strong> Work through them in order. Each step answers a different question, and together they turn a broad goal into an investment approach."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 1 — Protect your foundation.</strong> Keep money aside for emergencies and plan for essential expenses. Manage expensive debt and avoid investing money that may be needed for rent, school fees, medical needs or other near-term commitments."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 2 — Write down your goals.</strong> Be specific. 'Build wealth' is broad; 'save for a house deposit in seven years' is clearer. Give each goal a target amount and an approximate date."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 3 — Decide how much you can invest.</strong> Look at your income and regular expenses. Choose an amount you can contribute without disrupting essential spending or relying on borrowing. A smaller amount that is sustainable is better than an unrealistic target."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 4 — Match the approach to the timeline.</strong> Money needed soon generally has less time to recover from a market fall, so it may need more stability and liquidity. A distant goal may be able to accept more market movement, depending on your ability to handle risk."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 5 — Choose an appropriate mix.</strong> Decide how much exposure to have to equity, fixed-income investments and cash, based on the goal. Diversify within the chosen mix. There is no single asset allocation that suits everyone."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 6 — Review with a purpose.</strong> Record why you chose the investments and decide when to review them. Revisit the plan when your income, responsibilities, goals or the facts about an investment change—not simply because the market moves each day."
+    },
+    {
+      "type": "example",
+      "value": "<strong>Worked example:</strong> Imagine you have two goals. Goal A is a payment due in two years; Goal B is a long-term goal due in fifteen years. You would not automatically use the same investment mix for both. The two-year goal needs greater attention to access and the possibility of a market fall just before the money is needed. The fifteen-year goal has more time, so it may be able to include a different level of growth-oriented investment, if that risk suits you. The exact mix depends on your circumstances."
+    },
+    {
+      "type": "p",
+      "value": "A simple plan can be written as: <strong>Goal → Target date → Amount needed → Monthly contribution → Investment approach → Review date.</strong> If one of these is unclear, work on that part before choosing products."
     },
     {
       "type": "tip",
-      "value": " A written investment plan helps you stay disciplined during market ups and downs."
+      "value": "Write your plan in plain language and keep it somewhere you can revisit. Update it when your life changes, and avoid changing it in response to every market headline."
+    },
+    {
+      "type": "warning",
+      "value": "An investment plan is a guide, not a promise of returns. Market losses are possible, and life events can change your priorities. Do not borrow money or risk essential expenses just to follow a target allocation."
     },
     {
       "type": "quiz",
-      "question": "Why should every investor have an investment plan?",
+      "question": "What should a personal investment plan begin with?",
       "choices": [
-        "To make consistent decisions",
-        "To guarantee profits",
-        "To avoid learning"
+        "Goals and the dates when money is needed",
+        "A list of trending shares",
+        "A random monthly amount",
+        "A target return copied from someone"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why should emergency savings be kept separate?",
+      "choices": [
+        "To meet unexpected expenses without being forced to sell volatile investments",
+        "To guarantee market gains",
+        "To increase brokerage",
+        "To replace all insurance"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why might two goals have different asset allocations?",
+      "choices": [
+        "They may have different timelines and liquidity needs",
+        "Every goal must use the same investment",
+        "It guarantees returns",
+        "It removes market risk"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which sequence best describes a practical plan?",
+      "choices": [
+        "Goal, target date, amount, contribution, approach and review",
+        "Stock tip, purchase, hope and wait",
+        "Broker, app, chart and rumour",
+        "Price high, buy, sell and repeat"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "When should a plan be reviewed?",
+      "choices": [
+        "When important goals, circumstances or investment facts change",
+        "Every time a share moves by one paisa",
+        "Never",
+        "Only when a friend says so"
       ],
       "correctAnswer": 0
     }

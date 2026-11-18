@@ -1,48 +1,91 @@
 {
   "id": "l34",
-  "title": "Bid Price & Ask Price",
+  "title": "Bid Price and Ask Price",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 34 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Whenever you look at a stock, you'll notice there isn't just one price. There are buyers offering one price and sellers asking for another."
+      "value": "When you look at a stock's live market information, you may see two important prices: the Bid Price and the Ask Price. They show the prices currently being offered by buyers and sellers. These prices help you understand what buyers are prepared to pay and what sellers are asking to receive."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Someone wants to buy your used bike for ₹45,000, but you want ₹47,000. Until both of you agree on the same price, the sale doesn't happen."
+      "value": "<strong>Imagine This:</strong> You want to sell your used bicycle. A buyer offers ₹4,500, but you want at least ₹4,700. The buyer's offer is similar to a bid, while your requested price is similar to an ask. A sale can happen when the offers become compatible."
     },
     {
       "type": "p",
-      "value": "The highest price a buyer is willing to pay is called the Bid Price. The lowest price a seller is willing to accept is called the Ask Price."
+      "value": "The <strong>Bid Price</strong> is the highest price currently offered by a buyer. The <strong>Ask Price</strong> is the lowest price currently requested by a seller. The bid and ask can be different because buyers may want to pay less while sellers may want to receive more."
     },
     {
       "type": "example",
-      "value": "Bid Price = ₹999.80, Ask Price = ₹1,000.20. A trade happens when a buyer and seller agree."
+      "value": "<strong>For example:</strong> Suppose the best Bid Price for a share is ₹999.80 and the best Ask Price is ₹1,000.20. The difference is ₹0.40. If a buyer places an order willing to pay ₹1,000.20, it may match with the seller offering shares at that price, provided the quantity and other order conditions are compatible."
+    },
+    {
+      "type": "p",
+      "value": "The difference between the best Ask Price and the best Bid Price is called the <strong>Bid-Ask Spread</strong>. A smaller spread often indicates that buyers' and sellers' prices are closer. A wider spread can make trading more costly because the price a buyer is prepared to pay may be noticeably below the price a seller wants."
+    },
+    {
+      "type": "p",
+      "value": "Bid and ask prices can change throughout the trading day as new orders arrive, existing orders are changed or cancelled, and trades take place. The displayed prices are not a promise that your entire order will be executed at that price; available quantity and market movement also matter."
     },
     {
       "type": "tip",
-      "value": " <strong>The smaller the gap between Bid and Ask, the easier it is to trade the stock.</strong>"
+      "value": "Remember it from each side of the trade: a buyer bids, and a seller asks. Before placing an order, check both prices and the quantity available at those prices."
     },
     {
       "type": "quiz",
       "question": "What is the Bid Price?",
       "choices": [
-        "Highest price a buyer is willing to pay.",
-        "Lowest price a seller wants.",
-        "Yesterday's closing price."
+        "The highest price a buyer is currently willing to pay.",
+        "The lowest price a seller is willing to accept.",
+        "The price at which the stock closed last year.",
+        "The company's original issue price."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "A trade occurs when...",
+      "question": "What is the Ask Price?",
       "choices": [
-        "Buyer and seller agree on the price.",
-        "The market closes.",
-        "The broker approves it manually."
+        "The highest price a buyer offers.",
+        "The lowest price a seller is currently willing to accept.",
+        "The average price paid by all investors.",
+        "The price selected by the company."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "The best bid is ₹99 and the best ask is ₹100. What is the Bid-Ask Spread?",
+      "choices": [
+        "₹199",
+        "₹100",
+        "₹1",
+        "₹0"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What does a smaller Bid-Ask Spread generally suggest?",
+      "choices": [
+        "The company has no debt.",
+        "The share price cannot fall.",
+        "The stock guarantees a profit.",
+        "The best buying and selling prices are closer together."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "If a buyer's order is priced below the lowest available ask, what is most likely?",
+      "choices": [
+        "It may remain unexecuted until a compatible sell order becomes available or the order is changed.",
+        "It is automatically treated as a completed trade.",
+        "The company must pay the difference.",
+        "The exchange must raise the ask price."
       ],
       "correctAnswer": 0
     }

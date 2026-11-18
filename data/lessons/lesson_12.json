@@ -3,38 +3,91 @@
   "title": "What is NSE?",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 12 of 100",
-  "readingTime": "5 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "India has multiple stock exchanges. The largest one is the National Stock Exchange, commonly called the NSE."
+      "value": "India has two major stock exchanges: the National Stock Exchange (NSE) and the Bombay Stock Exchange (BSE). A stock exchange is an organised marketplace where investors' buy and sell orders for listed shares and other securities are brought together. In this lesson, let's understand the NSE."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A city has several sports stadiums where cricket matches happen. One stadium hosts the biggest tournaments because it has better facilities. Similarly, the NSE is India's largest stock exchange by trading activity."
+      "value": "<strong>Imagine This:</strong> A city has more than one bus station. Each station has routes, ticket counters and rules that help passengers travel. A stock exchange is not a bus station, of course, but it also provides an organised system. It has rules and technology that help buyers and sellers trade."
     },
     {
       "type": "p",
-      "value": "The National Stock Exchange was established in 1992 to bring modern, electronic trading to India. Today, millions of investors use it every day."
+      "value": "NSE stands for <strong>National Stock Exchange</strong>. It began operations in the 1990s and helped bring screen-based electronic trading to India's stock market. Instead of buyers and sellers having to meet face to face, they can place orders through registered brokers. The exchange's electronic system handles the matching of orders."
+    },
+    {
+      "type": "p",
+      "value": "Many well-known Indian companies have shares listed on the NSE. Investors can place orders for these shares through their brokers during the exchange's trading hours. The exchange follows set rules so that orders are handled in an orderly way and market information is made available to participants."
     },
     {
       "type": "example",
-      "value": "Most popular Indian companies like Reliance, Infosys, TCS, HDFC Bank and ICICI Bank are traded on the NSE."
+      "value": "<strong>For example:</strong> If you want to buy shares of a company listed on the NSE, you search for the company in your broker's app, choose how many shares you want and place an order. Your broker sends the order to the exchange. The order may be matched with a seller if the price and other conditions fit."
+    },
+    {
+      "type": "p",
+      "value": "You may also hear about the <strong>NIFTY 50</strong>. It is a stock market index associated with the NSE. It follows a selected group of 50 large and liquid companies listed on the exchange. People often use it to get a quick idea of how that group of shares is performing. It does not show how every share in India is doing."
     },
     {
       "type": "tip",
-      "value": " <strong>NIFTY 50, India's most popular stock market index, belongs to the NSE.</strong>"
+      "value": "Remember: NSE is a stock exchange. NIFTY 50 is an index. An exchange provides a place and system for trading; an index helps people follow the performance of a selected group of shares."
     },
     {
       "type": "quiz",
-      "question": "NSE stands for...",
+      "question": "What does NSE stand for?",
       "choices": [
-        "National Stock Exchange",
         "National Savings Exchange",
-        "New Share Exchange"
+        "National Stock Exchange",
+        "New Share Enterprise",
+        "National Securities Entity"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does a stock exchange do?",
+      "choices": [
+        "Makes products for listed companies.",
+        "Gives every investor the same return.",
+        "Provides a system for buyers' and sellers' orders to meet.",
+        "Stores money in savings accounts."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "How does an individual usually place an order on the NSE?",
+      "choices": [
+        "By visiting the company's factory.",
+        "Through a registered stock broker.",
+        "By sending cash directly to the NSE office.",
+        "By asking the NIFTY 50."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is the NIFTY 50?",
+      "choices": [
+        "A stock broker.",
+        "A bank account.",
+        "An index that follows a selected group of 50 companies.",
+        "The name of India's only stock exchange."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement is correct?",
+      "choices": [
+        "NSE and NIFTY 50 mean the same thing.",
+        "NSE is an exchange, while NIFTY 50 is an index.",
+        "NIFTY 50 matches every buy and sell order.",
+        "NSE guarantees that listed shares will rise."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l11",

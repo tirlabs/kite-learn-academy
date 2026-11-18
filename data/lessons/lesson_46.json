@@ -3,46 +3,89 @@
   "title": "OHLC Explained",
   "module": " Module 5 - Reading Charts",
   "order": "Page 46 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Every candlestick tells four important prices: Open, High, Low and Close. Together, these are called OHLC."
+      "value": "Every standard candlestick summarises four important prices for its selected period: <strong>Open, High, Low and Close</strong>. Together, they are known as <strong>OHLC</strong>. Understanding these four values helps you read what happened during a trading day, week or any other chart timeframe."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Think about a cricket match. The team starts with 0 runs (Open), reaches its highest score before the innings ends (High), never goes below 0 (Low), and finishes with a final score (Close). A stock's trading day follows a similar journey."
+      "value": "<strong>Imagine This:</strong> Think about a cricket innings. You note the score at the start, the highest score reached, the lowest point in the match situation and the final score. These are not the same thing, but together they give you a summary of the innings. OHLC gives a similar summary of a stock's price period."
     },
     {
       "type": "p",
-      "value": "The Open Price is where trading begins. The High is the highest price reached during the period. The Low is the lowest price, and the Close is the final traded price before the period ends."
+      "value": "The <strong>Open</strong> is the first traded price of the selected period. The <strong>High</strong> is the highest price reached during it. The <strong>Low</strong> is the lowest price reached. The <strong>Close</strong> is the final traded price for that period."
     },
     {
       "type": "example",
-      "value": "Open ₹100 • High ₹108 • Low ₹98 • Close ₹105. These four values together form one candlestick."
+      "value": "<strong>Let's read one example:</strong> Open ₹100, High ₹108, Low ₹98 and Close ₹105. The stock began the period at ₹100, reached as high as ₹108, went as low as ₹98 and finished at ₹105. Because the Close is above the Open, the candle body is bullish."
+    },
+    {
+      "type": "p",
+      "value": "The High must be equal to or above both the Open and Close. The Low must be equal to or below both. The Open and Close form the body of the candlestick; the distance from the body to the High or Low forms the wicks."
+    },
+    {
+      "type": "p",
+      "value": "OHLC values depend on the timeframe selected. On a daily chart they summarise one trading day. On a weekly chart they summarise the entire week. This means a weekly candle can contain many price movements that are not visible individually in that one candle."
     },
     {
       "type": "tip",
-      "value": " <strong>Every candlestick is simply a visual representation of these four prices.</strong>"
+      "value": "When you read a candle, do not look only at whether it is green or red. Check all four values to understand where the price started, how far it moved and where it finished."
     },
     {
       "type": "quiz",
       "question": "What does OHLC stand for?",
       "choices": [
-        "Open, High, Low, Close",
-        "Open, Hold, Limit, Close",
-        "Order, High, Low, Chart"
+        "Open, High, Low and Close.",
+        "Order, Holding, Loss and Cash.",
+        "Opening, Highest, Latest and Current.",
+        "Offer, High, Limit and Cost."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Which price represents the final traded price?",
+      "question": "What is the Close price?",
       "choices": [
-        "Close",
-        "High",
-        "Open"
+        "The highest price during the period.",
+        "The first traded price of the period.",
+        "The final traded price for the selected period.",
+        "The previous year's closing price."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "For Open ₹100, High ₹108, Low ₹98 and Close ₹105, what is the lowest price?",
+      "choices": [
+        "₹100",
+        "₹98",
+        "₹105",
+        "₹108"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about the High and Low is correct?",
+      "choices": [
+        "The High is always the Open.",
+        "The Low is always the Close.",
+        "The High and Low are the same in every candle.",
+        "The High is at least as high as Open and Close; the Low is at most as low as both."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "On a weekly chart, what does one OHLC candle usually summarise?",
+      "choices": [
+        "The selected week's price activity.",
+        "Only Monday's opening price.",
+        "The company's full financial year.",
+        "One individual trade."
       ],
       "correctAnswer": 0
     }

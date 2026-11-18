@@ -3,36 +3,109 @@
   "title": "Congratulations! Your Investing Journey Begins",
   "module": "🏆 Course Complete",
   "order": "Page 100 of 100",
-  "readingTime": "10 mins read",
+  "readingTime": 4,
   "difficulty": "Level: Graduate",
   "blocks": [
     {
       "type": "p",
-      "value": "Congratulations! You have completed 100 lessons covering the complete journey from understanding money to building a disciplined investment strategy."
+      "value": "Congratulations on completing all 100 lessons. You have worked through the foundations of money, saving and investing, businesses, shares, the stock market, trading, price movements, charts, company analysis, risk management and investment planning. Completing the course is a meaningful milestone. More importantly, it gives you a foundation to keep learning."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> The day you learned the alphabet wasn't the day you became a great writer. It was simply the beginning. In the same way, completing this course isn't the end—it's the start of your investing journey."
+      "value": "<strong>Imagine This:</strong> Learning the alphabet does not make someone a great writer overnight. It gives them the foundation to read, practise and express ideas. In the same way, completing this course does not make you an expert investor; it gives you a starting point to understand financial ideas and ask better questions."
     },
     {
-      "type": "fact",
-      "value": "You now understand:\n\n✅ Money\n✅ Saving & Investing\n✅ Businesses & Companies\n✅ Shares\n✅ Stock Market\n✅ NSE, BSE & SEBI\n✅ Demat & Trading Accounts\n✅ Buying & Selling Stocks\n✅ Price Movement\n✅ Charts\n✅ Technical Analysis\n✅ Fundamental Analysis\n✅ Risk Management\n✅ Portfolio Building\n✅ IPOs, Mutual Funds, ETFs & SIPs\n✅ Taxes & Corporate Actions"
+      "type": "p",
+      "value": "You should now be more familiar with how shares are bought and sold, why prices move, what basic charts show, how to read common company measures and why risk and diversification matter. You may not remember every definition perfectly. That is normal. The important thing is to understand the ideas and know how to revisit them when needed."
+    },
+    {
+      "type": "p",
+      "value": "<strong>You have built knowledge in four broad areas:</strong>"
+    },
+    {
+      "type": "p",
+      "value": "<strong>1. Market foundations:</strong> money, saving, investing, businesses, shares, exchanges, regulators and Demat and trading accounts."
+    },
+    {
+      "type": "p",
+      "value": "<strong>2. Understanding the market:</strong> buying and selling, price movement, volume, charts, trends and common technical indicators."
+    },
+    {
+      "type": "p",
+      "value": "<strong>3. Understanding investments:</strong> company information, revenue, profit, financial ratios, mutual funds, ETFs, IPOs and corporate actions."
+    },
+    {
+      "type": "p",
+      "value": "<strong>4. Making thoughtful decisions:</strong> risk, diversification, position sizing, asset allocation, investment psychology and personal planning."
+    },
+    {
+      "type": "example",
+      "value": "When you next hear a stock recommendation, pause and ask: What does this company do? How does it earn money? What do its financials show? Is the price reasonable? What could go wrong? Does it fit my goals? Asking these questions is more valuable than rushing into a trade."
+    },
+    {
+      "type": "p",
+      "value": "Your next stage is practice. Follow a few businesses, read their public information, observe how market prices react to news and results, and revisit lessons whenever a concept feels unclear. You can build understanding without immediately putting money at risk."
     },
     {
       "type": "tip",
-      "value": " The best investment you will ever make is continuing to learn. Read books, follow quality businesses, stay disciplined, and let time work in your favor."
+      "value": "Keep learning at a pace you can sustain. Be curious, verify information, write down what you learn and allow your understanding to grow over time."
     },
     {
-      "type": "fact",
-      "value": "🏆 Welcome to the lifelong journey of investing.\n\nRemember:\n\n'You don't need to become rich overnight.\nYou need to become wiser every year.'"
+      "type": "warning",
+      "value": "Completing a course does not guarantee investment success or make anyone an expert. Markets involve risk. Make decisions carefully, avoid risking money needed for essential expenses and seek qualified advice when a decision is complex."
     },
     {
       "type": "quiz",
-      "question": "What should you do after completing this course?",
+      "question": "What does completing the 100 lessons represent?",
       "choices": [
-        "Continue learning, practise patiently, and invest with discipline.",
-        "Invest all your savings in one stock immediately.",
-        "Stop learning because you know everything."
+        "A guarantee of investment success",
+        "A foundation for continued learning and informed decisions",
+        "A promise markets will rise",
+        "A qualification to predict prices"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is more useful than rushing into a trade after hearing a tip?",
+      "choices": [
+        "Asking questions and checking reliable information",
+        "Following the crowd",
+        "Ignoring risk",
+        "Borrowing to invest"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which habit should continue after the course?",
+      "choices": [
+        "Stop learning",
+        "Understand investments and verify important information",
+        "Assume every market claim is true",
+        "Ignore changes in goals"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Can completing this course guarantee investment profits?",
+      "choices": [
+        "Yes",
+        "No, investing involves uncertainty and risk",
+        "Only in the first year",
+        "Only when using charts"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is a sensible next step after completing the course?",
+      "choices": [
+        "Practise learning and observing before making rushed decisions",
+        "Invest all savings immediately",
+        "Trade every day",
+        "Follow rumours"
       ],
       "correctAnswer": 0
     }

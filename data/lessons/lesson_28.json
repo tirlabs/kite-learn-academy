@@ -3,48 +3,95 @@
   "title": "Intraday Trading (MIS)",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 28 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Intraday trading means buying and selling shares on the same trading day. You do not keep the shares overnight."
+      "value": "<strong>Intraday trading</strong> means buying and selling a share on the same trading day. The trader tries to benefit from price changes that happen during the day and usually closes the position before the market session ends. Unlike a delivery trade, the aim is not to hold the shares as a longer-term investment."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A taxi driver earns money by making many trips in one day rather than owning the passengers' destination. Intraday traders try to profit from small price movements during the day."
+      "value": "<strong>Imagine This:</strong> Think of a person who buys mangoes early in the morning and tries to sell them later that same day. They hope to sell at a higher price, but the price may also fall. Intraday traders work with share prices in a similar way, except that prices can move very quickly and losses can happen just as quickly as gains."
     },
     {
       "type": "p",
-      "value": "Intraday trading involves higher risk because prices can change quickly within minutes. It requires experience, discipline and risk management."
+      "value": "Some brokers use the label <strong>MIS (Margin Intraday Square-off)</strong> for intraday orders. The name, rules and features can differ between brokers. Intraday orders may have to be closed before a broker's stated cut-off time. Some brokers may automatically close an open intraday position near the end of the session, and charges or risks may apply."
+    },
+    {
+      "type": "p",
+      "value": "Intraday trading is risky because share prices can change within seconds or minutes. A small movement against your trade can create a loss. Frequent buying and selling can also add costs. Using borrowed funds or leverage can increase both possible gains and possible losses."
     },
     {
       "type": "example",
-      "value": "You buy a stock at ₹500 in the morning and sell it at ₹507 before the market closes. This is an intraday trade."
+      "value": "<strong>For example:</strong> You buy a share at ₹500 in the morning and sell it at ₹507 later that day. Before charges and taxes, the difference is ₹7 per share. But if the price falls to ₹493 and you sell, the difference is a loss of ₹7 per share. The result is not known when you first place the trade."
+    },
+    {
+      "type": "p",
+      "value": "Intraday trading needs a clear plan, quick decisions and careful risk control. It is not an easy shortcut to making money. Beginners should first understand how the market, orders and investing work. Never use money needed for important expenses to experiment with risky trades."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>Beginners should first understand investing before attempting intraday trading.</strong>"
+      "value": "<strong>Be careful:</strong> Intraday trading can lead to quick losses. A broker's app may make it easy to place a trade, but that does not make the trade safe or suitable for a beginner."
+    },
+    {
+      "type": "tip",
+      "value": "Learn the difference between investing and intraday trading before trying either. Understand the risks, charges, order rules and your own ability to handle losses. You do not need to trade every day."
     },
     {
       "type": "quiz",
       "question": "What is intraday trading?",
       "choices": [
-        "Buying and selling on the same day.",
-        "Holding shares for years.",
-        "Buying mutual funds."
+        "Buying and selling a share on the same trading day.",
+        "Holding shares for many years.",
+        "Opening a Demat Account.",
+        "Buying a fixed deposit."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Intraday trading generally carries...",
+      "question": "What is the usual aim of an intraday trader?",
       "choices": [
-        "Higher risk",
-        "No risk",
-        "Guaranteed profits"
+        "To become a company director.",
+        "To collect dividends for decades.",
+        "To benefit from price movements during the day.",
+        "To avoid all price changes."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What can happen if a share price moves against an intraday trade?",
+      "choices": [
+        "The broker must repay the loss.",
+        "The trader can lose money.",
+        "The trade becomes a delivery investment automatically.",
+        "SEBI guarantees the original amount."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does MIS commonly refer to in some broker apps?",
+      "choices": [
+        "Market Index Summary",
+        "Monthly Investment Scheme",
+        "Managed Investor Service",
+        "Margin Intraday Square-off"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should beginners be careful with intraday trading?",
+      "choices": [
+        "It guarantees profits too quickly.",
+        "It has no charges.",
+        "Prices can move quickly and losses can happen just as quickly.",
+        "It does not require any decisions."
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l27",

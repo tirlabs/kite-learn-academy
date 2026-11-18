@@ -3,38 +3,91 @@
   "title": "Searching for a Stock",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 24 of 100",
-  "readingTime": "5 mins read",
+  "readingTime": "3 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Every listed company has a trading symbol that helps investors quickly find it on the stock exchange."
+      "value": "Before you can buy a share, you need to find the correct company and security in your broker's app. Every listed security has identifying details, such as its name and trading symbol. The symbol is often called a <strong>ticker</strong>. It helps investors find the right security on an exchange."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Just as you search for a contact by name on your phone, you search for a company using its name or trading symbol."
+      "value": "<strong>Imagine This:</strong> When you search for a person's name in your phone, you may see more than one person with a similar name. You check the number or other details before calling. Searching for a share works in a similar way: do not select a result just because the name looks familiar."
     },
     {
       "type": "p",
-      "value": "Typing 'Infosys', 'Reliance', or 'TCS' into your broker's search box immediately displays the company's stock."
+      "value": "You can usually search using a company's name or its trading symbol. For example, typing a name such as Infosys, Reliance Industries or Tata Consultancy Services may show matching results. Depending on the app, you may also see different exchanges, security types or other instruments with similar names."
+    },
+    {
+      "type": "p",
+      "value": "When you open a result, check the full security name, the exchange and the type of instrument. A company may have more than one listed security, and an app may show shares as well as other products such as derivatives. Make sure you have selected the ordinary share you intended to find."
     },
     {
       "type": "example",
-      "value": "Most trading apps also show the current price, daily change, charts, and company information."
+      "value": "<strong>For example:</strong> You search for a company and see a result for its share on NSE and another result for the same share on BSE. Both may relate to the same company, but they are separate exchange listings. Check the exchange shown in the order screen before placing your order."
+    },
+    {
+      "type": "p",
+      "value": "The security page may show the current price, the day's price change, a chart, trading volume and company information. These details help you understand what you are looking at. A rising price or a familiar company name does not, by itself, mean the share is suitable for you."
     },
     {
       "type": "tip",
-      "value": " <strong>Always double-check the company name before placing an order.</strong>"
+      "value": "Search carefully and confirm the full name, symbol, exchange and security type before placing an order. Finding a share is only the first step; understanding the company and the risks comes before investing."
     },
     {
       "type": "quiz",
-      "question": "Why do trading apps have a search feature?",
+      "question": "What is a trading symbol or ticker used for?",
       "choices": [
-        "To quickly find listed companies.",
-        "To calculate taxes.",
-        "To contact SEBI."
+        "To identify a listed security when searching or placing an order.",
+        "To show how much money is in your bank account.",
+        "To guarantee a share's future price.",
+        "To replace the company's legal name in every document."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why should you check the full security name and exchange?",
+      "choices": [
+        "Because every company has only one security.",
+        "Because search results can include similar names or different securities.",
+        "Because the app always selects the wrong company.",
+        "Because the exchange decides your investment goal."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "You see a company's share listed on both NSE and BSE. What should you do?",
+      "choices": [
+        "Assume both results are different companies.",
+        "Choose whichever result appears first without checking.",
+        "Check which exchange you intend to use before placing the order.",
+        "Buy both automatically."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Does a rising price alone prove that a share is a good investment?",
+      "choices": [
+        "Yes, always.",
+        "Yes, if the company is famous.",
+        "Yes, if the chart is green.",
+        "No, you need to understand the company and the risks too."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which details should you confirm before selecting a search result?",
+      "choices": [
+        "Only the logo.",
+        "Full name, symbol, exchange and security type.",
+        "Only the last traded price.",
+        "Only the number of app reviews."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l23",

@@ -3,38 +3,123 @@
   "title": "Common Investing Mistakes",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 89 of 100",
-  "readingTime": "10 mins read",
+  "readingTime": 3,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Even experienced investors make mistakes. The goal is not to avoid every mistake, but to avoid the costly ones."
+      "value": "Even experienced investors make mistakes. The aim is not to predict every market move or avoid every error; it is to recognise avoidable mistakes before they cause serious damage. Many costly decisions happen when people rush, ignore risk or rely on incomplete information."
     },
     {
-      "type": "fact",
-      "value": "❌ Common mistakes include:\n• Investing without research\n• Putting all money into one stock\n• Following social media tips blindly\n• Buying because of FOMO\n• Selling because of panic\n• Ignoring company fundamentals\n• Trading without a plan"
+      "type": "p",
+      "value": "<strong>01. Investing without research</strong> — Buying without understanding what the business does or how it makes money."
+    },
+    {
+      "type": "p",
+      "value": "<strong>02. Overconcentration</strong> — Putting too much money into one company or sector, so one setback can hurt a large part of the portfolio."
+    },
+    {
+      "type": "p",
+      "value": "<strong>03. Following rumours</strong> — Treating social media tips or unverified claims as a substitute for independent research."
+    },
+    {
+      "type": "p",
+      "value": "<strong>04. Chasing rising prices</strong> — Buying mainly because a share is going up and fearing that you will miss out (FOMO)."
+    },
+    {
+      "type": "p",
+      "value": "<strong>05. Panic selling</strong> — Selling during a fall without checking whether the business or your original investment reason has actually changed."
+    },
+    {
+      "type": "p",
+      "value": "<strong>06. Ignoring fundamentals</strong> — Overlooking important information such as debt, cash flow, profitability or valuation."
+    },
+    {
+      "type": "p",
+      "value": "<strong>07. Trading without a plan</strong> — Entering a trade without deciding in advance what would make you exit or how much risk you are taking."
+    },
+    {
+      "type": "p",
+      "value": "<strong>08. Risking essential money</strong> — Investing money needed for rent, fees, medical needs or other near-term expenses."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Driving without knowing your destination usually leads to wrong turns. Investing without a plan often leads to expensive mistakes."
+      "value": "<strong>Imagine This:</strong> Driving without knowing your destination or checking the route can lead to wrong turns. Investing without understanding why you bought something can create the same problem. When the price changes, you have no clear basis for deciding whether to hold, sell or review the investment."
+    },
+    {
+      "type": "p",
+      "value": "One common mistake is confusing a good company with a good investment at any price. A business may have strong products and growing profits, but its share price may already reflect very high expectations. Valuation matters because the price you pay affects the return you may earn."
     },
     {
       "type": "example",
-      "value": "An investor buys a stock because a friend recommends it, without understanding the business. A few weeks later, the price falls sharply and the investor sells in panic."
+      "value": "An investor buys a share because a friend recommends it. They do not check what the company does, its debt or why the price has risen. A few weeks later, the share falls sharply after disappointing results. The investor sells in panic because there was no original research or plan to guide the decision."
+    },
+    {
+      "type": "p",
+      "value": "Another mistake is confusing a temporary price fall with a permanent business problem—or assuming every fall is temporary. The correct response depends on evidence. Review company announcements, financial results and the original reason for investing rather than relying only on the chart or a message from someone else."
     },
     {
       "type": "tip",
-      "value": " <strong>Good investing is usually boring. Chasing 'quick money' often leads to unnecessary losses.</strong>"
+      "value": "Before investing, explain in your own words what you are buying, why it belongs in your portfolio, what could go wrong and how much you can afford to allocate. If you cannot answer these questions, pause and learn more."
+    },
+    {
+      "type": "warning",
+      "value": "Avoid borrowing money to invest in volatile assets or using money needed for rent, fees, medical needs or other essential expenses. A market loss can become much more damaging when it creates debt or affects day-to-day needs."
     },
     {
       "type": "quiz",
-      "question": "Which of these is a common investing mistake?",
+      "question": "Which is a common investing mistake?",
       "choices": [
-        "Buying without research",
-        "Diversifying investments",
-        "Studying company results"
+        "Checking company debt",
+        "Buying without understanding the business",
+        "Considering valuation",
+        "Matching investments to goals"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why can buying only because a share price is rising be risky?",
+      "choices": [
+        "A rising price guarantees more gains",
+        "The decision may be driven by FOMO rather than research",
+        "It removes market risk",
+        "It guarantees dividend income"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Can a good company be a poor investment at an excessive price?",
+      "choices": [
+        "No, valuation never matters",
+        "Yes, the price paid affects potential returns",
+        "Only if it is a small company",
+        "Only when markets are closed"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What should an investor do when a share falls?",
+      "choices": [
+        "Assume it must recover",
+        "Review the facts and the original investment reason",
+        "Sell every holding immediately",
+        "Buy more automatically"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why should essential-expense money not be put into volatile investments?",
+      "choices": [
+        "It guarantees low returns",
+        "A loss could affect important near-term needs",
+        "It prevents diversification",
+        "It removes tax obligations"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l88",

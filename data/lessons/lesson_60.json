@@ -3,56 +3,99 @@
   "title": "Choosing the Right Indicator",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 60 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": "6 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Many beginners believe that adding more indicators makes trading easier. In reality, too many indicators often create confusion instead of clarity."
+      "value": "Technical indicators are calculations based on price, volume or other market data. They can help organise information on a chart, but adding more indicators does not automatically make your decisions better. For a beginner, understanding a few tools properly is usually more useful than filling the chart with many lines and signals."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You're driving a car while ten different people give you directions at the same time. Instead of helping, they confuse you. Using too many indicators on a chart can feel exactly the same."
+      "value": "<strong>Imagine This:</strong> You're driving a car while ten different people give you directions at the same time. Instead of helping, they confuse you. Using too many indicators without understanding their purpose can feel exactly the same."
     },
     {
       "type": "p",
-      "value": "Each indicator has a different purpose. Moving Averages help identify trends, RSI measures momentum, MACD confirms momentum changes, and VWAP helps intraday traders understand average price."
+      "value": "Each indicator has a different purpose. <strong>Moving Averages</strong> help smooth price movements and observe trends. <strong>EMA</strong> gives more weight to recent prices. <strong>RSI</strong> helps study momentum and possible overbought or oversold conditions. <strong>MACD</strong> compares EMAs to examine trend and momentum. <strong>VWAP</strong> provides an intraday volume-weighted price reference."
     },
     {
       "type": "example",
-      "value": "A beginner might start with just one Moving Average and RSI instead of adding ten different indicators."
+      "value": "<strong>For example:</strong> A beginner who wants to understand the broad trend might start by observing a 20-day or 50-day Moving Average. If they also want to study momentum, they might learn RSI. They do not need to add every available indicator before they can understand what the chart is showing."
+    },
+    {
+      "type": "p",
+      "value": "Before adding an indicator, ask what question you want it to help answer. Are you trying to understand the broad trend, recent momentum or the average price during today's session? Choose a tool that fits that question and learn how it is calculated and what its limitations are."
+    },
+    {
+      "type": "p",
+      "value": "Indicators can sometimes give conflicting signals. A Moving Average may suggest an upward trend while RSI is showing a high reading. This does not necessarily mean one indicator is wrong. They are measuring different aspects of price behaviour and may be describing different parts of the same situation."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>No indicator can predict the future with certainty. Indicators are tools that support decision-making, not replacements for good judgment.</strong>"
-    },
-    {
-      "type": "tip",
-      "value": " <strong>The best traders often use fewer indicators but understand them deeply.</strong>"
+      "value": "<strong>No indicator can predict the future with certainty.</strong> Indicators are tools that support analysis, not replacements for understanding the company, market conditions, investment goals or risk. A signal is not a guarantee of profit."
     },
     {
       "type": "fact",
-      "value": " You have now completed the fundamentals of Technical Analysis. In the next lessons, you'll learn additional indicators and how to combine them effectively."
+      "value": "You have now completed the fundamentals of Technical Analysis covered in this module. The next lessons build on these ideas and introduce additional ways to study market behaviour."
+    },
+    {
+      "type": "tip",
+      "value": "The best starting point is not the largest number of indicators. It is a small number of tools that you understand deeply and can use to ask clear questions about the chart."
     },
     {
       "type": "quiz",
-      "question": "Should beginners use many indicators together?",
+      "question": "Why can using too many indicators confuse a beginner?",
       "choices": [
-        "No, it's usually better to master a few indicators first.",
-        "Yes, more indicators always improve accuracy.",
-        "Indicators are never useful."
+        "Because every indicator guarantees a different profit.",
+        "Because indicators are illegal for beginners.",
+        "Because many signals can overlap or conflict without adding useful understanding.",
+        "Because charts cannot display more than one indicator."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Which indicator is commonly used to study momentum and possible overbought or oversold conditions?",
+      "choices": [
+        "RSI.",
+        "VWAP.",
+        "A company's balance sheet.",
+        "Market capitalization."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "What is the main purpose of indicators?",
+      "question": "Which tool gives more weight to recent prices?",
       "choices": [
-        "To support decision-making.",
-        "To guarantee profits.",
-        "To replace market knowledge."
+        "A standard equal-weight SMA.",
+        "A 52-week low.",
+        "A circuit limit.",
+        "EMA."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What should you ask before adding an indicator to a chart?",
+      "choices": [
+        "Will this indicator guarantee a profit?",
+        "What question do I want this indicator to help answer?",
+        "Can I add as many indicators as possible?",
+        "Will this indicator replace company research?"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is the main role of technical indicators?",
+      "choices": [
+        "To guarantee future prices.",
+        "To replace all investment decisions.",
+        "To support analysis by organising market information, while recognising their limitations.",
+        "To remove every form of investment risk."
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l59",

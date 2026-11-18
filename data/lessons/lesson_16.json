@@ -3,48 +3,91 @@
   "title": "What is a Demat Account?",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 16 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "When you buy shares, you need a safe place to store them. Just like money is stored in a bank account, shares are stored in a Demat Account."
+      "value": "When you buy shares, you need a way to hold them in your name. Today, shares are usually held electronically rather than as paper certificates. A <strong>Demat account</strong> is the account used to hold shares and other securities in electronic form."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You buy a gold necklace. Instead of carrying it everywhere, you keep it safely in a bank locker. A Demat Account works like a digital locker for your shares."
+      "value": "<strong>Imagine This:</strong> You buy an important document and want to keep it safe. Instead of carrying the paper everywhere, you store a digital copy in a secure place. A Demat account is a little like a digital locker, but it records your ownership of securities such as shares."
     },
     {
       "type": "p",
-      "value": "Demat stands for Dematerialized Account. Instead of receiving paper share certificates, your ownership is stored electronically."
+      "value": "Demat is short for <strong>dematerialised</strong>. It means that securities are held in electronic form instead of as physical paper certificates. In India, depositories maintain these electronic records. Investors access their Demat accounts through a <strong>Depository Participant (DP)</strong>, which acts as the link between the investor and the depository."
+    },
+    {
+      "type": "p",
+      "value": "India has two main depositories: NSDL and CDSL. You do not need to remember every detail about them right now. The important point is that your shares are held electronically through this system, and your Demat account shows the securities recorded for you."
     },
     {
       "type": "example",
-      "value": "If you buy 10 shares of Infosys today, they will appear in your Demat Account once the transaction is completed."
+      "value": "<strong>For example:</strong> Suppose you buy 10 shares of a company and the trade is completed and settled. The shares are then credited to your Demat account. You can check your holdings there. If you later sell those shares, the required quantity is debited from your account as part of the settlement process."
+    },
+    {
+      "type": "p",
+      "value": "A Demat account is different from a bank account. Your bank account holds money. Your Demat account holds securities. It is also different from a Trading Account, which is used to place buy and sell orders. Many brokers help customers open and use both trading and Demat accounts, but they perform different jobs."
     },
     {
       "type": "tip",
-      "value": " <strong>You own the shares in your Demat Account even if you change your stock broker later.</strong>"
+      "value": "Think of a Demat account as the place where your electronic shares are held. Your shares belong to you, even if you later change your stock broker. The account and the broker's trading platform are not the same thing."
     },
     {
       "type": "quiz",
-      "question": "What is stored in a Demat Account?",
+      "question": "What is held in a Demat account?",
       "choices": [
-        "Shares and securities",
-        "Cash only",
-        "Property documents"
+        "Only cash.",
+        "Shares and other securities in electronic form.",
+        "Household bills.",
+        "A company's daily sales records."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does 'Demat' mean?",
+      "choices": [
+        "Demonstrated market",
+        "Demand trading",
+        "Dematerialised",
+        "Domestic market"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What is the role of a Depository Participant (DP)?",
+      "choices": [
+        "It acts as a link between an investor and a depository.",
+        "It decides which shares will rise.",
+        "It runs the company whose shares you buy.",
+        "It guarantees investment returns."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Demat stands for...",
+      "question": "Which statement best explains the difference between a bank account and a Demat account?",
       "choices": [
-        "Dematerialized",
-        "Demonstrated",
-        "Demographic"
+        "Both hold only cash.",
+        "A bank account holds money; a Demat account holds securities.",
+        "A Demat account is used only to pay electricity bills.",
+        "A bank account stores company shares."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "After a share purchase is completed and settled, where are the shares credited?",
+      "choices": [
+        "To your shopping account.",
+        "To the stock exchange's own investment account.",
+        "To your Demat account.",
+        "To the company's bank account."
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l15",

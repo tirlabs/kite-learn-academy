@@ -3,38 +3,87 @@
   "title": "Demand and Supply",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 31 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Every price in the stock market is decided by one simple principle: Demand and Supply. This same principle decides the price of almost everything around us."
+      "value": "A stock's market price is shaped by demand and supply. Demand is the willingness of buyers to purchase a stock at different prices. Supply is the willingness of sellers to sell it. When buyers are willing to pay more and compete for the available shares, the price may move up. When sellers are more eager to sell and buyers are not willing to pay as much, the price may move down."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> An ice cream shop has only 10 ice creams left on a hot summer day, but 100 people want to buy one. Since demand is much higher than supply, the shopkeeper can increase the price."
+      "value": "<strong>Imagine This:</strong> A local shop has 10 concert tickets left, but 50 people still want to buy them. Some buyers may offer more than the listed price to get a ticket. The seller may then be able to ask for a higher price. If there are 50 tickets available but only 10 interested buyers, sellers may need to lower their prices to find buyers."
     },
     {
       "type": "p",
-      "value": "Demand means the number of people willing to buy something. Supply means the number of people willing to sell it. Prices rise when demand is greater than supply, and prices fall when supply is greater than demand."
+      "value": "In the stock market, buyers place buy orders and sellers place sell orders. These orders include the price and quantity they are willing to trade. The exchange's trading system matches compatible orders. If buyers are competing to buy and are willing to pay higher prices, the best available buying price can move up. If sellers compete to sell at lower prices, the available selling price can move down."
     },
     {
       "type": "example",
-      "value": "If thousands of investors suddenly want to buy Reliance shares while very few people are selling them, the share price will usually increase."
+      "value": "<strong>Let's look at a simple example:</strong> Suppose a stock is trading around ₹500. Many buyers are placing orders at ₹500 or above, while only a few sellers are willing to sell at those prices. A buyer may need to offer ₹501 to find a seller. If this buying pressure continues, trades may take place at progressively higher prices. This is one way demand can push a stock price upward."
+    },
+    {
+      "type": "p",
+      "value": "Demand and supply do not work in isolation. Investors may change their orders after company results, news, interest-rate changes or broader market events. Also, a price does not rise simply because more people exist on one side; the prices and quantities in their orders matter. The market price changes as compatible buy and sell orders are matched."
     },
     {
       "type": "tip",
-      "value": " <strong>The stock market doesn't decide prices. Buyers and sellers do.</strong>"
+      "value": "When you see a stock price moving, think about the balance between buyers and sellers. Ask what may be changing their willingness to buy or sell, rather than assuming that the price moves on its own."
     },
     {
       "type": "quiz",
-      "question": "When does a stock price usually increase?",
+      "question": "What does demand mean in the stock market?",
       "choices": [
-        "When demand is greater than supply.",
-        "When nobody wants to buy.",
-        "When companies stop trading."
+        "The willingness of buyers to purchase a stock at different prices.",
+        "The number of employees working for a company.",
+        "The amount of profit a company earned last year.",
+        "The number of shares a company has issued."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is supply in the stock market?",
+      "choices": [
+        "The money kept in a bank account.",
+        "The willingness of sellers to sell shares at different prices.",
+        "The number of customers buying a company's products.",
+        "The dividend paid by a company."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "If buyers compete to purchase shares and are willing to pay higher prices, what may happen?",
+      "choices": [
+        "The stock must stop trading.",
+        "The company automatically earns more profit.",
+        "The traded price may move higher.",
+        "The number of shares must become zero."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why might sellers lower their asking prices?",
+      "choices": [
+        "They want to make the company change its name.",
+        "They are competing to find buyers for the shares they want to sell.",
+        "The stock exchange has guaranteed them a profit.",
+        "They want the company's revenue to increase."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement best describes how a stock price is formed?",
+      "choices": [
+        "The company fixes the market price every minute.",
+        "The broker chooses a price for every investor.",
+        "The previous day's price cannot change.",
+        "The exchange matches compatible buy and sell orders."
+      ],
+      "correctAnswer": 3
     }
   ],
   "previousLesson": "l30",

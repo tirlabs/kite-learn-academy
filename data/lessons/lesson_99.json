@@ -3,20 +3,173 @@
   "title": "20 Golden Rules Every Investor Should Remember",
   "module": " Module 9 - Advanced Investing & Your Journey",
   "order": "Page 99 of 100",
-  "readingTime": "12 mins read",
+  "readingTime": 5,
   "difficulty": "Level: All Levels",
   "blocks": [
     {
-      "type": "fact",
-      "value": "1. Invest only what you understand.\n2. Never invest borrowed money.\n3. Diversify.\n4. Think long term.\n5. Stay patient.\n6. Ignore market noise.\n7. Don't chase tips.\n8. Review your portfolio.\n9. Keep learning.\n10. Protect your capital.\n11. Don't panic.\n12. Don't get greedy.\n13. Focus on quality.\n14. Read annual reports.\n15. Track expenses.\n16. Respect risk.\n17. Invest regularly.\n18. Continue learning.\n19. Trust your process.\n20. Wealth is built over decades, not days."
+      "type": "p",
+      "value": "The following 20 principles are reminders for making thoughtful investment decisions. They are not shortcuts to guaranteed returns. To make them easier to use, they are grouped into four parts: understand what you own, manage risk, make decisions calmly, and keep reviewing your investments."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Part 1 — Understand before you invest</strong>"
+    },
+    {
+      "type": "p",
+      "value": "<strong>01. Invest in what you understand.</strong> Be able to explain what the company or fund does, how it works and where its returns may come from."
+    },
+    {
+      "type": "p",
+      "value": "<strong>02. Study the business, not just the share price.</strong> A rising price does not explain whether the company has a sound business or sustainable earnings."
+    },
+    {
+      "type": "p",
+      "value": "<strong>03. Read company disclosures.</strong> Use reliable information such as results, annual reports and official announcements rather than relying only on headlines."
+    },
+    {
+      "type": "p",
+      "value": "<strong>04. Check financial health.</strong> Look at revenue, profit, debt and cash flow. One attractive number cannot tell the whole story."
+    },
+    {
+      "type": "p",
+      "value": "<strong>05. Consider valuation.</strong> Even a good company can be a poor investment if the price already assumes unrealistic growth."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Part 2 — Protect your financial position</strong>"
+    },
+    {
+      "type": "p",
+      "value": "<strong>06. Diversify.</strong> Avoid depending too heavily on one company, sector or type of investment. Diversification reduces some risks but cannot prevent every loss."
+    },
+    {
+      "type": "p",
+      "value": "<strong>07. Size positions sensibly.</strong> Decide how much a single investment can represent in your portfolio before buying it."
+    },
+    {
+      "type": "p",
+      "value": "<strong>08. Match investments to your time horizon.</strong> Money needed soon should not depend heavily on volatile investments."
+    },
+    {
+      "type": "p",
+      "value": "<strong>09. Keep emergency money separate.</strong> A reserve for unexpected expenses can reduce the pressure to sell investments at an inconvenient time."
+    },
+    {
+      "type": "p",
+      "value": "<strong>10. Avoid borrowing to invest.</strong> Borrowing adds repayment obligations and can make market losses more damaging."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Part 3 — Control the decision, not the market</strong>"
+    },
+    {
+      "type": "p",
+      "value": "<strong>11. Do not chase quick profits.</strong> Promises of easy or unusually high returns deserve careful scrutiny."
+    },
+    {
+      "type": "p",
+      "value": "<strong>12. Be cautious with tips and rumours.</strong> Verify claims independently before risking your money."
+    },
+    {
+      "type": "p",
+      "value": "<strong>13. Avoid FOMO.</strong> Do not buy only because a price is rising or other people appear to be making money."
+    },
+    {
+      "type": "p",
+      "value": "<strong>14. Do not panic-sell automatically.</strong> When prices fall, review the facts and your original reason for investing before deciding what to do."
+    },
+    {
+      "type": "p",
+      "value": "<strong>15. Make a plan before trading.</strong> Know your entry reason, possible exit, position size and the risk you are accepting."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Part 4 — Keep learning and reviewing</strong>"
+    },
+    {
+      "type": "p",
+      "value": "<strong>16. Review your portfolio periodically.</strong> Check whether your investments still fit your goals and whether one holding has become too large."
+    },
+    {
+      "type": "p",
+      "value": "<strong>17. Understand costs and taxes.</strong> Brokerage, fund expenses, transaction charges and taxes can affect what you keep."
+    },
+    {
+      "type": "p",
+      "value": "<strong>18. Learn from mistakes.</strong> Review what happened and what you could improve instead of hiding or repeating the mistake."
+    },
+    {
+      "type": "p",
+      "value": "<strong>19. Stay patient, but stay alert.</strong> Avoid reacting to every headline, while remaining willing to act when important facts change."
+    },
+    {
+      "type": "p",
+      "value": "<strong>20. Keep learning.</strong> Businesses, markets and regulations change. Continue building your understanding rather than assuming you know everything."
+    },
+    {
+      "type": "example",
+      "value": "<strong>Putting the rules together:</strong> Before buying a share, explain the business, check its financial health and valuation, decide how much to invest, identify the risks and record what would make you review the decision. This simple process brings several of the rules together."
+    },
+    {
+      "type": "tip",
+      "value": "You do not need to memorise all 20 rules. Use the four parts as a checklist before important decisions: understand, protect, decide calmly and review."
+    },
+    {
+      "type": "warning",
+      "value": "These principles are guides, not guarantees. Diversification cannot prevent every market decline, patience cannot repair every weak business, and research cannot remove uncertainty. Use judgement and verify information."
     },
     {
       "type": "quiz",
-      "question": "Which rule is the most important?",
+      "question": "Which group of rules focuses on understanding an investment?",
       "choices": [
-        "Follow a disciplined process consistently",
-        "Buy every trending stock",
-        "Try to get rich quickly"
+        "Read disclosures and study business and financial health",
+        "Borrow to invest",
+        "React to every headline",
+        "Ignore valuation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why is diversification included among the golden rules?",
+      "choices": [
+        "It reduces dependence on one holding or sector",
+        "It guarantees no losses",
+        "It ensures every holding rises",
+        "It removes the need for research"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which behaviour is an example of FOMO?",
+      "choices": [
+        "Buying only because a price is rising and others appear to profit",
+        "Reviewing annual reports",
+        "Setting a position limit",
+        "Checking cash flow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What should you do when new facts weaken your investment reason?",
+      "choices": [
+        "Ignore them and stay patient",
+        "Review the investment using the new evidence",
+        "Buy more automatically",
+        "Assume the price must recover"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is the purpose of grouping the 20 rules into themes?",
+      "choices": [
+        "To make them easier to understand and apply as a decision checklist",
+        "To guarantee returns",
+        "To replace financial statements",
+        "To predict daily prices"
       ],
       "correctAnswer": 0
     }

@@ -3,53 +3,99 @@
   "title": "Common Candlestick Patterns",
   "module": " Module 5 - Reading Charts",
   "order": "Page 49 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "6 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Sometimes one or more candlesticks form patterns that help traders understand market sentiment. These are called candlestick patterns."
+      "value": "Sometimes one candlestick or a group of candles forms a shape that traders recognise. These shapes are called <strong>candlestick patterns</strong>. Traders study them as possible clues about buying and selling behaviour. A pattern is not a promise that the price will move in a particular direction."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Farmers often look at dark clouds to guess whether it might rain. The clouds don't guarantee rain, but they provide clues. Candlestick patterns work in a similar way."
+      "value": "<strong>Imagine This:</strong> Dark clouds may suggest that rain is possible. But clouds alone cannot guarantee that it will rain. You would also consider the wind, the forecast and other conditions. Candlestick patterns are similar: they can offer clues, but they need context."
     },
     {
       "type": "p",
-      "value": "Some popular patterns include Doji, Hammer, Shooting Star, Bullish Engulfing and Bearish Engulfing. These patterns indicate possible changes in buying or selling pressure."
+      "value": "A <strong>Doji</strong> forms when the Open and Close are very close to each other. It often has a small or almost invisible body. It can indicate that neither side managed to move the closing price far from the opening price during that period. Its meaning depends on where it appears and what happens next."
     },
     {
-      "type": "warning",
-      "value": "⚠️ <strong>No candlestick pattern guarantees that a stock will move in a particular direction. They provide probabilities, not certainty.</strong>"
+      "type": "p",
+      "value": "A <strong>Hammer</strong> has a small body near the top of the candle and a relatively long lower wick. After a decline, some traders watch it as a possible sign that lower prices were rejected. A <strong>Shooting Star</strong> has a small body near the bottom and a relatively long upper wick; after a rise, it may suggest that higher prices were rejected."
     },
     {
       "type": "example",
-      "value": "A Hammer appearing after a sharp fall may suggest that buyers are becoming stronger, but it should always be confirmed using other information."
+      "value": "<strong>For example:</strong> Imagine a stock has been falling for several days and then forms a candle with a small body and a long lower wick. Some traders may recognise a Hammer-like shape and watch the next session for confirmation. The shape alone does not prove that the decline has ended."
+    },
+    {
+      "type": "p",
+      "value": "A <strong>Bullish Engulfing</strong> pattern generally consists of a smaller bearish candle followed by a larger bullish candle whose body covers the previous candle's body. A <strong>Bearish Engulfing</strong> is the opposite: a smaller bullish candle followed by a larger bearish candle whose body covers the previous body. Traders may interpret these as a possible shift in short-term pressure."
+    },
+    {
+      "type": "p",
+      "value": "Pattern names and exact identification rules can vary between trading approaches. The surrounding trend, price levels, volume and the next candles all matter. A pattern that appears in isolation may be less meaningful than one that forms at a relevant area on the chart."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>No candlestick pattern guarantees a reversal or continuation.</strong> Patterns can fail, and prices can move in the opposite direction. Do not make an investment decision based only on a pattern name or a single candle."
     },
     {
       "type": "tip",
-      "value": " <strong>Never make investment decisions using only one candlestick pattern.</strong>"
+      "value": "Learn to recognise the basic shapes first. Then ask where the pattern appears, what the preceding price movement was and whether later price action supports the possible interpretation."
     },
     {
       "type": "quiz",
-      "question": "What do candlestick patterns mainly provide?",
+      "question": "What is a candlestick pattern?",
       "choices": [
-        "Clues about market sentiment.",
-        "Guaranteed future prices.",
-        "Company financial statements."
+        "A company's official financial result.",
+        "A shape or arrangement of candles that traders study for possible clues about market behaviour.",
+        "A guarantee of a future price.",
+        "A type of stock exchange order."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is commonly seen in a Doji?",
+      "choices": [
+        "A very large body with no wicks.",
+        "A candle that always closes at its 52-week high.",
+        "Open and Close prices that are very close to each other.",
+        "A candle that represents one full year."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Which shape is commonly associated with a Hammer?",
+      "choices": [
+        "A relatively long lower wick and a small body near the top.",
+        "A long upper wick and a small body near the bottom.",
+        "Two candles with identical bodies.",
+        "A candle with no opening price."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Which of these is a candlestick pattern?",
+      "question": "What is a Bullish Engulfing pattern generally made of?",
       "choices": [
-        "Hammer",
-        "Doji",
-        "Bullish Engulfing",
-        "All of the above"
+        "Two bullish candles of exactly the same size.",
+        "A large bearish candle followed by a small bullish candle.",
+        "A Doji followed by another Doji.",
+        "A smaller bearish candle followed by a larger bullish candle whose body covers the previous body."
       ],
       "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "How should candlestick patterns be used?",
+      "choices": [
+        "As certain predictions of the next price.",
+        "As possible clues that need context and confirmation.",
+        "Without considering the wider chart.",
+        "As a replacement for understanding investment risk."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l48",

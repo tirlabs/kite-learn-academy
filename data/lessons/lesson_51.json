@@ -3,38 +3,95 @@
   "title": "What is a Trend?",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 51 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "One of the first things traders and investors look for is the trend. A trend tells us the overall direction in which a stock is moving."
+      "value": "One of the first things investors and traders look at on a stock chart is its <strong>trend</strong>. A trend describes the general direction in which a stock's price has been moving over a period of time. It helps you step back from individual price changes and see the broader movement."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You're walking uphill on a mountain. Even if you occasionally step down to avoid a rock, your overall direction is still upward. Stock prices behave in the same way."
+      "value": "<strong>Imagine This:</strong> You're walking uphill on a mountain path. You may take a few steps down to avoid a rock or walk around an obstacle, but your overall journey is still uphill. Stock prices can behave in a similar way: they move up and down along the way, while the broader direction may be upward."
     },
     {
       "type": "p",
-      "value": "There are three main types of trends: Uptrend, Downtrend and Sideways Trend."
+      "value": "There are three commonly described trends. An <strong>Uptrend</strong> is a general movement higher. A <strong>Downtrend</strong> is a general movement lower. A <strong>Sideways Trend</strong> occurs when the price moves within a relatively similar range without a clear upward or downward direction."
+    },
+    {
+      "type": "p",
+      "value": "One way to recognise an uptrend is to look for a sequence of higher highs and higher lows. A higher high means the price rises above a previous peak. A higher low means a pullback stops above the previous low. In a downtrend, the pattern is generally lower highs and lower lows."
     },
     {
       "type": "example",
-      "value": "If a stock keeps making higher highs and higher lows, it is generally in an Uptrend."
+      "value": "<strong>For example:</strong> Imagine a stock reaches ₹100, pulls back to ₹90, rises to ₹110, and then falls only to ₹98 before rising again. The new peak is higher than the previous peak, and the new low is also higher. This sequence may indicate an uptrend."
+    },
+    {
+      "type": "p",
+      "value": "A sideways trend is different. The stock may rise and fall between two broad price areas, such as ₹480 and ₹520, without consistently making higher highs or lower lows. The price is moving, but it has not established a clear direction."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>A trend is not a guarantee.</strong> Trends can slow down, change direction or become unclear. A short-term price move against the trend does not necessarily end it, and a trend that has continued for a long time can still reverse."
     },
     {
       "type": "tip",
-      "value": " <strong>The trend is your friend. Never ignore the overall direction of the market.</strong>"
+      "value": "Start by looking at several price swings rather than one candle. Ask whether the highs and lows are generally rising, falling or staying within a range. This gives you a more useful view of the trend."
     },
     {
       "type": "quiz",
-      "question": "What does a trend show?",
+      "question": "What does a stock's trend describe?",
       "choices": [
-        "The overall direction of a stock's movement.",
-        "The company's annual profit.",
-        "The number of employees."
+        "The general direction of its price movement over time.",
+        "The company's annual revenue.",
+        "The number of people holding the stock.",
+        "The dividend paid each quarter."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which sequence is commonly associated with an uptrend?",
+      "choices": [
+        "Lower highs and lower lows.",
+        "Identical highs and lows forever.",
+        "Higher highs and higher lows.",
+        "A stock that does not trade."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "A stock moves between ₹480 and ₹520 for several weeks without a clear direction. What type of trend may this be?",
+      "choices": [
+        "Uptrend.",
+        "Sideways trend.",
+        "Downtrend.",
+        "No trading activity."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which sequence is commonly associated with a downtrend?",
+      "choices": [
+        "Higher highs and higher lows.",
+        "A fixed price every day.",
+        "Higher lows and higher highs.",
+        "Lower highs and lower lows."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should you look at several price movements before identifying a trend?",
+      "choices": [
+        "One candle always defines the long-term trend.",
+        "A trend describes the broader direction, not just one price change.",
+        "The latest price is always the trend.",
+        "Charts cannot show price direction."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l50",

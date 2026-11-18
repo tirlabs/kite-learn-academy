@@ -3,36 +3,93 @@
   "title": "Resistance",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 53 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Resistance is a price level where sellers usually become active, making it difficult for the stock to move higher."
+      "value": "<strong>Resistance</strong> is a price area where a stock has previously faced selling pressure. When the price approaches this area, some investors may choose to sell, making it harder for the price to move higher at that time. It is a chart-based way of describing an area where supply has appeared."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Throw a ball towards the ceiling. The ceiling stops it from moving higher. Resistance acts like the ceiling for stock prices."
+      "value": "<strong>Imagine This:</strong> Throw a ball towards a ceiling. The ceiling limits how high the ball can travel. Resistance is a little like that ceiling, but in the stock market it is not a fixed barrier. It is an area where sellers have become active in the past."
     },
     {
       "type": "p",
-      "value": "When prices reach resistance, many investors decide to sell, increasing supply."
+      "value": "Resistance can form for several reasons. Investors who bought at a higher price earlier may want to sell when the stock returns to that level. Other investors may believe the stock has become expensive near that area. Their sell orders can create pressure that slows or reverses the price rise."
     },
     {
       "type": "example",
-      "value": "If a stock repeatedly reaches ₹800 before falling again, ₹800 may be acting as a resistance level."
+      "value": "<strong>For example:</strong> Suppose a stock rises towards ₹800 on several occasions but then moves lower each time. Traders may watch the area around ₹800 as possible resistance. The repeated reaction suggests selling interest has appeared there, but it does not guarantee the next attempt will fail."
+    },
+    {
+      "type": "p",
+      "value": "Like support, resistance is better viewed as a <strong>zone</strong> than an exact price. The stock may turn down slightly below the previous high or move a little above it before changing direction. Different traders may identify slightly different boundaries for the same area."
+    },
+    {
+      "type": "p",
+      "value": "If the price moves above resistance, some traders call it a breakout. However, a price can move above a level briefly and then fall back below it. Trading volume, the wider market and company news can provide additional context, but none of them guarantees that a breakout will continue."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Resistance does not mean the price must fall.</strong> It is a possible area of selling pressure, not a ceiling that the stock can never cross. Avoid making a decision from one touch of a price level."
     },
     {
       "type": "tip",
-      "value": " <strong>Like support, resistance is also an area rather than a single exact number.</strong>"
+      "value": "Study how the price behaves each time it approaches a resistance zone. Look for the broader trend and other context instead of assuming the level will always hold."
     },
     {
       "type": "quiz",
-      "question": "Resistance is where...",
+      "question": "What does resistance describe?",
       "choices": [
-        "Sellers usually become stronger.",
-        "Only buyers are active.",
-        "Companies announce dividends."
+        "A price area where selling interest may become stronger.",
+        "A guaranteed minimum price.",
+        "A company's fixed share value.",
+        "The number of shares available."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why might selling pressure appear near a resistance area?",
+      "choices": [
+        "The company must sell its shares there.",
+        "The exchange closes the stock.",
+        "Some investors may choose to sell near a price they consider attractive or expensive.",
+        "Buyers are legally prevented from placing orders."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "A stock repeatedly moves towards ₹800 and then falls. What might traders identify?",
+      "choices": [
+        "A guaranteed target price.",
+        "A possible resistance zone.",
+        "A dividend level.",
+        "A fixed circuit limit."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Does resistance guarantee that a stock price will fall?",
+      "choices": [
+        "Yes, every time.",
+        "Only when trading volume is low.",
+        "Yes, because it is a fixed exchange rule.",
+        "No, the price can move above resistance."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What is a sensible way to study resistance?",
+      "choices": [
+        "Observe the price behaviour around the zone and consider the wider chart context.",
+        "Assume the price must reverse at the exact same number.",
+        "Buy automatically whenever the stock reaches it.",
+        "Ignore the stock's previous price movement."
       ],
       "correctAnswer": 0
     }

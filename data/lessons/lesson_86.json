@@ -3,38 +3,95 @@
   "title": "Asset Allocation",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 86 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": 3,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Asset Allocation means dividing your money across different types of investments instead of investing everything in one place."
+      "value": "Asset allocation means dividing your investment money among broad asset classes, such as equity, fixed-income investments, gold and cash. It is different from simply choosing individual shares. The mix determines how much of your portfolio is exposed to the behaviour and risks of each type of asset."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A healthy meal contains rice, vegetables, dal and fruits. Eating only one food every day isn't balanced. Your investments should also be balanced across different asset classes."
+      "value": "<strong>Imagine This:</strong> When preparing for a long journey, you may keep some money for daily spending, some in a bank account and some reserved for emergencies. Each portion has a different purpose. Asset allocation gives different parts of your investment money different roles too."
     },
     {
       "type": "p",
-      "value": "Common asset classes include Stocks, Mutual Funds, Fixed Deposits, Gold, Bonds and Cash. The right mix depends on your age, financial goals and ability to handle risk."
+      "value": "Equity investments, including shares and equity mutual funds, can offer long-term growth potential but may fall sharply. Fixed-income investments such as deposits and bonds may provide more predictable interest or payments, but they can still face inflation, interest-rate and credit risks. Gold may behave differently from shares, while cash provides liquidity but can lose purchasing power over time."
+    },
+    {
+      "type": "p",
+      "value": "A mutual fund is an investment vehicle, not a single asset class by itself. An equity mutual fund mainly holds shares; a debt mutual fund mainly holds debt instruments; a hybrid fund may hold both. When deciding your asset allocation, look through the fund to understand what it actually invests in."
     },
     {
       "type": "example",
-      "value": "A young investor may choose 70% Stocks, 20% Mutual Funds and 10% Cash, while someone nearing retirement may prefer a more conservative allocation."
+      "value": "Imagine an investor has ₹1,00,000 for a long-term goal and chooses an illustrative allocation of 60% equity, 30% fixed income and 10% cash. That means ₹60,000 is exposed to equity-market movements, ₹30,000 to fixed-income risks and ₹10,000 is kept more readily accessible. This is an example only, not a suitable mix for everyone."
+    },
+    {
+      "type": "p",
+      "value": "The right allocation depends on the goal, the time available, the need for liquidity and the investor's ability and willingness to tolerate losses. Someone saving for a payment next year may need a different mix from someone investing for a goal many years away."
     },
     {
       "type": "tip",
-      "value": " <strong>Don't ask 'Which investment is best?' Ask 'What combination of investments is best for me?'</strong>"
+      "value": "Start with the question, 'When will I need this money?' Then decide how much volatility is reasonable for that goal. Review the allocation when your goals or circumstances change."
+    },
+    {
+      "type": "warning",
+      "value": "No asset allocation guarantees a return or prevents losses. Even a diversified mix can decline in value, and an allocation that looks suitable on paper may be difficult to stick with during a market fall."
     },
     {
       "type": "quiz",
-      "question": "What is Asset Allocation?",
+      "question": "What is asset allocation?",
       "choices": [
-        "Dividing investments across different asset classes.",
-        "Buying only one stock.",
-        "Keeping all money in cash."
+        "Dividing money among broad asset classes",
+        "Buying only different company names",
+        "Choosing a broker",
+        "Predicting daily market movement"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which is an example of a fixed-income investment?",
+      "choices": [
+        "A bond",
+        "An ordinary share",
+        "A stock chart",
+        "A market index"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why is a mutual fund not automatically one asset class?",
+      "choices": [
+        "It is only a bank account",
+        "It may invest in equity, debt or a combination",
+        "It cannot hold securities",
+        "It always invests in gold"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which factor should influence asset allocation?",
+      "choices": [
+        "Goal timeline and ability to handle losses",
+        "Only the latest market trend",
+        "The number of companies listed",
+        "A friend's portfolio"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is one risk of holding too much cash for many years?",
+      "choices": [
+        "It always falls in nominal value",
+        "Inflation may reduce its purchasing power",
+        "It becomes an equity share",
+        "It guarantees a negative return"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l85",

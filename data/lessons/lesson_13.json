@@ -3,36 +3,89 @@
   "title": "What is BSE?",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 13 of 100",
-  "readingTime": "5 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "The Bombay Stock Exchange (BSE) is India's oldest stock exchange and one of the oldest in the world."
+      "value": "The <strong>Bombay Stock Exchange (BSE)</strong> is one of India's main stock exchanges. Like the NSE, it provides an organised system where investors can buy and sell shares and other securities that are listed on it."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Think of an old, respected university that has educated students for more than 100 years. The BSE has a similarly rich history in India's financial markets."
+      "value": "<strong>Imagine This:</strong> Think of a busy marketplace that has served people for many generations. It has changed over time, but people still use it to buy and sell. The BSE has a long history in India's financial markets and has also changed as trading technology has improved."
     },
     {
       "type": "p",
-      "value": "The BSE was established in 1875. Today, thousands of companies are listed on it and millions of trades happen every day."
+      "value": "The BSE was established in 1875. In its early years, trading took place in person. Today, orders are placed electronically through stock brokers and handled by the exchange's trading system. Companies from different industries have their securities listed on the BSE."
+    },
+    {
+      "type": "p",
+      "value": "You may often hear about the <strong>SENSEX</strong>. It is a stock market index associated with the BSE. It follows a selected group of large, actively traded companies. When people say the SENSEX has risen or fallen, they are talking about the movement of this selected group, not every company listed on the BSE."
     },
     {
       "type": "example",
-      "value": "The SENSEX is the benchmark index of the Bombay Stock Exchange."
+      "value": "<strong>For example:</strong> Imagine the SENSEX rises during a day. This tells you that the index's selected group has moved up overall. It does not mean every share on the BSE has risen. Some shares may go up, some may fall and others may not change much."
+    },
+    {
+      "type": "p",
+      "value": "A company can have its shares listed on both the NSE and the BSE. The two exchanges run separate trading systems, so the prices and number of buy or sell orders may differ slightly at a particular moment. Brokers show the exchange on which an order is being placed."
     },
     {
       "type": "tip",
-      "value": " <strong>Most major companies are listed on both NSE and BSE.</strong>"
+      "value": "Keep these two ideas separate: BSE is a stock exchange; SENSEX is an index. The exchange is where orders are matched. The index is a measure people use to follow a selected group of shares."
     },
     {
       "type": "quiz",
-      "question": "BSE stands for...",
+      "question": "When was the BSE established?",
       "choices": [
-        "Bombay Stock Exchange",
-        "Business Stock Exchange",
-        "Basic Share Exchange"
+        "1875",
+        "1947",
+        "1992",
+        "2005"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is the SENSEX?",
+      "choices": [
+        "A stock broker.",
+        "An index associated with the BSE.",
+        "A Demat account.",
+        "A type of bank deposit."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "If the SENSEX rises, what does that tell you?",
+      "choices": [
+        "Every share in India has risen.",
+        "All investors have made a profit.",
+        "The selected group of shares in the index has moved up overall.",
+        "The BSE has become a company."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Can a company's shares be listed on both NSE and BSE?",
+      "choices": [
+        "No, a company can use only one exchange.",
+        "Yes, if it meets the relevant listing requirements.",
+        "Only if the company is owned by the government.",
+        "Only when its share price is below ₹10."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why might the quoted price differ slightly between NSE and BSE?",
+      "choices": [
+        "They use separate trading systems with their own buy and sell orders.",
+        "One exchange is allowed to change a company's profits.",
+        "The company has two different names.",
+        "The SENSEX sets the price on both exchanges."
       ],
       "correctAnswer": 0
     }

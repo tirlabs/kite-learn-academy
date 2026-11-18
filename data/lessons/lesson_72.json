@@ -3,40 +3,93 @@
   "title": "Price to Earnings Ratio (P/E Ratio)",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 72 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "The Price to Earnings Ratio, or P/E Ratio, helps investors understand how much they are paying for every ₹1 of a company's earnings."
+      "value": "The <strong>Price to Earnings Ratio</strong>, usually called the <strong>P/E Ratio</strong>, helps investors understand how much the market price of a share represents for every ₹1 of the company's earnings per share. It is one way to compare a company's share price with its earnings."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Two houses earn the same monthly rent, but one costs ₹50 lakh and the other costs ₹1 crore. The second house is much more expensive compared to the income it generates. Investors use the P/E Ratio in a similar way."
+      "value": "<strong>Imagine This:</strong> Two houses earn the same monthly rent, but one costs ₹50 lakh and the other costs ₹1 crore. The second house costs more compared with the income it generates. Investors use the P/E Ratio in a similar way when comparing a share price with the company's earnings."
     },
     {
       "type": "p",
-      "value": "A high P/E may indicate that investors expect strong future growth. A low P/E may suggest lower expectations or that the stock could be undervalued."
+      "value": "The basic formula is: <strong>P/E Ratio = Market Price per Share ÷ Earnings Per Share</strong>. If a share trades at ₹200 and its EPS is ₹10, its P/E Ratio is 20. This means investors are paying ₹20 in market price for each ₹1 of annual earnings per share."
     },
     {
       "type": "example",
-      "value": "If a stock trades at ₹500 and its EPS is ₹25, then the P/E Ratio is 20."
+      "value": "<strong>Let's compare:</strong> Company A has a share price of ₹300 and EPS of ₹15. Its P/E is 300 ÷ 15 = 20. Company B has a share price of ₹240 and EPS of ₹20. Its P/E is 240 ÷ 20 = 12. Company A has the higher P/E, but that alone does not tell us which company is the better investment."
     },
     {
-      "type": "fact",
-      "value": " Formula: P/E = Share Price ÷ EPS"
+      "type": "p",
+      "value": "A higher P/E may reflect expectations of stronger future growth, confidence in the business or a share price that is high compared with current earnings. A lower P/E may indicate lower growth expectations, business concerns or a share that investors consider relatively inexpensive. The reason needs to be investigated."
+    },
+    {
+      "type": "p",
+      "value": "P/E comparisons are usually more useful between companies in the same industry with similar business models. Different industries can have different growth rates, capital needs and risk profiles. Investors should also check whether the P/E uses past earnings (trailing P/E) or estimated future earnings (forward P/E)."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>A high P/E is not always bad, and a low P/E is not always good. Always compare companies in the same industry.</strong>"
+      "value": "<strong>A low P/E does not automatically mean a stock is cheap, and a high P/E does not automatically mean it is expensive.</strong> If earnings are temporarily unusually high or low, the ratio may give a misleading impression. Companies with zero or negative earnings may not have a meaningful conventional P/E."
+    },
+    {
+      "type": "tip",
+      "value": "Use P/E as a starting point for questions: What growth is the market expecting? Are earnings sustainable? How does the valuation compare with similar businesses? Never treat the ratio as a buy or sell signal by itself."
     },
     {
       "type": "quiz",
       "question": "What does the P/E Ratio compare?",
       "choices": [
-        "Share Price and Earnings Per Share.",
-        "Assets and Liabilities.",
-        "Revenue and Expenses."
+        "Share price with earnings per share.",
+        "Revenue with total assets.",
+        "Debt with cash balance.",
+        "Dividend with number of employees."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A share price is ₹150 and EPS is ₹10. What is the P/E Ratio?",
+      "choices": [
+        "10",
+        "12",
+        "15",
+        "150"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What might a higher P/E sometimes reflect?",
+      "choices": [
+        "A guaranteed future loss.",
+        "Expectations of stronger future growth or greater confidence in the business.",
+        "The company has no shareholders.",
+        "The stock cannot fall."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why are P/E comparisons often more useful within the same industry?",
+      "choices": [
+        "All industries have identical growth and risk.",
+        "Every company has the same accounting method.",
+        "P/E is calculated using revenue.",
+        "Companies in different industries can have different growth, capital needs and risk profiles."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about a low P/E is correct?",
+      "choices": [
+        "It does not automatically mean a stock is undervalued; the earnings and business outlook need examination.",
+        "It guarantees that the share price will rise.",
+        "It means the company has no debt.",
+        "It proves that earnings will grow."
       ],
       "correctAnswer": 0
     }

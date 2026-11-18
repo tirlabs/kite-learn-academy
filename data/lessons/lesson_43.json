@@ -3,38 +3,91 @@
   "title": "Line Chart",
   "module": " Module 5 - Reading Charts",
   "order": "Page 43 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "The simplest type of stock chart is a Line Chart. It joins the closing prices of a stock using a continuous line."
+      "value": "A <strong>Line Chart</strong> is one of the simplest ways to view a stock's price movement. It connects a series of price points with a continuous line. In many commonly used stock charts, the line represents the closing price for each selected period."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Every evening you note down the outside temperature. At the end of the month, you connect all the points with a pencil. You've just created a line chart."
+      "value": "<strong>Imagine This:</strong> Every evening, you write down the day's temperature. At the end of the month, you mark each reading on a graph and connect the points. The line makes it easy to see whether the temperature generally rose or fell. A stock line chart works in a similar way."
     },
     {
       "type": "p",
-      "value": "Line charts are easy to understand and are useful for identifying the overall direction of a stock."
+      "value": "Each point on the line represents the chosen price for a particular time. On a daily line chart, the point commonly represents that day's closing price. On an hourly or weekly chart, it represents the closing price of that selected period."
     },
     {
       "type": "example",
-      "value": "If the line steadily moves upward over several months, the stock has generally been increasing in price."
+      "value": "<strong>For example:</strong> Suppose a stock closes at ₹100 on Monday, ₹103 on Tuesday, ₹101 on Wednesday and ₹106 on Thursday. The line chart connects those four closing prices. You can quickly see the overall movement, including the small decline on Wednesday."
+    },
+    {
+      "type": "p",
+      "value": "Line charts are useful when you want a clean view of the general direction of a stock over time. They reduce the amount of detail shown, which can make long-term movement easier to understand. This simplicity is also their limitation: a basic line chart does not show the full range of prices traded during each period."
+    },
+    {
+      "type": "p",
+      "value": "A line chart usually does not show the opening, highest and lowest prices for each period. If you need those details, a bar chart or candlestick chart may be more useful. The right chart depends on the question you are trying to answer."
     },
     {
       "type": "tip",
-      "value": " <strong>Line charts are perfect for beginners because they clearly show trends without too much detail.</strong>"
+      "value": "Use a line chart when you want to see the broad price direction without too much detail. Remember to check which price the line represents, usually the closing price."
     },
     {
       "type": "quiz",
-      "question": "A Line Chart is created using...",
+      "question": "What does a typical stock line chart connect?",
       "choices": [
-        "Closing prices",
-        "Company profits",
-        "Trading volume"
+        "The closing prices of selected periods.",
+        "The names of all shareholders.",
+        "The company's monthly expenses.",
+        "The highest prices of every stock in the market."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What does each point on a daily line chart commonly represent?",
+      "choices": [
+        "The company's daily revenue.",
+        "The opening price only.",
+        "That day's closing price.",
+        "The number of trades."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What is a major advantage of a line chart?",
+      "choices": [
+        "It shows every trade in detail.",
+        "It makes the overall price direction easy to see.",
+        "It guarantees accurate predictions.",
+        "It displays all four OHLC values."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is one limitation of a basic line chart?",
+      "choices": [
+        "It cannot show time.",
+        "It cannot show closing prices.",
+        "It cannot display a price trend.",
+        "It usually does not show the full high-low range for each period."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which chart may be more useful if you want to see a stock's open, high, low and close?",
+      "choices": [
+        "A basic line chart.",
+        "A pie chart.",
+        "A bar or candlestick chart.",
+        "A company organisation chart."
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l42",

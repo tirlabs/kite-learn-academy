@@ -3,52 +3,95 @@
   "title": "Volatility",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 40 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Volatility measures how much a stock's price moves over a period of time. Some stocks move very little, while others rise and fall rapidly."
+      "value": "Volatility describes how much and how quickly a stock's price moves over a period of time. A stock whose price changes sharply and frequently is generally described as more volatile. A stock whose price changes less sharply over the same period is generally less volatile. Volatility is about the size and pattern of price movements, not whether the direction is upward or downward."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> One amusement park ride moves slowly and smoothly. Another is a fast roller coaster with sudden twists and drops. Stock prices behave in a similar way."
+      "value": "<strong>Imagine This:</strong> One amusement park ride moves gently, while another is a roller coaster with sudden climbs and drops. Both rides move, but the second has much bigger and faster changes. Stock prices can behave in a similar way: some move steadily, while others experience sharp ups and downs."
     },
     {
       "type": "p",
-      "value": "High volatility means prices change quickly and by larger amounts. Low volatility means prices move more steadily."
+      "value": "High volatility means a stock's price has been changing by larger amounts or more rapidly. Low volatility means its price movements have been relatively smaller or steadier. Volatility can increase around company results, major announcements, economic news or periods of uncertainty in the wider market."
     },
     {
       "type": "example",
-      "value": "A stock moving from ₹100 to ₹130 and back to ₹105 within a week is considered more volatile than one moving gradually from ₹100 to ₹103."
+      "value": "<strong>Compare two stocks:</strong> Stock A moves between ₹100 and ₹102 during a week. Stock B moves between ₹100 and ₹130 during the same period. Stock B has experienced a much wider price range in this example, so its price behaviour has been more volatile."
     },
     {
-      "type": "tip",
-      "value": " <strong>High volatility creates both higher opportunities and higher risks.</strong>"
+      "type": "p",
+      "value": "Volatility can be measured in different ways. One simple way to observe it is to look at how widely prices have moved over a chosen period. More technical measures use the variation of returns over time. The result depends on the period and method used, so volatility figures should be compared on a consistent basis."
+    },
+    {
+      "type": "p",
+      "value": "Volatility is not the same as the overall risk of an investment. It focuses on price movement. Investment risk can also include the possibility of permanent loss, business failure, debt problems, poor governance or not being able to sell when needed. A stock can be volatile without the business being weak, and a stock with relatively steady prices can still carry serious risks."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>Volatility is not the same as risk. A good company can still experience short-term volatility.</strong>"
+      "value": "<strong>High volatility does not mean higher profits are guaranteed.</strong> A sharp move can be upward or downward. If you buy during a sudden rise, the price may fall just as quickly. Consider whether you can handle the possible changes before investing."
+    },
+    {
+      "type": "tip",
+      "value": "When you see a stock moving sharply, do not confuse movement with opportunity. Understand what is driving the price, how much loss you could tolerate and whether the investment suits your time horizon."
     },
     {
       "type": "quiz",
-      "question": "What does high volatility indicate?",
+      "question": "What does volatility describe?",
       "choices": [
-        "Large and frequent price movements.",
-        "Guaranteed profits.",
-        "No trading activity."
+        "The number of shareholders in a company.",
+        "How much and how quickly a stock's price moves.",
+        "The amount of cash a company keeps.",
+        "The guaranteed return from a share."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "type": "quiz",
-      "question": "Which stock is more volatile?",
+      "question": "Which stock showed greater volatility in the examples below?",
       "choices": [
-        "A stock moving between ₹100 and ₹130 in a week.",
         "A stock moving between ₹100 and ₹102 in a week.",
-        "Both are equally volatile."
+        "A stock whose price did not change.",
+        "A stock moving between ₹100 and ₹130 in a week.",
+        "Both stocks must have the same volatility."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Can volatility be upward or downward?",
+      "choices": [
+        "Yes, prices can move sharply in either direction.",
+        "No, volatility means prices only rise.",
+        "No, volatility means prices only fall.",
+        "Only when a company pays a dividend."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Is volatility the same as all forms of investment risk?",
+      "choices": [
+        "Yes, they mean exactly the same thing.",
+        "Yes, low volatility means no risk.",
+        "No, volatility measures price movement, while investment risk includes other possible losses and problems.",
+        "No, because volatility is unrelated to prices."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What is a sensible response to a highly volatile stock?",
+      "choices": [
+        "Assume the price will keep rising.",
+        "Buy immediately because volatility guarantees opportunity.",
+        "Ignore the possible downside.",
+        "Understand the reasons for the movement and consider whether you can handle the risk."
+      ],
+      "correctAnswer": 3
     }
   ],
   "previousLesson": "l39",

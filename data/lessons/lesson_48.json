@@ -3,46 +3,93 @@
   "title": "Bullish & Bearish Candles",
   "module": " Module 5 - Reading Charts",
   "order": "Page 48 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Candles quickly show whether buyers or sellers were stronger during a trading period."
+      "value": "A candlestick's body gives you a quick comparison between the Open and Close. If the Close is higher than the Open, the candle is called <strong>bullish</strong>. If the Close is lower than the Open, it is called <strong>bearish</strong>. These names describe how the price finished during that selected period."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Imagine a tug of war between two teams. One team represents buyers and the other represents sellers. At the end of the game, the winning team determines the direction of the candle."
+      "value": "<strong>Imagine This:</strong> Think of a tug of war. At the end, one team has pulled the rope towards its side. A bullish candle means the price finished above where it started; a bearish candle means it finished below where it started. The candle is a summary of the period, not a complete record of every moment in the contest."
     },
     {
       "type": "p",
-      "value": "A Bullish candle usually appears green and means the closing price was higher than the opening price. A Bearish candle usually appears red and means the closing price was lower than the opening price."
+      "value": "A bullish candle is commonly displayed in green or white, depending on the chart settings. A bearish candle is commonly displayed in red or black. The colour is only a visual convention. The important detail is whether the Close is above or below the Open."
     },
     {
       "type": "example",
-      "value": "Open ₹500, Close ₹520 → Bullish Candle. Open ₹520, Close ₹500 → Bearish Candle."
+      "value": "<strong>Compare these two candles:</strong> Open ₹500 and Close ₹520 is bullish because the price finished ₹20 higher. Open ₹520 and Close ₹500 is bearish because the price finished ₹20 lower. In both cases, the wicks may show that the price moved above or below the body during the period."
+    },
+    {
+      "type": "p",
+      "value": "A bullish candle does not mean every trade in that period happened at a higher price, and a bearish candle does not mean the price fell continuously. The stock may move up and down before finishing at its closing price. The High and Low wicks help show the full range."
+    },
+    {
+      "type": "p",
+      "value": "A single candle provides limited information. Traders often look at the candle's size, wicks, trading volume, nearby price levels and the wider trend before forming an opinion. Even then, a candle is not a guarantee of what comes next."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Bullish does not mean certain to rise, and bearish does not mean certain to fall.</strong> These terms describe the relationship between Open and Close for one selected period. They are not predictions."
     },
     {
       "type": "tip",
-      "value": " <strong>The candle's color tells who won the battle between buyers and sellers.</strong>"
+      "value": "To classify a candle, compare just two values first: Open and Close. Then study the wicks and surrounding candles for more context."
     },
     {
       "type": "quiz",
-      "question": "A Bullish candle usually means...",
+      "question": "When is a candle bullish?",
       "choices": [
-        "The price closed above the opening price.",
-        "The stock stopped trading.",
-        "The company paid dividends."
+        "When the Close is higher than the Open.",
+        "When the Low is higher than the High.",
+        "When the stock has a high trading volume.",
+        "When the stock closes at its 52-week high."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Who is stronger during a Bearish candle?",
+      "question": "When is a candle bearish?",
       "choices": [
-        "Sellers",
-        "Buyers",
-        "Neither"
+        "When the stock has more shareholders.",
+        "When the High is above the Open.",
+        "When the Close is lower than the Open.",
+        "When the stock pays a dividend."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "A candle opens at ₹300 and closes at ₹315. How is it classified?",
+      "choices": [
+        "Bearish.",
+        "Bullish.",
+        "Neither; it is a weekly candle.",
+        "It cannot be classified without the company's profit."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What do bullish and bearish describe?",
+      "choices": [
+        "The company's long-term financial health.",
+        "Whether the next trading session will rise or fall.",
+        "Whether a stock is cheap or expensive.",
+        "Whether the selected period closed above or below its opening price."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should you avoid interpreting one candle as a guaranteed signal?",
+      "choices": [
+        "A candle summarises one period and does not predict what must happen next.",
+        "Every candle contains future prices.",
+        "Candles do not show opening or closing prices.",
+        "The exchange chooses candle colours randomly."
       ],
       "correctAnswer": 0
     }

@@ -3,53 +3,97 @@
   "title": "Building Your Investment Strategy",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 90 of 100",
-  "readingTime": "12 mins read",
+  "readingTime": 4,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Congratulations! You now understand the foundations of investing. The final step is combining everything you've learned into a simple investment strategy."
+      "value": "An investment strategy brings together the ideas you have learned into a clear way of making decisions. It helps you decide what you are investing for, what kinds of investments may suit the goal, how much money to allocate and when to review your decisions. A strategy is not a prediction of what the market will do; it is a process for responding thoughtfully."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Building a house requires bricks, cement, steel, doors and windows. Each material is useful on its own, but only together do they create a home. Investing works the same way."
+      "value": "<strong>Imagine This:</strong> Building a house requires many materials: bricks, cement, steel, doors and windows. Each material has a purpose, but the house works only when the parts are planned and brought together. Investing is similar. Understanding a company, reading its financials, considering valuation and managing risk are separate skills that must work together."
+    },
+    {
+      "type": "p",
+      "value": "Start with your goal and time horizon. Money needed soon may require more stability and access, while money intended for a distant goal may be able to tolerate more short-term movement. Next, decide how much risk you can handle and choose an asset allocation that fits the goal. Keep emergency savings separate from money exposed to market fluctuations."
     },
     {
       "type": "fact",
-      "value": "✅ A simple investing checklist:\n1. Understand the business.\n2. Check revenue and profit growth.\n3. Review debt and financial ratios.\n4. Study the price chart.\n5. Identify the trend.\n6. Diversify your investments.\n7. Invest only what you can afford.\n8. Stay patient and think long term."
+      "value": "<strong>A practical investment checklist:</strong>\n1. What goal is this money meant to support?\n2. When will I need the money?\n3. Do I understand the business or investment?\n4. How does the company earn money?\n5. Have I checked revenue, profit, debt and cash flow?\n6. Is the valuation reasonable for the business and its prospects?\n7. What are the important risks?\n8. How much of my portfolio will this investment represent?\n9. Does it improve or weaken diversification?\n10. What would make me review or exit the investment?"
     },
     {
       "type": "example",
-      "value": "Instead of buying a stock simply because someone recommended it, use this checklist to make an informed decision."
+      "value": "Imagine someone recommends a manufacturing company. Instead of buying immediately, you first learn what it makes and who its customers are. You review its recent revenue and profit, check debt and cash flow, compare its valuation with the business outlook, and identify possible risks. You then decide whether it fits your portfolio and what allocation is sensible. If the answers are unclear, you do not have to invest."
     },
     {
-      "type": "warning",
-      "value": "⚠️ <strong>No strategy guarantees profits. A disciplined process improves your chances of making better investment decisions over time.</strong>"
+      "type": "p",
+      "value": "A strategy should also include habits for maintaining it. Keep records of why you made important decisions. Review investments when results, business conditions or your personal goals change. Avoid changing the entire plan because of every daily market movement, but do not ignore evidence that the original reason for investing is no longer valid."
     },
     {
       "type": "tip",
-      "value": " <strong>The best investors don't try to be right every time—they focus on making good decisions consistently.</strong>"
+      "value": "Keep your strategy simple enough to follow. A short written plan that reflects your real goals is more useful than a complicated set of rules you cannot maintain. Revisit it periodically and when important circumstances change."
+    },
+    {
+      "type": "warning",
+      "value": "No strategy guarantees profits or removes market risk. The checklist supports better questions and more disciplined decisions; it does not replace independent research or qualified professional advice when you need it."
     },
     {
       "type": "fact",
-      "value": " Congratulations! You have completed Module 8 and are now ready to explore advanced investing topics."
+      "value": "Congratulations! You have completed Module 8. You have brought together the foundations of investing and are now ready to explore advanced investing topics."
     },
     {
       "type": "quiz",
-      "question": "What is the most important part of a successful investment strategy?",
+      "question": "What is the purpose of an investment strategy?",
       "choices": [
-        "Following a disciplined process consistently.",
-        "Finding guaranteed multibagger stocks.",
-        "Buying every stock that is trending."
+        "Predict every market movement",
+        "Provide a consistent process connected to goals and risk",
+        "Guarantee profits",
+        "Copy another investor"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What should you identify before selecting investments?",
+      "choices": [
+        "Your goal and time horizon",
+        "The most discussed share",
+        "A random target price",
+        "The latest rumour"
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Should you invest without understanding the business?",
+      "question": "Which company information is useful to review?",
       "choices": [
-        "No",
-        "Yes"
+        "Revenue, profit, debt, cash flow and valuation",
+        "Only the share's logo",
+        "Only social media followers",
+        "Only today's price movement"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why should you decide position size and portfolio fit before buying?",
+      "choices": [
+        "To manage the effect of the investment on your overall finances",
+        "To guarantee the target price",
+        "To avoid reading company information",
+        "To ensure the company pays dividends"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "When should an investment plan be reviewed?",
+      "choices": [
+        "When important goals, circumstances or evidence change",
+        "Every time the price changes by one paisa",
+        "Never after the first purchase",
+        "Only when a friend suggests it"
       ],
       "correctAnswer": 0
     }

@@ -3,40 +3,93 @@
   "title": "Promoter Holding",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 78 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Promoters are the founders or controlling owners of a company. Promoter Holding tells us how much of the company they continue to own."
+      "value": "In India, a <strong>Promoter</strong> is generally a person or group identified as having promoted or founded a company, or exercising control over it, as defined under applicable regulations. <strong>Promoter Holding</strong> refers to the shares held by the promoter and promoter group in the company."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A family builds a successful hotel. Years later, they still own 70% of it. This shows they continue to have confidence in the business they created."
+      "value": "<strong>Imagine This:</strong> A family starts a business and owns a large part of it even after the business grows. The family may continue to guide important decisions because of its ownership and role in the company. Promoter holding helps investors understand how much of a listed company remains with its promoters."
     },
     {
       "type": "p",
-      "value": "Many investors prefer companies where promoters continue to hold a meaningful stake because it aligns their interests with other shareholders."
-    },
-    {
-      "type": "warning",
-      "value": "⚠️ <strong>High promoter holding alone is not enough. Always consider the company's financial performance and corporate governance.</strong>"
+      "value": "Promoter holding is usually shown as a percentage of the company's total share capital. Investors often track whether this percentage is stable, increasing or decreasing over time. A change may result from buying or selling shares, new share issues, dilution or other corporate actions."
     },
     {
       "type": "example",
-      "value": "If promoters increase their ownership over time, some investors see it as a positive sign. If they reduce it significantly, investors may try to understand the reason."
+      "value": "<strong>For example:</strong> A company has 10 crore shares in total, and the promoter group holds 6 crore shares. Promoter holding is 6 ÷ 10 × 100 = 60%. If the company later issues new shares to other investors, the promoter percentage may fall even if the promoters do not sell any shares."
+    },
+    {
+      "type": "p",
+      "value": "A meaningful promoter stake can align promoters' financial interests with the company's long-term performance. However, a high stake does not guarantee good management or governance. A low stake does not automatically mean that a company is poorly run. The quality of leadership and the way the company is managed matter."
+    },
+    {
+      "type": "p",
+      "value": "Investors should also look at <strong>promoter share pledging</strong>. Pledging means promoters have offered their shares as security for a loan or other obligation. If the value of the pledged shares falls or the borrower cannot meet the terms, lenders may have rights that could lead to the shares being sold. The level and reasons for pledging should be examined."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>A change in promoter holding or the presence of pledged shares is a reason to investigate, not a conclusion by itself.</strong> Read the company's disclosures, understand the context and consider governance, debt and business performance together."
     },
     {
       "type": "tip",
-      "value": " <strong>Look for trends in promoter holding over several quarters instead of focusing on one number.</strong>"
+      "value": "Track promoter holding and pledged shares over time. Ask whether changes are explained clearly and whether the company's actions support the interests of all shareholders."
     },
     {
       "type": "quiz",
-      "question": "Who are promoters?",
+      "question": "What does promoter holding represent?",
       "choices": [
-        "Founders or controlling owners of a company.",
-        "Stock brokers.",
-        "Government regulators."
+        "The shares held by the promoter and promoter group.",
+        "The shares held only by retail investors.",
+        "The number of shares traded in one day.",
+        "The company's total debt."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A company has 10 crore shares and promoters hold 6 crore. What is promoter holding?",
+      "choices": [
+        "6%",
+        "10%",
+        "60%",
+        "90%"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Can promoter holding percentage fall even if promoters do not sell shares?",
+      "choices": [
+        "No, it can change only when promoters sell.",
+        "Yes, issuing new shares to others can dilute the promoter percentage.",
+        "No, the percentage is fixed forever.",
+        "Yes, but only when the company pays a dividend."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does promoter share pledging mean?",
+      "choices": [
+        "Promoters have cancelled their shares.",
+        "Promoters have given shares away permanently.",
+        "The company has issued bonus shares.",
+        "Promoters have offered their shares as security for a loan or obligation."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What is a balanced way to interpret high promoter holding?",
+      "choices": [
+        "It may align interests, but it does not guarantee good governance or performance.",
+        "It guarantees that the share price will rise.",
+        "It means public investors cannot buy shares.",
+        "It proves that the company has no debt."
       ],
       "correctAnswer": 0
     }

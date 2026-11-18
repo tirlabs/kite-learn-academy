@@ -3,49 +3,91 @@
   "title": "What is a Stock Broker?",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 15 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "You cannot directly walk into the NSE or BSE and buy shares yourself. You need a registered stock broker."
+      "value": "You cannot usually place an order directly on the NSE or BSE as an individual investor. You use a <strong>stock broker</strong> to access the exchange. A broker provides the account and tools that let you place buy and sell orders."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> When buying a house, most people work through a real estate agent who helps complete the transaction. In the stock market, a broker performs a similar role by helping investors buy and sell shares."
+      "value": "<strong>Imagine This:</strong> When you book a train ticket online, you use a booking service to send your request into the railway's system. The service helps you make the booking, but it does not own the train. In a similar way, a stock broker gives you a way to send your share orders to a stock exchange."
     },
     {
       "type": "p",
-      "value": "A stock broker is a SEBI-registered company that provides a platform to buy and sell shares on stock exchanges."
+      "value": "A stock broker is an entity registered with SEBI that is permitted to provide broking services under the applicable rules. Brokers offer trading platforms, such as mobile apps and websites. Through these platforms, you can search for shares, choose the quantity and price, and place an order."
+    },
+    {
+      "type": "p",
+      "value": "When you place an order, your broker sends it to the exchange you selected. The exchange checks and processes it under its rules. If a suitable order is available, the trade may be matched. If not, your order may remain open, be partly completed or be cancelled, depending on the order type and conditions."
     },
     {
       "type": "example",
-      "value": "Popular stock brokers in India include Zerodha, Groww, Angel One, Upstox and ICICI Direct."
+      "value": "<strong>For example:</strong> You open your broker's app and place an order to buy 5 shares of a company. The broker sends your order to the selected exchange. You do not choose the seller yourself; the exchange's system matches orders that meet the required conditions."
+    },
+    {
+      "type": "p",
+      "value": "Brokers may charge fees for their services. These can include brokerage and other applicable charges. Different brokers may have different plans, platforms and support. Before opening an account, check that the broker is registered, understand its charges and read the terms carefully."
     },
     {
       "type": "tip",
-      "value": " <strong>When you click 'Buy' in Zerodha or Groww, your broker sends your order to the stock exchange.</strong>"
+      "value": "Your broker helps you access the stock exchange and place orders. The broker does not decide whether a share is a good investment, and it cannot guarantee that your order will be completed at the price you want."
     },
     {
       "type": "quiz",
-      "question": "Why do investors need a stock broker?",
+      "question": "Why does an individual investor use a stock broker?",
       "choices": [
-        "To access the stock exchange and place buy/sell orders.",
-        "To print share certificates.",
-        "To create new companies."
+        "To create shares for a company.",
+        "To access a stock exchange and place buy or sell orders.",
+        "To guarantee a profit.",
+        "To decide the company's business strategy."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does a broker usually do after you place an order?",
+      "choices": [
+        "Sends the order to the selected stock exchange.",
+        "Keeps the order in a personal notebook.",
+        "Changes the company's share count.",
+        "Guarantees a seller will accept any price."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Which of these is a stock broker in India?",
+      "question": "What may happen if there is no matching sell order for your buy order?",
       "choices": [
-        "Zerodha",
-        "Groww",
-        "Angel One",
-        "All of the above"
+        "The trade is guaranteed anyway.",
+        "The company must sell you a share.",
+        "The order may remain open or be handled according to its conditions.",
+        "SEBI automatically buys the share."
       ],
-      "correctAnswer": 3
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What should you check before choosing a broker?",
+      "choices": [
+        "Only the colour of its app.",
+        "Whether it is registered and what charges and services it offers.",
+        "Whether it promises daily profits.",
+        "Whether your friends use it."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement is correct?",
+      "choices": [
+        "A broker guarantees that every order will be completed.",
+        "A broker chooses investments for every customer.",
+        "A broker provides access and order services, but cannot guarantee a trade or a profit.",
+        "A broker owns the shares after you buy them."
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l14",

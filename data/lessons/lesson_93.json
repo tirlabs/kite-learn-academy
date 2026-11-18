@@ -3,34 +3,95 @@
   "title": "Exchange Traded Funds (ETFs)",
   "module": " Module 9 - Advanced Investing & Your Journey",
   "order": "Page 93 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": 4,
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "An ETF is a basket of investments that trades on the stock exchange just like a normal share."
+      "value": "An Exchange Traded Fund (ETF) is a fund that holds a collection of investments and whose units are bought and sold on a stock exchange. Like an individual share, an ETF has a market price that can change during the trading day. Buying one ETF unit gives you exposure to the fund's portfolio rather than direct ownership of each underlying security."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Instead of buying every fruit individually, you buy one fruit basket. ETFs work similarly by giving exposure to multiple investments at once."
+      "value": "<strong>Imagine This:</strong> Instead of buying every item in a large shopping basket separately, you buy the basket as one package. An ETF can provide exposure to a group of shares, bonds or another asset through a single listed unit."
+    },
+    {
+      "type": "p",
+      "value": "Many ETFs are designed to track an index. For example, a Nifty 50 ETF aims to follow the performance of the Nifty 50. Other ETFs may track bond indices, gold or a particular market segment. An ETF's portfolio and objective are described in its documents, so check what it actually holds before investing."
     },
     {
       "type": "example",
-      "value": "NIFTYBEES is an ETF that tracks the Nifty 50 Index."
+      "value": "Suppose a Nifty 50 ETF holds shares designed to represent the index. If the index rises, the ETF's value may also rise; if the index falls, the ETF may fall too. The ETF's return may differ from the index because of expenses, cash holdings, portfolio changes and tracking difference."
+    },
+    {
+      "type": "p",
+      "value": "ETFs trade on the exchange, so investors generally need a Demat and trading account to buy and sell them. The market price is influenced by the value of the underlying holdings and by buying and selling demand. It may trade slightly above or below its indicative underlying value."
+    },
+    {
+      "type": "p",
+      "value": "Two important things to check are <strong>liquidity</strong> and the <strong>bid-ask spread</strong>. Liquidity describes how easily units can be traded. The bid-ask spread is the difference between the best available buying and selling prices. A wide spread can make entering or exiting a position more expensive."
     },
     {
       "type": "tip",
-      "value": " ETFs combine diversification with the convenience of buying a single stock."
+      "value": "Compare an ETF's objective, underlying holdings, expense ratio, tracking difference, trading volume and bid-ask spread. Use limit orders thoughtfully, especially when trading an ETF with lower liquidity."
+    },
+    {
+      "type": "warning",
+      "value": "An ETF does not guarantee the return of its index or underlying asset. Prices can move during the day, liquidity may be limited and market losses are possible. Understand the product before treating it as a simple or risk-free basket."
     },
     {
       "type": "quiz",
-      "question": "ETFs are traded...",
+      "question": "How are ETF units generally bought and sold?",
       "choices": [
-        "On the Stock Exchange",
-        "Only through banks",
-        "Only through RBI"
+        "On a stock exchange",
+        "Only at a bank branch",
+        "Only once a year",
+        "Through a fixed deposit"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What does a Nifty 50 ETF generally aim to track?",
+      "choices": [
+        "One company",
+        "The Nifty 50 index",
+        "Gold prices only",
+        "The repo rate"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is tracking difference?",
+      "choices": [
+        "Difference between an ETF's return and its benchmark's return over a period",
+        "Difference between two investor names",
+        "Brokerage paid to a bank",
+        "Number of units held"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why should you check an ETF's bid-ask spread?",
+      "choices": [
+        "It can affect the cost of buying or selling",
+        "It guarantees returns",
+        "It reveals the fund manager's age",
+        "It sets index constituents"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about ETFs is correct?",
+      "choices": [
+        "All ETFs are equally liquid",
+        "ETF prices can move during the day and may differ from underlying value",
+        "ETFs cannot fall",
+        "An ETF always exactly matches its index"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l92",

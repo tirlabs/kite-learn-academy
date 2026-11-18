@@ -3,36 +3,93 @@
   "title": "Dividend",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 76 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "When a company earns profits, it can either reinvest the money back into the business or share a portion of the profits with its shareholders. This payment is called a Dividend."
+      "value": "A <strong>Dividend</strong> is a distribution of a portion of a company's profits or accumulated reserves to its shareholders, subject to applicable laws and approvals. It is one way a company may return money to investors. Not every company pays dividends, and a company is not required to distribute all its profits."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Four friends own a mango farm. After selling the harvest and paying all expenses, they decide to share part of the profit equally among themselves. That shared profit is similar to a dividend."
+      "value": "<strong>Imagine This:</strong> Four friends start a small business together. At the end of the year, they decide to keep some of the earnings in the business to expand and distribute another part among the owners. A dividend is similar to the amount a company distributes to its shareholders."
     },
     {
       "type": "p",
-      "value": "Not every company pays dividends. Fast-growing companies often reinvest profits to expand, while mature companies may regularly reward shareholders with dividends."
+      "value": "Dividends are usually declared as an amount per share. If a company declares a dividend of ₹5 per share and you own 100 eligible shares, the gross dividend would be ₹500, before any applicable tax withholding. The amount you receive depends on eligibility, applicable tax rules and the company's payment process."
     },
     {
       "type": "example",
-      "value": "If a company declares a dividend of ₹10 per share and you own 100 shares, you will receive ₹1,000 before applicable taxes."
+      "value": "<strong>For example:</strong> You own 200 shares of a company that declares a final dividend of ₹4 per share. Your gross dividend entitlement would be 200 × ₹4 = ₹800, assuming you meet the eligibility requirements."
+    },
+    {
+      "type": "p",
+      "value": "Companies may declare interim dividends during the financial year or recommend a final dividend after the financial year. In India, a final dividend recommended by the board is generally placed before shareholders for approval at the Annual General Meeting. Interim dividends are declared by the board in accordance with applicable law."
+    },
+    {
+      "type": "p",
+      "value": "The <strong>Dividend Yield</strong> compares the annual dividend per share with the current market price per share. For example, if the annual dividend is ₹10 and the share price is ₹200, the dividend yield is 5%. Yield changes when the share price changes, even if the dividend amount stays the same."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>A dividend is not guaranteed income.</strong> The board may reduce, omit or change a future dividend depending on the company's financial position and plans. A high dividend yield can also result from a falling share price, so investigate why the yield is high."
     },
     {
       "type": "tip",
-      "value": " <strong>A company not paying dividends is not necessarily a bad company. It may be investing its profits for future growth.</strong>"
+      "value": "When considering dividends, look at the company's ability to generate cash, its future investment needs and the consistency of its dividend history. Do not choose a stock based only on its latest dividend or yield."
     },
     {
       "type": "quiz",
       "question": "What is a dividend?",
       "choices": [
-        "A portion of company profits shared with shareholders.",
-        "A government tax.",
-        "A brokerage fee."
+        "A distribution a company may make to eligible shareholders.",
+        "The total revenue of a company.",
+        "The interest paid on a bank loan.",
+        "The market price of a share."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "You own 100 eligible shares and the company declares ₹3 per share. What is the gross dividend?",
+      "choices": [
+        "₹30",
+        "₹100",
+        "₹300",
+        "₹3,000"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What does dividend yield compare?",
+      "choices": [
+        "Net profit with total assets.",
+        "Annual dividend per share with the current share price.",
+        "Revenue with debt.",
+        "EPS with number of employees."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about a final dividend in India is generally correct?",
+      "choices": [
+        "It is always paid before the board recommends it.",
+        "It is guaranteed every year.",
+        "It is decided by the stock exchange.",
+        "The board generally recommends it for shareholder approval at the AGM."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should a high dividend yield be examined carefully?",
+      "choices": [
+        "It may be high because the share price has fallen, and the dividend may not be sustainable.",
+        "It guarantees a higher share price.",
+        "It means the company has no debt.",
+        "It proves that future dividends will increase."
       ],
       "correctAnswer": 0
     }

@@ -1,52 +1,91 @@
 {
   "id": "l4",
   "title": "What is Inflation?",
-  "module": " Module 1 - Foundation",
-  "order": "Page 4 of 100",
-  "readingTime": "5 mins read",
-  "difficulty": "Level: Beginner",
+  "module": "Foundation",
+  "order": 4,
+  "readingTime": "4 mins read",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Have you ever heard your parents say, 'Things were much cheaper when we were young'? That is inflation."
+      "value": "Have you ever heard someone say, “Things were much cheaper when I was younger”? They may be talking about inflation. The amount of money you have is only part of the story. What matters is what that money can buy. If prices rise over time, the same amount of money may buy fewer things than it did before."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A burger cost ₹50 five years ago. Today the same burger costs ₹80. Your money buys fewer burgers than before."
+      "value": "<strong>Imagine This:</strong> A family buys rice, cooking oil, vegetables and school supplies every month. A few years ago, the family could buy all these things for ₹5,000. Now the same basket costs ₹5,600. If the family's income has not increased, it has to spend more or change what it buys."
     },
     {
       "type": "p",
-      "value": "Inflation means the prices of goods and services increase over time. As prices rise, the purchasing power of your money decreases."
+      "value": "This general rise in the prices of goods and services is called <strong>inflation</strong>. When prices rise, the <strong>purchasing power</strong> of money falls. Purchasing power simply means how much you can buy with your money. Inflation does not mean that the price of every single thing goes up. Some prices may rise, some may fall and others may stay the same. Inflation looks at the overall change in prices."
     },
     {
       "type": "example",
-      "value": "If you keep ₹1,000 in a drawer for many years, it will still be ₹1,000. But because prices increase, it may buy fewer things in the future."
+      "value": "<strong>Look at the numbers:</strong> Imagine a basket of everyday items costs ₹1,000 this year and ₹1,050 next year. The basket costs 5% more. If your ₹1,000 has not increased, you cannot buy the same basket with it. This is a simple example to show how rising prices affect what money can buy."
+    },
+    {
+      "type": "p",
+      "value": "Inflation matters when you save and invest. If your savings earn 3% interest in a year but prices rise by 5%, your money has grown in number, but it may buy less than before. The return after taking inflation into account is called the <strong>real return</strong>. It helps you understand whether your money is gaining or losing purchasing power."
     },
     {
       "type": "tip",
-      "value": " <strong>This is one of the biggest reasons people invest instead of only saving.</strong>"
+      "value": "This is one reason people consider investing for long-term goals. Some investments may grow faster than prices over time, but they can also lose value and there is no guarantee. Lower inflation means prices are rising more slowly; it does not mean prices are falling. A broad fall in prices is called deflation."
     },
     {
       "type": "quiz",
-      "question": "Inflation means...",
+      "question": "What does inflation mean?",
       "choices": [
-        "Prices generally increase over time.",
-        "Everything becomes free.",
-        "Money automatically doubles."
+        "A general rise in the prices of goods and services over time.",
+        "Every product becoming more expensive by the same amount.",
+        "Everyone receiving a higher salary.",
+        "The price of every share falling."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "What happens to purchasing power during inflation?",
+      "question": "A basket costs ₹2,000 and later costs ₹2,100. By what percentage did its price rise?",
       "choices": [
+        "2%",
+        "5%",
+        "10%",
+        "15%"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "If prices rise but your income stays the same, what usually happens to your purchasing power?",
+      "choices": [
+        "It increases.",
+        "It stays exactly the same.",
         "It decreases.",
-        "It increases forever.",
-        "It stays exactly the same."
+        "It becomes unlimited."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Inflation falls from 7% to 4%. What does this usually mean?",
+      "choices": [
+        "Prices are now falling by 4%.",
+        "Prices are still rising, but more slowly.",
+        "All prices have returned to their old levels.",
+        "Money has stopped working."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Your savings earn 3% while prices rise by 5%. Before tax and other costs, what happens to purchasing power?",
+      "choices": [
+        "It rises by about 8%.",
+        "It stays unchanged.",
+        "It falls by about 2%.",
+        "It doubles."
+      ],
+      "correctAnswer": 2
     }
   ],
-  "previousLesson": "l3",
-  "nextLesson": "l5"
+  "previousLesson": "data/lessons/lesson_3.json",
+  "nextLesson": "data/lessons/lesson_5.json"
 }

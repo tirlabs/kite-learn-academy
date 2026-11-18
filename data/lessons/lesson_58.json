@@ -3,42 +3,95 @@
   "title": "Moving Average Convergence Divergence (MACD)",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 58 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": "6 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "MACD is a technical indicator used to identify trend direction, momentum and possible changes in market movement."
+      "value": "The <strong>Moving Average Convergence Divergence (MACD)</strong> is a technical indicator used to study trend direction and momentum. It compares two Exponential Moving Averages (EMAs) to help traders observe whether momentum may be strengthening or weakening."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> While riding a bicycle downhill, your speed tells you not only where you're going but also how quickly you're getting there. MACD measures both direction and momentum."
+      "value": "<strong>Imagine This:</strong> While riding a bicycle downhill, your direction tells you where you are going, while your speed tells you how quickly you are moving. MACD is designed to help traders look at both the direction and momentum of price movement."
     },
     {
       "type": "p",
-      "value": "MACD compares two Exponential Moving Averages (EMAs). Traders often watch where the MACD Line crosses the Signal Line."
+      "value": "A standard MACD setup uses a 12-period EMA and a 26-period EMA. The <strong>MACD Line</strong> is the difference between these two averages. A 9-period EMA of the MACD Line is called the <strong>Signal Line</strong>. Many charts also display a histogram showing the difference between the MACD Line and the Signal Line."
     },
     {
       "type": "example",
-      "value": "When the MACD Line crosses above the Signal Line, some traders view it as a possible bullish signal."
+      "value": "<strong>For example:</strong> If the MACD Line crosses above the Signal Line, some traders interpret it as a possible improvement in upward momentum. If it crosses below the Signal Line, they may interpret it as a possible weakening of momentum. The meaning depends on the wider trend and where the crossover occurs."
+    },
+    {
+      "type": "p",
+      "value": "The MACD Line can also move above or below a centre line, often called the zero line. When the MACD Line is above zero, the shorter EMA is above the longer EMA. When it is below zero, the shorter EMA is below the longer EMA. Traders use these observations to add context to the trend."
+    },
+    {
+      "type": "p",
+      "value": "MACD is based on moving averages, so it uses past prices and may respond after a move has already started. In a sideways market, the lines can cross repeatedly and produce signals that do not lead to a sustained move."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>MACD signals should always be confirmed using price action and other indicators.</strong>"
+      "value": "<strong>A MACD crossover is not a guarantee of a price rise or fall.</strong> It is one possible signal about momentum. Traders often compare it with price action, trend and other information before drawing conclusions."
     },
     {
       "type": "tip",
-      "value": " <strong>MACD is most effective when used to confirm an existing trend rather than predict one.</strong>"
+      "value": "Learn the three parts of MACD first: the MACD Line, the Signal Line and the histogram. Understand what each represents before trying to interpret crossovers."
     },
     {
       "type": "quiz",
-      "question": "MACD is mainly used to understand...",
+      "question": "What is MACD mainly used to study?",
       "choices": [
-        "Trend and momentum",
-        "Company revenue",
-        "Dividend payments"
+        "Company revenue and expenses.",
+        "Trend direction and momentum.",
+        "Dividend eligibility.",
+        "The number of outstanding shares."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does the MACD Line compare?",
+      "choices": [
+        "Two Exponential Moving Averages.",
+        "A company's revenue and profit.",
+        "The stock's high and low only.",
+        "The bid price and ask price."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is the Signal Line in a standard MACD setup?",
+      "choices": [
+        "The 12-period simple moving average of price.",
+        "The stock's closing price.",
+        "A 9-period EMA of the MACD Line.",
+        "The 26-week highest price."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What might some traders infer when the MACD Line crosses above the Signal Line?",
+      "choices": [
+        "The stock is guaranteed to double.",
+        "The company must pay a dividend.",
+        "The stock has become risk-free.",
+        "It may indicate improving upward momentum."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why can MACD produce misleading signals in a sideways market?",
+      "choices": [
+        "It does not use moving averages.",
+        "The lines may cross repeatedly without a sustained price move.",
+        "It measures only company profit.",
+        "It cannot be displayed on a daily chart."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l57",

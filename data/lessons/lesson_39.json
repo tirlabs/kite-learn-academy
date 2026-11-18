@@ -3,36 +3,89 @@
   "title": "Liquidity",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 39 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Liquidity tells us how easily a stock can be bought or sold without causing a significant change in its price."
+      "value": "Liquidity describes how easily you can buy or sell a stock without causing a significant change in its price. A highly liquid stock usually has many active buyers and sellers, with enough shares available to trade. A stock with low liquidity may be harder to trade quickly at a price close to the one you expect."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Selling a popular smartphone is usually easy because many buyers exist. Selling an old rare machine may take weeks because very few people want it. Stocks behave similarly."
+      "value": "<strong>Imagine This:</strong> You want to sell a popular phone that many people are looking to buy. You may find a buyer quickly. Now imagine selling a rare machine that only a few people need. Finding a buyer at the price you want may take much longer. The difference is similar to liquidity in the stock market."
     },
     {
       "type": "p",
-      "value": "Highly liquid stocks have many buyers and sellers. Illiquid stocks may take longer to buy or sell and can experience larger price changes."
+      "value": "Liquidity is influenced by several things: how many buyers and sellers are active, how many shares are available at different prices, and how wide the Bid-Ask Spread is. Trading volume can offer a useful clue, but volume alone does not tell the whole story. The quantity available in the order book also matters."
     },
     {
       "type": "example",
-      "value": "Large companies like Reliance and Infosys are generally highly liquid because millions of shares are traded daily."
+      "value": "<strong>For example:</strong> Suppose you want to buy 1,000 shares. In one stock, there are many sell orders close to the current price, so your order may be filled without moving the price much. In another stock, only a small number of shares are offered near the current price. Your order may need to accept higher prices to buy the full quantity."
+    },
+    {
+      "type": "p",
+      "value": "Large, actively traded companies often have more liquid shares, but liquidity can change. It may fall during unusual market conditions, after important news or when trading interest becomes low. Even a stock that is usually liquid may have a wider spread or less available quantity at certain times."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Liquidity is not the same as profitability.</strong> A highly liquid stock can still fall in price, and an illiquid stock can be difficult to sell when you need to exit. Low liquidity can also make the actual execution price different from the price you first saw."
     },
     {
       "type": "tip",
-      "value": " <strong>High liquidity usually means easier trading and smaller differences between Bid and Ask prices.</strong>"
+      "value": "Before trading, check the Bid-Ask Spread and the quantity available near the current price. Do not assume that you can always sell immediately at the displayed price."
     },
     {
       "type": "quiz",
-      "question": "A highly liquid stock is...",
+      "question": "What does liquidity describe?",
       "choices": [
-        "Easy to buy and sell.",
-        "Always profitable.",
-        "Never falls in price."
+        "How easily a stock can be bought or sold without significantly affecting its price.",
+        "How much profit a company earns.",
+        "How often a company pays dividends.",
+        "How many years a company has existed."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which stock is generally more liquid?",
+      "choices": [
+        "A stock with no active buyers.",
+        "A stock with very few shares available to trade.",
+        "A stock with many active buyers and sellers and available quantity.",
+        "A stock that cannot be traded on an exchange."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why can a large order be difficult to execute in an illiquid stock?",
+      "choices": [
+        "The company must approve every order.",
+        "There may not be enough shares available near the current price.",
+        "The stock exchange does not allow large companies to trade.",
+        "The share price is guaranteed to rise."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which factor can help you assess liquidity?",
+      "choices": [
+        "The company's office location only.",
+        "The colour of its logo.",
+        "Its last annual dividend alone.",
+        "The Bid-Ask Spread and available quantity in the order book."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Does high liquidity mean a stock is safe or profitable?",
+      "choices": [
+        "No, liquidity makes trading easier but does not guarantee returns or prevent losses.",
+        "Yes, highly liquid stocks cannot fall.",
+        "Yes, the exchange guarantees a profit.",
+        "No, liquidity means the company has no shareholders."
       ],
       "correctAnswer": 0
     }

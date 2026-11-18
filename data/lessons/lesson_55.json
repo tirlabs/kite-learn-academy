@@ -3,50 +3,93 @@
   "title": "Moving Average",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 55 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Stock prices move up and down every day, making charts look noisy. A Moving Average smooths these movements and helps us see the overall trend more clearly."
+      "value": "Stock prices move up and down every day, which can make a chart look noisy. A <strong>Moving Average</strong> smooths some of these short-term movements and helps you see the broader direction more clearly. It is a calculation based on prices over a selected number of periods."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Standing on a beach, individual waves constantly move up and down. But if you watch the sea from far away, you notice its overall direction. A Moving Average works the same way by smoothing daily price fluctuations."
+      "value": "<strong>Imagine This:</strong> Standing on a beach, you see individual waves constantly move up and down. But if you look at the sea from farther away, you can notice its overall movement. A Moving Average works in a similar way by smoothing individual price changes."
     },
     {
       "type": "p",
-      "value": "A Moving Average is calculated by taking the average closing price over a selected number of periods, such as 20 days or 50 days."
+      "value": "A Simple Moving Average (SMA) is calculated by adding the closing prices over a selected number of periods and dividing by the number of periods. For example, a 20-day SMA uses the closing prices of the latest 20 trading days. Each new trading day, the calculation is updated using the latest set of 20 closes."
     },
     {
       "type": "example",
-      "value": "A 20-Day Moving Average represents the average closing price of the last 20 trading days and updates every new trading day."
+      "value": "<strong>Let's calculate a simple average:</strong> Suppose a stock's closing prices over five days are ₹100, ₹102, ₹98, ₹105 and ₹110. The 5-day SMA is (100 + 102 + 98 + 105 + 110) ÷ 5 = ₹103. The next trading day, the oldest price drops out of the 5-day calculation and the new closing price is included."
+    },
+    {
+      "type": "p",
+      "value": "Commonly watched periods include the 20-day, 50-day, 100-day and 200-day Moving Averages. A shorter moving average responds more quickly to recent price changes. A longer one is smoother and can help show a broader trend, but it may react more slowly when the price direction changes."
+    },
+    {
+      "type": "p",
+      "value": "Investors and traders may compare the current price with a moving average or compare two moving averages with different periods. These comparisons can help describe trend behaviour. However, a moving average is based on past prices, so it is a lagging indicator rather than a tool that knows future prices."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>A price crossing above a Moving Average does not guarantee a rise.</strong> Prices can move above and below the average repeatedly, especially when the market is moving sideways. The indicator should be considered with other information."
     },
     {
       "type": "tip",
-      "value": " <strong>Moving Averages help identify trends—they do not predict future prices.</strong>"
-    },
-    {
-      "type": "fact",
-      "value": " Commonly used Moving Averages include the 20-Day, 50-Day, 100-Day and 200-Day Moving Average."
+      "value": "Start with one commonly used moving average and observe how it follows price. Understand what period it uses before adding more lines to your chart."
     },
     {
       "type": "quiz",
-      "question": "Why do traders use Moving Averages?",
+      "question": "Why do traders use a Moving Average?",
       "choices": [
-        "To identify the overall trend more clearly.",
         "To guarantee profits.",
-        "To calculate company revenue."
+        "To calculate company revenue.",
+        "To smooth price movements and help observe the trend.",
+        "To determine the number of shareholders."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "A 20-day Simple Moving Average is based on:",
+      "choices": [
+        "The average closing prices of the latest 20 trading days.",
+        "The company's profit over 20 years.",
+        "The highest price of the last 20 calendar months.",
+        "The number of trades in 20 minutes."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "A Moving Average is based on...",
+      "question": "What happens when a new trading day is added to a 20-day SMA calculation?",
       "choices": [
-        "Average prices over a selected period.",
-        "Company profits only.",
-        "Number of employees."
+        "The average is never updated.",
+        "The oldest closing price is removed and the latest one is included.",
+        "The company changes its share count.",
+        "The price is fixed for 20 days."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which Moving Average generally reacts more slowly to short-term price changes?",
+      "choices": [
+        "A 5-day average.",
+        "A 10-day average.",
+        "A 20-day average compared with a 200-day average.",
+        "A longer-period average, such as a 200-day average."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why is a Moving Average called a lagging indicator?",
+      "choices": [
+        "It is calculated using past prices and responds after price changes occur.",
+        "It predicts prices before trading begins.",
+        "It ignores all historical prices.",
+        "It is available only after the market closes for a year."
       ],
       "correctAnswer": 0
     }

@@ -3,36 +3,93 @@
   "title": "Support",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 52 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Support is a price level where buyers usually become active, preventing the stock from falling further."
+      "value": "<strong>Support</strong> is a price area where a stock has previously found buying interest. When the price moves down towards this area, buyers may become more willing to buy, which can slow the decline or lead to a bounce. Support is a way of describing a possible area of demand on a chart."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Drop a basketball onto the floor. The floor stops it from falling further and the ball bounces back. Support acts like the floor for a stock price."
+      "value": "<strong>Imagine This:</strong> Drop a basketball onto the floor. The floor stops it from falling further and the ball bounces back. A support area can look similar on a stock chart: the price reaches an area where buying interest has appeared before. Unlike a floor, however, support is not a physical barrier."
     },
     {
       "type": "p",
-      "value": "When a stock reaches a support level, many investors believe it is a good buying opportunity, increasing demand."
+      "value": "Support can form when investors believe a stock is becoming attractive at a particular price, or when buyers who missed an earlier opportunity decide to enter. Some existing investors may also buy more near a level where they previously saw demand. These decisions can increase buying interest around that area."
     },
     {
       "type": "example",
-      "value": "If a stock repeatedly falls to around ₹500 and then rises again, ₹500 may be acting as a support level."
+      "value": "<strong>For example:</strong> Suppose a stock falls towards ₹500 on three different occasions and then moves higher each time. Traders may identify the area around ₹500 as support. It does not mean the price must rise whenever it reaches ₹500; it means buyers have shown interest there in the past."
+    },
+    {
+      "type": "p",
+      "value": "Support is usually better understood as a <strong>zone</strong> rather than one exact number. A stock may turn around slightly above or below the price where it previously bounced. The market is made up of many orders, so reactions rarely follow a perfectly precise line."
+    },
+    {
+      "type": "p",
+      "value": "If the price moves below a support area, the earlier buying interest may not be strong enough to hold it. Traders may then watch whether the price stays below the zone or moves back above it. A break below support can be important, but it should be understood in the context of the wider chart and market."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Support does not guarantee that a stock will stop falling.</strong> A company may face new problems, market conditions may change, or sellers may become more active. A support level is an observation from past price behaviour, not a promise."
     },
     {
       "type": "tip",
-      "value": " <strong>Support is an area, not an exact price.</strong>"
+      "value": "When you identify support, mark a reasonable price area and observe how the stock behaves around it. Avoid treating one exact price as a guaranteed buying opportunity."
     },
     {
       "type": "quiz",
-      "question": "Support is where...",
+      "question": "What is a support area?",
       "choices": [
-        "Buyers usually become stronger.",
-        "The company pays dividends.",
-        "The stock exchange closes."
+        "A price area where buyers have previously shown interest.",
+        "A price fixed permanently by the company.",
+        "The highest price a stock has ever reached.",
+        "The amount of money a broker holds."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why might a stock pause or bounce near support?",
+      "choices": [
+        "The exchange forces the price to rise.",
+        "The company announces a dividend every time.",
+        "Buying interest may increase around that area.",
+        "All sellers are prevented from placing orders."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "A stock repeatedly falls towards ₹500 and then rises. What might ₹500 represent?",
+      "choices": [
+        "Its guaranteed future price.",
+        "A possible support area.",
+        "Its market capitalization.",
+        "Its annual profit."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why is support better viewed as a zone rather than an exact price?",
+      "choices": [
+        "Every stock trades at only one price.",
+        "Support is set by the company.",
+        "The stock exchange publishes a fixed support price.",
+        "Buying and selling activity can cause the price to react around an area."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What does a break below support tell you?",
+      "choices": [
+        "The earlier buying interest may not have been strong enough to hold the price.",
+        "The stock must rise immediately.",
+        "The company has stopped trading forever.",
+        "The price cannot move any lower."
       ],
       "correctAnswer": 0
     }

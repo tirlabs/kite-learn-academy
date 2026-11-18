@@ -3,38 +3,95 @@
   "title": "Building Your Portfolio",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 87 of 100",
-  "readingTime": "10 mins read",
+  "readingTime": 3,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "A portfolio is the complete collection of all your investments. Building a good portfolio is about choosing investments that work well together."
+      "value": "A portfolio is the complete collection of investments you own. Building a good portfolio is not simply about collecting shares that look attractive individually. It is about choosing investments that work together, match your goals and spread exposure across different sources of risk."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A football team doesn't consist of only strikers. It also needs defenders, midfielders and a goalkeeper. A strong investment portfolio also requires balance."
+      "value": "<strong>Imagine This:</strong> A football team cannot succeed with only strikers. It also needs defenders, midfielders and a goalkeeper. Each player has a role, and the team needs balance. A portfolio is similar: different investments can serve different purposes, such as growth, stability and liquidity."
     },
     {
       "type": "p",
-      "value": "A well-diversified portfolio may include companies from sectors such as Banking, IT, Pharma, FMCG, Energy and Manufacturing."
+      "value": "An equity portfolio may include companies from industries such as banking, IT, pharmaceuticals, consumer goods, energy and manufacturing. These businesses do not all earn money in the same way. However, simply buying one company from each sector does not automatically make a portfolio safe; each company still needs to be understood and evaluated."
     },
     {
       "type": "example",
-      "value": "Instead of buying five IT companies, an investor might choose one IT company, one bank, one pharma company, one FMCG company and one energy company."
+      "value": "Instead of buying five IT companies, an investor might research one IT company, one bank, one pharmaceutical company, one consumer-goods company and one energy company. This spreads the portfolio across different industries. The investor should still check whether the businesses are financially sound, reasonably valued and appropriate for the portfolio."
+    },
+    {
+      "type": "p",
+      "value": "A portfolio can also combine different asset classes. For example, diversified equity investments may support long-term growth, fixed-income investments may provide a different return and risk profile, and cash may help meet near-term needs. The right mix depends on the investor's plan, not on a universal formula."
+    },
+    {
+      "type": "fact",
+      "value": "Look at the portfolio as a whole. Two different funds may own many of the same shares. Several companies may depend on the same economic factor. If one holding grows much larger than the others, it can change the portfolio's risk even if you did not buy more of it."
     },
     {
       "type": "tip",
-      "value": " <strong>A portfolio should reduce unnecessary risk without reducing long-term opportunities.</strong>"
+      "value": "For every holding, write down its role: why you own it, what risk it adds, and what would make you review it. If two investments serve almost exactly the same role, check whether both are necessary."
+    },
+    {
+      "type": "warning",
+      "value": "More holdings do not automatically create a better portfolio. Too many investments can make monitoring difficult, while too few or highly similar holdings can create concentration. Aim for a portfolio you understand and can maintain."
     },
     {
       "type": "quiz",
       "question": "What is an investment portfolio?",
       "choices": [
-        "The complete collection of your investments.",
-        "Only one stock.",
-        "Your Demat Account."
+        "The complete collection of your investments",
+        "Only your trading account",
+        "A list of market headlines",
+        "A company's annual report"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why should investments have different roles in a portfolio?",
+      "choices": [
+        "To make all returns identical",
+        "To balance growth, stability and liquidity needs",
+        "To guarantee that prices rise",
+        "To avoid setting goals"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why might two different mutual funds provide less diversification than expected?",
+      "choices": [
+        "They may own many of the same securities",
+        "They have different names",
+        "They are purchased on separate dates",
+        "They have different NAVs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What should you understand about each portfolio holding?",
+      "choices": [
+        "Its role, risks and reason for ownership",
+        "Only its last traded price",
+        "Only its popularity",
+        "Only the date it was purchased"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Does owning more investments always make a portfolio better?",
+      "choices": [
+        "Yes, without exception",
+        "No, too many or similar holdings can make it harder to manage",
+        "Yes, if every holding is a share",
+        "Only during bull markets"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l86",

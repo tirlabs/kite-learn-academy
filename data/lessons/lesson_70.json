@@ -3,52 +3,95 @@
   "title": "Debt",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 70 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Most companies borrow money at some stage of their growth. This borrowed money is called debt."
+      "value": "<strong>Debt</strong> is money a company borrows and is required to repay, usually with interest. Companies may borrow from banks, issue bonds or use other forms of borrowing to fund operations, purchase equipment, build facilities or expand their business."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A company wants to build a new factory costing ₹500 crore. Instead of waiting many years to save the money, it borrows from a bank and repays the loan gradually from future profits."
+      "value": "<strong>Imagine This:</strong> A company wants to build a factory costing ₹500 crore. Instead of waiting many years to save the full amount, it borrows from a bank and agrees to repay the loan with interest over time. The borrowed amount is debt, and the interest is the cost of borrowing."
     },
     {
       "type": "p",
-      "value": "Debt itself is not bad. Borrowing to expand a successful business can be a smart decision. Problems arise when a company borrows more than it can comfortably repay."
+      "value": "Debt is not automatically bad. Borrowing can help a company invest in projects that may generate returns greater than the cost of borrowing. For example, a business may take a loan to expand production capacity. The important question is whether the company can generate enough cash to repay the loan and meet interest payments."
     },
     {
       "type": "example",
-      "value": "Many infrastructure companies have significant debt because building roads, airports or power plants requires large investments."
+      "value": "<strong>For example:</strong> Company A has ₹100 crore of debt and generates steady cash flows that comfortably cover its interest and repayments. Company B has the same debt but earns irregular cash flows and struggles to pay interest. The same debt amount can represent very different levels of risk for different businesses."
+    },
+    {
+      "type": "p",
+      "value": "Investors often examine total debt, cash balances, interest costs and the company's ability to generate cash. They may also look at measures such as the debt-to-equity ratio and interest coverage ratio. These measures provide context, but they need to be interpreted according to the company's industry and business model."
+    },
+    {
+      "type": "p",
+      "value": "Debt can become a concern when borrowing grows faster than the company's ability to earn and generate cash. High interest costs can reduce the amount available for investment or dividends. If the company cannot meet its obligations, it may need to borrow more, sell assets, restructure its debt or face financial distress."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>Very high debt combined with falling profits can put a company under financial pressure.</strong>"
+      "value": "<strong>Do not judge debt by its amount alone.</strong> A capital-intensive business may reasonably carry more debt than a business that needs few physical assets. Look at the cash flows, repayment schedule, interest burden and the stability of the business."
     },
     {
       "type": "tip",
-      "value": " <strong>Always look at debt together with a company's ability to earn profits and generate cash.</strong>"
+      "value": "When you review a company's debt, ask: How much does it owe? What does borrowing cost? When must it repay? And does its business generate enough cash to meet those obligations?"
     },
     {
       "type": "quiz",
-      "question": "Is debt always a bad thing?",
+      "question": "What is debt?",
       "choices": [
-        "No. Responsible borrowing can help a company grow.",
-        "Yes. Every company should avoid debt completely.",
-        "Debt has no effect on businesses."
+        "Money a company earns from selling products.",
+        "Money borrowed by a company that it is required to repay.",
+        "The total value of its assets.",
+        "The profit remaining after tax."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why might a company borrow money?",
+      "choices": [
+        "To fund expansion, equipment or business operations.",
+        "Because borrowing always increases profit.",
+        "To avoid reporting revenue.",
+        "Because shareholders are not allowed to invest."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "When can debt become a problem?",
+      "question": "Why is debt not automatically bad?",
       "choices": [
-        "When a company struggles to repay it.",
-        "When a company earns strong profits.",
-        "When a company has valuable assets."
+        "All loans are interest-free.",
+        "Debt never needs to be repaid.",
+        "Borrowing can fund investments that generate returns greater than the borrowing cost.",
+        "Companies with debt cannot fail."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What can happen when a company cannot comfortably meet its debt obligations?",
+      "choices": [
+        "Its share price is guaranteed to rise.",
+        "It automatically receives a government grant.",
+        "Its debt disappears.",
+        "It may face financial distress or need to restructure or sell assets."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What should investors consider when evaluating a company's debt?",
+      "choices": [
+        "Only the total debt amount.",
+        "Debt, interest costs, repayment schedule and the company's ability to generate cash.",
+        "Only the company's share price.",
+        "The number of products it advertises."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l69",

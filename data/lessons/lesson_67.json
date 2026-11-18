@@ -3,36 +3,93 @@
   "title": "Revenue",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 67 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Revenue is the total amount of money a company earns by selling its products or services before deducting any expenses."
+      "value": "<strong>Revenue</strong> is the money a company earns from selling its products or providing its services during a period, before deducting expenses. It is often called sales or turnover. Revenue helps you understand the scale of a company's business activity."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Your restaurant serves 200 meals in a day at ₹300 each. Your total sales for the day are ₹60,000. That is your revenue."
+      "value": "<strong>Imagine This:</strong> You run a small restaurant. In one day, you serve 200 meals and each meal costs ₹300. Your total sales are 200 × ₹300 = ₹60,000. That ₹60,000 is the restaurant's revenue for the day, before paying for ingredients, salaries, rent and other expenses."
     },
     {
       "type": "p",
-      "value": "Revenue tells us how much business a company is doing, but it does not tell us whether the company is making a profit."
+      "value": "Companies can earn revenue in different ways. A manufacturer sells products, a bank earns interest and fee income, and a software company may earn money through subscriptions, licences or services. The type of revenue depends on the company's business model."
     },
     {
       "type": "example",
-      "value": "Two companies may both earn ₹1,000 crore in revenue, but one may be profitable while the other may be losing money."
+      "value": "<strong>For example:</strong> Suppose a company sells 10 lakh units of a product at an average selling price of ₹500. Its revenue from those sales is ₹50 crore, before deducting the costs of producing, distributing and selling the products."
+    },
+    {
+      "type": "p",
+      "value": "Investors often compare revenue across periods to understand whether a company's sales are growing, stable or declining. They may also examine where the revenue comes from: different products, customer groups, industries or geographical regions. This helps reveal whether growth is broad-based or depends heavily on one area."
+    },
+    {
+      "type": "p",
+      "value": "Revenue is not the same as cash collected in every case. Depending on accounting rules and the nature of a transaction, revenue may be recognised when goods or services are delivered, even if payment is received later. The financial statements and notes explain how the company recognises revenue."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>High revenue does not automatically mean high profit.</strong> A company can sell a lot and still lose money if its expenses are greater than its revenue. Always examine profitability and cash flow as well."
     },
     {
       "type": "tip",
-      "value": " <strong>Revenue is often called the 'Top Line' because it appears at the top of the Profit & Loss Statement.</strong>"
+      "value": "When you read a company's results, first check whether revenue is growing. Then ask what is driving that growth and whether the company is turning those sales into profit."
     },
     {
       "type": "quiz",
-      "question": "Revenue represents...",
+      "question": "What is revenue?",
       "choices": [
-        "Total sales before expenses.",
-        "Profit after tax.",
-        "Company assets."
+        "The money a company earns from selling goods or services before deducting expenses.",
+        "The money left after all expenses.",
+        "The total value of company buildings.",
+        "The amount of debt owed to banks."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A restaurant sells 200 meals at ₹300 each. What is its revenue?",
+      "choices": [
+        "₹6,000",
+        "₹30,000",
+        "₹60,000",
+        "₹90,000"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why is revenue different for companies in different industries?",
+      "choices": [
+        "Every company earns only from selling physical products.",
+        "Revenue depends on the company's business model and activities.",
+        "Banks cannot earn revenue.",
+        "Software companies do not earn revenue."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Can a company report revenue before it receives cash from a customer?",
+      "choices": [
+        "No, revenue always equals cash received that day.",
+        "Only if the share price rises.",
+        "No, companies cannot sell on credit.",
+        "Yes, depending on when revenue is recognised under accounting rules."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should investors look beyond revenue?",
+      "choices": [
+        "Revenue alone does not show whether the company is profitable or generating cash.",
+        "Revenue always includes net profit.",
+        "Revenue tells you the company's exact market value.",
+        "Revenue guarantees future growth."
       ],
       "correctAnswer": 0
     }

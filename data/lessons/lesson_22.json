@@ -3,36 +3,89 @@
   "title": "Opening a Demat & Trading Account",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 22 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Today, opening a Demat and Trading Account usually takes less than 30 minutes and can be completed online."
+      "value": "Once you have chosen a stock broker, you need the right accounts before you can start buying and selling shares. Most individual investors open a Trading Account to place orders and a Demat Account to hold shares in electronic form. Many brokers let you apply for both through one online process."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Opening a new bank account can now be done using your mobile phone. Stock brokers have made investing just as simple."
+      "value": "<strong>Imagine This:</strong> Opening a bank account used to mean visiting a branch and filling out paper forms. Today, many banks let you begin the process online and verify your identity digitally. Opening a Demat and Trading Account can also be done online with a broker, although the exact steps may differ."
     },
     {
       "type": "p",
-      "value": "Most brokers require your PAN card, Aadhaar card, bank account, mobile number, email address and a cancelled cheque or bank proof."
+      "value": "The process is called <strong>Know Your Customer (KYC)</strong>. The broker needs to confirm who you are and check the details required to open the account. In India, this usually involves your PAN, identity and address details, mobile number, email address and bank account information. You may be asked to complete Aadhaar-based verification or another accepted verification method."
+    },
+    {
+      "type": "p",
+      "value": "You may also need to provide a photograph, signature, bank proof or other details depending on the broker and your situation. The exact documents and verification steps can change. Always follow the current instructions on the broker's official website or app. Never share your passwords, PINs or one-time passwords with someone claiming to help you open an account."
     },
     {
       "type": "example",
-      "value": "After completing eKYC and verification, your account is activated and ready for investing."
+      "value": "<strong>For example:</strong> You apply through a broker's official app. You enter your details, complete the identity checks, provide the required bank information and accept the account documents. The broker reviews your application. Once it is approved and activated, you can log in and use the account according to its terms."
+    },
+    {
+      "type": "p",
+      "value": "Opening an account does not mean you have to buy a share immediately. Take time to understand the app, charges, account terms and risks first. Check that your name, PAN and bank details are correct. Use your own identity and bank details, and keep copies of the important account documents."
     },
     {
       "type": "tip",
-      "value": " <strong>Always use your own PAN, bank account and mobile number while opening your investment account.</strong>"
+      "value": "Use only the broker's official website or app, provide correct details and complete the verification yourself. Do not rush into your first trade just because your account is ready."
     },
     {
       "type": "quiz",
-      "question": "Which document is generally mandatory for opening a Demat account?",
+      "question": "What is the main purpose of KYC when opening an account?",
       "choices": [
-        "PAN Card",
-        "Passport",
-        "Driving Licence only"
+        "To predict share prices.",
+        "To confirm the customer's identity and required details.",
+        "To guarantee investment returns.",
+        "To choose shares for the customer."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which number is generally important for opening a Demat and Trading Account in India?",
+      "choices": [
+        "PAN",
+        "Library card number",
+        "Vehicle registration number",
+        "School roll number"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why might a broker ask for bank account details?",
+      "choices": [
+        "To publish them on the stock exchange.",
+        "To let the broker choose your investments.",
+        "To connect the account for payments and settlements as required.",
+        "To replace your PAN."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What should you do with an OTP or account password?",
+      "choices": [
+        "Share it with anyone offering to help.",
+        "Post it in a trading group.",
+        "Send it to the company whose shares you want.",
+        "Keep it private and never share it with callers or strangers."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "After your account is activated, what should you do before your first trade?",
+      "choices": [
+        "Understand the app, charges, terms and risks.",
+        "Buy the first share shown on the screen.",
+        "Ignore all account documents.",
+        "Assume every investment is safe."
       ],
       "correctAnswer": 0
     }

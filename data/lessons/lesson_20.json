@@ -3,58 +3,91 @@
   "title": "Complete Stock Market Flow",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 20 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "3 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Congratulations! You now understand the basic building blocks of the stock market. Let's connect everything you've learned into one complete picture."
+      "value": "You have now learned about companies, shares, stock exchanges, brokers and the accounts used to buy and hold shares. Let's connect these ideas and see how the parts work together when someone buys a share."
     },
     {
       "type": "story",
-      "value": " <strong>The Journey:</strong> A company needs money to grow. It divides ownership into shares. Those shares are listed on stock exchanges like NSE and BSE. Investors use SEBI-registered brokers such as Zerodha or Groww to buy those shares. Orders are matched on the stock exchange, and the purchased shares are stored safely in the investor's Demat Account."
+      "value": "<strong>Follow the journey:</strong> A company wants money to grow, so it may issue shares to investors. If the shares are listed on an exchange such as the NSE or BSE, investors can place buy and sell orders through their stock brokers. The exchange's system matches orders that meet the required conditions. After the trade is settled, the buyer's shares are held in a Demat account."
     },
     {
       "type": "p",
-      "value": "This entire system works together every trading day, allowing millions of investors to buy and sell shares safely and efficiently."
+      "value": "Each part has a different job. The company runs its business and may issue shares to raise money. The stock exchange provides the trading system. The broker gives investors a way to place orders. The Trading Account is used to place those orders, while the Demat Account holds the securities. The bank account is used for money."
     },
     {
       "type": "example",
-      "value": "You decide to buy one share of Infosys. You log into your broker, place an order using your Trading Account, the NSE matches your order with a seller, and the share is delivered to your Demat Account."
+      "value": "<strong>For example:</strong> You decide to buy one share of a company listed on the NSE. You use your broker's app and Trading Account to place the order. The broker sends it to the NSE. If it matches with a seller's order, the trade is executed. After settlement, the share is credited to your Demat account."
+    },
+    {
+      "type": "p",
+      "value": "SEBI is the regulator that sets and enforces rules for India's securities market. It does not choose shares for you or promise that you will make money. You are responsible for learning about an investment, understanding its risks and deciding whether it suits your goals."
+    },
+    {
+      "type": "p",
+      "value": "The stock market is not just one app or one building. It is a system made up of companies, investors, brokers, exchanges, depositories and a regulator. Understanding how these parts connect makes it easier to follow what happens when you place an order."
     },
     {
       "type": "tip",
-      "value": " <strong>You now understand how the Indian stock market works from a beginner's perspective. The next module will teach you how to actually buy your first stock.</strong>"
+      "value": "You now have the basic picture of how the Indian stock market works. In the next module, you will learn how to prepare before buying your first share. Take your time, understand each step and never invest in something you do not understand."
     },
     {
       "type": "quiz",
-      "question": "Where are shares finally stored after purchase?",
+      "question": "Why might a company issue shares?",
       "choices": [
-        "Trading Account",
+        "To raise money from investors.",
+        "To become a stock broker.",
+        "To store investors' money in Demat accounts.",
+        "To regulate the stock exchange."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which account is used to place a buy order?",
+      "choices": [
         "Demat Account",
-        "Savings Account"
+        "Trading Account",
+        "Savings account only",
+        "Depository account"
       ],
       "correctAnswer": 1
     },
     {
       "type": "quiz",
-      "question": "Which organization regulates the Indian stock market?",
+      "question": "Which organisation regulates India's securities market?",
       "choices": [
-        "SEBI",
         "NSE",
-        "BSE"
+        "BSE",
+        "SEBI",
+        "A stock broker"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
     },
     {
       "type": "quiz",
-      "question": "Which comes first when buying a share?",
+      "question": "What happens after a buy order matches a sell order?",
       "choices": [
-        "Broker → Exchange → Seller Match → Demat Account",
-        "Demat Account → Company → Exchange",
-        "Bank → RBI → Company"
+        "The company must pay the buyer.",
+        "The trade is executed and then goes through settlement.",
+        "The buyer automatically becomes the company manager.",
+        "The share price is guaranteed to rise."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which sequence best describes buying a listed share?",
+      "choices": [
+        "Demat account → company factory → bank manager",
+        "Broker app/order → exchange matches orders → settlement → shares credited to Demat account",
+        "SEBI buys the share → company delivers cash → broker stores it",
+        "NIFTY 50 → bank account → company CEO"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l19",

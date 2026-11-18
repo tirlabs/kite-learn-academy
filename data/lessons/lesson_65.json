@@ -3,56 +3,103 @@
   "title": "Technical Analysis Practice",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 65 of 100",
-  "readingTime": "10 mins read",
+  "readingTime": "6 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Congratulations! You now know the most common concepts and indicators used in technical analysis. Let's combine everything into one practical approach."
+      "value": "You have now learned several tools used in Technical Analysis: trends, support and resistance, chart patterns, moving averages, momentum indicators and volume. The next step is to practise using them in a consistent order. The aim is not to predict every price move, but to describe what the chart is showing and recognise where uncertainty remains."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Learning to drive isn't about knowing what the steering wheel, brakes and accelerator do individually. Real driving begins when you use all of them together. Technical analysis works the same way."
+      "value": "<strong>Imagine This:</strong> Learning to drive is not just memorising what the steering wheel, brakes and accelerator do. You need to use them together while paying attention to the road. Reading a stock chart also becomes more useful when you bring individual concepts together in a sensible sequence."
     },
     {
       "type": "p",
-      "value": "Whenever you open a stock chart, follow a simple checklist instead of jumping to conclusions."
+      "value": "<strong>Step 1 — Identify the stock and timeframe.</strong> Confirm which stock you are viewing and whether the chart is daily, weekly or intraday. A chart's timeframe changes what each candle represents."
     },
     {
-      "type": "fact",
-      "value": "✅ Step 1: Identify the trend.\n✅ Step 2: Mark important support and resistance levels.\n✅ Step 3: Check the trading volume.\n✅ Step 4: Observe indicators like EMA, RSI or MACD.\n✅ Step 5: Look for confirmation before making a decision."
+      "type": "p",
+      "value": "<strong>Step 2 — Observe the trend.</strong> Look at a sequence of price movements. Are the highs and lows generally rising, falling or staying within a range? Avoid deciding the trend from one candle."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 3 — Mark important price areas.</strong> Look for zones where the stock has previously found support or faced resistance. Treat these as areas of possible buying or selling interest, not exact barriers."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 4 — Study volume and indicators.</strong> Compare trading volume with the stock's usual activity. If useful, check a Moving Average, RSI or MACD to understand trend or momentum. Do not add indicators unless you understand what question they help answer."
+    },
+    {
+      "type": "example",
+      "value": "<strong>Let's practise:</strong> A stock has been making higher highs and higher lows on its daily chart. It pulls back towards a previous support zone, then forms a bullish candle with higher-than-usual volume. You can describe this as a possible recovery within an uptrend. You cannot conclude that the stock is certain to rise from that point."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 5 — Write down what would change your view.</strong> For example, a sustained move below the support zone may weaken your current interpretation. Thinking about what could prove your view wrong helps you avoid becoming attached to one prediction."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>Technical analysis improves probabilities—it never guarantees future prices.</strong>"
+      "value": "<strong>Technical Analysis is not a complete investment decision.</strong> A chart does not tell you everything about a company's products, management, financial health or valuation. It also cannot remove the risk of loss."
     },
     {
       "type": "tip",
-      "value": " <strong>The best way to learn technical analysis is by practising on hundreds of real charts.</strong>"
-    },
-    {
-      "type": "fact",
-      "value": " Congratulations! You have completed Module 6 and now understand the core concepts of technical analysis."
+      "value": "Practise by describing a chart in plain language before using indicator names. If you cannot explain what you see simply, spend more time understanding the basics."
     },
     {
       "type": "quiz",
-      "question": "What should you identify first while analysing a chart?",
+      "question": "What is the main goal of practising Technical Analysis?",
       "choices": [
-        "The overall trend",
-        "Dividend history",
-        "Company address"
+        "To predict every future price exactly.",
+        "To describe price behaviour and understand uncertainty.",
+        "To avoid studying companies.",
+        "To find a guaranteed buy signal."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What should you identify before interpreting a chart?",
+      "choices": [
+        "The stock and the selected timeframe.",
+        "Only the latest candle colour.",
+        "The company's office location.",
+        "The next year's target price."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "What is the main purpose of technical analysis?",
+      "question": "Why should support and resistance be treated as zones?",
       "choices": [
-        "To improve the probability of making informed decisions.",
-        "To predict the future with certainty.",
-        "To replace company research."
+        "They are fixed prices set by the company.",
+        "Every stock reacts at the exact same price.",
+        "Price reactions can occur around an area rather than at one precise number.",
+        "They are guaranteed circuit limits."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "A stock is in an uptrend and bounces near support with higher volume. What is a careful interpretation?",
+      "choices": [
+        "The stock is certain to rise.",
+        "The company is guaranteed to be profitable.",
+        "The price cannot fall below support.",
+        "It may be a recovery within the uptrend, but the outcome is uncertain."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why is it useful to think about what could change your view?",
+      "choices": [
+        "It guarantees that your analysis is correct.",
+        "It helps you recognise when the evidence no longer supports your interpretation.",
+        "It removes all market risk.",
+        "It means you never need to review the chart."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l64",

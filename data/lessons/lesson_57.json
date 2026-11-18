@@ -3,52 +3,95 @@
   "title": "Relative Strength Index (RSI)",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 57 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "The Relative Strength Index (RSI) is a momentum indicator that helps traders understand whether a stock may be overbought or oversold."
+      "value": "The <strong>Relative Strength Index (RSI)</strong> is a momentum indicator. It helps traders observe how strongly and quickly a stock's price has been moving. RSI is displayed on a scale from 0 to 100 and is often used to consider whether a stock may be overbought or oversold."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> If you sprint continuously for a long distance, you'll eventually become tired and slow down. Similarly, when a stock rises too quickly, it may pause or fall before continuing."
+      "value": "<strong>Imagine This:</strong> If you sprint continuously for a long distance, you may become tired and slow down. A stock that has risen quickly may also pause or pull back. RSI helps traders observe the strength of recent price movement, but it cannot tell exactly when a pause will happen."
     },
     {
       "type": "p",
-      "value": "RSI ranges from 0 to 100. Traditionally, values above 70 indicate that a stock may be overbought, while values below 30 suggest it may be oversold."
-    },
-    {
-      "type": "warning",
-      "value": "⚠️ <strong>Overbought does not always mean the price will immediately fall, and oversold does not guarantee it will rise.</strong>"
+      "value": "Traditionally, an RSI reading above 70 is described as potentially overbought, while a reading below 30 is described as potentially oversold. These are commonly used reference levels, not fixed rules. Some traders use different levels depending on the stock, timeframe and market conditions."
     },
     {
       "type": "example",
-      "value": "If RSI reaches 75 after a strong rally, traders may become cautious and look for additional confirmation before buying."
+      "value": "<strong>For example:</strong> Suppose a stock rises strongly over several sessions and its RSI reaches 75. Some traders may describe it as being in overbought territory and become cautious. It does not mean the price must fall immediately; a strong stock can remain above 70 for some time."
+    },
+    {
+      "type": "p",
+      "value": "RSI can also be used to observe changes in momentum. If the price continues to rise but RSI does not show similar strength, traders may investigate whether the upward momentum is weakening. Such differences are sometimes called divergences, but they are clues to study rather than certain signals."
+    },
+    {
+      "type": "p",
+      "value": "RSI is usually calculated using gains and losses over a selected number of periods. A commonly used setting is 14 periods. On a daily chart, that generally means the calculation considers the latest 14 trading days; on another timeframe, it uses that number of selected periods."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Overbought does not always mean the price will immediately fall, and oversold does not guarantee it will rise.</strong> RSI can remain in these zones during strong trends. Do not use one reading as your only reason to buy or sell."
     },
     {
       "type": "tip",
-      "value": " <strong>Never use RSI alone. Combine it with trends and support/resistance.</strong>"
+      "value": "Use RSI to understand momentum, then compare it with the stock's trend, support and resistance areas and other relevant information."
     },
     {
       "type": "quiz",
-      "question": "RSI values usually range between...",
+      "question": "What does RSI help traders understand?",
       "choices": [
-        "0 to 100",
-        "1 to 1000",
-        "-100 to 100"
+        "A company's employee count.",
+        "The strength of recent price movement or momentum.",
+        "The amount of dividend paid.",
+        "The number of shares issued."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What range does RSI usually use?",
+      "choices": [
+        "1 to 1,000.",
+        "-100 to 100.",
+        "0 to 100.",
+        "0 to 10."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Traditionally, an RSI reading above 70 may suggest:",
+      "choices": [
+        "The stock may be overbought.",
+        "The company has no debt.",
+        "The stock is guaranteed to fall.",
+        "The stock has stopped trading."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Traditionally, RSI above 70 may indicate...",
+      "question": "What does an RSI reading below 30 traditionally suggest?",
       "choices": [
-        "Overbought",
-        "Oversold",
-        "Dividend announcement"
+        "The stock is guaranteed to rise.",
+        "The company must announce a dividend.",
+        "The stock is at its 52-week high.",
+        "The stock may be oversold."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should RSI not be used alone?",
+      "choices": [
+        "It does not measure momentum.",
+        "It can remain overbought or oversold during strong trends and does not guarantee a reversal.",
+        "It always gives the same reading for every stock.",
+        "It replaces the need to understand price behaviour."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l56",

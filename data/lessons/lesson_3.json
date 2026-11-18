@@ -1,48 +1,91 @@
 {
   "id": "l3",
   "title": "Saving vs Investing",
-  "module": " Module 1 - Foundation",
-  "order": "Page 3 of 100",
-  "readingTime": "5 mins read",
-  "difficulty": "Level: Beginner",
+  "module": "Foundation",
+  "order": 3,
+  "readingTime": "4 mins read",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Saving and investing are often confused, but they are not the same. Saving protects your money. Investing helps your money grow."
+      "value": "Saving and investing both help you prepare for the future, but they are not the same. Saving is mainly about keeping money safe and available for when you need it. Investing is about putting money into something that may grow in value or earn income over time. The important difference is that investing involves the possibility of losing money."
     },
     {
       "type": "story",
-      "value": " <strong>Think About This:</strong> One child keeps ₹1,000 safely in a box. Another uses the ₹1,000 to buy a small plant, waters it regularly, and eventually sells the fruits it produces. One protected money, the other made money work."
+      "value": "<strong>Think About This:</strong> You are planning a family trip in six months and also saving for retirement, which may be 25 years away. The trip money has a date when you will need it. You would not want its value to fall just before you travel. Retirement is much further away, so you may have more time to handle the ups and downs of investments."
     },
     {
       "type": "p",
-      "value": "Savings are usually kept in cash or bank accounts where they are safe but grow slowly. Investments carry some risk but have the potential to earn much higher returns over time."
+      "value": "Money kept in a savings account is usually easy to access. The account may pay interest, but the amount you earn is often modest. Investments can include shares, bonds, mutual funds, exchange-traded funds, gold and property. Their values can rise or fall. Some may also pay income, such as interest or dividends, but these payments are not always guaranteed."
+    },
+    {
+      "type": "example",
+      "value": "<strong>A simple way to think about it:</strong> You keep money for an unexpected repair in an accessible savings account. Separately, you invest a monthly amount towards a goal that is many years away. If the market falls, the long-term investment may lose value for a while. But you do not have to sell it immediately to pay for the repair because you kept emergency money aside."
+    },
+    {
+      "type": "p",
+      "value": "Before choosing between saving and investing, ask yourself two questions: <strong>When will I need this money?</strong> and <strong>Can I manage if its value falls?</strong> Money needed soon usually calls for more stability and easy access. Money for a long-term goal may be suitable for investing, if you understand the risks and can handle them."
     },
     {
       "type": "tip",
-      "value": " <strong>Remember:</strong> First build savings for emergencies, then begin investing for long-term goals."
+      "value": "Saving and investing are not competitors. Most people need both. Savings can help with emergencies and near-term goals. Investing may help you work towards goals that are further away. First build a suitable emergency reserve, then consider investments that match your goals, time period and comfort with risk."
     },
     {
       "type": "quiz",
-      "question": "Which helps your money grow over time?",
+      "question": "What is the main difference between saving and investing?",
       "choices": [
-        "Investing",
-        "Keeping cash under your pillow",
-        "Spending everything"
+        "Saving always earns more than investing.",
+        "Saving usually focuses on access and stability, while investing involves risk in the hope of a return.",
+        "Investing means keeping cash at home.",
+        "There is no difference."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "You need money for a bill in three months. What should matter most?",
+      "choices": [
+        "Choosing the most volatile investment.",
+        "Locking the money away for ten years.",
+        "Keeping the money stable and accessible.",
+        "Choosing whatever rose most last week."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why might someone invest for a goal that is 20 years away?",
+      "choices": [
+        "A longer time may give them more room to handle market ups and downs.",
+        "Investments cannot fall over 20 years.",
+        "They will never need savings.",
+        "Long-term investing guarantees profit."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Which is generally safer?",
+      "question": "Which statement about investments is true?",
       "choices": [
-        "Saving",
-        "Investing",
-        "Neither"
+        "All investments have the same risk.",
+        "Every investment guarantees a return.",
+        "Some investments can lose value, and risks differ between products.",
+        "Every investment can be sold instantly at the expected price."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why is it useful to keep emergency savings separate from long-term investments?",
+      "choices": [
+        "Shares cannot be owned by individuals.",
+        "You may need quick access to cash when markets are falling.",
+        "Emergency savings are useful only for older people.",
+        "Investments never change in value."
+      ],
+      "correctAnswer": 1
     }
   ],
-  "previousLesson": "l2",
-  "nextLesson": "l4"
+  "previousLesson": "data/lessons/lesson_2.json",
+  "nextLesson": "data/lessons/lesson_4.json"
 }

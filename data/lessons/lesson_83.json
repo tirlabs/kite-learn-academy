@@ -3,42 +3,95 @@
   "title": "Position Sizing",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 83 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": 3,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Position sizing means deciding how much money to invest in a single stock. Even a good company can become a risky investment if too much money is invested in it."
+      "value": "Position sizing means deciding how much money to invest in one stock or other investment. Choosing a good company is only part of the decision. The amount you put into it determines how strongly its performance can affect your overall portfolio. Even a strong business can become a risky holding if it takes up too much of your money."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A balanced meal contains rice, vegetables, dal and fruits. Eating only one food in a very large quantity isn't healthy. Your investment portfolio should also be balanced."
+      "value": "<strong>Imagine This:</strong> A balanced meal contains different foods in suitable portions. Eating a very large quantity of only one food does not make the meal balanced. A portfolio also needs sensible portions: each investment should have a size that fits its role and the risk it brings."
     },
     {
       "type": "p",
-      "value": "Many experienced investors avoid putting a very large percentage of their portfolio into a single stock."
+      "value": "Investors often set a maximum allocation for a single company, sector or investment idea. There is no one percentage that is right for everyone. The appropriate size depends on your total portfolio, financial goals, time horizon, confidence in your research and ability to handle a loss."
     },
     {
       "type": "example",
-      "value": "An investor with ₹5,00,000 may decide not to invest more than ₹50,000 in any one company."
+      "value": "Suppose your portfolio is worth ₹5,00,000 and you decide to limit any one company to 10%. That means the maximum planned allocation is ₹50,000. If you invest ₹50,000 and that share falls by 20%, the holding loses ₹10,000. That is a 2% fall in the original ₹5,00,000 portfolio, assuming the other investments do not change."
     },
     {
-      "type": "warning",
-      "value": "⚠️ <strong>Even the best companies can face unexpected problems.</strong>"
+      "type": "p",
+      "value": "This illustrates why position size matters. The same 20% share-price fall has a very different effect if the holding is ₹10,000 rather than ₹2,00,000. A large position can turn one company-specific problem into a major portfolio setback."
+    },
+    {
+      "type": "fact",
+      "value": "Position size should be considered alongside diversification. If you own several companies from the same industry, your total exposure to that industry may be much larger than any single-stock percentage suggests. Also remember that a holding can become oversized if its price rises substantially."
     },
     {
       "type": "tip",
-      "value": " <strong>Good investing is about managing position size as much as choosing good companies.</strong>"
+      "value": "Think in both rupees and percentages. Before buying, calculate what the holding will represent in your portfolio and estimate how much a realistic fall could affect your overall finances."
+    },
+    {
+      "type": "warning",
+      "value": "A percentage limit is a planning tool, not a guarantee of safety. Never use money needed for essential expenses or near-term commitments simply because your chosen position limit leaves room for another purchase."
     },
     {
       "type": "quiz",
-      "question": "What is position sizing?",
+      "question": "What does position sizing mean?",
       "choices": [
-        "Deciding how much money to invest in one investment.",
-        "Choosing a stock exchange.",
-        "Selecting a broker."
+        "Choosing a stock exchange",
+        "Deciding how much to allocate to one investment",
+        "Predicting a share's closing price",
+        "Calculating company revenue"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A ₹50,000 position in a ₹5,00,000 portfolio represents:",
+      "choices": [
+        "5%",
+        "10%",
+        "20%",
+        "50%"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "If that ₹50,000 holding falls 20%, what is its loss?",
+      "choices": [
+        "₹1,000",
+        "₹5,000",
+        "₹10,000",
+        "₹20,000"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why does position size matter?",
+      "choices": [
+        "It determines the company's profit",
+        "It affects how much one investment can influence the whole portfolio",
+        "It removes market risk",
+        "It guarantees an exit price"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What should influence the size of a position?",
+      "choices": [
+        "Only popularity",
+        "Portfolio size, goals, risk capacity and concentration",
+        "A friend's investment amount",
+        "The share's previous high"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l82",

@@ -3,62 +3,99 @@
   "title": "Reading Your First Chart",
   "module": " Module 5 - Reading Charts",
   "order": "Page 50 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "6 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Congratulations! You now know enough to understand a basic stock chart. Before learning technical indicators, let's combine everything you've learned so far."
+      "value": "You have now learned the basic parts of a stock chart: its axes, line and bar charts, candlesticks, OHLC values, timeframes and a few common candle patterns. The next step is to bring these ideas together and read a chart in a simple, organised way."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Learning the stock market is like learning to read. First you learned letters, then words, then sentences. Charts are the first complete paragraph you can now understand."
+      "value": "<strong>Imagine This:</strong> Learning to read is a gradual process. First you recognise letters, then words, and then sentences. You do not need to understand every book immediately. In the same way, you can begin reading a stock chart by identifying a few basic details before looking for more advanced patterns."
     },
     {
       "type": "p",
-      "value": "When looking at a chart, start by identifying the timeframe, observe whether the overall trend is moving up or down, notice the trading volume, and then study the candlesticks."
+      "value": "<strong>Step 1 — Check the stock and timeframe.</strong> Make sure you are looking at the correct company and note whether the chart is set to 5 minutes, one day, one week or another period. The timeframe tells you what each candle or point represents."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 2 — Observe the broad direction.</strong> Look from left to right. Are prices generally moving higher, moving lower or staying within a range? Avoid deciding the trend from just one candle; look at a sequence of price movements."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 3 — Read the candles.</strong> Compare each candle's Open and Close to identify bullish or bearish periods. Look at the wicks to see the High and Low reached. Remember that a candle summarises the period and does not show every movement inside it."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Step 4 — Add context.</strong> Notice whether trading volume is unusually high or low, and look for areas where the price has previously paused or changed direction. These details can help you frame questions, but they do not guarantee what happens next."
     },
     {
       "type": "example",
-      "value": "If you see higher prices over several weeks, increasing volume and mostly bullish candles, buyers have generally been stronger during that period."
+      "value": "<strong>Let's put it together:</strong> Suppose a daily chart shows a stock moving from around ₹100 to ₹115 over several weeks. You notice several bullish candles, a few bearish days and higher trading volume on some of the upward moves. You can describe what the chart shows: the price generally moved higher during that period. You cannot conclude from this alone that it will continue rising."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Reading a chart is not the same as knowing what to buy.</strong> A chart shows price behaviour. Before investing, also consider the company's business, financial health, valuation, your goals and the risk you can afford to take."
     },
     {
       "type": "tip",
-      "value": " <strong>Don't try to predict tomorrow's price yet. First become comfortable reading what has already happened.</strong>"
-    },
-    {
-      "type": "fact",
-      "value": " You have completed the first 50 lessons! You now understand money, businesses, companies, the stock market, buying shares, price movement and reading charts."
+      "value": "Take your time. Describe what you can actually see before trying to predict anything. Being able to read a chart clearly is a useful first step; you do not need to master every pattern or indicator."
     },
     {
       "type": "quiz",
-      "question": "When reading a chart, what should you identify first?",
+      "question": "What should you check first when opening a stock chart?",
       "choices": [
-        "The timeframe",
-        "The CEO",
-        "The broker"
+        "The stock name and selected timeframe.",
+        "The colour of the last candle only.",
+        "A pattern you saw on social media.",
+        "The price you hope the stock will reach."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "What is the main purpose of studying charts?",
+      "question": "How should you identify the broad direction of a stock?",
       "choices": [
-        "To understand price behaviour.",
-        "To guarantee profits.",
-        "To calculate taxes."
+        "By looking at only the latest candle.",
+        "By assuming every green candle means an uptrend.",
+        "By observing a sequence of prices over the selected period.",
+        "By checking the company's logo."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
     },
     {
       "type": "quiz",
-      "question": "After completing Module 5, what comes next?",
+      "question": "What do the wicks of a candlestick help you identify?",
       "choices": [
-        "Learning technical analysis tools and indicators.",
-        "Opening another Demat account.",
-        "Creating a new company."
+        "The number of investors.",
+        "The High and Low reached during that period.",
+        "The company's annual profit.",
+        "The stock's future target price."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A chart shows a stock rising over several weeks. What can you safely say?",
+      "choices": [
+        "It will definitely keep rising.",
+        "The company has no investment risk.",
+        "Every investor has made a profit.",
+        "The price generally moved higher during the period shown."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should you consider more than a chart before investing?",
+      "choices": [
+        "A chart guarantees the company's future performance.",
+        "Charts do not contain prices.",
+        "Investment decisions also require understanding the business, valuation, goals and risks.",
+        "A stock chart shows the company's entire financial position."
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l49",

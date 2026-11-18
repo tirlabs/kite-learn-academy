@@ -1,48 +1,91 @@
 {
   "id": "l35",
-  "title": "Volume",
+  "title": "Trading Volume",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 35 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Volume tells us how many shares were traded during a specific period. It helps us understand how active a stock is."
+      "value": "Trading Volume tells you how many shares were traded during a particular period. It is one way to understand how active a stock has been. Volume is usually shown for a time period such as a day, hour or minute, depending on the chart or market screen you are viewing."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Two vegetable markets both sell tomatoes. One sells 20 bags in a day, while the other sells 2,000 bags. The second market clearly has much more activity. Volume works exactly the same way in the stock market."
+      "value": "<strong>Imagine This:</strong> Two busy markets sell the same kind of fruit. One sells 20 baskets in a day, while the other sells 2,000 baskets. The second market has handled far more transactions. In the stock market, volume similarly tells us how many shares changed hands during the selected period."
     },
     {
       "type": "p",
-      "value": "High volume usually means many buyers and sellers are actively trading the stock. Low volume means fewer people are participating."
+      "value": "When a trade takes place, shares move from a seller to a buyer. The traded quantity is included in the stock's volume. If 500 shares are traded in one transaction and another 300 shares are traded later, the total volume for those trades is 800 shares."
     },
     {
       "type": "example",
-      "value": "If Reliance trades 2 crore shares today, its trading volume for the day is 2 crore shares."
+      "value": "<strong>Let's calculate it:</strong> During a trading day, a stock has three trades: 1,000 shares, 2,500 shares and 500 shares. The total volume from these trades is 1,000 + 2,500 + 500 = 4,000 shares. It does not mean 4,000 different people traded; one person may participate in multiple trades."
+    },
+    {
+      "type": "p",
+      "value": "High volume means more shares were traded during that period. Low volume means fewer shares were traded. But volume alone does not tell you whether investors are buying more than they are selling: every completed trade has both a buyer and a seller. It also does not tell you whether the company is good or whether its share price will rise."
+    },
+    {
+      "type": "p",
+      "value": "Volume is often studied alongside price movement. For example, a sharp price move accompanied by unusually high volume may show that many shares were involved in the move. A price change on low volume may have involved fewer shares. These observations can provide context, but they do not predict what will happen next."
     },
     {
       "type": "tip",
-      "value": " <strong>Volume tells you how much interest there is in a stock. Price tells you where it is trading.</strong>"
+      "value": "Use volume as a clue about trading activity, not as a buy or sell signal by itself. Compare it with the stock's usual volume and look at the price movement and business context too."
     },
     {
       "type": "quiz",
-      "question": "What does trading volume represent?",
+      "question": "What does trading volume measure?",
       "choices": [
-        "The number of shares traded.",
-        "The company's annual profit.",
-        "The stock's future price."
+        "The number of shares traded during a selected period.",
+        "The company's total annual revenue.",
+        "The number of people employed by the company.",
+        "The future value of the stock."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "High trading volume usually indicates...",
+      "question": "A stock has trades of 1,000 shares and 2,000 shares during a period. What is the total volume from these trades?",
       "choices": [
-        "Many buyers and sellers are active.",
-        "The company is closing.",
-        "The stock cannot be traded."
+        "1,000 shares",
+        "2,000 shares",
+        "3,000 shares",
+        "4,000 shares"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What does high trading volume tell you?",
+      "choices": [
+        "The stock is guaranteed to rise.",
+        "A larger number of shares were traded during that period.",
+        "The company has no financial risk.",
+        "Every trade was profitable."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why doesn't volume alone tell you whether more people are buying than selling?",
+      "choices": [
+        "Because volume counts only profitable trades.",
+        "Because sellers are not part of stock market trades.",
+        "Because volume is always estimated.",
+        "Because every completed trade has both a buyer and a seller."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "How can volume be used more meaningfully?",
+      "choices": [
+        "By considering it alongside price movement and the stock's usual activity.",
+        "By treating every high-volume day as a guaranteed buying opportunity.",
+        "By ignoring the company's business.",
+        "By assuming low volume means the company is loss-making."
       ],
       "correctAnswer": 0
     }

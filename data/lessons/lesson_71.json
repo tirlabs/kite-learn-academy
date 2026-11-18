@@ -3,42 +3,95 @@
   "title": "Earnings Per Share (EPS)",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 71 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "After a company earns a profit, investors often ask a simple question: 'How much of that profit belongs to each share?' The answer is called Earnings Per Share (EPS)."
+      "value": "After a company earns a profit, investors often ask a simple question: how much of that profit is attributable to each equity share? This measure is called <strong>Earnings Per Share (EPS)</strong>. It helps investors understand a company's earnings on a per-share basis."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A pizza is shared among 4 friends. Each person gets 2 slices. If the same pizza is shared among 8 friends, each gets only 1 slice. The total pizza hasn't changed—only the number of people sharing it. EPS works the same way."
+      "value": "<strong>Imagine This:</strong> A pizza is shared among four friends. Each person gets two slices. If the same pizza is shared among eight friends, each gets only one slice. The total pizza has not changed; the number of people sharing it has. EPS works in a similar way by relating a company's earnings to its shares."
     },
     {
       "type": "p",
-      "value": "EPS tells us how much profit is earned for each outstanding share of the company. A higher EPS generally indicates better profitability."
+      "value": "A commonly used basic EPS calculation is: <strong>Profit attributable to equity shareholders ÷ Weighted average number of equity shares</strong>. The profit used is not simply revenue or operating profit. It is the earnings available to ordinary equity shareholders after relevant expenses and preference dividends, where applicable."
     },
     {
       "type": "example",
-      "value": "If a company earns ₹100 crore in profit and has 10 crore shares, its EPS is ₹10."
+      "value": "<strong>Let's calculate it:</strong> A company earns ₹100 crore attributable to equity shareholders during the year. Its weighted average number of equity shares is 10 crore. EPS = ₹100 crore ÷ 10 crore shares = ₹10 per share."
     },
     {
-      "type": "fact",
-      "value": " Formula: EPS = Net Profit ÷ Total Outstanding Shares"
+      "type": "p",
+      "value": "The number of shares used is generally a weighted average because the company may issue or buy back shares during the year. If the number of shares changes, using only the year-end share count may not fairly represent how many shares were outstanding throughout the period."
+    },
+    {
+      "type": "p",
+      "value": "Investors often compare EPS across years to see whether earnings per share are growing or declining. They may also compare EPS with the share price to calculate the Price-to-Earnings ratio. However, EPS should be read alongside revenue, debt, cash flow and the quality of reported earnings."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>A higher EPS does not automatically make a stock a better investment.</strong> EPS can rise because profit increased, but it can also change because the number of shares changed. One-time gains and accounting items can also affect reported earnings."
     },
     {
       "type": "tip",
-      "value": " <strong>EPS is more useful when compared with previous years and with similar companies.</strong>"
+      "value": "When reviewing EPS, check the profit behind the number, compare it across several periods and notice whether the share count has changed. EPS is one useful measure, not a complete picture of the company."
     },
     {
       "type": "quiz",
-      "question": "What does EPS measure?",
+      "question": "What does Earnings Per Share (EPS) measure?",
       "choices": [
-        "Profit earned for each share.",
-        "Company revenue.",
-        "Total company assets."
+        "The company's revenue per customer.",
+        "The earnings attributable to equity shareholders for each share.",
+        "The market price of one share.",
+        "The dividend paid on every share."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A company has ₹60 crore of earnings attributable to equity shareholders and 6 crore weighted average shares. What is its EPS?",
+      "choices": [
+        "₹6",
+        "₹60",
+        "₹10",
+        "₹360"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why is a weighted average number of shares often used in EPS?",
+      "choices": [
+        "Because the number of shares may change during the reporting period.",
+        "Because every company has the same number of shares.",
+        "Because it includes only promoter shares.",
+        "Because it measures the share price."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which item is used in the basic EPS calculation?",
+      "choices": [
+        "Total revenue before expenses.",
+        "The company's total assets.",
+        "The market capitalisation.",
+        "Earnings attributable to equity shareholders."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should investors not judge a company using EPS alone?",
+      "choices": [
+        "EPS is unrelated to earnings.",
+        "EPS can be affected by share-count changes and one-time items, and does not show the whole business picture.",
+        "EPS always falls when revenue rises.",
+        "EPS guarantees future profits."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l70",

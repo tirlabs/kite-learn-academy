@@ -3,34 +3,95 @@
   "title": "What is an IPO?",
   "module": " Module 9 - Advanced Investing & Your Journey",
   "order": "Page 91 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": 4,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "An Initial Public Offering (IPO) is the first time a private company offers its shares to the public through a stock exchange."
+      "value": "An Initial Public Offering (IPO) is the process through which a company offers its shares to public investors for the first time and seeks to list those shares on a stock exchange. After listing, investors can generally buy and sell the shares in the market. An IPO is one way a company can raise money and give existing shareholders an opportunity to sell some of their shares."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A successful family-owned bakery wants to open stores across India. Instead of borrowing all the money from banks, it invites the public to become part owners by buying shares."
+      "value": "<strong>Imagine This:</strong> A family-owned business has grown from one shop into a company with branches across several cities. It now wants money to build factories, hire people and expand further. Instead of relying only on its owners or loans, the company considers offering shares to public investors. This is the basic idea behind an IPO."
+    },
+    {
+      "type": "p",
+      "value": "An IPO can contain a <strong>fresh issue</strong>, an <strong>offer for sale (OFS)</strong>, or both. In a fresh issue, the company creates and sells new shares and receives the proceeds. It may use that money for the purposes described in its offer documents, such as expansion or repayment of debt. In an OFS, existing shareholders sell some of their shares and receive the proceeds; the company does not receive that portion of the money."
     },
     {
       "type": "example",
-      "value": "Many well-known Indian companies became publicly listed through an IPO before their shares started trading on NSE and BSE."
+      "value": "Suppose an IPO raises ₹500 crore through a fresh issue and ₹200 crore through an OFS. The company receives the ₹500 crore raised from its new shares. The shareholders selling through the OFS receive the ₹200 crore. The offer document explains how much is being raised through each route."
+    },
+    {
+      "type": "p",
+      "value": "Before an IPO, the company publishes offer documents containing information about its business, financial statements, promoters, risks, litigation, use of proceeds and the proposed offer. Investors can use these disclosures to understand the company. The issue price or price band also matters: a promising business can still be an expensive investment if the valuation is too high."
+    },
+    {
+      "type": "p",
+      "value": "After the IPO closes, shares are allotted according to the applicable process and demand. If allotted, the shares are credited to the investor's Demat account and may be traded after listing. Applying does not guarantee allotment, and listing does not guarantee that the market price will be higher than the issue price."
     },
     {
       "type": "tip",
-      "value": " Buying an IPO doesn't automatically mean you'll make profits. Research is just as important."
+      "value": "Before applying, read the offer document and ask: What does the company do? How does it earn money? Why is it raising funds? What are its risks? Is the valuation reasonable compared with its business and prospects?"
+    },
+    {
+      "type": "warning",
+      "value": "Do not apply only because an IPO is heavily discussed or expected to list at a premium. The share price can list below the issue price and can fall further. An IPO application is an investment decision, not a guaranteed short-term opportunity."
     },
     {
       "type": "quiz",
-      "question": "IPO stands for...",
+      "question": "What is an IPO?",
       "choices": [
-        "Initial Public Offering",
-        "Indian Public Ownership",
-        "Investment Purchase Order"
+        "A company offering shares to the public for the first time",
+        "A company paying a dividend",
+        "A stock exchange closing",
+        "A mutual fund buying shares"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Who receives the proceeds from a fresh issue?",
+      "choices": [
+        "The company issuing new shares",
+        "Only the stock exchange",
+        "The broker",
+        "All existing shareholders"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "In an offer for sale, who receives the sale proceeds?",
+      "choices": [
+        "The company",
+        "The existing shareholders selling shares",
+        "SEBI",
+        "Every IPO applicant"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Where can investors study an IPO's business, financials and risks?",
+      "choices": [
+        "Only social media posts",
+        "The offer document",
+        "A stock price alert",
+        "A broker advertisement"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about IPO allotment and listing is correct?",
+      "choices": [
+        "Every applicant receives shares",
+        "Applying guarantees a profit",
+        "Allotment and listing gains are not guaranteed",
+        "The share cannot list below issue price"
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l90",

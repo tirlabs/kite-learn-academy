@@ -3,38 +3,91 @@
   "title": "What is SEBI?",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 14 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Whenever money is involved, rules are important. SEBI is the organization that regulates India's stock market."
+      "value": "When people invest their money, they need rules that help keep the market fair and orderly. In India, the main regulator for the securities market is the <strong>Securities and Exchange Board of India (SEBI)</strong>. Its role is to help protect investors and support the proper working of the securities market."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Roads would become dangerous without traffic police and traffic signals. Similarly, stock markets need rules to ensure everyone trades fairly."
+      "value": "<strong>Imagine This:</strong> Think about a cricket match. Players follow the rules, and an umpire steps in when a rule is broken. Without rules and someone responsible for applying them, the match could become unfair. A market also needs rules and a regulator to help deal with unfair practices."
     },
     {
       "type": "p",
-      "value": "SEBI stands for Securities and Exchange Board of India. It protects investors, regulates stock exchanges, and ensures companies follow the rules."
+      "value": "SEBI makes and enforces rules for different parts of India's securities market. It regulates stock exchanges, stock brokers and other market intermediaries. It also sets requirements for companies that raise money from the public or have securities listed on exchanges. These rules help make sure that important information is shared and that market participants follow fair practices."
+    },
+    {
+      "type": "p",
+      "value": "SEBI can look into suspected wrongdoing, such as market manipulation or misleading information. Depending on the case and the law, it can take action against people or organisations that break securities rules. It also works to improve investor awareness so people can better understand the products and risks they choose."
     },
     {
       "type": "example",
-      "value": "If a company tries to cheat investors or manipulate share prices, SEBI has the authority to investigate and take action."
+      "value": "<strong>For example:</strong> If someone tries to spread false information to push a share price up or down, this may be market manipulation. SEBI can investigate suspected manipulation and take action when it finds a violation of the rules."
+    },
+    {
+      "type": "p",
+      "value": "SEBI's role is important, but it does not mean every investment is safe. It cannot promise that a company will do well, that a share price will rise or that investors will never lose money. Investors still need to understand what they are buying and the risks involved."
     },
     {
       "type": "tip",
-      "value": " <strong>Think of SEBI as the referee of the Indian stock market.</strong>"
+      "value": "Think of SEBI as the regulator that sets and enforces rules for India's securities market. It helps protect investors from unfair practices, but it does not protect them from every investment loss."
     },
     {
       "type": "quiz",
-      "question": "What is SEBI's primary role?",
+      "question": "What does SEBI stand for?",
       "choices": [
-        "Regulate and protect the stock market.",
-        "Sell shares to investors.",
-        "Own all companies."
+        "Securities and Exchange Board of India",
+        "Stock Exchange Bank of India",
+        "Savings and Equity Bureau of India",
+        "Securities and Earnings Bank of India"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is SEBI's main role?",
+      "choices": [
+        "To buy shares for every investor.",
+        "To regulate India's securities market and help protect investors.",
+        "To guarantee profits on investments.",
+        "To decide which company must become successful."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these may SEBI investigate?",
+      "choices": [
+        "A person's choice of favourite company.",
+        "A normal change in a share price.",
+        "Suspected market manipulation or misleading information.",
+        "A company's choice of office furniture."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Does SEBI guarantee that investors will not lose money?",
+      "choices": [
+        "Yes, every investment is protected from loss.",
+        "Only shares in large companies are guaranteed.",
+        "No, investments can still rise or fall in value.",
+        "Yes, if an investor uses a broker's app."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why are market rules important?",
+      "choices": [
+        "They make every share cost the same.",
+        "They help support fair and orderly trading and require important information to be shared.",
+        "They stop companies from competing.",
+        "They remove the need for investors to learn."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l13",

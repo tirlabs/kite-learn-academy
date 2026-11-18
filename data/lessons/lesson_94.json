@@ -3,32 +3,93 @@
   "title": "Systematic Investment Plan (SIP)",
   "module": " Module 9 - Advanced Investing & Your Journey",
   "order": "Page 94 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": 4,
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "A SIP allows you to invest a fixed amount regularly instead of investing one large amount at once."
+      "value": "A Systematic Investment Plan (SIP) is a method of investing a fixed amount at regular intervals, often monthly, into a mutual fund. It is not a separate type of investment or a fund by itself. It is simply a disciplined way to make contributions over time."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Planting one seed every week slowly creates a beautiful garden. Investing regularly through SIP builds wealth over time."
+      "value": "<strong>Imagine This:</strong> You want to save for a future goal. Instead of waiting until you have a large amount, you set aside a manageable sum every month. An SIP applies that regular approach to investing in a mutual fund."
+    },
+    {
+      "type": "p",
+      "value": "When a fixed SIP amount is invested, the number of units received depends on the fund's NAV on that date. When NAV is lower, the same amount generally buys more units. When NAV is higher, it buys fewer units. Over time, this spreads purchases across different market levels. This is commonly called rupee-cost averaging."
     },
     {
       "type": "example",
-      "value": "Investing ₹5,000 every month into a Mutual Fund is an example of SIP."
+      "value": "Suppose you invest ₹2,000 each month. At an NAV of ₹20, you receive 100 units. At an NAV of ₹25, you receive 80 units. At an NAV of ₹16, you receive 125 units. Your total units are added together, and their value changes as the fund's NAV changes."
+    },
+    {
+      "type": "p",
+      "value": "An SIP can help build a regular investing habit and reduce the pressure to decide when to invest a large lump sum. However, it does not decide whether the fund itself is suitable. You still need to choose a fund that matches your goal, time horizon and ability to handle losses."
+    },
+    {
+      "type": "p",
+      "value": "SIPs can usually be started, paused, modified or stopped according to the fund house and platform rules. Before starting, understand the minimum amount, instalment dates, mandate process, missed-payment rules and any exit load or other applicable conditions."
     },
     {
       "type": "tip",
-      "value": " Consistency often matters more than timing the market."
+      "value": "Choose an amount that fits your monthly budget after essential expenses and emergency savings. Review the fund periodically and increase contributions only when your income and goals support it."
+    },
+    {
+      "type": "warning",
+      "value": "An SIP does not guarantee profit or protect you from market falls. Regular investing cannot turn an unsuitable fund into a suitable one. Do not continue an amount that creates financial stress simply to maintain a schedule."
     },
     {
       "type": "quiz",
-      "question": "SIP helps investors...",
+      "question": "What is an SIP?",
       "choices": [
-        "Invest regularly",
-        "Predict markets",
-        "Avoid all risks"
+        "A regular method of investing a fixed amount into a mutual fund",
+        "A type of stock exchange",
+        "A guaranteed-return deposit",
+        "A tax on shares"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "When NAV is lower, a fixed SIP amount generally buys:",
+      "choices": [
+        "Fewer units",
+        "More units",
+        "Exactly the same number every time",
+        "No units"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is rupee-cost averaging?",
+      "choices": [
+        "Buying only when markets rise",
+        "Purchasing different numbers of units as NAV changes through regular investments",
+        "Guaranteeing every purchase is profitable",
+        "Selling all units at one price"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Does an SIP guarantee a profit?",
+      "choices": [
+        "Yes, after twelve months",
+        "No, the fund remains exposed to market risk",
+        "Yes, if the amount is fixed",
+        "Only for equity funds"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What should guide the SIP amount?",
+      "choices": [
+        "Your budget and financial goals",
+        "The largest amount the bank allows",
+        "A friend's contribution",
+        "The latest market rumour"
       ],
       "correctAnswer": 0
     }

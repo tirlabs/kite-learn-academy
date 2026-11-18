@@ -3,36 +3,97 @@
   "title": "Annual Report",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 79 of 100",
-  "readingTime": "10 mins read",
+  "readingTime": "6 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Every listed company publishes an Annual Report that explains its business performance, financial results, risks and future plans."
+      "value": "Every listed company publishes an <strong>Annual Report</strong> that explains its business performance, financial results, risks and plans. It is one of the most useful documents for investors who want to understand a company beyond its share price and short news updates."
     },
     {
       "type": "story",
-      "value": "<strong>Imagine This:</strong> At the end of every school year, students receive a report card summarizing their performance. An Annual Report is the company's report card."
+      "value": "<strong>Imagine This:</strong> At the end of every school year, students receive a report card summarising their performance. An Annual Report is the company's report card. It explains what the company did during the year, what results it achieved and what challenges it faced."
     },
     {
       "type": "p",
-      "value": "An Annual Report usually includes the Chairman's Message, Management Discussion, Financial Statements, Auditor's Report, Corporate Governance Report and Notes to the Accounts."
+      "value": "An annual report commonly includes a company overview, a message from the chairperson or management, the Management Discussion and Analysis (MD&A), financial statements, notes to accounts, the auditor's report and corporate governance disclosures. The exact layout and contents can vary by company and applicable requirements."
     },
     {
       "type": "example",
-      "value": "Before investing in a company, many experienced investors read at least the business overview, management discussion and financial statements from its Annual Report."
+      "value": "<strong>For example:</strong> If you are researching a manufacturing company, its annual report may explain the products it makes, factory capacity, raw-material costs, major customers, expansion plans and risks. The financial statements then show how those activities are reflected in revenue, expenses, assets, liabilities and cash flows."
+    },
+    {
+      "type": "p",
+      "value": "The <strong>Management Discussion and Analysis</strong> section provides management's explanation of the business environment, performance, opportunities and risks. It can be useful context, but it represents management's perspective. Compare the discussion with the actual financial statements and other disclosures."
+    },
+    {
+      "type": "p",
+      "value": "The auditor's report is also important. It contains the auditor's opinion on the financial statements and may draw attention to matters that investors should read carefully. The notes to accounts provide details behind reported figures, including accounting policies, debt, commitments, related-party transactions and other disclosures."
+    },
+    {
+      "type": "p",
+      "value": "Investors can usually find annual reports on the company's investor-relations website and through official stock exchange filings. Reading several years of reports can help reveal changes in strategy, financial performance, risks and management explanations."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Do not read only the opening pages or management message.</strong> Important information may appear in the financial statements, auditor's report and notes to accounts. A polished report does not remove the need to examine the underlying numbers."
     },
     {
       "type": "tip",
-      "value": " <strong>You don't need to read every page. Start with the business overview, risks and financial highlights.</strong>"
+      "value": "Start with the business overview, then review MD&A, financial statements, auditor's report and notes. Write down what the company does, how it performed and what risks it has disclosed."
     },
     {
       "type": "quiz",
-      "question": "What is the main purpose of an Annual Report?",
+      "question": "What is an Annual Report?",
       "choices": [
-        "To summarize the company's yearly performance.",
-        "To announce daily share prices.",
-        "To calculate brokerage charges."
+        "A daily stock price summary.",
+        "A yearly document explaining a company's business, financial results and other disclosures.",
+        "A list of all stock market trades.",
+        "A guarantee of future company performance."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which section commonly explains management's view of the business environment and performance?",
+      "choices": [
+        "The share price chart.",
+        "The dividend payment slip.",
+        "Management Discussion and Analysis (MD&A).",
+        "The company's product advertisement."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why are notes to accounts important?",
+      "choices": [
+        "They provide details and explanations behind figures in the financial statements.",
+        "They show only the company's share price.",
+        "They guarantee the next year's profit.",
+        "They replace the auditor's report."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What does the auditor's report provide?",
+      "choices": [
+        "A guaranteed forecast of share prices.",
+        "A list of all future company plans.",
+        "An assurance that the stock is risk-free.",
+        "The auditor's opinion on the financial statements and related matters."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why is it useful to read annual reports from several years?",
+      "choices": [
+        "To understand changes in strategy, results, risks and management explanations over time.",
+        "Because one annual report contains no financial information.",
+        "To find a guaranteed dividend.",
+        "To avoid reading financial statements."
       ],
       "correctAnswer": 0
     }

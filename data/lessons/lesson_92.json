@@ -3,28 +3,93 @@
   "title": "Mutual Funds",
   "module": " Module 9 - Advanced Investing & Your Journey",
   "order": "Page 92 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": 4,
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "A Mutual Fund pools money from many investors and invests it in a diversified portfolio managed by professionals."
+      "value": "A mutual fund pools money from many investors and invests it in a portfolio of assets such as shares, bonds or money-market instruments. Investors receive units representing their share of the fund. The value of each unit is called its Net Asset Value (NAV), which broadly reflects the fund's assets minus liabilities divided by the number of units."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Instead of everyone driving separately, a bus carries many passengers together. Mutual Funds pool everyone's money and invest it together."
+      "value": "<strong>Imagine This:</strong> Several friends contribute money to buy a large basket of different fruits. Each person owns a small part of the basket instead of buying every fruit separately. A mutual fund works in a similar way: investors pool money and the fund invests it according to a stated objective."
+    },
+    {
+      "type": "p",
+      "value": "Different mutual funds have different objectives and risks. <strong>Equity funds</strong> mainly invest in shares and can fluctuate significantly. <strong>Debt funds</strong> mainly invest in bonds and other debt instruments, and face risks such as interest-rate and credit risk. <strong>Hybrid funds</strong> combine asset classes. <strong>Index funds</strong> aim to track a selected market index rather than actively choose investments to outperform it."
+    },
+    {
+      "type": "example",
+      "value": "Suppose you invest ₹5,000 in a mutual fund when its NAV is ₹50. You receive 100 units before any applicable charges. If the NAV later becomes ₹55, those units are worth ₹5,500. If it falls to ₹45, they are worth ₹4,500. The fund value changes because the value of its underlying investments changes."
+    },
+    {
+      "type": "p",
+      "value": "A fund's NAV alone does not tell you whether it is good or cheap. A lower NAV does not automatically mean a fund is a bargain, just as a higher NAV does not automatically mean it is expensive. What matters is the fund's portfolio, objective, performance relative to a suitable benchmark, costs and risks."
+    },
+    {
+      "type": "p",
+      "value": "Mutual funds charge expenses for managing and operating the fund. The expense ratio reduces the return available to investors over time. Investors should also understand exit loads, if applicable, and the fund's rules for buying or redeeming units."
     },
     {
       "type": "tip",
-      "value": " Mutual Funds are suitable for people who don't have time to analyse individual companies."
+      "value": "Before selecting a fund, understand its category and objective. Check its portfolio, benchmark, expense ratio, risk level, consistency across different market conditions and whether it fits your goal and time horizon."
+    },
+    {
+      "type": "warning",
+      "value": "Mutual fund returns are not guaranteed. Equity funds can fall sharply, and debt funds are not risk-free. Past performance does not assure future results; avoid choosing a fund only because it recently topped a return ranking."
     },
     {
       "type": "quiz",
-      "question": "Who manages a Mutual Fund?",
+      "question": "What does a mutual fund do?",
       "choices": [
-        "Professional Fund Managers",
-        "Stock Exchange",
-        "SEBI"
+        "Pools investors' money to invest in a portfolio",
+        "Guarantees a fixed return",
+        "Keeps all money as cash",
+        "Acts as a stock exchange"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What does NAV broadly represent?",
+      "choices": [
+        "Value per unit of a mutual fund",
+        "A company's annual revenue",
+        "The stock exchange index",
+        "Brokerage on a trade"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which fund category mainly invests in shares?",
+      "choices": [
+        "Equity fund",
+        "Debt fund",
+        "Fixed deposit",
+        "Savings account"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is an index fund designed to do?",
+      "choices": [
+        "Guarantee it beats the index",
+        "Track a selected index, subject to costs and tracking difference",
+        "Invest in one company only",
+        "Avoid all market risk"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why should you check a fund's expense ratio?",
+      "choices": [
+        "It affects the costs borne by the fund and investors",
+        "It guarantees the fund's return",
+        "It tells you the fund's age",
+        "It determines the stock exchange"
       ],
       "correctAnswer": 0
     }

@@ -3,40 +3,93 @@
   "title": "Volume Analysis",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 63 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Earlier you learned what volume is. Now let's understand how traders use volume to confirm price movements."
+      "value": "Trading volume tells you how many shares changed hands during a period. <strong>Volume Analysis</strong> means studying that activity alongside price movement. It can help you understand whether a price move involved relatively high or low participation compared with the stock's usual trading activity."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Imagine two concerts. One is attended by 50 people and another by 50,000 people. The second event clearly has much stronger public participation. Volume tells a similar story in the stock market."
+      "value": "<strong>Imagine This:</strong> Two public meetings make the same announcement. One is attended by 20 people and the other by 2,000. The second meeting involved much more participation. In the stock market, volume helps you see how many shares were traded while a price movement was taking place."
     },
     {
       "type": "p",
-      "value": "When prices rise with increasing volume, it often suggests stronger buying interest. When prices rise with very low volume, traders become more cautious."
+      "value": "When a stock rises and volume is higher than usual, some traders see this as evidence that the upward move has attracted stronger participation. If the price rises on unusually low volume, they may be more cautious because fewer shares were traded during the move."
     },
     {
       "type": "example",
-      "value": "If a stock breaks above resistance with unusually high volume, many traders consider the breakout more reliable."
+      "value": "<strong>For example:</strong> A stock has been trading between ₹90 and ₹100. It then moves above ₹100 with trading volume much higher than its recent average. Traders may consider the move more meaningful than a move above ₹100 that happens on very low volume. It still does not guarantee that the price will stay above ₹100."
+    },
+    {
+      "type": "p",
+      "value": "Volume can also provide context when prices fall. A decline accompanied by unusually high volume may indicate strong trading activity during the fall. A decline on low volume may involve less participation. Neither observation alone tells you the exact reason for the move or what will happen next."
+    },
+    {
+      "type": "p",
+      "value": "Always compare volume with the stock's own usual activity and the same type of period. A volume figure that is high for one company may be normal for another. Also remember that every completed trade has both a buyer and a seller; volume measures shares traded, not a simple count of buyers versus sellers."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>High volume alone is not a buy signal. Always consider price action and the overall trend.</strong>"
+      "value": "<strong>High volume does not automatically mean a price move is genuine or sustainable.</strong> News, market-wide activity and large transactions can all affect volume. Use it as supporting information, not as a standalone signal."
     },
     {
       "type": "tip",
-      "value": " <strong>Volume is often called the fuel behind a price move.</strong>"
+      "value": "Look at price and volume together. Ask whether trading activity is unusually high or low for that stock, and then consider the broader market and company context."
     },
     {
       "type": "quiz",
-      "question": "Why do traders study volume?",
+      "question": "What is Volume Analysis?",
       "choices": [
-        "To confirm the strength of price movements.",
-        "To calculate taxes.",
-        "To measure company revenue."
+        "Studying trading activity alongside price movement.",
+        "Calculating a company's annual revenue.",
+        "Counting only the number of buyers.",
+        "Predicting the exact closing price."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A stock rises above resistance with much higher-than-usual volume. What might some traders infer?",
+      "choices": [
+        "The breakout is guaranteed to succeed.",
+        "The company has no debt.",
+        "The move has attracted stronger trading participation.",
+        "The stock cannot fall again."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why might traders be cautious about a price rise on very low volume?",
+      "choices": [
+        "Low volume guarantees a fall.",
+        "The move involved fewer traded shares than usual and may have weaker participation.",
+        "The company must have reported a loss.",
+        "The exchange has stopped matching orders."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does volume count for a completed trade?",
+      "choices": [
+        "Only the buyer's shares.",
+        "Only the seller's shares.",
+        "The number of people who viewed the stock.",
+        "The quantity of shares traded; each completed trade has both a buyer and seller."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "How should volume be interpreted?",
+      "choices": [
+        "Alongside price movement and the stock's usual activity, not as a standalone guarantee.",
+        "As proof that a stock will rise whenever volume is high.",
+        "Without considering the company or market.",
+        "As a direct measure of company profit."
       ],
       "correctAnswer": 0
     }

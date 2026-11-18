@@ -3,46 +3,89 @@
   "title": "Limit Order",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 26 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Unlike a Market Order, a Limit Order lets you decide the exact price at which you want to buy or sell a share."
+      "value": "A <strong>Limit Order</strong> lets you set the price at which you are willing to buy or sell a share. Unlike a Market Order, which uses the best available price, a Limit Order gives you more control over the price. The order will only be matched at your limit price or a better price."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You visit a shop to buy a mobile phone. The shopkeeper asks ₹20,000, but you say, 'I'll buy it only if the price drops to ₹18,500.' You leave your offer and wait. A Limit Order works exactly like that."
+      "value": "<strong>Imagine This:</strong> You want to buy a mobile phone, but the shopkeeper asks ₹20,000. You decide that you will buy it only if the price is ₹18,500 or less. You make your offer and wait. A Limit Order works in a similar way: you set the price you are willing to accept."
     },
     {
       "type": "p",
-      "value": "Your order will only be executed if the market reaches the price you specified. Otherwise, the order remains pending or expires."
+      "value": "When you place a <strong>Limit Buy Order</strong>, you set the highest price you are willing to pay. It may be matched at that price or lower, but not at a higher price. When you place a <strong>Limit Sell Order</strong>, you set the lowest price you are willing to accept. It may be matched at that price or higher, but not at a lower price."
+    },
+    {
+      "type": "p",
+      "value": "A Limit Order may not be completed. The market may never reach your price, or there may not be enough shares available at that price. Your order can remain open, be partly completed, expire or be cancelled, depending on its validity and the broker's order options."
     },
     {
       "type": "example",
-      "value": "A stock is trading at ₹1,020. You place a Limit Buy Order at ₹1,000. Your order will execute only if someone is willing to sell at ₹1,000."
+      "value": "<strong>For example:</strong> A share is trading around ₹1,020. You place a Limit Buy Order at ₹1,000. Your order can be matched if a seller is willing to sell at ₹1,000 or less. If sellers continue asking for more than ₹1,000, your order may remain open."
+    },
+    {
+      "type": "p",
+      "value": "Limit Orders are useful when price control matters more than immediate execution. But setting a limit does not mean the trade will happen. You must still check the order status and decide what to do if the order remains open."
     },
     {
       "type": "tip",
-      "value": " <strong>Use Limit Orders when getting the right price is more important than immediate execution.</strong>"
+      "value": "For a Limit Buy Order, think 'this is the most I will pay'. For a Limit Sell Order, think 'this is the least I will accept'. You control the price, but you cannot force the market to match your order."
     },
     {
       "type": "quiz",
-      "question": "When does a Limit Order execute?",
+      "question": "What does a Limit Order allow you to do?",
       "choices": [
-        "Only when the specified price is reached.",
-        "Immediately at any price.",
-        "Only after market closes."
+        "Set the price at which you are willing to buy or sell.",
+        "Guarantee that the share price will rise.",
+        "Buy at any available price immediately.",
+        "Avoid all investment risk."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Which order gives you control over the execution price?",
+      "question": "What is the highest price in a Limit Buy Order?",
       "choices": [
-        "Limit Order",
-        "Market Order",
-        "Both are identical"
+        "The last price shown by the app.",
+        "The price set by the company.",
+        "The maximum price you are willing to pay.",
+        "The highest price ever reached by the share."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What is the lowest price in a Limit Sell Order?",
+      "choices": [
+        "The price set by another investor.",
+        "The minimum price you are willing to accept.",
+        "The previous day's closing price.",
+        "The company's original issue price."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What may happen if the market does not reach your limit price?",
+      "choices": [
+        "The trade is completed automatically.",
+        "The broker changes your limit without asking.",
+        "You receive a guaranteed profit.",
+        "The order may remain open, expire or be cancelled."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which is a key difference between Market and Limit Orders?",
+      "choices": [
+        "A Market Order prioritises available execution; a Limit Order sets a price condition.",
+        "A Limit Order always executes immediately.",
+        "A Market Order guarantees an exact price.",
+        "There is no difference."
       ],
       "correctAnswer": 0
     }

@@ -3,38 +3,95 @@
   "title": "Risk vs Reward",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 84 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": 3,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Every investment has a balance between the amount you could lose and the amount you hope to gain. This is called the Risk-Reward Ratio."
+      "value": "Every investment involves a balance between the amount you could lose and the gain you hope to make. This is commonly described as risk versus reward. Comparing the two helps you decide whether a possible return is worth the uncertainty you must accept."
     },
     {
       "type": "story",
-      "value": "🎣 <strong>Imagine This:</strong> You wouldn't spend ₹1,000 on fishing equipment to catch a fish worth only ₹100. Similarly, investors compare potential reward with potential risk before making a decision."
+      "value": "<strong>Imagine This:</strong> You are offered two delivery jobs. One pays ₹500 for a short, familiar route. The other pays ₹1,000 but involves a much longer journey through uncertain road conditions. The higher payment may look attractive, but you would compare the extra reward with the extra time, cost and risk."
     },
     {
       "type": "p",
-      "value": "Many traders look for opportunities where the potential reward is greater than the possible loss."
+      "value": "In trading, the risk-reward ratio compares the planned loss with the potential gain. A ratio of 1:3 means the trader is prepared to risk ₹1 for a possible reward of ₹3. It describes the planned amounts; it does not tell you whether the trade is likely to succeed."
     },
     {
       "type": "example",
-      "value": "If your maximum expected loss is ₹100 but your expected profit is ₹300, your Risk-Reward Ratio is 1:3."
+      "value": "Suppose you buy a share at ₹100. You plan to exit if it falls to ₹95 and have a possible target of ₹115. Your planned risk is ₹5 per share and your potential reward is ₹15. The ratio is ₹5:₹15, or 1:3, before brokerage, taxes and other costs."
+    },
+    {
+      "type": "p",
+      "value": "The ratio is only one part of the decision. Imagine two trades: one offers a possible gain of ₹300 against a loss of ₹100, but succeeds only rarely; another offers a possible gain of ₹150 against a loss of ₹100 and has a more realistic chance of reaching its target. The larger ratio alone does not tell you which trade is better."
+    },
+    {
+      "type": "fact",
+      "value": "A trader's results depend on both the size of wins and losses and how often each outcome occurs. Even a strategy with a favourable risk-reward ratio can lose money if successful trades are too uncommon or actual losses exceed the plan."
     },
     {
       "type": "tip",
-      "value": " <strong>A good investment is not just about high returns—it should also have sensible risk.</strong>"
+      "value": "Before entering a trade, identify the entry price, the point where your reason for taking the trade is no longer valid, the possible target and the costs. Consider whether the potential reward justifies the risk."
+    },
+    {
+      "type": "warning",
+      "value": "A planned stop or target may not be achieved at the exact price. Gaps, fast price movements, low liquidity and execution costs can change the actual result. A favourable ratio never guarantees a profitable trade."
     },
     {
       "type": "quiz",
-      "question": "A Risk-Reward Ratio of 1:3 means...",
+      "question": "A 1:3 risk-reward ratio means:",
       "choices": [
-        "You risk ₹1 to potentially earn ₹3.",
-        "You earn ₹1 by risking ₹3.",
-        "There is no risk."
+        "Risk ₹3 for a possible ₹1 gain",
+        "Risk ₹1 for a possible ₹3 gain",
+        "Risk and reward are both zero",
+        "A guaranteed 3% return"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "You buy at ₹100, plan a stop at ₹95 and target ₹115. What is the planned risk per share?",
+      "choices": [
+        "₹5",
+        "₹10",
+        "₹15",
+        "₹20"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is the potential reward per share in that example?",
+      "choices": [
+        "₹5",
+        "₹10",
+        "₹15",
+        "₹20"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why is the risk-reward ratio not enough on its own?",
+      "choices": [
+        "It ignores the possibility that the target may not be reached",
+        "It includes every market outcome",
+        "It guarantees the probability of success",
+        "It measures only company revenue"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What should be considered alongside a planned ratio?",
+      "choices": [
+        "Only the stock's popularity",
+        "Probability, execution conditions and costs",
+        "The colour of the chart",
+        "The number of social media posts"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l83",

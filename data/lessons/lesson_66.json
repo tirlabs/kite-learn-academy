@@ -3,38 +3,95 @@
   "title": "Reading Company Information",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 66 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Technical Analysis studies price charts. Fundamental Analysis studies the business itself. Before investing, it's important to understand what a company does and how it earns money."
+      "value": "Technical Analysis focuses on price and trading activity. <strong>Fundamental Analysis</strong> looks at the business behind the share. Before investing in a company, it is important to understand what the company does, how it earns money, what it owns, what it owes and how its business is performing."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Before buying a house, you don't just look at its paint. You inspect the structure, location, documents and condition. Buying shares should be no different."
+      "value": "<strong>Imagine This:</strong> Before buying a house, you would not judge it only by the colour of its walls. You would check its structure, location, documents, condition and price. Buying a share also means looking beyond the market price to understand the underlying business."
     },
     {
       "type": "p",
-      "value": "Every listed company publishes information such as its business activities, products, financial results, promoters and annual reports. Investors use this information to evaluate whether the company is worth investing in."
+      "value": "Listed companies publish information that can help investors understand their operations and financial position. This may include annual reports, quarterly results, investor presentations, shareholding information, corporate announcements and details about products, services and management."
     },
     {
       "type": "example",
-      "value": "When researching Infosys, you might learn that it provides IT consulting and software services to customers across the world."
+      "value": "<strong>For example:</strong> When researching an IT services company, you might learn what services it provides, which industries it serves, where its customers are located and how it earns revenue. You can then examine its financial results to see whether sales and profits are growing and whether the business has significant debt."
+    },
+    {
+      "type": "p",
+      "value": "An annual report is an important source of information. It commonly includes the company's business overview, management discussion, financial statements, notes to accounts, auditor's report and other disclosures. Quarterly results provide more frequent updates on financial performance."
+    },
+    {
+      "type": "p",
+      "value": "For Indian listed companies, official stock exchange filings and the company's investor-relations website are useful places to find disclosures. Information should be checked against reliable, official sources rather than relying only on social media posts, forwarded messages or promotional claims."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>A company presentation is not the whole story.</strong> It may highlight positive developments, so read the financial statements, notes and risk disclosures as well. Past performance and management expectations do not guarantee future results."
     },
     {
       "type": "tip",
-      "value": " <strong>Never invest in a company whose business you don't understand.</strong>"
+      "value": "When researching a company, begin with three questions: What does it sell? How does it make money? What do its latest financial statements tell you? Build your understanding step by step."
     },
     {
       "type": "quiz",
-      "question": "Fundamental Analysis mainly studies...",
+      "question": "What does Fundamental Analysis mainly study?",
       "choices": [
-        "The business behind the company.",
-        "Only the stock chart.",
-        "Only the stock price."
+        "Only the movement of share prices.",
+        "The underlying business and its financial position.",
+        "Only the colour of a stock chart.",
+        "The number of trades each minute."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which document commonly contains a business overview, financial statements and auditor's report?",
+      "choices": [
+        "A stock price alert.",
+        "A broker's trading screen.",
+        "An annual report.",
+        "A social media comment."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Where can investors look for official disclosures by Indian listed companies?",
+      "choices": [
+        "Only in online discussion groups.",
+        "Only in advertisements.",
+        "Only in forwarded messages.",
+        "Company investor-relations websites and official stock exchange filings."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should an investor read risk disclosures and notes to accounts?",
+      "choices": [
+        "They provide additional details and risks that may not appear in a short summary.",
+        "They guarantee the company's future profits.",
+        "They replace the financial statements.",
+        "They show the exact future share price."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which is a useful starting set of questions when researching a company?",
+      "choices": [
+        "What is its share price today only?",
+        "What does it sell, how does it earn money, and what do its financial statements show?",
+        "How many social media followers does it have?",
+        "Which stock is trending online?"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l65",

@@ -1,52 +1,95 @@
 {
   "id": "l8",
   "title": "Private vs Public Company",
-  "module": " Module 1 - Foundation",
-  "order": "Page 8 of 100",
-  "readingTime": "6 mins read",
-  "difficulty": "Level: Beginner",
+  "module": "Foundation",
+  "order": 8,
+  "readingTime": "5 mins read",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Not every company allows the public to become owners. Companies are mainly classified as Private Companies and Public Companies."
+      "value": "Companies do not all have the same ownership rules. Some are private companies, while others are public companies. These are legal categories. They do not simply tell us whether a business is famous, large or open to customers."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Your family owns a bakery. Only your family members own it. This is similar to a private company. Years later, your bakery becomes famous across India. You invite thousands of people to invest and become owners. Now it becomes a public company."
+      "value": "<strong>Imagine This:</strong> A group of friends start a company that makes sports shoes. At first, the company is owned by the founders and a few investors they know. Later, the owners consider raising money from a much wider group of investors. The company may look at becoming a public company, but it must meet legal requirements and follow the rules that apply."
     },
     {
       "type": "p",
-      "value": "Private companies are owned by a small group of people. Public companies allow anyone to buy ownership through shares listed on a stock exchange."
+      "value": "In India, a <strong>private company</strong> has restrictions set by company law. These include limits on how its shares can be transferred and a restriction on inviting the general public to subscribe to its shares. A <strong>public company</strong> is a different legal category and must follow the rules that apply to public companies. The exact requirements depend on the law and the company's circumstances."
+    },
+    {
+      "type": "p",
+      "value": "There is another pair of words that is important: <strong>listed</strong> and <strong>unlisted</strong>. A company is listed when its securities have been admitted to trading on a recognised stock exchange. An unlisted company does not have its securities admitted to trading there. A public company can be unlisted, so public and listed do not mean the same thing."
     },
     {
       "type": "example",
-      "value": "Many startups begin as private companies before becoming public companies through an IPO."
+      "value": "<strong>For example:</strong> You may own shares in an unlisted public company. You are a shareholder, but you may not be able to buy or sell those shares as easily as shares traded on a stock exchange. When a company lists its shares, investors can trade them through the exchange, subject to its rules and the market's available buyers and sellers."
+    },
+    {
+      "type": "p",
+      "value": "A company may choose to list its shares to reach more investors and create a place where those shares can be traded. Listing also brings extra responsibilities, such as sharing important information with the public and following stock-exchange and securities rules. It does not guarantee that the company will do well or that its share price will rise."
     },
     {
       "type": "tip",
-      "value": " <strong>Only public companies can usually be bought and sold on the stock market.</strong>"
+      "value": "Remember these two separate ideas: <strong>private or public</strong> describes the company's legal category; <strong>listed or unlisted</strong> describes whether its securities are admitted to trading on a stock exchange. This difference will become important when we learn about IPOs."
     },
     {
       "type": "quiz",
-      "question": "Who can buy shares of a public company?",
+      "question": "What is one feature of a private company under Indian company law?",
       "choices": [
-        "Only family members.",
-        "Anyone through the stock market.",
-        "Only the government."
+        "It can freely invite the public to buy its shares.",
+        "It has legal restrictions, including limits related to share transfers and public invitations.",
+        "It must be listed on a stock exchange.",
+        "It must have only one owner."
       ],
       "correctAnswer": 1
     },
     {
       "type": "quiz",
-      "question": "A startup usually begins as...",
+      "question": "What does it mean when a company's shares are listed?",
       "choices": [
-        "A public company.",
-        "A private company.",
-        "A government company."
+        "The company appears in a newspaper list.",
+        "Its securities have been admitted to trading on a recognised stock exchange.",
+        "The company has more than 100 employees.",
+        "The company is owned by the government."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Can a public company be unlisted?",
+      "choices": [
+        "No, every public company is automatically listed.",
+        "Yes, public-company status and stock-exchange listing are different things.",
+        "Only if it has no shareholders.",
+        "Only if it becomes a private company."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about shares in a private company is most accurate?",
+      "choices": [
+        "They are freely traded on every stock exchange.",
+        "They can never be transferred.",
+        "Their transfer is subject to legal and company-specific restrictions.",
+        "They always give guaranteed returns."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What can listing provide to investors?",
+      "choices": [
+        "A guarantee that the share price will rise.",
+        "A place to trade the listed securities, along with public information and disclosure requirements.",
+        "A guarantee that the company will never fail.",
+        "A job in the company."
       ],
       "correctAnswer": 1
     }
   ],
-  "previousLesson": "l7",
-  "nextLesson": "l9"
+  "previousLesson": "data/lessons/lesson_7.json",
+  "nextLesson": "data/lessons/lesson_9.json"
 }

@@ -3,40 +3,93 @@
   "title": "Price to Book Ratio (P/B Ratio)",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 73 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "The Price to Book (P/B) Ratio compares a company's market value with the value of its assets after subtracting liabilities."
+      "value": "The <strong>Price to Book Ratio</strong>, or <strong>P/B Ratio</strong>, compares a company's market value per share with its book value per share. Book value is based on the company's accounting assets minus its liabilities. The ratio helps investors see how the market price compares with the net assets attributable to shareholders."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Suppose a company owns buildings, machines and cash worth ₹100 crore after paying all debts. If investors value the company at ₹150 crore, they are paying more than the book value because they expect future growth."
+      "value": "<strong>Imagine This:</strong> You own a small shop. Its equipment, stock and cash are worth ₹20 lakh, and you owe suppliers and the bank ₹8 lakh. Your net value in the shop is ₹12 lakh. If someone offers ₹18 lakh to buy your ownership, they are offering more than its net accounting value. The P/B Ratio makes a similar comparison for a company."
     },
     {
       "type": "p",
-      "value": "The P/B Ratio is commonly used when analysing banks, financial institutions and asset-heavy businesses."
+      "value": "The basic formula is: <strong>P/B Ratio = Market Price per Share ÷ Book Value per Share</strong>. Book value per share is generally calculated by dividing equity attributable to ordinary shareholders by the relevant number of shares."
     },
     {
       "type": "example",
-      "value": "A P/B Ratio of 2 means investors are paying twice the company's book value."
+      "value": "<strong>Let's calculate it:</strong> A company has book value per share of ₹100 and its stock trades at ₹150. P/B = ₹150 ÷ ₹100 = 1.5. The market price is 1.5 times the book value per share."
     },
     {
-      "type": "fact",
-      "value": " Formula: P/B = Share Price ÷ Book Value Per Share"
+      "type": "p",
+      "value": "A P/B above 1 means the market price is higher than the book value per share. A P/B below 1 means the market price is lower than book value per share. Neither automatically tells you whether the stock is a bargain or overpriced. Investors may expect a company to earn strong returns on its assets, or they may have concerns about the quality of those assets."
+    },
+    {
+      "type": "p",
+      "value": "P/B is often considered useful when analysing businesses where balance-sheet assets are important, such as banks and some financial companies. It can be less informative for businesses whose value comes mainly from brands, software, research, people or other intangible resources that may not be fully reflected in book value."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Book value is an accounting measure, not necessarily the amount you could receive by selling all the company's assets.</strong> Asset values may be estimated, depreciated or impaired, and some important intangible strengths may not appear fully on the balance sheet."
     },
     {
       "type": "tip",
-      "value": " <strong>The P/B Ratio is especially useful when comparing companies in the same sector.</strong>"
+      "value": "When using P/B, understand what the company's assets are, whether they are likely to retain value and how the ratio compares with similar companies. Do not assume that below 1 always means undervalued."
     },
     {
       "type": "quiz",
-      "question": "P/B Ratio compares...",
+      "question": "What does the P/B Ratio compare?",
       "choices": [
-        "Market Price and Book Value.",
-        "Profit and Revenue.",
-        "Debt and Cash."
+        "Market price per share with book value per share.",
+        "Revenue with profit.",
+        "Dividend with share price.",
+        "Debt with annual sales."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A share trades at ₹200 and its book value per share is ₹100. What is its P/B Ratio?",
+      "choices": [
+        "0.5",
+        "1",
+        "2",
+        "100"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What does a P/B Ratio below 1 indicate?",
+      "choices": [
+        "The company has no assets.",
+        "The market price is below book value per share.",
+        "The company has guaranteed losses.",
+        "The stock cannot be traded."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why may P/B be less informative for some technology or brand-led businesses?",
+      "choices": [
+        "They do not have shareholders.",
+        "They never own assets.",
+        "Their share prices do not change.",
+        "Important value from brands, software or other intangible resources may not be fully reflected in book value."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about book value is correct?",
+      "choices": [
+        "It is an accounting measure and may differ from what the company's assets could realise in a sale.",
+        "It is always equal to the market capitalisation.",
+        "It guarantees the minimum share price.",
+        "It includes only cash in the bank."
       ],
       "correctAnswer": 0
     }

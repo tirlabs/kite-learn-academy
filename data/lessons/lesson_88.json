@@ -3,42 +3,95 @@
   "title": "Investment Psychology",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 88 of 100",
-  "readingTime": "10 mins read",
+  "readingTime": 3,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Many investment mistakes are caused by emotions rather than lack of knowledge. Fear and greed influence market decisions every day."
+      "value": "Investment psychology is the way emotions and mental habits influence financial decisions. Fear, greed, overconfidence and the desire to follow a crowd can affect even people who understand the basics of investing. A sound process helps you notice these reactions before they drive an impulsive decision."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> At an amusement park, some people panic on a roller coaster while others enjoy the ride. The ride is the same, but people's reactions are different. The stock market often feels similar."
+      "value": "<strong>Imagine This:</strong> At an amusement park, two people ride the same roller coaster. One enjoys the experience while the other panics at every sudden drop. The ride is the same, but their reactions differ. In the stock market, the same price movement can make one investor stay calm and another sell in fear."
     },
     {
       "type": "p",
-      "value": "Fear causes investors to sell during market crashes, while greed encourages them to buy after prices have already risen significantly."
+      "value": "Fear can cause investors to sell during a market fall without checking whether the original reason for investing has changed. Greed can encourage people to buy after a sharp rise because they imagine the price will keep climbing. This fear of missing out is often called FOMO. Both reactions can lead to buying high or selling low."
     },
     {
       "type": "example",
-      "value": "Many beginners buy stocks after hearing exciting news, only to panic and sell when prices temporarily fall."
+      "value": "A beginner hears exciting news about a company and buys its shares without research. The price rises for a few days, making the investor feel confident. Then the price falls 8%. The investor panics and sells, even though they have not checked whether the business has actually changed. The decision was driven more by emotion than by evidence."
     },
     {
-      "type": "warning",
-      "value": "⚠️ <strong>Emotional decisions are one of the biggest reasons investors lose money.</strong>"
+      "type": "p",
+      "value": "Other common biases can also influence decisions. <strong>Herd behaviour</strong> is following what many others are doing without independent analysis. <strong>Overconfidence</strong> is believing your judgement is more accurate than it really is. <strong>Anchoring</strong> is giving too much importance to a reference price, such as the price you originally paid, even when new information changes the situation."
+    },
+    {
+      "type": "fact",
+      "value": "Emotions cannot be switched off completely. The goal is to recognise them. A falling price does not automatically mean the business is weak, and a rising price does not prove that an investment is good. Ask what has changed in the facts, not just in the price."
     },
     {
       "type": "tip",
-      "value": " <strong>Create an investment plan before buying a stock, and follow your plan instead of your emotions.</strong>"
+      "value": "Create an investment plan before buying. Write down why you are investing, what risks you see and what evidence would make you change your view. Avoid making major decisions in the middle of excitement or panic."
+    },
+    {
+      "type": "warning",
+      "value": "Discipline does not mean refusing to change your mind. If new facts weaken your investment case, review it honestly. Sticking to a plan is useful only when the plan itself is based on sound reasoning."
     },
     {
       "type": "quiz",
-      "question": "Which two emotions most commonly affect investors?",
+      "question": "What is FOMO in investing?",
       "choices": [
-        "Fear and Greed",
-        "Joy and Surprise",
-        "Curiosity and Patience"
+        "Fear of missing out",
+        "A type of mutual fund",
+        "A stock exchange order",
+        "A company financial ratio"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which behaviour describes herd behaviour?",
+      "choices": [
+        "Researching independently",
+        "Following a crowd without checking the facts",
+        "Reviewing company results",
+        "Setting a risk limit"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is anchoring?",
+      "choices": [
+        "Giving too much importance to a reference point such as the purchase price",
+        "Diversifying across assets",
+        "Reading an annual report",
+        "Setting a monthly SIP"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What can help reduce emotional decisions?",
+      "choices": [
+        "Checking prices every minute",
+        "Writing down the investment reason, risks and review conditions",
+        "Following every trending tip",
+        "Buying more whenever prices fall"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Does discipline mean never changing your investment view?",
+      "choices": [
+        "Yes, even if new facts emerge",
+        "No, new evidence may justify a review",
+        "Yes, if the share price is below cost",
+        "Only beginners should change views"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l87",

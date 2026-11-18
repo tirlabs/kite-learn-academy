@@ -3,40 +3,93 @@
   "title": "Return on Equity (ROE)",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 74 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Return on Equity (ROE) measures how efficiently a company uses shareholders' money to generate profits."
+      "value": "<strong>Return on Equity (ROE)</strong> measures how effectively a company generates profit using the shareholders' equity invested in the business. It helps investors understand the return the company is producing on the accounting funds belonging to its shareholders."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Two farmers each receive ₹10 lakh to grow crops. One earns ₹1 lakh profit while the other earns ₹3 lakh. The second farmer used the investment more efficiently. ROE measures this efficiency in companies."
+      "value": "<strong>Imagine This:</strong> You invest ₹1 lakh in a small business. At the end of the year, the business earns ₹15,000 in profit. In a simplified example, it has generated a 15% return on the money invested. ROE applies a similar idea to a company's shareholders' equity."
     },
     {
       "type": "p",
-      "value": "A consistently high ROE often indicates that a company is generating strong returns from shareholders' investments."
+      "value": "A commonly used formula is: <strong>ROE = Net Profit attributable to equity shareholders ÷ Average Shareholders' Equity × 100</strong>. Average equity is often used because the equity balance may change during the year. Some published calculations use a different equity base, so check the definition when comparing figures."
     },
     {
       "type": "example",
-      "value": "If shareholders invested ₹100 crore and the company earns ₹20 crore profit, the ROE is 20%."
+      "value": "<strong>Let's calculate it:</strong> A company earns ₹20 crore in profit attributable to equity shareholders. Its shareholders' equity was ₹180 crore at the start of the year and ₹220 crore at the end. Average equity is ₹200 crore. ROE = ₹20 crore ÷ ₹200 crore × 100 = 10%."
     },
     {
-      "type": "fact",
-      "value": " Formula: ROE = Net Profit ÷ Shareholders' Equity × 100"
+      "type": "p",
+      "value": "A higher ROE can indicate that a company is generating more profit relative to its equity. Investors often compare ROE across companies in the same industry and examine whether it has remained consistent over several years. A single year's result may not represent the company's normal performance."
+    },
+    {
+      "type": "p",
+      "value": "ROE can also be increased by using more debt, because borrowing can reduce the amount of equity needed to finance a business. This may increase financial risk. A very high ROE should therefore be examined alongside debt, cash flow, profit margins and the company's business model."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>ROE should always be analysed together with the company's debt levels.</strong>"
+      "value": "<strong>A high ROE is not automatically a sign of a strong or safe company.</strong> It may be influenced by high debt, unusually low equity or one-time profits. A company with negative or very small equity can also produce ratios that are difficult to interpret."
+    },
+    {
+      "type": "tip",
+      "value": "Look at ROE over several years and compare it with similar businesses. Then check whether the company is achieving that return with a healthy balance sheet and sustainable profits."
     },
     {
       "type": "quiz",
-      "question": "ROE measures how efficiently a company uses...",
+      "question": "What does ROE measure?",
       "choices": [
-        "Shareholders' money.",
-        "Government funds.",
-        "Bank deposits."
+        "How effectively a company generates profit from shareholders' equity.",
+        "How quickly a stock price changes.",
+        "How much revenue is earned per customer.",
+        "The total market value of a company."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A company earns ₹10 crore profit on average shareholders' equity of ₹100 crore. What is its ROE?",
+      "choices": [
+        "1%",
+        "5%",
+        "10%",
+        "100%"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why is average shareholders' equity often used in the ROE calculation?",
+      "choices": [
+        "Because profit is not reported annually.",
+        "Because equity may change during the year.",
+        "Because it includes the market price of shares.",
+        "Because it removes all debt."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "How can high debt affect ROE?",
+      "choices": [
+        "Debt always reduces ROE to zero.",
+        "Debt has no relationship to the business.",
+        "Debt guarantees higher profits.",
+        "Borrowing can reduce the equity base and make ROE appear higher while increasing risk."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What is a sensible way to assess ROE?",
+      "choices": [
+        "Compare it over time and with similar companies, while examining debt and earnings quality.",
+        "Choose the company with the highest single-year ROE without further checks.",
+        "Assume high ROE guarantees future returns.",
+        "Ignore the balance sheet."
       ],
       "correctAnswer": 0
     }

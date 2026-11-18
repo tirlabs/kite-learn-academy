@@ -3,48 +3,91 @@
   "title": "How Shares are Bought and Sold",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 18 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Buying a share may seem complicated, but it actually happens in just a few seconds through a series of connected systems."
+      "value": "Buying a share may look like a single tap on your phone, but a few steps happen behind the scenes. Your broker sends your order to a stock exchange. The exchange's system checks it and looks for another order that can match it."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You open Zerodha, search for Reliance, enter the quantity, and press Buy. Within seconds, your request travels through your broker to the stock exchange, where another investor agrees to sell at the same price."
+      "value": "<strong>Imagine This:</strong> You open your broker's app, search for a company and choose to buy 5 shares. At the same time, another investor has placed an order to sell shares of that company. If the prices and other order conditions match, the exchange can bring the two orders together."
     },
     {
       "type": "p",
-      "value": "Once a buyer and seller agree on the price, the trade is executed. The shares are transferred to the buyer's Demat Account, and the money is transferred to the seller."
+      "value": "When a buyer and seller agree through the exchange's system, a trade is <strong>executed</strong>. This means the buy and sell orders have matched. The trade details are recorded, and the process of transferring the shares and money takes place through clearing and settlement systems."
+    },
+    {
+      "type": "p",
+      "value": "A trade is not always completed the moment you press Buy. If your chosen price is not available, your order may wait in the system. It may be completed later, completed only in part, or remain unfilled until it expires or you cancel it. The result depends on the type of order, its price and the orders available in the market."
     },
     {
       "type": "example",
-      "value": "You buy 5 shares of TCS. Another investor sells 5 shares of TCS. The stock exchange matches both orders automatically."
+      "value": "<strong>For example:</strong> You place an order to buy 5 shares at up to ₹200 each. If sellers are willing to sell at ₹200 or less and the other order conditions match, your order may be filled. If sellers are asking for more than ₹200, it may remain open until a matching seller appears or the order expires or is cancelled."
+    },
+    {
+      "type": "p",
+      "value": "After a trade is executed, the clearing and settlement process makes sure the buyer pays and the seller delivers the shares. Once settlement is completed, the shares are credited to the buyer's Demat account and the money is transferred through the required systems. This process follows the exchange and market rules."
     },
     {
       "type": "tip",
-      "value": " <strong>The stock exchange acts like a smart matching system that connects buyers and sellers instantly.</strong>"
+      "value": "Pressing Buy does not always mean you have bought the share. Check your order status to see whether it is open, partly filled, completed or cancelled. The order, trade and final holding are related, but they are not the same thing."
     },
     {
       "type": "quiz",
-      "question": "Who matches buyers and sellers?",
+      "question": "What does it mean when a trade is executed?",
       "choices": [
-        "Stock Exchange",
-        "Company CEO",
-        "Bank Manager"
+        "A company announces its profit.",
+        "A buyer's and seller's orders have matched.",
+        "An investor opens a broker app.",
+        "A share is added to a watchlist."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "type": "quiz",
-      "question": "When does a trade happen?",
+      "question": "Who helps match buy and sell orders?",
       "choices": [
-        "When a buyer and seller agree on the price",
-        "Whenever someone opens the app",
-        "Only at the end of the month"
+        "The company's CEO.",
+        "The investor's family.",
+        "The stock exchange's trading system.",
+        "The bank's cashier."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "You place a buy order at ₹200, but sellers are asking ₹205. What may happen?",
+      "choices": [
+        "The order is guaranteed at ₹200.",
+        "The company must lower its price.",
+        "The order may remain open until it can be matched or is cancelled or expires.",
+        "Your Demat account closes."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What happens during settlement?",
+      "choices": [
+        "The company changes its name.",
+        "The buyer pays and the seller delivers the shares through the settlement process.",
+        "The broker chooses a new share for the buyer.",
+        "The exchange guarantees a profit."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement is correct?",
+      "choices": [
+        "Every order is completed as soon as Buy is pressed.",
+        "An order, an executed trade and a final holding are different stages.",
+        "A watchlist entry means you own the share.",
+        "A seller does not need to deliver shares."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l17",

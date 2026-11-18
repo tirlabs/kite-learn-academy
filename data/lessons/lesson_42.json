@@ -3,48 +3,91 @@
   "title": "Understanding the X & Y Axis",
   "module": " Module 5 - Reading Charts",
   "order": "Page 42 of 100",
-  "readingTime": "5 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Every stock chart has two important axes that help us understand what we're looking at."
+      "value": "A chart organises information using two directions called axes. The horizontal line is the <strong>X-axis</strong>, and the vertical line is the <strong>Y-axis</strong>. Understanding these two axes is the first step in reading where a price movement happened and what price it reached."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Your school calendar shows dates from left to right, while your report card shows marks from bottom to top. Stock charts combine these two ideas."
+      "value": "<strong>Imagine This:</strong> Think of a school timetable. Days of the week run from left to right, while periods are arranged in another direction. You use both to find a particular class. A stock chart also uses two directions to help you locate a point."
     },
     {
       "type": "p",
-      "value": "The horizontal (X) axis represents time. The vertical (Y) axis represents the stock's price."
+      "value": "On a typical stock price chart, the X-axis represents <strong>time</strong>. It may show minutes, hours, dates, weeks or months, depending on the timeframe selected. The Y-axis represents the <strong>stock price</strong>, usually displayed in rupees for stocks traded in India."
     },
     {
       "type": "example",
-      "value": "If a point appears on March 1st at ₹500, it means the stock traded around ₹500 on that date."
+      "value": "<strong>For example:</strong> If a point lines up with 10 April on the X-axis and ₹500 on the Y-axis, it represents a displayed price of about ₹500 at that time. The exact meaning depends on the chart type and the selected timeframe."
+    },
+    {
+      "type": "p",
+      "value": "The spacing on an axis matters. A chart may show every minute, every day or every week, and the price scale may cover a narrow or wide range. Some charting tools also allow a logarithmic price scale, where equal vertical distances represent equal percentage changes rather than equal rupee changes."
+    },
+    {
+      "type": "p",
+      "value": "Always check the labels and scale before interpreting a chart. A steep-looking line can be influenced by the range and scale displayed. Two charts of the same stock can look different if they use different time periods or scales."
     },
     {
       "type": "tip",
-      "value": " <strong>Always read the axes before interpreting any chart.</strong>"
+      "value": "Before reading any pattern, identify the X-axis, the Y-axis and the timeframe. This simple habit helps prevent misunderstandings about when a movement happened and how large it was."
     },
     {
       "type": "quiz",
-      "question": "What does the X-axis usually represent?",
+      "question": "What does the X-axis usually represent on a stock price chart?",
       "choices": [
-        "Time",
-        "Volume",
-        "Profit"
+        "Price.",
+        "Time.",
+        "Trading volume only.",
+        "Company profit."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does the Y-axis usually represent on a stock price chart?",
+      "choices": [
+        "Time.",
+        "The number of investors.",
+        "The stock's price.",
+        "The company's age."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "A chart point lines up with 15 May and ₹250. What does this tell you?",
+      "choices": [
+        "The displayed price at that time is about ₹250.",
+        "The company earned ₹250 in profit.",
+        "The stock must reach ₹250 next week.",
+        "There were exactly 250 buyers."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "What does the Y-axis represent?",
+      "question": "Why should you check the scale before interpreting a chart?",
       "choices": [
-        "Price",
-        "Company name",
-        "Broker name"
+        "The scale tells you which investors made money.",
+        "Every chart uses the same scale.",
+        "The scale predicts the next price.",
+        "Different scales and time ranges can change how movements appear."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What is a good first step when opening a stock chart?",
+      "choices": [
+        "Look only at the latest candle colour.",
+        "Identify the axes, labels and selected timeframe.",
+        "Assume the chart is showing a daily view.",
+        "Ignore the price scale."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l41",

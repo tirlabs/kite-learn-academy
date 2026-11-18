@@ -3,38 +3,95 @@
   "title": "Diversification",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 82 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": 3,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Diversification means spreading your investments across different companies or asset types instead of putting all your money into one investment."
+      "value": "Diversification means spreading your investments across different companies, industries or asset classes instead of depending on a single investment. The purpose is to reduce concentration risk: the damage that can happen when too much of your money is exposed to one company, sector or type of asset."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> If you carry ten eggs in one basket and it falls, you may lose everything. If you divide the eggs into several baskets, one accident won't destroy them all."
+      "value": "<strong>Imagine This:</strong> If you carry ten eggs in one basket and drop it, you may lose all ten. If you divide them among several baskets, one accident is less likely to destroy the entire supply. Diversification applies the same idea to investing: avoid putting all your financial eggs in one place."
     },
     {
       "type": "p",
-      "value": "By investing across different companies and sectors, poor performance from one investment may be balanced by better performance from others."
+      "value": "Companies face different challenges. A fall in demand may hurt one industry while another industry is less affected. A company may also suffer because of a product failure, debt problem or management decision. Holding investments with different business drivers can reduce the effect of one such event on your whole portfolio."
     },
     {
       "type": "example",
-      "value": "Instead of investing ₹1,00,000 in one company, an investor may spread it across banking, IT, pharma, FMCG and energy companies."
+      "value": "Imagine you have ₹1,00,000 to invest. Putting the full amount into one company means your result depends heavily on that business. Spreading the amount across banking, IT, pharmaceuticals, consumer goods and energy can reduce dependence on one company or sector. The allocation need not be equal; it should reflect your goals and risk capacity."
+    },
+    {
+      "type": "p",
+      "value": "Diversification can also happen across asset classes. Shares, bonds or other fixed-income investments, gold and cash do not always behave in the same way. A diversified mutual fund or an index fund can provide exposure to many securities, although the fund itself may still be concentrated in a particular market or asset class."
+    },
+    {
+      "type": "fact",
+      "value": "Owning many investments does not automatically mean you are diversified. Ten IT companies may all be affected by similar technology spending conditions. Two mutual funds may also hold many of the same large companies. Look at what you actually own, not just the number of names in your portfolio."
     },
     {
       "type": "tip",
-      "value": " <strong>Diversification reduces risk, but it cannot eliminate it completely.</strong>"
+      "value": "Review diversification at the company, sector and asset-class levels. If one holding grows until it becomes a large part of your portfolio, check whether that concentration still matches your plan."
+    },
+    {
+      "type": "warning",
+      "value": "Diversification reduces some company-specific and concentration risks, but it cannot eliminate all risk. During a broad market decline, many shares and funds may fall together. Diversification is a way to manage risk, not a promise that your portfolio will never lose value."
     },
     {
       "type": "quiz",
       "question": "What is the main purpose of diversification?",
       "choices": [
-        "To reduce overall investment risk.",
-        "To guarantee profits.",
-        "To increase brokerage."
+        "Guarantee profits",
+        "Reduce dependence on one company, sector or asset",
+        "Ensure all holdings rise together",
+        "Avoid researching investments"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why may ten IT stocks still be poorly diversified?",
+      "choices": [
+        "They are all shares",
+        "They may be exposed to similar industry conditions",
+        "They have different company names",
+        "They trade at different prices"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about mutual funds is correct?",
+      "choices": [
+        "All funds provide the same diversification",
+        "Two funds may hold many of the same companies",
+        "A fund cannot lose value",
+        "A fund's name reveals every holding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Can diversification prevent losses during a broad market fall?",
+      "choices": [
+        "Yes, always",
+        "No, many investments can fall together",
+        "Only when holding five stocks",
+        "Only for large portfolios"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What should you examine to understand diversification?",
+      "choices": [
+        "Only the number of holdings",
+        "The underlying companies, sectors and asset classes",
+        "Only the fund names",
+        "Only recent returns"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l81",

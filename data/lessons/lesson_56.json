@@ -3,36 +3,93 @@
   "title": "Exponential Moving Average (EMA)",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 56 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "The Exponential Moving Average (EMA) is a special type of Moving Average that gives more importance to recent prices. This allows it to react faster when prices change."
+      "value": "The <strong>Exponential Moving Average (EMA)</strong> is a type of Moving Average that gives more weight to recent prices. Because recent prices have greater influence on its calculation, an EMA generally reacts more quickly to new price changes than a Simple Moving Average (SMA) using the same period."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> When driving a car, you pay much more attention to the traffic directly in front of you than to traffic an hour ago. EMA follows the same idea by giving greater weight to recent prices."
+      "value": "<strong>Imagine This:</strong> When driving a car, you pay more attention to the traffic directly in front of you than to traffic you passed an hour ago. EMA follows a similar idea: it gives recent prices more importance while still considering earlier prices."
     },
     {
       "type": "p",
-      "value": "Because EMA responds more quickly than a Simple Moving Average (SMA), many traders use it to identify short-term trends."
+      "value": "Like an SMA, an EMA follows the stock's price over a selected number of periods. But it does not give every closing price equal weight. Recent prices receive greater weight, and the influence of older prices gradually reduces."
     },
     {
       "type": "example",
-      "value": "A 20 EMA will react faster to today's price movement than a 20 SMA because recent prices have greater influence."
+      "value": "<strong>For example:</strong> A 20-day EMA and a 20-day SMA both use a 20-period setting, but they calculate the average differently. If a stock suddenly rises, the 20-day EMA will generally respond more quickly than the 20-day SMA because the latest prices have more influence on the EMA."
+    },
+    {
+      "type": "p",
+      "value": "Traders may use EMAs to observe short-term trends, compare a shorter EMA with a longer one, or see how price behaves around an EMA line. A rising EMA can suggest that prices over the selected period have generally been moving higher. A falling EMA can suggest the opposite."
+    },
+    {
+      "type": "p",
+      "value": "The EMA is still based on historical prices. It can react faster than an SMA, but it can also produce misleading signals when prices move sideways or change direction frequently. A faster response does not mean a more accurate prediction."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>EMA does not predict the next price.</strong> It is a way to summarise recent price behaviour. A price crossing an EMA or two EMAs crossing each other should not be treated as a guaranteed buy or sell signal."
     },
     {
       "type": "tip",
-      "value": " <strong>EMA is one of the most commonly used indicators for identifying trends and possible entry points.</strong>"
+      "value": "Understand the difference simply: SMA gives equal weight to the prices in its selected period; EMA gives more weight to recent prices. Learn what each line represents before using it in a decision."
     },
     {
       "type": "quiz",
-      "question": "What makes EMA different from SMA?",
+      "question": "What makes EMA different from a Simple Moving Average?",
       "choices": [
-        "EMA gives more weight to recent prices.",
         "EMA ignores recent prices.",
-        "EMA only works on weekly charts."
+        "EMA gives more weight to recent prices.",
+        "EMA uses only the highest price.",
+        "EMA works only on weekly charts."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why does an EMA usually react faster than an SMA with the same period?",
+      "choices": [
+        "It gives greater influence to recent prices.",
+        "It does not use historical prices.",
+        "It always uses a shorter period.",
+        "It predicts tomorrow's closing price."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "If a stock's price rises suddenly, which average will generally respond faster when both use the same period?",
+      "choices": [
+        "The SMA in every case.",
+        "Neither average changes.",
+        "The EMA.",
+        "Neither can use closing prices."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What is a limitation of EMA?",
+      "choices": [
+        "It cannot be displayed on a chart.",
+        "It uses only company profits.",
+        "It guarantees a correct trend signal.",
+        "It can give misleading signals when prices move sideways or change frequently."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement is correct?",
+      "choices": [
+        "EMA is a historical-price indicator and does not guarantee future movement.",
+        "EMA guarantees that a stock will rise when crossed.",
+        "EMA is the same calculation as an equal-weight SMA.",
+        "EMA measures company revenue."
       ],
       "correctAnswer": 0
     }

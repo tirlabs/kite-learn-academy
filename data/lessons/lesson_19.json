@@ -3,48 +3,91 @@
   "title": "Who Participates in the Stock Market?",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 19 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Millions of people participate in the stock market every day. They all have different goals, investment amounts, and strategies."
+      "value": "Many different people and organisations take part in the stock market. They do not all have the same amount of money or the same goals. Some invest for their own future. Others invest money on behalf of many people, such as people who have invested in a mutual fund or an insurance plan."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A cricket stadium has players, coaches, umpires, spectators, and commentators. The stock market also has different participants, each playing an important role."
+      "value": "<strong>Imagine This:</strong> A cricket stadium has players, coaches, umpires, spectators and commentators. Each has a different role, but all are part of the same event. The stock market also has different participants. Some place orders, some help trades happen and others make sure market rules are followed."
     },
     {
       "type": "p",
-      "value": "Retail investors are individuals like you and me. Domestic Institutional Investors (DIIs) include Indian mutual funds and insurance companies. Foreign Institutional Investors (FIIs) are large investors from other countries."
+      "value": "An individual who invests their own money is often called a <strong>retail investor</strong>. They may buy a few shares or invest regularly in a fund. Retail investors can have different levels of knowledge and different reasons for investing. You do not need to be rich or work in finance to be a retail investor."
+    },
+    {
+      "type": "p",
+      "value": "Large organisations also invest. <strong>Domestic Institutional Investors (DIIs)</strong> are institutions based in India, such as mutual funds, insurance companies and certain other financial organisations. They invest money according to their plans and responsibilities. <strong>Foreign Institutional Investors (FIIs)</strong> is a commonly used term for large foreign institutions investing in Indian markets. Rules and official categories can change, so you may also see the term Foreign Portfolio Investors (FPIs) in current market information."
     },
     {
       "type": "example",
-      "value": "When mutual funds invest thousands of crores into Indian companies, they are participating as DIIs."
+      "value": "<strong>For example:</strong> You invest ₹2,000 of your own money in a mutual fund. A mutual fund may collect money from many investors and invest it in shares and other assets. When it buys shares in Indian companies, it is acting as an institutional investor. The people who invested in the fund take part indirectly through the fund."
+    },
+    {
+      "type": "p",
+      "value": "Other important participants include companies that issue shares, stock brokers who help investors place orders, stock exchanges that run trading systems, depositories that hold securities electronically and SEBI, which regulates the securities market. Each has a different job. Together, they help the market function."
     },
     {
       "type": "tip",
-      "value": " <strong>Retail investors may buy a few shares, while institutions may buy lakhs of shares in a single transaction.</strong>"
+      "value": "Retail investors, institutions and market organisations all play different roles. A large institution may place a much bigger order than an individual, but a bigger order does not automatically mean it is correct or will make a profit."
     },
     {
       "type": "quiz",
       "question": "Who is a retail investor?",
       "choices": [
-        "An individual investing their own money",
-        "A stock exchange",
-        "The Government of India"
+        "A stock exchange.",
+        "An individual investing their own money.",
+        "A company that issues shares.",
+        "A market regulator."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does DII commonly mean?",
+      "choices": [
+        "Domestic Institutional Investor",
+        "Daily Investment Index",
+        "Direct Individual Investor",
+        "Depository Information Institution"
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "FII stands for...",
+      "question": "Which is an example of a domestic institutional investor?",
       "choices": [
-        "Foreign Institutional Investor",
-        "Financial Investment Index",
-        "Federal Investment Institution"
+        "An individual buying one share for themselves.",
+        "A mutual fund based in India investing for its investors.",
+        "A foreign tourist visiting India.",
+        "A company employee checking a share price."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What term is commonly used today for foreign institutions investing in Indian markets?",
+      "choices": [
+        "FPI (Foreign Portfolio Investor)",
+        "DP (Depository Participant)",
+        "IPO (Initial Public Offering)",
+        "NAV (Net Asset Value)"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about market participants is correct?",
+      "choices": [
+        "Only large institutions can invest in shares.",
+        "Every institutional investor always makes a profit.",
+        "Different participants have different roles, goals and investment sizes.",
+        "Retail investors do not take part in the stock market."
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l18",

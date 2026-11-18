@@ -3,48 +3,91 @@
   "title": "What is a Trading Account?",
   "module": " Module 2 - Stock Market Basics",
   "order": "Page 17 of 100",
-  "readingTime": "5 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "A Demat Account stores your shares, but a Trading Account helps you buy and sell them."
+      "value": "A Demat account holds your shares, but you need another account to place buy and sell orders. This is called a <strong>Trading Account</strong>. It gives you access to your broker's trading platform and lets you send orders to a stock exchange."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A shopping cart helps you purchase products online, while your cupboard stores them after delivery. Similarly, a Trading Account is used to place orders, while a Demat Account stores your shares."
+      "value": "<strong>Imagine This:</strong> Think about shopping online. You use the shopping app to choose and order an item. After it arrives, you keep it in your cupboard. The app helps you place the order; the cupboard is where you keep the item. A Trading Account helps you place share orders, while a Demat account holds the shares after they are delivered."
     },
     {
       "type": "p",
-      "value": "Whenever you click the Buy or Sell button in apps like Zerodha or Groww, you are using your Trading Account."
+      "value": "When you open your broker's app and tap Buy or Sell, you are using your Trading Account. You choose the share, quantity and order details. Your broker sends the order to the exchange you selected. The order is completed only if it can be matched under the exchange's rules and your order conditions."
+    },
+    {
+      "type": "p",
+      "value": "Your <strong>Demat Account</strong> and <strong>Trading Account</strong> work together, but they do different jobs. The Trading Account is used to place orders. The Demat Account holds the securities you own. Your <strong>bank account</strong> is used to add or receive money for transactions and other payments."
     },
     {
       "type": "example",
-      "value": "The Trading Account sends your order to the stock exchange. After the purchase is completed, the shares move into your Demat Account."
+      "value": "<strong>For example:</strong> You decide to buy 10 shares. You place the buy order through your Trading Account. When the trade is completed and settled, the shares are credited to your Demat Account. The money needed for the purchase is handled through the linked banking and trading arrangements."
+    },
+    {
+      "type": "p",
+      "value": "A broker may offer a Trading Account and Demat Account together, but they are not the same account. You should understand the charges, account terms and process for moving securities or changing brokers before you start trading."
     },
     {
       "type": "tip",
-      "value": " <strong>Trading Account = Buying & Selling. Demat Account = Storing.</strong>"
+      "value": "Remember the three jobs: <strong>Trading Account = placing orders; Demat Account = holding securities; Bank Account = holding money.</strong> Keeping these roles clear will make the buying process much easier to understand."
     },
     {
       "type": "quiz",
       "question": "What is the main purpose of a Trading Account?",
       "choices": [
-        "Buying and selling shares",
-        "Storing shares",
-        "Creating companies"
+        "To store shares for many years.",
+        "To place buy and sell orders through a broker.",
+        "To hold your house documents.",
+        "To guarantee a share price."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Where are your shares held after a purchase is completed and settled?",
+      "choices": [
+        "Trading Account",
+        "Savings Account",
+        "Demat Account",
+        "Email account"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Which account is used to hold your money?",
+      "choices": [
+        "Bank Account",
+        "Demat Account",
+        "Stock exchange account",
+        "Company account"
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Where are shares stored after purchase?",
+      "question": "Which statement correctly describes the three accounts?",
       "choices": [
-        "Trading Account",
-        "Demat Account",
-        "Savings Account"
+        "Trading holds money, Demat places orders, bank stores shares.",
+        "Trading places orders, Demat holds securities, bank holds money.",
+        "All three accounts do exactly the same job.",
+        "Demat places orders and guarantees profits."
       ],
       "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "You tap Buy in your broker's app. Which account are you using to place the order?",
+      "choices": [
+        "Demat Account",
+        "Bank Account",
+        "Trading Account",
+        "Company account"
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l16",

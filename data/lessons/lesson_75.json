@@ -3,40 +3,93 @@
   "title": "Return on Capital Employed (ROCE)",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 75 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Return on Capital Employed (ROCE) measures how efficiently a company uses all of its capital—including shareholders' money and borrowed money—to generate profits."
+      "value": "<strong>Return on Capital Employed (ROCE)</strong> measures how efficiently a company generates operating profit from the long-term capital used in its business. It considers funds provided by both shareholders and lenders, making it useful for understanding how effectively the company uses its overall capital."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Two factory owners each invest ₹50 lakh of their own money and borrow another ₹50 lakh from the bank. The owner who earns higher profits from the combined ₹1 crore is using capital more efficiently. ROCE measures this."
+      "value": "<strong>Imagine This:</strong> Two people open similar workshops. One uses ₹10 lakh of capital and earns ₹2 lakh in operating profit. The other uses ₹20 lakh and earns ₹3 lakh. The second earns more rupees, but the first generates more operating profit relative to the capital used. ROCE helps make this kind of comparison."
     },
     {
       "type": "p",
-      "value": "Unlike ROE, which focuses only on shareholders' equity, ROCE considers the total capital employed in the business."
+      "value": "A commonly used formula is: <strong>ROCE = EBIT ÷ Capital Employed × 100</strong>. EBIT means Earnings Before Interest and Tax. Capital employed is often calculated as total assets minus current liabilities, or as shareholders' equity plus non-current debt. The exact calculation can vary, so use a consistent definition when comparing companies."
     },
     {
       "type": "example",
-      "value": "Capital-intensive industries such as manufacturing, power and infrastructure often use ROCE as an important performance measure."
+      "value": "<strong>Let's calculate it:</strong> A company reports EBIT of ₹30 crore and capital employed of ₹200 crore. ROCE = ₹30 crore ÷ ₹200 crore × 100 = 15%. This means the company generated ₹15 of operating profit for every ₹100 of capital employed, using this calculation."
     },
     {
-      "type": "fact",
-      "value": " Formula: ROCE = EBIT ÷ Capital Employed × 100"
+      "type": "p",
+      "value": "ROCE is often useful when comparing companies that need significant capital to operate, such as manufacturers, infrastructure businesses and utilities. Investors may examine whether ROCE is consistently healthy and whether it is improving as the business grows."
+    },
+    {
+      "type": "p",
+      "value": "A company may report a high ROCE because it earns strong operating profits, uses its capital efficiently or has a relatively small capital base. However, asset age, accounting methods, business cycles and one-time operating gains can influence the ratio. Comparisons are most useful between businesses with similar characteristics."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Do not compare ROCE without checking how it was calculated.</strong> Different sources may use different definitions of capital employed or EBIT. Also compare ROCE with the cost of capital and the company's debt and cash-flow position where possible."
     },
     {
       "type": "tip",
-      "value": " <strong>Many experienced investors prefer companies that consistently maintain a healthy ROCE over several years.</strong>"
+      "value": "Use ROCE to ask how much operating profit the business generates from the capital it uses. Look for consistency over time and compare like with like."
     },
     {
       "type": "quiz",
-      "question": "ROCE measures how efficiently a company uses...",
+      "question": "What does ROCE help measure?",
       "choices": [
-        "Its total capital.",
-        "Only revenue.",
-        "Only share price."
+        "How efficiently a company generates operating profit from capital employed.",
+        "The dividend paid per share.",
+        "The number of shares traded daily.",
+        "The market price compared with EPS."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which profit measure is commonly used in the ROCE formula?",
+      "choices": [
+        "Net revenue.",
+        "Earnings Before Interest and Tax (EBIT).",
+        "Dividend per share.",
+        "Cash balance."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A company has EBIT of ₹20 crore and capital employed of ₹100 crore. What is its ROCE?",
+      "choices": [
+        "5%",
+        "10%",
+        "20%",
+        "50%"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why should investors check the definition of capital employed when comparing ROCE?",
+      "choices": [
+        "Because ROCE is always the same as ROE.",
+        "Because EBIT means revenue after tax.",
+        "Because capital employed includes only cash.",
+        "Different calculations may use different definitions of capital employed."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which companies may find ROCE especially useful for analysis?",
+      "choices": [
+        "Businesses that use significant capital, such as manufacturers or infrastructure companies.",
+        "Companies with no operations.",
+        "Only companies that pay no dividends.",
+        "Companies whose shares are not listed."
       ],
       "correctAnswer": 0
     }

@@ -3,29 +3,95 @@
   "title": "Taxes on Stock Market Investments",
   "module": " Module 9 - Advanced Investing & Your Journey",
   "order": "Page 95 of 100",
-  "readingTime": "10 mins read",
+  "readingTime": 4,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Profits from investing may be taxable depending on the type of investment and how long you held it."
+      "value": "Profits and income from shares and mutual funds may be taxable. The treatment depends on the type of income, the investment, how long it was held, the transaction and the tax rules that apply for the relevant financial year. Tax is an important part of investing, but it should be understood separately from the investment's underlying business or market performance."
     },
     {
-      "type": "warning",
-      "value": "⚠️ Tax rules change over time. Always verify the latest rules before making financial decisions."
+      "type": "p",
+      "value": "A profit made when you sell an investment may be treated as a <strong>capital gain</strong>. The gain is generally worked out by comparing the sale value with the applicable cost and permitted adjustments. The holding period can affect whether a gain is treated as short-term or long-term, depending on the asset and the rules in force."
+    },
+    {
+      "type": "story",
+      "value": "<strong>Imagine This:</strong> You sell an old bicycle for more than you paid for it, and you also receive a separate payment for renting it out. These are different kinds of receipts. Similarly, a gain from selling an investment and a dividend received while holding it are separate tax events."
+    },
+    {
+      "type": "example",
+      "value": "Suppose you buy shares for ₹20,000 and later sell them for ₹25,000. The difference may be a capital gain, subject to applicable rules and adjustments. If you also receive a dividend while holding those shares, that dividend is a separate receipt and may have its own tax treatment."
+    },
+    {
+      "type": "p",
+      "value": "Dividends are distributions paid to eligible shareholders or fund investors. They are not the same as a capital gain from selling an investment. Securities Transaction Tax (STT), where applicable, is a transaction tax charged on specified securities transactions; it is not the same as income tax on a capital gain."
+    },
+    {
+      "type": "p",
+      "value": "Different products can have different tax treatment. Listed equity shares, equity-oriented mutual funds, debt-oriented funds, ETFs and other instruments may not all follow the same rules. The holding period, transaction type and conditions matter, so avoid applying one investment's tax treatment to every product."
     },
     {
       "type": "tip",
-      "value": " Understanding taxes is part of becoming a complete investor."
+      "value": "Keep purchase and sale records, contract notes, account statements, dividend details and records of applicable charges. These documents help you calculate and report investment income accurately."
+    },
+    {
+      "type": "warning",
+      "value": "Tax rates, thresholds, exemptions and reporting requirements can change. This lesson explains basic concepts, not current tax rates or personal tax advice. Check the latest Income Tax Department guidance or consult a qualified tax professional for your situation."
     },
     {
       "type": "quiz",
-      "question": "Should investors understand tax implications before investing?",
+      "question": "Which factor can affect the tax treatment of an investment gain?",
       "choices": [
-        "Yes",
-        "No"
+        "How long the investment was held",
+        "The investor's favourite company",
+        "The colour of the app",
+        "The day of the week only"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A capital gain is generally associated with:",
+      "choices": [
+        "Selling an investment at a gain, subject to tax rules",
+        "Receiving salary",
+        "Opening a Demat account",
+        "Depositing cash"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "How is a dividend different from a capital gain?",
+      "choices": [
+        "A dividend is a distribution; a capital gain arises from selling an investment at a gain",
+        "They are always identical",
+        "A dividend is brokerage",
+        "A capital gain is paid by the exchange"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why keep contract notes and transaction statements?",
+      "choices": [
+        "To maintain accurate investment and tax records",
+        "To guarantee a refund",
+        "To change share prices",
+        "To avoid every tax"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What should you do before relying on an old tax-rate article?",
+      "choices": [
+        "Assume it is permanent",
+        "Check current rules for the relevant financial year or seek qualified advice",
+        "Ignore the holding period",
+        "Use a social media comment"
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l94",

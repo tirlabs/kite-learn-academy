@@ -3,38 +3,91 @@
   "title": "Understanding Timeframes",
   "module": " Module 5 - Reading Charts",
   "order": "Page 47 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "A stock chart can display prices over different periods of time. These periods are called timeframes."
+      "value": "A stock chart can show price movement over different periods. These selected periods are called <strong>timeframes</strong>. The timeframe determines how much time is represented by each point, bar or candlestick on the chart."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You can view your life through a daily diary, a monthly calendar, or a yearly photo album. Each gives a different perspective. Stock charts work exactly the same way."
+      "value": "<strong>Imagine This:</strong> You can look at your week through a daily diary, your month through a calendar or your year through a photo album. Each view gives you a different level of detail. Stock charts work in the same way: a short timeframe shows smaller periods, while a longer timeframe gives a broader view."
     },
     {
       "type": "p",
-      "value": "Common timeframes include 1 minute, 5 minutes, 15 minutes, 1 hour, 1 day, 1 week and 1 month."
+      "value": "Common chart timeframes include 1 minute, 5 minutes, 15 minutes, 1 hour, 1 day, 1 week and 1 month. On a 5-minute chart, each candle represents five minutes of trading. On a daily chart, each candle represents one trading day."
     },
     {
       "type": "example",
-      "value": "A daily chart creates one candle for each trading day, while a weekly chart creates one candle for the entire week."
+      "value": "<strong>For example:</strong> A daily chart may show 20 candles for roughly 20 trading sessions. A weekly chart covering the same period may show only about four candles. The weekly view is less detailed but can make the broader movement easier to see."
+    },
+    {
+      "type": "p",
+      "value": "Shorter timeframes show more detail about intraday price movement. Longer timeframes help you observe wider trends over weeks, months or years. Neither is automatically better; the useful timeframe depends on the question you are trying to answer and the length of time you plan to hold an investment."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Do not confuse a candle's timeframe with how long you intend to own a stock.</strong> A daily candle represents one trading day, but it does not mean you must buy or sell every day. Long-term investors can use longer-term charts to understand broad price behaviour."
     },
     {
       "type": "tip",
-      "value": " <strong>Long-term investors usually prefer daily or weekly charts, while traders often use shorter timeframes.</strong>"
+      "value": "If you are learning to read charts, begin with daily and weekly timeframes. They are often easier to interpret than very short intraday charts, which can contain a lot of rapid movement."
     },
     {
       "type": "quiz",
-      "question": "What is a timeframe?",
+      "question": "What is a chart timeframe?",
       "choices": [
-        "The period represented by one candle.",
+        "The amount of money invested.",
+        "The period represented by each point, bar or candle.",
         "The company's age.",
-        "The stock's market value."
+        "The number of shareholders."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does one candle on a 5-minute chart represent?",
+      "choices": [
+        "Five trading days.",
+        "Five shares.",
+        "Five minutes of trading.",
+        "Five company announcements."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "How many candles might a daily chart show for roughly 20 trading sessions?",
+      "choices": [
+        "About 20 candles.",
+        "About 4 candles.",
+        "Exactly 365 candles.",
+        "Only one candle."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is a common use of longer timeframes?",
+      "choices": [
+        "To show every tiny intraday price change.",
+        "To guarantee a long-term return.",
+        "To identify the next day's exact price.",
+        "To observe broader price movement over weeks, months or years."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about timeframes is correct?",
+      "choices": [
+        "Shorter timeframes are always better for every investor.",
+        "The useful timeframe depends on what you want to understand and your investing approach.",
+        "A daily candle means you must trade daily.",
+        "All timeframes show identical detail."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l46",

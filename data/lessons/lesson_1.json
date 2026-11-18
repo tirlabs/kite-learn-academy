@@ -1,10 +1,10 @@
 {
   "id": "l1",
   "title": "What is Money?",
-  "module": " Module 1 - Foundation",
-  "order": "Page 1 of 100",
-  "readingTime": "5 mins read",
-  "difficulty": "Level: Beginner",
+  "module": "Foundation",
+  "order": 1,
+  "readingTime": "4 mins read",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
@@ -12,55 +12,84 @@
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Thousands of years ago, you had a basket full of fresh apples but wanted some milk. You visited a dairy farmer, but he didn't want apples—he wanted wheat instead. Now you had to find a farmer who had wheat and was willing to exchange it for your apples. Buying even simple things became frustrating because both people had to want exactly what the other had."
+      "value": "<strong>Imagine This:</strong> Thousands of years ago, you had a basket full of fresh apples but wanted some milk. You visited a dairy farmer, but he didn't want apples — he wanted wheat instead. Now you had to find a farmer who had wheat and was willing to exchange it for your apples. Buying even simple things became frustrating because both people had to want exactly what the other had."
     },
     {
       "type": "p",
-      "value": "This method of exchanging goods directly was called the <strong>Barter System</strong>. While it worked for small communities, it became difficult as more people, products, and trades were involved."
-    },
-    {
-      "type": "story",
-      "value": " <strong>The Big Idea:</strong> People slowly realized that instead of exchanging goods directly, everyone could agree to use a common item as payment. Different civilizations used shells, salt, beads, metal coins, and eventually paper currency. Today we use printed money and digital payments because everyone trusts and accepts them."
+      "value": "This way of exchanging goods directly was called the <strong>Barter System</strong>. It worked in small communities, but it became difficult when people wanted to trade with many others. You might have something useful to offer, but the person selling what you need may not want it. It was also hard to decide how many apples were equal to a pot of milk, a bag of wheat or a pair of shoes."
     },
     {
       "type": "p",
-      "value": "Money is simply something that everyone agrees has value. It makes buying, selling, saving, and measuring value easy. Without money, modern life, businesses, and even the stock market would not be possible."
+      "value": "People began using things that others would accept in exchange. Different communities used items such as shells, salt, beads and metal. Over time, coins and paper money became common. Today, we also pay using cards, phones and online transfers. The form of money has changed, but the main idea is the same: people accept it because they trust that others will accept it too."
+    },
+    {
+      "type": "p",
+      "value": "Money makes three important things easier. First, it is a <strong>medium of exchange</strong> — we use it to buy and sell things. Second, it is a <strong>unit of account</strong> — it gives us a common way to compare prices. Third, it is a <strong>store of value</strong> — we can keep some money and use it later. However, rising prices can reduce what that money can buy."
+    },
+    {
+      "type": "example",
+      "value": "<strong>Think about this:</strong> A notebook costs ₹80 and a meal costs ₹120. Because both prices are written in rupees, you can compare them easily. You do not need to exchange notebooks for meals or work out how many notebooks equal one meal. You can also save some money today and use it to buy something next week."
     },
     {
       "type": "tip",
-      "value": " <strong>Remember:</strong> Money itself is not wealth. It is simply a tool that stores the value of your hard work today so you can exchange it for something else tomorrow."
+      "value": "Money is not the same as wealth. Money is one way to hold and exchange value. Wealth can also include things such as a home, land, a business or investments. Understanding money is the first step towards understanding how businesses and the stock market work."
     },
     {
       "type": "quiz",
-      "question": "Why was the Barter System difficult?",
+      "question": "Why was the Barter System difficult to use as trade grew?",
       "choices": [
-        "Both people had to want exactly what the other person was offering.",
-        "People were not allowed to trade goods.",
-        "There was too much money available."
+        "People could not grow food.",
+        "Both people had to want what the other person was offering.",
+        "Goods had no value.",
+        "People were not allowed to trade."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is money mainly used for?",
+      "choices": [
+        "To make every person equally rich.",
+        "To guarantee that prices never change.",
+        "To make buying, selling and comparing value easier.",
+        "To replace all goods and services."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Which is an example of money acting as a unit of account?",
+      "choices": [
+        "Using rupees to compare the prices of two phones.",
+        "Keeping a phone in a cupboard.",
+        "Trading apples for milk.",
+        "Giving a gift to a friend."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "What is the main purpose of money?",
+      "question": "Why do people accept modern forms of money?",
       "choices": [
-        "To make buying and selling easier.",
-        "To increase the number of goods in the world.",
-        "To replace businesses."
+        "Because money is always made of gold.",
+        "Because everyone has to spend it immediately.",
+        "Because people trust that others will accept it in payment.",
+        "Because its value can never change."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
     },
     {
       "type": "quiz",
-      "question": "Which of these was used as money by different civilizations before paper currency?",
+      "question": "Which statement about money and wealth is correct?",
       "choices": [
-        "Cowrie shells and salt",
-        "Mobile phones",
-        "Plastic cards"
+        "They always mean exactly the same thing.",
+        "Wealth can only be held as cash.",
+        "Money is one way to hold value, while wealth can include other assets too.",
+        "Anyone with money owns a business."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
     }
   ],
   "previousLesson": null,
-  "nextLesson": "l2"
+  "nextLesson": "data/lessons/lesson_2.json"
 }

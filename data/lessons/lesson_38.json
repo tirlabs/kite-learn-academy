@@ -1,40 +1,97 @@
 {
   "id": "l38",
-  "title": "Upper Circuit & Lower Circuit",
+  "title": "Upper Circuit and Lower Circuit",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 38 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "To prevent extreme price movements in a single day, stock exchanges impose price limits called Upper Circuit and Lower Circuit."
+      "value": "Stock exchanges use price bands and other trading controls for certain securities to help manage unusually sharp price movements. Two terms you may see are <strong>Upper Circuit</strong> and <strong>Lower Circuit</strong>. They refer to the upper and lower price limits within which a stock is permitted to trade during a session, where such limits apply."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Roads have speed limits to prevent accidents. Similarly, stock markets have daily price limits to reduce panic buying and panic selling."
+      "value": "<strong>Imagine This:</strong> A road may have a speed limit to help manage traffic and reduce the danger of extreme driving. In a similar way, a stock's applicable price band sets a boundary for how far its trading price can move during a session. It does not decide whether the company is good or bad."
     },
     {
       "type": "p",
-      "value": "An Upper Circuit is the maximum price a stock can rise in a day, while a Lower Circuit is the maximum it can fall."
+      "value": "The Upper Circuit is the highest permitted trading price for the session under the applicable price band. The Lower Circuit is the lowest permitted trading price. These limits are generally calculated with reference to a previous closing price, using the percentage band applicable to that security."
     },
     {
       "type": "example",
-      "value": "If a stock has a 10% Upper Circuit and closed yesterday at ₹100, it cannot trade above ₹110 today."
+      "value": "<strong>For example:</strong> Suppose a stock's previous close is ₹100 and its applicable price band is 10% on either side. The upper limit would be ₹110 and the lower limit would be ₹90. The stock would not be permitted to trade above ₹110 or below ₹90 during that session under this example's band."
+    },
+    {
+      "type": "p",
+      "value": "If a stock reaches its Upper Circuit, buyers may still want to purchase it, but there may be few or no sellers available at that limit. If it reaches its Lower Circuit, sellers may want to exit, but there may be few or no buyers. In either situation, an order may remain pending because a matching order is not available."
+    },
+    {
+      "type": "p",
+      "value": "Price bands are not identical for every stock and can vary according to exchange rules and the security. Some securities may be subject to different controls, including mechanisms that can pause trading in specified circumstances. Reaching a circuit does not mean that the stock is safe, that the price will reverse, or that every order will be executed."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Circuits do not guarantee protection from investment losses.</strong> If there are no matching orders, you may not be able to buy or sell when you want to. Always understand the applicable price band and the liquidity of a stock before trading."
     },
     {
       "type": "tip",
-      "value": " <strong>Circuits protect investors from sudden extreme price movements.</strong>"
+      "value": "Think of circuit limits as trading boundaries for a session, not as a signal to buy or sell. A stock at Upper Circuit is not automatically a good investment, and a stock at Lower Circuit is not automatically cheap."
     },
     {
       "type": "quiz",
-      "question": "Why are circuits introduced?",
+      "question": "What is the Upper Circuit?",
       "choices": [
-        "To reduce extreme price movements.",
-        "To increase brokerage charges.",
-        "To stop companies from trading."
+        "The highest price a stock has ever reached.",
+        "The highest permitted trading price for a session under its applicable price band.",
+        "The price at which every investor must sell.",
+        "The company's target price."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A stock closes at ₹200 and has a 5% price band on either side. What is its Upper Circuit in this example?",
+      "choices": [
+        "₹190",
+        "₹195",
+        "₹205",
+        "₹210"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What may happen when a stock reaches its Lower Circuit and many investors want to sell?",
+      "choices": [
+        "There may be few or no buyers, so sell orders may remain pending.",
+        "Every sell order is guaranteed to execute.",
+        "The stock price automatically returns to its previous close.",
+        "The company must buy all outstanding shares."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Are price bands necessarily the same for every stock?",
+      "choices": [
+        "Yes, every stock always has a 10% band.",
+        "Yes, the band is fixed permanently.",
+        "No, the applicable limits can differ according to exchange rules and the security.",
+        "No, because stocks have no trading limits."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What should you understand about circuit limits?",
+      "choices": [
+        "They guarantee that investors cannot lose money.",
+        "They guarantee an order will execute at the limit.",
+        "They prove that a company is financially strong.",
+        "They are trading controls, not a guarantee against loss or a buy/sell signal."
+      ],
+      "correctAnswer": 3
     }
   ],
   "previousLesson": "l37",

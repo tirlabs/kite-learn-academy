@@ -3,48 +3,95 @@
   "title": "Order Book, Holdings & Positions",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 29 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Once you start placing orders, your trading app will show different sections such as Orders, Holdings and Positions. Understanding these sections is essential."
+      "value": "After you start using a trading app, you will see sections such as Orders, Holdings and Positions. They may look similar at first, but each one shows different information. Knowing the difference helps you understand whether you have only placed an order, completed a trade or currently own shares."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Think of your school bag. One pocket contains homework, another contains completed assignments, and another holds books you are currently reading. Your trading app organizes your investments in a similar way."
+      "value": "<strong>Imagine This:</strong> Think about your school work. One folder may contain tasks you still need to finish, another may contain completed work, and a third may show what you are working on right now. A trading app also separates information so you can see what stage each activity has reached."
     },
     {
       "type": "p",
-      "value": "The Order Book shows orders you've placed. Holdings display investments you currently own. Positions show trades that are still active for the day."
+      "value": "The <strong>Order Book</strong> shows the buy and sell orders you have placed. It can show whether an order is pending, partly completed, completed, rejected or cancelled. Placing an order does not always mean a trade has happened. Check its status to know what happened."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Holdings</strong> generally shows securities you own and that are held for you in your Demat Account. These are often shares bought for delivery after the settlement and credit process. Holdings can help you see what investments you currently own."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Positions</strong> shows your current market positions. This often includes intraday trades and may also show other open or unsettled positions, depending on the broker and product. The way a broker displays delivery trades and positions can differ, so read the labels and help information in your own app."
     },
     {
       "type": "example",
-      "value": "If you buy Infosys for long-term investing, it appears in Holdings. If you're doing intraday trading, it appears in Positions until the trade is completed."
+      "value": "<strong>For example:</strong> You place an order to buy 10 shares. First, you can see the instruction in the Order Book. If it is matched and the trade is settled, the shares are credited to your Demat Account and generally appear in Holdings. If you also make an intraday trade, that activity may appear under Positions."
+    },
+    {
+      "type": "p",
+      "value": "Do not assume that an order is complete just because you can see it in the app. A rejected or open order does not mean you own the shares. Likewise, a position shown during the day may not be the same as a settled long-term holding."
     },
     {
       "type": "tip",
-      "value": " <strong>Don't confuse Holdings with Positions. Holdings are long-term investments, while Positions usually represent active trades.</strong>"
+      "value": "Remember: Orders shows the instructions you placed, Holdings generally shows securities you own, and Positions shows your current market positions. If something is unclear, check the status and details in your broker's app."
     },
     {
       "type": "quiz",
-      "question": "Where do long-term investments appear?",
+      "question": "What does the Order Book show?",
       "choices": [
+        "Only shares held for years.",
+        "The buy and sell orders you have placed and their status.",
+        "Only the money in your bank account.",
+        "The company's annual report."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Where do shares held for delivery generally appear after settlement?",
+      "choices": [
+        "Watchlist",
+        "Profile",
         "Holdings",
-        "Positions",
-        "Order Book"
+        "Search"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What does the Positions section usually show?",
+      "choices": [
+        "Your current market positions, which may include intraday trades.",
+        "Only your completed tax returns.",
+        "Only your favourite companies.",
+        "Only your bank deposits."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "The Order Book shows...",
+      "question": "An order appears in your Order Book as Open. What does this mean?",
       "choices": [
-        "Orders you have placed",
-        "Only profits",
-        "Bank balance"
+        "You definitely own the shares.",
+        "The company has paid you.",
+        "The order has been cancelled.",
+        "The order has not been fully completed yet."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement is most accurate?",
+      "choices": [
+        "Orders, Holdings and Positions all show exactly the same thing.",
+        "Orders shows instructions, Holdings generally shows owned securities, and Positions shows current market positions.",
+        "A Watchlist proves that you own a share.",
+        "A rejected order means the shares are in your Demat Account."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l28",

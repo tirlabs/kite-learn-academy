@@ -3,47 +3,91 @@
   "title": "Market Order",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 25 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "2 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "When you place a Market Order, you are telling the exchange, 'Buy or sell this share immediately at the best available price.'"
+      "value": "When you place a <strong>Market Order</strong>, you are asking to buy or sell a share at the best price currently available in the market. You are giving priority to getting the order executed rather than choosing the exact price. The order is sent to the exchange and matched with available orders, if possible."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You walk into a vegetable market and say, 'Give me 2 kg of tomatoes at today's price.' You don't negotiate—you simply buy at the current market price."
+      "value": "<strong>Imagine This:</strong> You go to a busy vegetable market and ask for two kilos of tomatoes at the best price the seller is offering right now. You are ready to buy without setting your own price. A Market Order is similar: you accept the best available price when your order is matched."
     },
     {
       "type": "p",
-      "value": "A Market Order is executed quickly, but the exact price may be slightly different from what you saw a moment earlier because stock prices change continuously."
+      "value": "The price you see on your screen can change before your order reaches the exchange or gets matched. So the final execution price may be different from the price you saw a moment earlier. This difference can be more noticeable when a share is moving quickly or when there are not enough buyers or sellers near the displayed price."
+    },
+    {
+      "type": "p",
+      "value": "A Market Order does not guarantee a particular price. It also does not guarantee that every part of a large order will be filled at one price. If there are not enough shares available at the best price, the remaining quantity may be matched at other available prices, depending on market conditions and order rules."
     },
     {
       "type": "example",
-      "value": "If Infosys is trading around ₹1,650 and you place a Market Order, your purchase may happen at ₹1,649.80 or ₹1,650.30 depending on available sellers."
+      "value": "<strong>For example:</strong> A share is showing a price near ₹1,650. You place a Market Buy Order. By the time it is matched, the available sellers may be offering at ₹1,651 or ₹1,652. Your order may be completed at those available prices rather than exactly ₹1,650."
+    },
+    {
+      "type": "p",
+      "value": "Market Orders can be useful when getting an order executed is more important than controlling the exact price. But they can be risky in shares that are thinly traded or moving quickly. Always check the order details and understand how your broker handles different order types."
     },
     {
       "type": "tip",
-      "value": " <strong>Market Orders are useful when quick execution is more important than getting an exact price.</strong>"
+      "value": "A Market Order gives priority to execution, not price control. If knowing the maximum price you will pay is important, learn about Limit Orders in the next lesson."
     },
     {
       "type": "quiz",
-      "question": "What does a Market Order do?",
+      "question": "What does a Market Order ask the exchange to do?",
       "choices": [
-        "Executes immediately at the best available market price.",
-        "Waits until your preferred price arrives.",
-        "Cancels automatically."
+        "Wait until your chosen price is reached.",
+        "Buy or sell at the best available price when the order is matched.",
+        "Cancel the order at the end of the day.",
+        "Guarantee the last displayed price."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why can the final price differ from the price shown on your screen?",
+      "choices": [
+        "Share prices and available orders can change before the order is matched.",
+        "The broker chooses a random price.",
+        "The company changes its name.",
+        "The Demat account sets a new price."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Can the execution price differ slightly from the displayed price?",
+      "question": "What does a Market Order give priority to?",
       "choices": [
-        "Yes",
-        "No"
+        "An exact price chosen by you.",
+        "A guaranteed profit.",
+        "Getting the order executed at available prices.",
+        "Holding shares for a fixed number of years."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Which situation can make a Market Order's execution price less predictable?",
+      "choices": [
+        "A share that has no price changes.",
+        "A company with a familiar name.",
+        "A watchlist with many shares.",
+        "A fast-moving or thinly traded share."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Does a Market Order guarantee that you will buy at the last price you saw?",
+      "choices": [
+        "Yes, always.",
+        "No, the execution price can be different.",
+        "Only when the market is open.",
+        "Only when you buy one share."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l24",

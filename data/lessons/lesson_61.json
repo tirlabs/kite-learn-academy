@@ -3,42 +3,95 @@
   "title": "Bollinger Bands",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 61 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Bollinger Bands help traders understand whether a stock is trading unusually high or unusually low compared to its recent average."
+      "value": "<strong>Bollinger Bands</strong> are a chart indicator that help you observe how a stock's price is moving compared with its recent average and how much its price is fluctuating. The bands expand when price movements become more variable and contract when movements become quieter."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A balloon expands and shrinks depending on the air inside it. Similarly, Bollinger Bands widen when the market becomes more volatile and narrow when prices become calm."
+      "value": "<strong>Imagine This:</strong> Think of a road that has lane boundaries. On a quiet road, traffic may stay within a narrow area. When traffic becomes more unpredictable, vehicles may spread across a wider area. Bollinger Bands create a changing range around a moving average to help visualise price behaviour."
     },
     {
       "type": "p",
-      "value": "Bollinger Bands consist of three lines: a middle Moving Average, an Upper Band and a Lower Band."
+      "value": "Bollinger Bands usually consist of three lines: a <strong>middle band</strong>, which is commonly a 20-period Simple Moving Average, an <strong>upper band</strong> and a <strong>lower band</strong>. The upper and lower bands are commonly placed two standard deviations above and below the middle band. Standard deviation is a statistical measure of how spread out prices are."
     },
     {
       "type": "example",
-      "value": "When prices repeatedly touch the upper band, the stock may be trading strongly. When they approach the lower band, it may indicate weakness or a possible reversal."
+      "value": "<strong>For example:</strong> If a stock's recent prices have been relatively steady, the upper and lower bands may move closer together. If the price begins making larger moves, the bands may widen. This change in width reflects changing volatility; it does not tell you by itself whether the stock will rise or fall."
+    },
+    {
+      "type": "p",
+      "value": "When the bands become narrow, traders sometimes call this a <strong>squeeze</strong>. It indicates that recent price volatility has become relatively low. A period of low volatility may be followed by a larger move, but the indicator does not tell you which direction that move will take or when it will happen."
+    },
+    {
+      "type": "p",
+      "value": "A price touching or moving beyond the upper band does not automatically mean the stock is too expensive or must fall. During a strong uptrend, price can remain near the upper band. Similarly, a touch of the lower band does not guarantee a bounce. The surrounding trend and price behaviour matter."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>Touching a Bollinger Band does not automatically mean the price will reverse.</strong>"
+      "value": "<strong>Bollinger Bands are not fixed support and resistance levels.</strong> They move as prices change, and a band touch is not a guaranteed reversal signal. Avoid using the bands alone to make a decision."
     },
     {
       "type": "tip",
-      "value": " <strong>Bollinger Bands work best when combined with trend analysis and RSI.</strong>"
+      "value": "Use Bollinger Bands to observe volatility and how price behaves around its recent average. Ask whether the bands are widening or narrowing, and then look at the wider chart for context."
     },
     {
       "type": "quiz",
-      "question": "What happens to Bollinger Bands during high volatility?",
+      "question": "What do Bollinger Bands help you observe?",
       "choices": [
-        "They become wider.",
-        "They disappear.",
-        "They become a straight line."
+        "Company profit and debt.",
+        "Price behaviour around a moving average and changing volatility.",
+        "The number of shareholders.",
+        "The guaranteed direction of the next price move."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What are the three main parts of Bollinger Bands?",
+      "choices": [
+        "Open, High and Close.",
+        "Bid, Ask and Spread.",
+        "Middle band, upper band and lower band.",
+        "Revenue, profit and assets."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What does a Bollinger Band squeeze generally indicate?",
+      "choices": [
+        "Relatively low recent price volatility.",
+        "A guaranteed upward breakout.",
+        "A company has stopped trading.",
+        "The stock has reached its 52-week high."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What can happen when a stock is in a strong uptrend?",
+      "choices": [
+        "It must fall whenever it touches the upper band.",
+        "It cannot move near either band.",
+        "The bands stop updating.",
+        "Price may remain near the upper band for some time."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What is a sensible way to use Bollinger Bands?",
+      "choices": [
+        "Treat every band touch as a guaranteed reversal.",
+        "Observe volatility and price behaviour, while considering the wider chart.",
+        "Use them instead of understanding the company.",
+        "Assume a squeeze reveals the direction of the next move."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l60",

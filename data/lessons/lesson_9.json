@@ -1,52 +1,95 @@
 {
   "id": "l9",
   "title": "Why Companies Need Money",
-  "module": " Module 1 - Foundation",
-  "order": "Page 9 of 100",
-  "readingTime": "6 mins read",
-  "difficulty": "Level: Beginner",
+  "module": "Foundation",
+  "order": 9,
+  "readingTime": "5 mins read",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Every growing company eventually needs more money. It may want to build factories, hire employees, open new branches, or develop new products."
+      "value": "Companies need money to start, run and grow their businesses. They may need to buy machines, build factories, hire people, develop new products or open branches in other places. The money and resources used to run and grow a business are often called <strong>capital</strong>."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Your bakery is doing very well. Customers from other cities want your products. Opening ten new bakeries costs ₹5 crore, but you don't have enough money. You now need outside funding."
+      "value": "<strong>Imagine This:</strong> Your bakery is doing well. Customers from nearby towns want your cakes, so you decide to open more shops. You need money for new ovens, shop rent, ingredients and staff. Your current savings are not enough. You now need to find a way to raise the money."
     },
     {
       "type": "p",
-      "value": "Companies usually have two main ways to raise money: borrow money as a loan, or invite people to become owners by buying shares."
+      "value": "A company can use money it has earned and kept from earlier years. This is often called retained profit or retained earnings. It can also borrow money from a bank or other lender. Another option is to raise money by issuing shares, which means investors put money into the company in return for an ownership interest."
+    },
+    {
+      "type": "p",
+      "value": "Borrowing is called <strong>debt funding</strong>. The company must repay the money and usually pay interest according to the loan agreement. These payments may still be due even if the business has a difficult year. The lender does not normally become an owner just by giving the loan."
+    },
+    {
+      "type": "p",
+      "value": "Raising money by issuing shares is called <strong>equity funding</strong>. The people who buy the new shares become shareholders. The company does not normally have to repay the share money on a fixed date like a loan. But the existing owners may own a smaller percentage of the company after new shares are issued. This is called <strong>dilution</strong>."
     },
     {
       "type": "example",
-      "value": "Instead of borrowing huge amounts from banks, many companies choose to sell ownership through shares to raise capital."
+      "value": "<strong>Compare two choices:</strong> A company needs ₹10 lakh to buy new equipment. It could take a loan and agree to repay it with interest. Or it could issue new shares and bring in investors. The loan creates repayment duties; issuing shares gives new investors an ownership interest. Each choice has benefits and costs."
     },
     {
       "type": "tip",
-      "value": " <strong>Raising money from investors allows companies to grow without taking too much debt.</strong>"
+      "value": "Debt is not always bad, and issuing shares is not always the better choice. A company must think about how much money it needs, whether it can repay a loan, how much ownership it is willing to share and what is best for its future. This is one reason companies and investors are connected through the stock market."
     },
     {
       "type": "quiz",
-      "question": "Why do companies raise money?",
+      "question": "Why might a company need to raise money?",
       "choices": [
-        "To grow their business.",
-        "To reduce customers.",
-        "To stop selling products."
+        "To pay for growth, equipment, staff or daily operations.",
+        "To guarantee that competitors close.",
+        "To stop selling products.",
+        "To make its share price rise every day."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "One way companies raise money is by...",
+      "question": "What is debt funding?",
       "choices": [
-        "Selling ownership through shares.",
-        "Destroying products.",
-        "Closing branches."
+        "Selling a part of the company to shareholders.",
+        "Borrowing money that must be repaid under agreed terms.",
+        "Receiving money that never has to be returned.",
+        "Giving customers free products."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does a company usually give investors when it issues shares?",
+      "choices": [
+        "A loan repayment date.",
+        "An ownership interest in the company.",
+        "A guaranteed job.",
+        "A promise that the share price cannot fall."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is dilution?",
+      "choices": [
+        "A company reducing the price of its products.",
+        "Existing owners having a smaller percentage after new shares are issued, if they do not buy more.",
+        "A bank cancelling a company's loan.",
+        "A company paying all its profits as dividends."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which is a key difference between debt and equity funding?",
+      "choices": [
+        "Debt usually creates repayment obligations; equity gives investors ownership.",
+        "Debt always gives ownership; equity is always repaid with interest.",
+        "Both have exactly the same costs and risks.",
+        "Equity guarantees the company will make a profit."
       ],
       "correctAnswer": 0
     }
   ],
-  "previousLesson": "l8",
-  "nextLesson": "l10"
+  "previousLesson": "data/lessons/lesson_8.json",
+  "nextLesson": "data/lessons/lesson_10.json"
 }

@@ -3,36 +3,93 @@
   "title": "Assets & Liabilities",
   "module": " Module 7 - Fundamental Analysis",
   "order": "Page 69 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Every company owns valuable things and also owes money to others. These are called Assets and Liabilities."
+      "value": "Every company owns resources that can provide future value and also has obligations it must meet. The resources are called <strong>Assets</strong>, while the obligations are called <strong>Liabilities</strong>. Both are shown on the company's balance sheet and help investors understand its financial position."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You own a house worth ₹80 lakh and have ₹10 lakh in savings. These are your assets. If you still owe ₹20 lakh on a home loan, that's your liability."
+      "value": "<strong>Imagine This:</strong> Suppose you own a house worth ₹80 lakh and have ₹10 lakh in savings. These are your assets. If you still owe ₹20 lakh on a home loan, that loan is your liability. Looking at both gives a clearer picture than looking only at what you own."
     },
     {
       "type": "p",
-      "value": "Assets include cash, buildings, machinery, inventory and investments. Liabilities include loans, unpaid bills and other financial obligations."
+      "value": "Assets can include cash, bank balances, buildings, machinery, inventory, investments and money customers owe the company. Liabilities can include bank loans, bonds, unpaid supplier bills, employee obligations and other amounts the company must pay."
     },
     {
       "type": "example",
-      "value": "A manufacturing company may own factories worth hundreds of crores while also having bank loans used to build those factories."
+      "value": "<strong>For example:</strong> A manufacturing company may own factories, equipment and inventory worth hundreds of crores. It may also have bank loans used to build those factories and amounts due to suppliers. Both sides matter when assessing its financial position."
+    },
+    {
+      "type": "p",
+      "value": "Assets and liabilities are grouped into current and non-current categories. <strong>Current Assets</strong> are expected to be realised, sold or used within the normal operating cycle or generally within 12 months. <strong>Current Liabilities</strong> are obligations expected to be settled within the normal operating cycle or generally within 12 months. Non-current items are generally held or due over a longer period."
+    },
+    {
+      "type": "p",
+      "value": "The basic accounting equation is: <strong>Assets = Liabilities + Shareholders' Equity</strong>. This means the company's assets are financed either by amounts it owes to others or by the owners' funds represented by equity. The balance sheet follows this relationship."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>Having many assets does not automatically mean a company is financially healthy.</strong> Some assets may be difficult to convert into cash, may lose value or may not generate enough returns. Liabilities also need to be considered in relation to the company's ability to meet them."
     },
     {
       "type": "tip",
-      "value": " <strong>Strong companies usually have valuable assets and manageable liabilities.</strong>"
+      "value": "When you read a balance sheet, look at the types of assets, the obligations due and the shareholders' equity. Try to understand not just how much the company owns, but how those resources are financed."
     },
     {
       "type": "quiz",
-      "question": "Which of these is an asset?",
+      "question": "What are assets?",
       "choices": [
-        "Factory",
-        "Bank loan",
-        "Credit card bill"
+        "Resources a company owns or controls that can provide economic value.",
+        "Only the money a company owes.",
+        "The company's yearly sales.",
+        "The number of its shareholders."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is generally a liability?",
+      "choices": [
+        "Factory machinery.",
+        "Cash in the bank.",
+        "A bank loan the company must repay.",
+        "Inventory held for sale."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What is the basic accounting equation?",
+      "choices": [
+        "Revenue = Profit + Expenses.",
+        "Assets = Liabilities + Shareholders' Equity.",
+        "Assets = Revenue − Tax.",
+        "Profit = Assets + Debt."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which is generally a current asset?",
+      "choices": [
+        "A factory building expected to be used for many years.",
+        "A long-term investment held for several years.",
+        "A loan due to be repaid after ten years.",
+        "Inventory expected to be sold in the normal operating cycle."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should investors examine both assets and liabilities?",
+      "choices": [
+        "To understand the company's resources and the obligations it must meet.",
+        "Because assets alone show the share price.",
+        "Because liabilities are always bad.",
+        "To predict the exact dividend."
       ],
       "correctAnswer": 0
     }

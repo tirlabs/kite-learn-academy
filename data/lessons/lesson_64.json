@@ -3,42 +3,95 @@
   "title": "Combining Indicators",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 64 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Professional traders rarely rely on a single indicator. Instead, they combine different tools that support each other."
+      "value": "Technical indicators are tools that describe different aspects of price behaviour. A Moving Average can help you observe a trend, RSI can help you study momentum, and volume can show how much trading activity took place. <strong>Combining Indicators</strong> means using more than one relevant source of information to build a clearer picture rather than relying on a single reading."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A doctor doesn't diagnose a patient using only body temperature. They also check blood pressure, oxygen level, medical history and symptoms. Traders follow a similar approach."
+      "value": "<strong>Imagine This:</strong> A doctor does not usually assess a person's health using only one measurement. They may consider symptoms, temperature, blood pressure and medical history together. Each provides different information. Indicators can be used in a similar way, as long as you understand what each one measures."
     },
     {
       "type": "p",
-      "value": "A common combination is Trend + Support/Resistance + RSI + Volume. If all four point in the same direction, traders have greater confidence in their decision."
+      "value": "A useful approach is to combine tools that answer different questions. For example, use price structure or a Moving Average to understand the trend, support and resistance to identify important price areas, RSI to observe momentum, and volume to assess trading participation."
     },
     {
       "type": "example",
-      "value": "A stock is in an uptrend, bounces from support, RSI rises above 50 and volume increases. Some traders consider this a stronger setup than using any one indicator alone."
+      "value": "<strong>For example:</strong> Imagine a stock is making higher highs and higher lows, moves back towards a previous support area, and then begins rising again. RSI also turns upward and volume increases during the recovery. These observations may give a trader more context than an RSI reading alone. They still do not guarantee that the price will continue rising."
+    },
+    {
+      "type": "p",
+      "value": "Indicators can sometimes appear to disagree. A stock may be in a broader uptrend while RSI is high, or price may be above a Moving Average while volume is falling. This is not necessarily a contradiction: the tools measure different things and may be showing different parts of the market situation."
+    },
+    {
+      "type": "p",
+      "value": "More indicators do not automatically mean better analysis. Several indicators may be based on similar price calculations and repeat the same information. Adding too many can create confusion, encourage selective interpretation or make it difficult to identify what really matters."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>Adding too many indicators often creates confusion rather than clarity.</strong>"
+      "value": "<strong>Agreement between indicators does not remove investment risk.</strong> Even when several tools point in the same direction, prices can reverse. Technical indicators do not replace company research, valuation, financial goals or risk management."
     },
     {
       "type": "tip",
-      "value": " <strong>Master a few indicators before adding new ones to your charts.</strong>"
+      "value": "Choose a small set of tools with different purposes. Know what question each one answers, and be willing to wait when the evidence is unclear."
     },
     {
       "type": "quiz",
-      "question": "Why do traders combine indicators?",
+      "question": "Why might an investor combine indicators?",
       "choices": [
-        "To gain more confidence in a trading decision.",
-        "To guarantee profits.",
-        "To make charts look more colourful."
+        "To guarantee a profitable trade.",
+        "To understand different aspects of price behaviour using complementary information.",
+        "To avoid looking at the price chart.",
+        "To make every indicator show the same value."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which combination covers different types of information?",
+      "choices": [
+        "Three indicators that all calculate the same moving average.",
+        "Only three different chart colours.",
+        "Trend, support/resistance, momentum and volume.",
+        "Only the latest closing price."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "If several indicators point in the same direction, what does that mean?",
+      "choices": [
+        "The trade is guaranteed to succeed.",
+        "The stock cannot reverse.",
+        "The company has no business risk.",
+        "They may provide supporting context, but they do not guarantee the next move."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why can too many indicators be unhelpful?",
+      "choices": [
+        "They may repeat similar information and create confusion.",
+        "They always improve accuracy.",
+        "They remove the need for analysis.",
+        "They show the company's full financial statements."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What is a sensible approach to combining indicators?",
+      "choices": [
+        "Use every available indicator on every chart.",
+        "Choose a small set with different purposes and understand their limitations.",
+        "Ignore price action and company information.",
+        "Treat every signal as a certain prediction."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l63",

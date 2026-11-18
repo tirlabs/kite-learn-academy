@@ -3,58 +3,91 @@
   "title": "Selling Your First Share",
   "module": " Module 3 - Buying Your First Stock",
   "order": "Page 30 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": "3 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Buying a share is only half of the journey. At some point, you may decide to sell it to book profits, reduce losses, or invest your money elsewhere."
+      "value": "Buying a share is only one part of investing. At some point, you may decide to sell it. You might want to use the money for another goal, rebalance your investments, or sell because your view of the company has changed. Selling is done by placing a Sell Order through your broker."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You bought a bicycle for ₹5,000. Two years later, someone offers you ₹6,500. You decide to sell it because you've made a profit. Selling shares works in a similar way."
+      "value": "<strong>Imagine This:</strong> You buy a bicycle for ₹5,000. Later, someone offers you ₹6,500 and you decide to sell it. The difference looks like a gain. But if someone offers only ₹4,000, selling would mean accepting a lower price than you paid. Shares work in a similar way: the price you receive may be higher or lower than your purchase price."
     },
     {
       "type": "p",
-      "value": "To sell a share, simply select it from your Holdings, choose the quantity, and place either a Market Order or a Limit Order. Once a buyer matches your order, the shares are sold and the money is credited to your trading account."
+      "value": "To sell shares you own, open the Holdings section in your broker's app, choose the share and select Sell. Enter the quantity and choose an order type, such as Market or Limit. A Market Order asks for the best available price; a Limit Order sets the lowest price you are willing to accept. The order must be matched with a buyer before the sale is completed."
+    },
+    {
+      "type": "p",
+      "value": "After a successful trade, the shares go through the settlement process and the sale proceeds are handled through the broker and market systems. The amount available to withdraw may depend on settlement timing and your broker's rules. Brokerage, taxes and other charges may also apply, so the amount you receive can be different from the sale value shown before charges."
     },
     {
       "type": "example",
-      "value": "You purchased one share of TCS at ₹3,200. A few months later, it reaches ₹3,650. You sell it and earn a profit of ₹450 before taxes and charges."
+      "value": "<strong>For example:</strong> You bought one share for ₹3,200 and later sell it for ₹3,650. The difference is ₹450 before brokerage, taxes and other charges. Your actual gain will be lower after applicable costs. If you sell it for less than ₹3,200, you may have a loss before costs."
+    },
+    {
+      "type": "p",
+      "value": "Selling a share does not always mean you made a profit. The result depends on the price at which you bought it, the price at which you sold it and the costs involved. Keep a record of your trades and review the reason for each decision. Do not buy or sell only because of a sudden rumour or fear."
     },
     {
       "type": "tip",
-      "value": " <strong>Congratulations! You now understand the complete journey—from opening an account to buying and selling your very first share.</strong>"
+      "value": "Before selling, check the correct share, quantity, order type and price. After placing the order, check whether it was completed. Remember that your profit or loss should include the costs of buying and selling."
     },
     {
       "type": "quiz",
-      "question": "How can you sell a share?",
+      "question": "How do you usually begin selling shares held for delivery?",
       "choices": [
-        "Select it from Holdings and place a Sell Order.",
-        "Delete the app.",
-        "Call the company CEO."
+        "Delete the broker app.",
+        "Select the share in Holdings and place a Sell Order.",
+        "Contact the company's CEO.",
+        "Transfer your password to another investor."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "type": "quiz",
-      "question": "After a successful sale, what do you receive?",
+      "question": "What must happen for your Sell Order to become a completed trade?",
       "choices": [
-        "Money from the buyer",
-        "Another share automatically",
-        "A new Demat Account"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "type": "quiz",
-      "question": "Which type of order can be used while selling?",
-      "choices": [
-        "Market Order",
-        "Limit Order",
-        "Both Market and Limit Orders"
+        "The company must buy every share.",
+        "The share price must double.",
+        "A suitable buyer's order must match your sell order.",
+        "SEBI must choose the buyer."
       ],
       "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "You bought a share for ₹3,200 and sold it for ₹3,650. What is the difference before charges?",
+      "choices": [
+        "₹450 gain",
+        "₹450 loss",
+        "₹3,200 gain",
+        "₹6,850 gain"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why might the amount you can withdraw be different from the sale value?",
+      "choices": [
+        "The company keeps all sale money.",
+        "Share prices are always fixed.",
+        "The broker can choose any amount.",
+        "Settlement timing and applicable charges can affect the available amount."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Which details should you check before placing a Sell Order?",
+      "choices": [
+        "Only the colour of the app.",
+        "The correct share, quantity, order type and price.",
+        "Only the company's logo.",
+        "Only the day's highest price."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l29",

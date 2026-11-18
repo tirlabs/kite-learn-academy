@@ -3,28 +3,97 @@
   "title": "Corporate Actions",
   "module": " Module 9 - Advanced Investing & Your Journey",
   "order": "Page 96 of 100",
-  "readingTime": "9 mins read",
+  "readingTime": 4,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Companies occasionally make changes that affect shareholders. These events are called Corporate Actions."
-    },
-    {
-      "type": "fact",
-      "value": "Common corporate actions include Bonus Shares, Stock Splits, Rights Issues and Dividends."
+      "value": "A corporate action is an event announced by a company that affects its shareholders or the company's share structure. Some actions distribute value to shareholders, while others change the number of shares or give eligible investors an opportunity to buy additional shares. Common examples include dividends, bonus issues, stock splits and rights issues."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A shop rewards loyal customers with bonus coupons. Companies may also reward shareholders through different corporate actions."
+      "value": "<strong>Imagine This:</strong> A chocolate bar is cut into smaller pieces. You now have more pieces, but the total amount of chocolate has not increased. A stock split is similar: the number of shares changes, while the split alone does not create extra business value."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Dividend:</strong> The company distributes money or another form of value to eligible shareholders. The amount and payment details are announced by the company. A dividend is not guaranteed every year."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Bonus issue:</strong> Eligible shareholders receive additional shares without paying for those shares. For example, in a 1:1 bonus issue, an investor holding 10 eligible shares receives 10 additional shares. The number of shares doubles, but the share price may adjust; the bonus itself does not automatically double the value of the holding."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Stock split:</strong> Each existing share is divided into a larger number of shares, with the face value per share reduced proportionately. In a 2-for-1 split, 10 shares become 20. The market price per share is expected to adjust proportionately, all else equal."
+    },
+    {
+      "type": "p",
+      "value": "<strong>Rights issue:</strong> Eligible existing shareholders are offered an opportunity to buy additional shares, usually at specified terms. Unlike a bonus issue, subscribing to a rights issue generally requires the investor to pay for the new shares."
+    },
+    {
+      "type": "example",
+      "value": "Imagine you own 10 shares priced at ₹200 each, giving a holding value of ₹2,000. In a 2-for-1 split, you may hold 20 shares with an adjusted theoretical price of ₹100 each. The total theoretical value remains ₹2,000 before market movements and other factors."
+    },
+    {
+      "type": "tip",
+      "value": "When a corporate action is announced, read the official company or stock-exchange notice. Check the action type, ratio, record date, ex-date, eligibility and whether you need to take action."
+    },
+    {
+      "type": "warning",
+      "value": "More shares do not automatically mean more wealth. Bonus issues and splits change share count and per-share measures; rights issues may require additional money; dividends depend on company decisions and eligibility."
     },
     {
       "type": "quiz",
-      "question": "Which of these is a Corporate Action?",
+      "question": "What is a corporate action?",
       "choices": [
-        "Stock Split",
-        "IPO",
-        "Trading Volume"
+        "A company event that affects shareholders or its share structure",
+        "A daily market forecast",
+        "A broker password",
+        "A type of mutual fund"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What happens in a bonus issue?",
+      "choices": [
+        "Eligible shareholders receive additional shares without paying for them",
+        "The company guarantees a price rise",
+        "All shareholders must sell",
+        "The exchange closes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What happens to the number of shares in a 2-for-1 stock split?",
+      "choices": [
+        "It doubles",
+        "It halves",
+        "It stays exactly the same",
+        "It becomes zero"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What does a rights issue generally allow eligible shareholders to do?",
+      "choices": [
+        "Buy additional shares on specified terms",
+        "Receive guaranteed dividends forever",
+        "Sell shares at a guaranteed profit",
+        "Avoid market risk"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why read the official corporate-action announcement?",
+      "choices": [
+        "To understand dates, eligibility and terms",
+        "To predict tomorrow's price with certainty",
+        "To avoid checking holdings",
+        "To guarantee an allotment"
       ],
       "correctAnswer": 0
     }

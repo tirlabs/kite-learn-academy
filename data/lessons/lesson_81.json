@@ -3,38 +3,95 @@
   "title": "What is Risk?",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 81 of 100",
-  "readingTime": "8 mins read",
+  "readingTime": 3,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Every investment carries some level of risk. Risk simply means there is a possibility that your investment may not perform as expected or that you may lose part of your money."
+      "value": "Every investment carries some level of risk. Risk means there is a possibility that the result will be different from what you expect. You may earn less than planned, lose part of your invested money, or discover that you cannot sell an investment quickly when you need cash. Risk is uncertainty—not a prediction that a loss will definitely happen."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Riding a bicycle is generally safe, but there is always a chance of falling. Wearing a helmet doesn't remove the risk, but it reduces the damage. Investing works the same way."
+      "value": "<strong>Imagine This:</strong> Riding a bicycle involves the possibility of falling. Wearing a helmet does not make falling impossible, but it can reduce the damage. In investing, understanding what could go wrong and preparing for it can help limit the effect of an unexpected event."
     },
     {
       "type": "p",
-      "value": "The goal of investing is not to eliminate risk completely. Instead, the goal is to understand risk and manage it wisely."
+      "value": "Investment risks come in different forms. <strong>Market risk</strong> is the possibility that prices fall because of economic events, interest rates or investor sentiment. <strong>Business risk</strong> arises when a company's sales, costs, management or competitive position deteriorates. <strong>Liquidity risk</strong> means you may not be able to sell an investment quickly at a fair price. <strong>Inflation risk</strong> means your money may lose purchasing power when prices rise faster than its return."
     },
     {
       "type": "example",
-      "value": "Buying shares of a single unknown company is generally riskier than investing in several well-established companies."
+      "value": "Suppose you invest ₹10,000 in one company's shares. The value may rise to ₹12,000, but it may also fall to ₹8,000 if the company reports poor results or the market weakens. If you need the money immediately, you may have to sell at the lower price. The possible price loss and the timing pressure are both risks to consider."
+    },
+    {
+      "type": "p",
+      "value": "Different investments have different risk profiles. Shares can fluctuate significantly. A bank fixed deposit usually has more predictable interest and lower day-to-day price movement, but it still has risks such as inflation and limits to deposit protection. No investment should be judged only by whether its price moves up and down."
+    },
+    {
+      "type": "fact",
+      "value": "A useful way to think about risk is to ask: <strong>What can go wrong, how likely might it be, how much could it affect me, and can I handle that outcome?</strong> You may not be able to predict the future, but you can understand your exposure."
     },
     {
       "type": "tip",
-      "value": " <strong>Successful investors don't avoid risk—they manage it.</strong>"
+      "value": "Before investing, consider your goal, when you will need the money, and how much loss you could financially and emotionally tolerate. Keep emergency money separate from investments that can fluctuate."
+    },
+    {
+      "type": "warning",
+      "value": "Higher potential returns often come with higher uncertainty, but taking more risk does not guarantee earning more. The aim is not to avoid every risk; it is to take only risks you understand and can afford."
     },
     {
       "type": "quiz",
-      "question": "What is risk in investing?",
+      "question": "Which statement best describes investment risk?",
       "choices": [
-        "The possibility of losing money or earning lower-than-expected returns.",
-        "Guaranteed profits.",
-        "Paying brokerage charges."
+        "A loss that is certain to happen",
+        "The possibility that an outcome differs from expectations",
+        "A fee paid to a broker",
+        "A measure of company profit"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which is an example of liquidity risk?",
+      "choices": [
+        "A share price rises",
+        "You cannot sell an investment quickly at a fair price when you need cash",
+        "A company declares a dividend",
+        "Inflation slows down"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A fixed deposit may still face which risk?",
+      "choices": [
+        "Inflation risk",
+        "Daily share-price volatility identical to equities",
+        "Risk of a stock split",
+        "Risk of an IPO allotment"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "You invest ₹10,000 and its value falls to ₹8,000. What is the loss in value?",
+      "choices": [
+        "₹1,000",
+        "₹2,000",
+        "₹8,000",
+        "₹10,000"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is a sensible approach to risk?",
+      "choices": [
+        "Avoid every investment",
+        "Take the highest possible risk",
+        "Understand the risks and take only what you can afford",
+        "Assume past returns will continue"
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l80",

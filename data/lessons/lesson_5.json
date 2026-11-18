@@ -1,52 +1,95 @@
 {
   "id": "l5",
   "title": "Different Ways to Invest Money",
-  "module": " Module 1 - Foundation",
-  "order": "Page 5 of 100",
-  "readingTime": "6 mins read",
-  "difficulty": "Level: Beginner",
+  "module": "Foundation",
+  "order": 5,
+  "readingTime": "5 mins read",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "People invest because they want their money to grow faster than inflation. There is no single investment that is best for everyone."
+      "value": "Once you understand saving, you may start thinking about investing. Investing means using money to buy an asset or a financial product because you hope it will earn income, grow in value or do both. There are many ways to invest. No single option is best for everyone, because people have different goals, time periods and comfort with risk."
     },
     {
       "type": "story",
-      "value": " Imagine five friends each have ₹10,000. One keeps it in a bank, another buys gold, another invests in mutual funds, another buys shares, and another starts a small business. After several years, each investment performs differently."
+      "value": "<strong>Imagine This:</strong> Five friends each have ₹10,000. One puts the money in a bank deposit, another buys gold, another invests in a mutual fund, another buys shares and the fifth uses it to start a small business. After a few years, their results may be very different. Some may earn a return, some may make a loss, and some may find that their money is difficult to access when they need it."
     },
     {
       "type": "p",
-      "value": "Some common investment options include Fixed Deposits (FDs), Gold, Real Estate, Mutual Funds, Stocks, Government Bonds, and starting your own business."
+      "value": "A <strong>bank fixed deposit</strong> pays interest for an agreed period, subject to the bank's terms and applicable protections. <strong>Bonds</strong> are a way of lending money to a government or company; they may pay interest, but the borrower may fail to repay or the bond's market price may change. <strong>Gold</strong> can be bought in different forms, but its price can rise or fall and it does not usually pay interest. <strong>Property</strong> may earn rent or increase in value, but buying, maintaining and selling it can be costly."
+    },
+    {
+      "type": "p",
+      "value": "You can also invest in <strong>shares</strong>, which represent ownership in a company. A <strong>mutual fund</strong> collects money from many investors and invests it according to a stated plan. An <strong>exchange-traded fund (ETF)</strong> is a fund whose units are traded on a stock exchange. Mutual funds and ETFs are ways to invest in a group of assets; they are not automatically safe, and their values can fall too."
     },
     {
       "type": "example",
-      "value": "Each investment has different levels of risk, return, and time commitment. Learning these differences helps you make better financial decisions."
+      "value": "<strong>Which might fit?</strong> Suppose you need money for a course fee in six months. A share that moves up and down sharply may not be suitable for that goal. If you are investing for a goal many years away, a diversified fund may be worth learning about, if you can accept the risk. The right choice depends on when you need the money and what loss you could manage."
+    },
+    {
+      "type": "p",
+      "value": "Before investing, compare the possible return with the risks. Ask how easily you can get your money back, what fees and taxes may apply, how the product works and whether it is regulated. Do not choose something only because it performed well recently or because a friend recommended it."
     },
     {
       "type": "tip",
-      "value": " <strong>The stock market is just one of many investment options. Throughout this course, we'll understand why many investors choose it for long-term wealth creation.</strong>"
+      "value": "Higher possible returns usually come with greater uncertainty or other trade-offs. Be careful when someone promises very high returns with no risk. Learn what you are buying before you invest. The stock market is one of several ways to invest, and in this course we will understand how it works."
     },
     {
       "type": "quiz",
-      "question": "Which of these is an investment option?",
+      "question": "What should guide your choice of investment?",
       "choices": [
-        "Gold",
-        "Stocks",
-        "Mutual Funds",
-        "All of the above"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "type": "quiz",
-      "question": "Do all investments have the same risk and return?",
-      "choices": [
-        "Yes",
-        "No"
+        "Only last year's return.",
+        "Your goal, time period, risk, access needs and costs.",
+        "What your friends are buying.",
+        "How often the price changes."
       ],
       "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is a mutual fund?",
+      "choices": [
+        "A bank savings account with a guaranteed return.",
+        "A way to pool money from investors and invest it according to a plan.",
+        "A share in one specific company in every case.",
+        "A product that cannot lose value."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "You need a known amount of money in six months. What is especially important?",
+      "choices": [
+        "A very high level of price movement.",
+        "A lock-in that lasts beyond your goal date.",
+        "Stability and access when you need the money.",
+        "The chance of unlimited loss."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why might someone invest in more than one type of asset?",
+      "choices": [
+        "To remove every possible risk.",
+        "To avoid depending entirely on one investment or market area.",
+        "To guarantee the highest return.",
+        "To avoid learning how investments work."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Someone promises very high returns with no risk. What should you do?",
+      "choices": [
+        "Invest immediately.",
+        "Borrow money to invest more.",
+        "Check the provider, terms and risks carefully; treat the promise as a warning sign.",
+        "Assume the promise must be true."
+      ],
+      "correctAnswer": 2
     }
   ],
-  "previousLesson": "l4",
-  "nextLesson": "l6"
+  "previousLesson": "data/lessons/lesson_4.json",
+  "nextLesson": "data/lessons/lesson_6.json"
 }

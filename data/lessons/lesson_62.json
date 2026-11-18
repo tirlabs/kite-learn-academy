@@ -3,38 +3,95 @@
   "title": "Average True Range (ATR)",
   "module": " Module 6 - Technical Analysis",
   "order": "Page 62 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "Average True Range (ATR) measures how much a stock typically moves during a trading period. It measures volatility, not direction."
+      "value": "The <strong>Average True Range (ATR)</strong> is an indicator that measures how much a stock typically moves during a selected period. It is used to understand volatility, not the direction of the price. A higher ATR means the stock has recently experienced larger price ranges; a lower ATR means its ranges have generally been smaller."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Some beaches have calm waves while others have huge crashing waves. ATR measures the size of the waves, not whether they move left or right."
+      "value": "<strong>Imagine This:</strong> Some days the sea has gentle waves, while on other days the waves are much larger. Measuring the size of the waves tells you how rough the sea has been, but not whether the water is moving towards or away from the shore. ATR works in a similar way for stock price movement."
     },
     {
       "type": "p",
-      "value": "A higher ATR means the stock usually experiences larger price movements. A lower ATR indicates more stable price movements."
+      "value": "ATR is calculated using a measure called <strong>True Range</strong>. For each period, True Range considers the current High minus Low, the distance between the current High and the previous Close, and the distance between the current Low and the previous Close. The largest of these values is used as that period's True Range."
     },
     {
       "type": "example",
-      "value": "If Stock A usually moves ₹2 per day and Stock B usually moves ₹40 per day, Stock B has a much higher ATR."
+      "value": "<strong>For example:</strong> Suppose a stock's current High is ₹110, its Low is ₹104 and the previous Close is ₹106. The three distances are ₹6, ₹4 and ₹2. The True Range for this period is the largest value, ₹6. ATR then averages True Range values over a selected number of periods."
+    },
+    {
+      "type": "p",
+      "value": "A commonly used ATR setting is 14 periods. On a daily chart, a 14-period ATR reflects the average true range over the latest 14 trading days. The ATR value is expressed in the stock's price units, such as rupees, rather than as a percentage unless a percentage-based version is specifically used."
+    },
+    {
+      "type": "p",
+      "value": "ATR can help traders compare how much a stock tends to move, assess whether current movement is unusually large and think about the distance for a possible stop-loss. A stock with a higher share price may naturally have a higher ATR, so comparing ATR values across different-priced stocks without context can be misleading."
+    },
+    {
+      "type": "warning",
+      "value": "<strong>ATR does not tell you whether to buy or sell.</strong> A rising ATR means price ranges are getting larger, but those larger moves can be upward or downward. It also does not predict the next price movement."
     },
     {
       "type": "tip",
-      "value": " <strong>Many traders use ATR while deciding Stop Loss levels.</strong>"
+      "value": "Remember the key distinction: ATR measures the size of price movement, not its direction. Read it alongside the price chart and the stock's context."
     },
     {
       "type": "quiz",
-      "question": "ATR mainly measures...",
+      "question": "What does ATR measure?",
       "choices": [
-        "Volatility",
-        "Company profits",
-        "Dividend yield"
+        "The direction of a stock's trend.",
+        "How much a stock typically moves, as a measure of volatility.",
+        "The company's annual profit.",
+        "The number of shares outstanding."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What does a higher ATR generally indicate?",
+      "choices": [
+        "Larger recent price ranges.",
+        "A guaranteed upward trend.",
+        "A lower share price.",
+        "Less trading activity in every case."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "In the example, High is ₹110, Low is ₹104 and previous Close is ₹106. What is the True Range?",
+      "choices": [
+        "₹2",
+        "₹4",
+        "₹6",
+        "₹10"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Does ATR tell you whether a stock will rise or fall?",
+      "choices": [
+        "Yes, a high ATR means prices will rise.",
+        "Yes, a low ATR means prices will fall.",
+        "It predicts the next closing price.",
+        "No, it measures movement size, not direction."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Why should ATR values be compared carefully across different stocks?",
+      "choices": [
+        "ATR is always expressed as a percentage.",
+        "Stocks with different price levels can naturally have different rupee ranges.",
+        "ATR is unrelated to price movement.",
+        "All stocks have the same normal range."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l61",

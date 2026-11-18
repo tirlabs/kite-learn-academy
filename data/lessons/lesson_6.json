@@ -1,53 +1,95 @@
 {
   "id": "l6",
   "title": "What is a Business?",
-  "module": " Module 1 - Foundation",
-  "order": "Page 6 of 100",
-  "readingTime": "5 mins read",
-  "difficulty": "Level: Beginner",
+  "module": "Foundation",
+  "order": 6,
+  "readingTime": "4 mins read",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Every product you use every day exists because someone started a business. Businesses solve problems and earn money by providing products or services."
+      "value": "Look around you. The food you eat, the clothes you wear, the phone you use and the transport you take are all connected to businesses. Businesses are part of everyday life. They make or provide things that people need or want, and they earn money by selling those products or services."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> You notice there is no tea shop near your school. You decide to sell tea and snacks every morning. Students buy from you because it is convenient. You earn money while solving a problem. Congratulations—you've started a business."
+      "value": "<strong>Imagine This:</strong> You notice that people in your neighbourhood have very few places to buy breakfast early in the morning. You decide to open a small shop that sells idli and tea. You buy ingredients, prepare the food, keep the shop clean and serve customers. People pay because you are providing something they want. You have started a business."
     },
     {
       "type": "p",
-      "value": "A business is any activity that provides goods or services to customers in exchange for money. It can be very small, like a roadside tea stall, or very large, like Tata, Reliance, or Infosys."
+      "value": "A business brings together people, time, materials, money and skills to provide a product or service. A grocery shop sells goods. A hospital provides healthcare. A software company creates digital products. A bus operator provides transport. Businesses can be small, like one person's tailoring shop, or large, like companies that operate across many countries."
+    },
+    {
+      "type": "p",
+      "value": "A business needs to understand its customers. If people do not need the product, cannot afford it or can get it more easily somewhere else, they may not buy it. A business must also manage its costs. The money it receives from sales is called <strong>revenue</strong>. After paying its expenses, the amount left is called <strong>profit</strong>, if anything remains. If expenses are higher than revenue, the business makes a loss."
     },
     {
       "type": "example",
-      "value": "A grocery store, a bakery, a software company, a hospital, and an online shopping website are all businesses because they provide value to customers."
+      "value": "<strong>Let's calculate:</strong> A small food shop sells meals worth ₹50,000 in a month. It spends ₹35,000 on ingredients, rent, wages and other costs. It has ₹15,000 left before any other applicable expenses or taxes. The ₹50,000 is revenue; the ₹15,000 is the profit for this simple example."
+    },
+    {
+      "type": "p",
+      "value": "A business can be useful and still struggle. It may have too few customers, costs that are too high, strong competition or poor money management. That is why, when we study a company as an investor, we should look beyond how popular its product is. We also need to understand how the business earns money and whether it can keep doing so."
     },
     {
       "type": "tip",
-      "value": " <strong>Businesses create value. Companies are one way of organizing a business. We'll learn about companies in the next lesson.</strong>"
+      "value": "A business is an activity that provides goods or services. A company is one legal way to organise and run a business. We will look at what a company means in the next lesson."
     },
     {
       "type": "quiz",
-      "question": "What is the main purpose of a business?",
+      "question": "What does a business do?",
       "choices": [
-        "To solve problems by providing goods or services.",
-        "To print money.",
-        "To avoid customers."
+        "Provides goods or services that customers are willing to pay for.",
+        "Guarantees that its owners never lose money.",
+        "Prints money for the government.",
+        "Avoids serving customers."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Which of these is a business?",
+      "question": "Which of these is an example of a business?",
       "choices": [
-        "Tea shop",
-        "Hospital",
-        "Software company",
-        "All of the above"
+        "A bakery selling bread.",
+        "A person watching television at home.",
+        "A tree growing in a forest.",
+        "A notebook kept in a drawer."
       ],
-      "correctAnswer": 3
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A shop earns ₹40,000 from sales and spends ₹30,000 on expenses. What is left before other applicable items?",
+      "choices": [
+        "₹10,000",
+        "₹30,000",
+        "₹40,000",
+        "₹70,000"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Why is revenue alone not enough to judge a business?",
+      "choices": [
+        "Revenue is always a loss.",
+        "A business may have high sales but even higher expenses.",
+        "Revenue and profit are always the same.",
+        "Customers do not affect revenue."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A useful product is not selling because customers cannot afford it. What should the business understand?",
+      "choices": [
+        "Only its logo design.",
+        "Customer needs, prices and competition.",
+        "How to guarantee its share price.",
+        "How to stop recording expenses."
+      ],
+      "correctAnswer": 1
     }
   ],
-  "previousLesson": "l5",
-  "nextLesson": "l7"
+  "previousLesson": "data/lessons/lesson_5.json",
+  "nextLesson": "data/lessons/lesson_7.json"
 }

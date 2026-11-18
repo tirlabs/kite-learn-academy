@@ -3,38 +3,91 @@
   "title": "Why Stock Prices Fall",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 33 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Just as stock prices rise when demand increases, they fall when more investors want to sell than buy."
+      "value": "A stock price may fall when sellers are willing to accept lower prices and buyers are not willing to pay as much as before. This can happen when investors become less confident about a company's future, when the wider market weakens or when new information changes what investors believe a share is worth."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A restaurant receives many complaints about poor food quality. Customers stop visiting, and profits fall. Investors lose confidence and begin selling their shares."
+      "value": "<strong>Imagine This:</strong> A restaurant that was once popular begins receiving complaints about food quality and service. Customers visit less often, sales decline and the restaurant may earn less money. People considering investing in the business may become less confident about its future. Some existing investors may decide to sell their shares."
     },
     {
       "type": "p",
-      "value": "Poor financial results, bad news, weak management decisions, economic uncertainty, or market panic can all reduce demand for a company's shares."
+      "value": "A company's share price may come under pressure because of falling sales, lower profits, rising costs, debt concerns, management problems, legal issues or a weaker business outlook. Broader factors such as higher interest rates, economic uncertainty or negative global events can also affect many stocks at the same time."
     },
     {
       "type": "example",
-      "value": "If a company reports a major loss instead of profit, many investors may decide to sell, causing the share price to decline."
+      "value": "<strong>For example:</strong> Suppose a company had been expected to make a profit of ₹100 crore but reports a loss instead. Investors may lower their expectations and place more sell orders. If buyers are not willing to pay the earlier prices, trades may take place at lower prices."
+    },
+    {
+      "type": "p",
+      "value": "A falling price does not always mean that the company is failing. Sometimes the entire market or a particular industry is going through a temporary decline. At other times, the fall may reflect a serious problem in the company itself. Understanding the reason matters more than reacting only to the colour or size of the price movement."
     },
     {
       "type": "warning",
-      "value": "⚠️ <strong>A falling stock price doesn't always mean the company is bad. Sometimes the overall market is simply reacting to temporary events.</strong>"
+      "value": "<strong>Do not assume that every fall is a buying opportunity.</strong> A stock can keep falling if the business outlook is getting worse. Equally, a temporary market decline does not automatically mean a company has become a bad business. Look for the reason and understand the risks."
+    },
+    {
+      "type": "tip",
+      "value": "When a stock falls, pause and ask: Is the problem specific to the company, the industry or the wider market? Avoid making a decision based only on fear, rumours or a single day's movement."
     },
     {
       "type": "quiz",
-      "question": "Stock prices generally fall when...",
+      "question": "When may a stock price move lower?",
       "choices": [
-        "More people want to sell than buy.",
-        "Everyone wants to buy.",
-        "No company exists."
+        "When buyers are willing to pay increasingly higher prices.",
+        "When sellers accept lower prices and buyers are less willing to pay.",
+        "Whenever a company pays its employees.",
+        "Only when the stock exchange closes."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which company development may put pressure on its share price?",
+      "choices": [
+        "A sustained decline in sales and profits.",
+        "A successful product launch.",
+        "A stronger business outlook.",
+        "A reduction in business uncertainty."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A company reports a loss when investors expected a profit. Why might its share price fall?",
+      "choices": [
+        "The company must cancel all its shares.",
+        "The stock exchange has stopped calculating prices.",
+        "Investors may revise their expectations and become more willing to sell.",
+        "Every investor is required to sell immediately."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Does a falling share price always mean the company is performing badly?",
+      "choices": [
+        "Yes, every price fall proves the business is failing.",
+        "Yes, because market prices never react to outside events.",
+        "No, but a price fall is always temporary.",
+        "No, the wider market or industry may also be responsible."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What is a sensible first step when a stock price falls sharply?",
+      "choices": [
+        "Buy more immediately without checking anything.",
+        "Try to understand whether the cause is company-specific or market-wide.",
+        "Assume the company will recover tomorrow.",
+        "Follow an unverified social media tip."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l32",

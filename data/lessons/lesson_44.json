@@ -3,36 +3,89 @@
   "title": "Bar Chart",
   "module": " Module 5 - Reading Charts",
   "order": "Page 44 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "5 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "A Bar Chart provides more information than a Line Chart. It shows the Open, High, Low and Close prices for each trading period."
+      "value": "A <strong>Bar Chart</strong> gives more price information than a basic line chart. Each bar represents one selected trading period and shows four prices: Open, High, Low and Close. These four values are often shortened to <strong>OHLC</strong>."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Instead of only knowing your exam's final score, your teacher also records your starting practice score, highest mock test score, lowest score and final exam score. A Bar Chart tells a similar story about a stock."
+      "value": "<strong>Imagine This:</strong> Instead of knowing only your final exam score, imagine your teacher also records your first practice score, your highest score, your lowest score and your final score. You would get a fuller picture of how your performance changed. An OHLC bar gives a similar summary of a stock's trading period."
     },
     {
       "type": "p",
-      "value": "Each vertical bar represents one trading period and shows how much the price moved during that time."
+      "value": "The vertical part of the bar stretches from the period's Low to its High. A small horizontal mark on the left shows the Open price. A small horizontal mark on the right shows the Close price. Together, these marks let you see the price range and where the period began and ended."
     },
     {
       "type": "example",
-      "value": "A daily bar represents one full trading day. A weekly bar represents one entire week."
+      "value": "<strong>For example:</strong> Suppose a stock opens at ₹100, reaches a high of ₹108, falls to a low of ₹98 and closes at ₹105. The bar extends from ₹98 to ₹108. Its left tick is at ₹100 and its right tick is at ₹105."
+    },
+    {
+      "type": "p",
+      "value": "A bar can represent a minute, an hour, a day, a week or another timeframe selected on the chart. A daily bar summarises one trading day; a weekly bar summarises the prices across that trading week. The meaning of each bar therefore depends on the timeframe."
+    },
+    {
+      "type": "p",
+      "value": "Bar charts show more detail than line charts, but their marks may take a little practice to read. Candlestick charts display the same four OHLC values in a different visual form and are often easier for beginners to interpret quickly."
     },
     {
       "type": "tip",
-      "value": " <strong>Bar charts contain more information than line charts but are still relatively simple to understand.</strong>"
+      "value": "Remember the layout: the vertical bar shows the High and Low, the left tick shows the Open, and the right tick shows the Close."
     },
     {
       "type": "quiz",
-      "question": "A Bar Chart shows...",
+      "question": "What information does an OHLC bar show?",
       "choices": [
-        "Open, High, Low and Close prices.",
-        "Only closing prices.",
-        "Company profits."
+        "Open, High, Low and Close.",
+        "Only the opening and closing prices.",
+        "Only trading volume.",
+        "Company revenue, profit, assets and debt."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "What does the vertical part of an OHLC bar represent?",
+      "choices": [
+        "The difference between two companies' prices.",
+        "The opening and closing prices only.",
+        "The range from the Low to the High.",
+        "The number of shares traded."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Where is the Open price shown on a traditional OHLC bar?",
+      "choices": [
+        "On the right-hand tick.",
+        "On the left-hand tick.",
+        "At the top of the bar only.",
+        "At the bottom of the chart."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A bar has a High of ₹108 and a Low of ₹98. What does its vertical section cover?",
+      "choices": [
+        "₹100 to ₹105 only.",
+        "₹98 to ₹100 only.",
+        "₹105 to ₹108 only.",
+        "₹98 to ₹108."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What does one bar represent?",
+      "choices": [
+        "One selected trading period, such as a minute, day or week.",
+        "One individual investor.",
+        "One company result announcement.",
+        "One calendar year in every chart."
       ],
       "correctAnswer": 0
     }

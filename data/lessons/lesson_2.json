@@ -1,48 +1,95 @@
 {
   "id": "l2",
   "title": "Why Should We Save Money?",
-  "module": " Module 1 - Foundation",
-  "order": "Page 2 of 100",
+  "module": "Foundation",
+  "order": 2,
   "readingTime": "4 mins read",
-  "difficulty": "Level: Beginner",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Imagine receiving ₹100 today. You could spend it immediately on snacks, or you could save it for something bigger that you really want later. Saving is simply choosing tomorrow over today."
+      "value": "Imagine receiving ₹100 today. You could spend it immediately on snacks, or you could save it for something bigger that you really want later. Saving means keeping some of your money instead of spending it all now. It is a way of preparing for tomorrow while still taking care of what you need today."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A bicycle costs ₹8,000. Instead of asking your parents to buy it immediately, you save ₹500 every month. After several months, you proudly buy it using your own savings."
+      "value": "<strong>Imagine This:</strong> A bicycle costs ₹8,000. You decide not to buy it straight away. Instead, you save ₹500 every month. After 16 months, you have enough to buy it. Each month may feel like a small step, but together those steps help you reach a goal without needing to borrow the full amount."
     },
     {
       "type": "p",
-      "value": "People save money for many reasons: emergencies, education, travel, buying a house, retirement, or simply to feel financially secure."
+      "value": "People save for different reasons. You may save for a planned purchase, education, travel, a home or retirement. You may also need money for something you did not expect, such as a medical bill, a repair or a period when you cannot work. Money kept for these surprises is called an <strong>emergency fund</strong>. It can help you manage a difficult situation without immediately taking a loan or selling an investment at a bad time."
+    },
+    {
+      "type": "p",
+      "value": "Saving also helps you make choices. If you have some money set aside, you may not have to depend on someone else every time an unexpected expense comes up. You can decide what to do with your money instead of being forced to borrow. The amount you save will depend on your income and expenses. Even a small amount saved regularly can build a useful habit."
+    },
+    {
+      "type": "example",
+      "value": "<strong>Try the numbers:</strong> Suppose you want to save ₹12,000 in one year. If you save ₹1,000 each month, you will reach your goal in 12 months, before any interest. If ₹1,000 is too much, start with an amount you can manage and increase it when your income allows."
+    },
+    {
+      "type": "p",
+      "value": "A simple way to save is to decide on an amount when you receive your income and move it to a separate savings account. Then plan your spending with what remains. This is why people often say, <strong>“Spend what is left after saving, not save what is left after spending.”</strong> The idea is to make saving a regular part of your plan, rather than waiting to see if anything is left at the end."
     },
     {
       "type": "tip",
-      "value": " <strong>Golden Rule:</strong> Spend what is left after saving, not save what is left after spending."
+      "value": "Keep money for emergencies and near-term needs somewhere suitable and easy to access. Money you may need soon should not depend on the stock market, because investment values can fall just when you need the cash. Saving is not about never enjoying your money; it is about making room for both today's needs and tomorrow's plans."
     },
     {
       "type": "quiz",
-      "question": "Why do people save money?",
+      "question": "What does saving money mean?",
       "choices": [
-        "To prepare for future needs.",
-        "To make their wallet heavier.",
-        "To avoid working."
+        "Spending all your income immediately.",
+        "Keeping some money instead of spending it now.",
+        "Borrowing money for future needs.",
+        "Buying shares with every rupee."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is an emergency fund meant for?",
+      "choices": [
+        "Buying only luxury items.",
+        "Taking bigger investment risks.",
+        "Meeting unexpected expenses.",
+        "Making sure prices never rise."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "You want to save ₹8,000 in 8 months. How much should you save each month, ignoring interest?",
+      "choices": [
+        "₹500",
+        "₹800",
+        "₹1,000",
+        "₹1,500"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why can saving regularly be helpful?",
+      "choices": [
+        "Small amounts can build up towards a goal.",
+        "It guarantees that you will become rich.",
+        "It removes every unexpected expense.",
+        "It means you never need to plan spending."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Saving helps you...",
+      "question": "Where is money for an emergency usually best kept?",
       "choices": [
-        "Prepare for emergencies.",
-        "Print more money.",
-        "Reduce the price of products."
+        "In a highly volatile share.",
+        "In an investment that cannot be accessed for years.",
+        "In a suitable place where it is relatively stable and easy to access.",
+        "In an asset chosen only because its price recently rose."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 2
     }
   ],
-  "previousLesson": "l1",
-  "nextLesson": "l3"
+  "previousLesson": "data/lessons/lesson_1.json",
+  "nextLesson": "data/lessons/lesson_3.json"
 }

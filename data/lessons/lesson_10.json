@@ -1,66 +1,95 @@
 {
   "id": "l10",
   "title": "What is a Share?",
-  "module": " Module 1 - Foundation",
-  "order": "Page 10 of 100",
-  "readingTime": "7 mins read",
-  "difficulty": "Level: Beginner",
+  "module": "Foundation",
+  "order": 10,
+  "readingTime": "5 mins read",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "A share represents a small piece of ownership in a company. When you buy a share, you become one of the company's owners."
+      "value": "A share represents a small unit of ownership in a company. When you buy a share, you become one of the company's shareholders. You do not become the owner of the whole company, but you own a small part of it along with the other shareholders."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A pizza is cut into eight equal slices. If you own one slice, you own one-eighth of the pizza. Companies work in a similar way—they divide ownership into millions of small pieces called shares."
+      "value": "<strong>Imagine This:</strong> Four friends start a business and agree to divide its ownership into 100 equal shares. If one friend owns 25 shares, that friend owns 25% of the shares. The other three friends own the remaining 75% between them. The shares help show how the company is owned."
     },
     {
       "type": "p",
-      "value": "Instead of selling the entire company to one person, a company divides itself into many shares. Investors buy these shares and become part owners."
+      "value": "Companies divide their ownership into shares so that many people can own parts of the same business. A company may have thousands, lakhs or even crores of shares. When investors buy shares, they become part-owners. The exact rights they receive depend on the type of share they own and the rules that apply."
     },
     {
       "type": "example",
-      "value": "If a company has 1,000 shares and you own 10 of them, you own 1% of that company."
+      "value": "<strong>Let's work it out:</strong> A company has 1,000 equal shares. You own 10 of them. Your share of the total is 10 ÷ 1,000 × 100 = 1%. If the company later issues more shares and you do not buy any, your percentage may become smaller because the total number of shares has increased."
     },
     {
-      "type": "story",
-      "value": " Think of a large apartment building with 100 flats. Owning one flat doesn't mean you own the whole building—you simply own one small part. Buying shares works in exactly the same way."
+      "type": "p",
+      "value": "As a shareholder, you may have the right to vote on certain company matters. The company may also pay you a <strong>dividend</strong>, which is a part of its profits distributed to shareholders, if the company declares one. Some investors may also earn money if they sell their shares for more than they paid. But none of these outcomes is guaranteed. A share price can fall, and a company may choose not to pay a dividend."
+    },
+    {
+      "type": "p",
+      "value": "Owning shares does not mean you can walk into the company's office and take a part of its machines, products or money. The company owns its assets. Your share gives you the ownership rights attached to that share, not direct ownership of each item the company has. You also do not automatically get to run the business. Managers and directors handle its day-to-day work."
     },
     {
       "type": "tip",
-      "value": " <strong>This simple idea of shared ownership is the foundation of the entire stock market.</strong>"
-    },
-    {
-      "type": "quiz",
-      "question": "Buying a share means...",
-      "choices": [
-        "You become a part owner of a company.",
-        "You become the CEO.",
-        "You lend money to the company forever."
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "type": "quiz",
-      "question": "If a company has 100 shares and you own 5, what percentage do you own?",
-      "choices": [
-        "2%",
-        "5%",
-        "10%"
-      ],
-      "correctAnswer": 1
+      "value": "Think like an owner before buying a share. Learn what the company does, how it earns money, what rights come with the share and what risks you are taking. This simple idea of shared ownership is the foundation of the stock market."
     },
     {
       "type": "quiz",
       "question": "What does a share represent?",
       "choices": [
-        "A small piece of ownership.",
-        "A loan receipt.",
-        "A government certificate."
+        "A loan that must be repaid next month.",
+        "A unit of ownership in a company.",
+        "A guaranteed dividend.",
+        "A job in the company."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "A company has 100 equal shares and you own 5. What percentage do you own?",
+      "choices": [
+        "2%",
+        "5%",
+        "10%",
+        "20%"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "What is a dividend?",
+      "choices": [
+        "A fee paid to buy a share.",
+        "A part of a company's profits that it may distribute to shareholders.",
+        "A loan given by a shareholder to a bank.",
+        "A guaranteed payment made every month."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "If a company issues more shares and you do not buy any, what may happen to your ownership percentage?",
+      "choices": [
+        "It may become smaller.",
+        "It must double.",
+        "It becomes 50%.",
+        "It can never change."
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement about owning shares is correct?",
+      "choices": [
+        "You directly own a part of every company building.",
+        "You automatically control the company's daily work.",
+        "You own an interest in the company and have the rights attached to your shares.",
+        "The company must always pay you a dividend."
+      ],
+      "correctAnswer": 2
     }
   ],
-  "previousLesson": "l9",
-  "nextLesson": "l11"
+  "previousLesson": "data/lessons/lesson_9.json",
+  "nextLesson": null
 }

@@ -1,53 +1,95 @@
 {
   "id": "l7",
   "title": "What is a Company?",
-  "module": " Module 1 - Foundation",
-  "order": "Page 7 of 100",
-  "readingTime": "5 mins read",
-  "difficulty": "Level: Beginner",
+  "module": "Foundation",
+  "order": 7,
+  "readingTime": "4 mins read",
+  "difficulty": "Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "As businesses grow, they need better organization. A company is simply a business that is legally registered and recognized by the government."
+      "value": "A business and a company are related, but they do not mean exactly the same thing. A person can run a small business without creating a company. When people want a formal structure for ownership, responsibilities and growth, they may choose to register a company under the law."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Your tea shop becomes so popular that you open 20 branches across different cities. You hire employees, maintain accounts, pay taxes, and register your business. It is no longer just a small shop—it has become a company."
+      "value": "<strong>Imagine This:</strong> Your small food business becomes popular. You open more branches, hire employees and bring in people who invest money to help it grow. You want the business to have a formal identity of its own, separate from the people who own it. One option is to register a company."
     },
     {
       "type": "p",
-      "value": "Companies can own property, hire employees, borrow money, pay taxes, sign contracts, and continue operating even if their owners change."
+      "value": "A company is a <strong>legal entity</strong>. This means the law recognises it as an organisation that can have its own rights and responsibilities. A company can own property, open bank accounts, hire people, sign contracts, borrow money and take legal action in its own name. It must also follow the laws and rules that apply to it."
+    },
+    {
+      "type": "p",
+      "value": "A company is separate from its shareholders. Shareholders own shares in the company, but they do not personally own each company building, machine or product. The company owns those things. The people who own shares may have certain rights, such as voting on some matters, depending on the type of shares and the law."
     },
     {
       "type": "example",
-      "value": "Apple, Reliance, Infosys, Tata Consultancy Services (TCS), and HDFC Bank are all companies."
+      "value": "<strong>For example:</strong> A person running a neighbourhood grocery shop as a sole proprietor is running a business, but the shop is not a separate company. A technology business registered as a company has its own legal identity. Both are businesses, but their legal structures are different."
+    },
+    {
+      "type": "p",
+      "value": "There are different ways to organise a business. It may be a <strong>sole proprietorship</strong>, run by one owner; a <strong>partnership</strong>, run by two or more partners; a <strong>Limited Liability Partnership (LLP)</strong>; or a company. Each form has different rules about ownership, responsibility, taxes and paperwork."
     },
     {
       "type": "tip",
-      "value": " <strong>Every large company started as a small business.</strong>"
+      "value": "When you buy shares, you buy an ownership interest in the company. You do not directly buy a part of its office, factory or products. Understanding this difference will help when we learn how shares and the stock market work."
     },
     {
       "type": "quiz",
-      "question": "A company is...",
+      "question": "What is a company?",
       "choices": [
-        "A legally registered business.",
-        "Only a large building.",
-        "A government office."
+        "Any activity that earns money, whether registered or not.",
+        "A legal entity registered under company law.",
+        "A building where people work.",
+        "A business that must be owned by the government."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Which can be a business without being a company?",
+      "choices": [
+        "A sole proprietorship.",
+        "A listed public company.",
+        "A company limited by shares.",
+        "A company registered under company law."
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Which of these is a company?",
+      "question": "What does a separate legal identity mean?",
       "choices": [
-        "Infosys",
-        "Reliance",
-        "Apple",
-        "All of the above"
+        "Shareholders personally own every company asset.",
+        "The company can have rights and responsibilities in its own name.",
+        "The company does not need to follow laws.",
+        "The company cannot sign contracts."
       ],
-      "correctAnswer": 3
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "When you buy shares in a company, what do you receive?",
+      "choices": [
+        "Direct ownership of a particular company building.",
+        "A job in the company.",
+        "An ownership interest represented by those shares.",
+        "A guaranteed dividend."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Which statement is correct?",
+      "choices": [
+        "Every business must be a company.",
+        "Every company must be listed on a stock exchange.",
+        "A business may operate as a sole proprietorship, partnership, LLP or company.",
+        "A company has no responsibilities of its own."
+      ],
+      "correctAnswer": 2
     }
   ],
-  "previousLesson": "l6",
-  "nextLesson": "l8"
+  "previousLesson": "data/lessons/lesson_6.json",
+  "nextLesson": "data/lessons/lesson_8.json"
 }

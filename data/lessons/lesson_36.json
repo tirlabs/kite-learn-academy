@@ -3,38 +3,91 @@
   "title": "Market Capitalization",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 36 of 100",
-  "readingTime": "7 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "Many beginners think a ₹5,000 stock is bigger than a ₹500 stock. This is not true. To know how big a company really is, we use Market Capitalization."
+      "value": "A share priced at ₹5,000 is not necessarily part of a bigger company than a share priced at ₹500. The price of one share does not tell you how much the entire company is worth in the stock market. To understand the market value of a listed company's equity, investors look at <strong>Market Capitalization</strong>, often shortened to Market Cap."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Two apartment buildings have flats for sale. One has 20 luxury flats worth ₹1 crore each, while another has 500 flats worth ₹20 lakh each. Looking only at one flat's price doesn't tell you which building is larger."
+      "value": "<strong>Imagine This:</strong> One apartment building has 20 flats worth ₹1 crore each. Another has 100 flats worth ₹25 lakh each. Looking at the price of one flat alone does not tell you which building has the greater total value. You need to consider both the value per flat and the number of flats."
     },
     {
       "type": "p",
-      "value": "Market Capitalization (Market Cap) is the total value of all a company's outstanding shares. It is calculated as Share Price × Total Number of Shares."
+      "value": "Market Capitalization is calculated by multiplying the current market price of one share by the total number of the company's outstanding shares. Outstanding shares are the shares that have been issued and are currently held by shareholders. Since share prices change, a company's market capitalization can also change during the trading day."
     },
     {
       "type": "example",
-      "value": "If a company has 10 crore shares and each share is worth ₹100, its Market Capitalization is ₹1,000 crore."
+      "value": "<strong>Let's work it out:</strong> A company has 10 crore outstanding shares and each share is trading at ₹100. Market Capitalization = ₹100 × 10 crore = ₹1,000 crore. If the share price rises to ₹110 and the number of shares stays the same, its market capitalization becomes ₹1,100 crore."
+    },
+    {
+      "type": "p",
+      "value": "Market capitalization is commonly used to group companies by size, such as large-cap, mid-cap and small-cap. These labels help investors compare companies, but they do not tell you whether a company is financially healthy, fairly valued or suitable for your needs. A large market cap does not remove investment risk."
+    },
+    {
+      "type": "p",
+      "value": "Market Cap is also different from the value of everything a company owns or the amount of money it has in its bank account. It represents the market value of its equity based on the share price and outstanding shares. Other measures are needed to understand debt, cash, assets and the overall value of the business."
     },
     {
       "type": "tip",
-      "value": " <strong>Never judge a company by its share price alone. Market Capitalization tells you its actual size.</strong>"
+      "value": "Do not judge a company by the price of one share. Look at its market capitalization for a sense of its stock-market size, and study its business and financial position separately."
     },
     {
       "type": "quiz",
-      "question": "Market Capitalization is calculated using...",
+      "question": "What does Market Capitalization represent?",
       "choices": [
-        "Share Price × Total Shares",
-        "Profit × Employees",
-        "Revenue × Years"
+        "The company's yearly profit.",
+        "The market value of a company's outstanding equity shares.",
+        "The amount of cash in the company's bank account.",
+        "The price of one share when it was first issued."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "How is Market Capitalization generally calculated?",
+      "choices": [
+        "Profit × Number of employees.",
+        "Revenue ÷ Share price.",
+        "Current share price × Outstanding shares.",
+        "Dividend × Number of shareholders."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "A company has 5 crore shares priced at ₹200 each. What is its Market Capitalization?",
+      "choices": [
+        "₹1,000 crore",
+        "₹200 crore",
+        "₹5 crore",
+        "₹10,000 crore"
       ],
       "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "If the share price rises while the number of outstanding shares stays the same, what usually happens to Market Cap?",
+      "choices": [
+        "It becomes zero.",
+        "It cannot change.",
+        "It always falls.",
+        "It increases."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "Does a large Market Cap guarantee that a company is a good investment?",
+      "choices": [
+        "Yes, large companies cannot lose value.",
+        "No, Market Cap shows market size, not whether the share is fairly valued or suitable.",
+        "Yes, it guarantees regular dividends.",
+        "No, because Market Cap is unrelated to share prices."
+      ],
+      "correctAnswer": 1
     }
   ],
   "previousLesson": "l35",

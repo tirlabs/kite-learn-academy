@@ -3,54 +3,97 @@
   "title": "Stop Loss",
   "module": " Module 8 - Risk Management & Portfolio Building",
   "order": "Page 85 of 100",
-  "readingTime": "10 mins read",
+  "readingTime": 3,
   "difficulty": "Level: Intermediate",
   "blocks": [
     {
       "type": "p",
-      "value": "A Stop Loss is a predefined price at which an investor or trader decides to exit a position to limit further losses."
+      "value": "A stop loss is a predefined price level at which a trader plans to exit a position if the market moves against them. It is a risk-management tool: the exit decision is considered before emotions take over, rather than being made in panic after a sharp fall."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> Every modern building has fire exits. You hope you'll never need them, but they're essential if something goes wrong. A Stop Loss serves the same purpose in investing."
+      "value": "<strong>Imagine This:</strong> Buildings have fire exits. You hope you will never need them, but you identify them in advance because an emergency can leave little time to think. A stop loss serves a similar purpose in a trade: it defines a point at which you intend to leave if the trade is not going as planned."
     },
     {
       "type": "p",
-      "value": "Setting a Stop Loss helps remove emotions from investing by deciding in advance how much loss you're willing to accept."
+      "value": "Suppose you buy a share at ₹500 and decide that a fall to ₹470 would mean your original trading idea is no longer working. You may place a stop-loss order around ₹470. The ₹30 difference is your planned price risk per share, not a guarantee of the final loss."
     },
     {
       "type": "example",
-      "value": "You buy a stock at ₹500 and decide you'll exit if it falls to ₹470. Your Stop Loss is ₹470."
+      "value": "If you buy 20 shares at ₹500 and plan to exit at ₹470, the planned loss is ₹30 × 20 = ₹600, before charges. If the market suddenly opens at ₹455, a stop-market order may execute around the available market price rather than ₹470. Your actual loss could therefore be larger."
     },
     {
-      "type": "warning",
-      "value": "⚠️ <strong>A Stop Loss does not guarantee your exact exit price during extremely fast market movements.</strong>"
+      "type": "p",
+      "value": "Order type matters. With a stop-market order, reaching the trigger generally sends a market order to sell; execution is prioritised, but the price is not guaranteed. With a stop-limit order, reaching the trigger activates a limit order. It gives you control over the minimum acceptable sale price, but the order may remain unfilled if the market moves below that limit."
     },
     {
-      "type": "tip",
-      "value": " <strong>Protecting your capital is just as important as growing it.</strong>"
+      "type": "p",
+      "value": "A stop level should have a reason. Traders may use chart levels, volatility or a point where their trade idea is invalidated. Setting it too close to the entry can lead to an exit from ordinary price movement; setting it too far away can create a loss larger than they can comfortably accept."
     },
     {
       "type": "fact",
-      "value": " Long-term investors may use wider mental stop losses based on business fundamentals, while active traders often use predefined technical stop losses."
+      "value": "Active traders often use predefined price-based exits. Long-term investors may instead review whether the company's business and investment thesis have changed. These are different approaches; a tight trading stop is not automatically suitable for every long-term holding."
+    },
+    {
+      "type": "tip",
+      "value": "Decide the exit level and position size together. Check the order type, trigger price and quantity with your broker, and understand how the order behaves in fast markets."
+    },
+    {
+      "type": "warning",
+      "value": "A stop loss does not remove market risk or guarantee an exact exit price. In volatile or illiquid conditions, an order may execute at a worse price or may not execute as expected."
     },
     {
       "type": "quiz",
-      "question": "What is the purpose of a Stop Loss?",
+      "question": "What is the main purpose of a stop loss?",
       "choices": [
-        "To limit potential losses.",
-        "To increase brokerage.",
-        "To guarantee profits."
+        "Guarantee a profit",
+        "Set an exit plan if price moves against a trade",
+        "Increase the share price",
+        "Avoid all market risk"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "You buy 20 shares at ₹500 and plan to exit at ₹470. What is the planned loss before costs?",
+      "choices": [
+        "₹300",
+        "₹500",
+        "₹600",
+        "₹900"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "What generally happens when a stop-market order is triggered?",
+      "choices": [
+        "A market order is sent for execution",
+        "A guaranteed price is created",
+        "The order becomes a dividend",
+        "The share is automatically delisted"
       ],
       "correctAnswer": 0
     },
     {
       "type": "quiz",
-      "question": "Why do many investors use a Stop Loss?",
+      "question": "What is a possible disadvantage of a stop-limit order?",
       "choices": [
-        "To control risk and reduce emotional decisions.",
-        "To make prices go up.",
-        "To receive dividends."
+        "It always executes at any price",
+        "It may remain unfilled if the market moves beyond the limit",
+        "It guarantees a profit",
+        "It cannot have a trigger price"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Why might a long-term investor use a different exit approach from an active trader?",
+      "choices": [
+        "Their investment horizon and decision basis may differ",
+        "Long-term investments have no risk",
+        "Traders cannot use stop orders",
+        "Long-term investors never review holdings"
       ],
       "correctAnswer": 0
     }

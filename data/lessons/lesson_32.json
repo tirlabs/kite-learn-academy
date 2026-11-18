@@ -3,39 +3,87 @@
   "title": "Why Stock Prices Rise",
   "module": " Module 4 - Understanding Prices",
   "order": "Page 32 of 100",
-  "readingTime": "6 mins read",
+  "readingTime": "4 mins read",
   "difficulty": "Level: Beginner",
   "blocks": [
     {
       "type": "p",
-      "value": "A company's share price rises when more people want to buy it than sell it. But what makes people suddenly want to buy a company?"
+      "value": "A stock price may rise when buyers are willing to pay more for the shares than before. But why would investors become more interested in buying a particular company? Often, it is because they expect something about the company's future to improve. A rising price reflects the changing expectations and decisions of market participants."
     },
     {
       "type": "story",
-      "value": " <strong>Imagine This:</strong> A company launches an amazing new mobile phone that becomes a huge success. Investors believe the company will earn more profits in the future, so many people rush to buy its shares."
+      "value": "<strong>Imagine This:</strong> A company launches a new product that customers like. Sales grow, and the company may earn higher profits in the future. Investors who believe this growth can continue may become more interested in owning its shares. If enough buyers are willing to pay higher prices, the stock may rise."
     },
     {
       "type": "p",
-      "value": "Good quarterly results, new products, higher profits, expansion plans, government support, and positive investor confidence can all increase demand for a stock."
+      "value": "Several developments can increase investor interest. These include better-than-expected financial results, growing sales, successful new products, expansion into new markets, improving profit margins or a stronger outlook from the company. Positive developments in an industry or the wider economy can also influence stock prices."
     },
     {
       "type": "example",
-      "value": "If Infosys announces better-than-expected profits, investors may buy more shares, causing the price to rise."
+      "value": "<strong>For example:</strong> Imagine Infosys reports quarterly revenue and profit that are better than analysts expected. Some investors may revise their view of the company's future and place more buy orders. If buyers are willing to pay higher prices and those orders are matched with sellers, the share price may rise."
+    },
+    {
+      "type": "p",
+      "value": "A stock can also rise before a positive event actually happens. Investors sometimes buy because they expect good results in the future. When the news is finally announced, the price may rise further, remain unchanged or even fall if the result is not as strong as investors had expected. This is why a good announcement does not guarantee that a stock will go up."
     },
     {
       "type": "tip",
-      "value": " <strong>Stock prices move based on what investors expect about the future, not only what happened today.</strong>"
+      "value": "A rising share price tells you that the market is currently willing to trade the stock at higher prices. It does not, by itself, prove that the company is financially strong or that the stock is a good investment."
     },
     {
       "type": "quiz",
-      "question": "Which of these can increase a company's share price?",
+      "question": "Which situation may increase demand for a company's shares?",
       "choices": [
-        "Better profits",
-        "Strong future growth",
-        "Higher investor demand",
-        "All of the above"
+        "A serious fall in customer demand.",
+        "A major product failure.",
+        "Better-than-expected business results.",
+        "A permanent shutdown of its operations."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "type": "quiz",
+      "question": "Why might investors buy shares after a company announces strong growth?",
+      "choices": [
+        "They may expect the company to perform better in the future.",
+        "They know the share price cannot fall again.",
+        "They are guaranteed a dividend.",
+        "The stock exchange requires them to buy."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "type": "quiz",
+      "question": "A company reports a profit, but the profit is much lower than investors expected. What may happen?",
+      "choices": [
+        "The share price must rise because profit is positive.",
+        "The share price may fall because expectations were not met.",
+        "The stock cannot be traded.",
+        "Every shareholder receives extra shares."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "type": "quiz",
+      "question": "Can a stock price rise before a company reports higher profits?",
+      "choices": [
+        "No, prices change only after annual reports.",
+        "Only the company can change its market price.",
+        "No, investors cannot act on expectations.",
+        "Yes, investors may buy based on what they expect to happen."
       ],
       "correctAnswer": 3
+    },
+    {
+      "type": "quiz",
+      "question": "What does a rising stock price alone tell you?",
+      "choices": [
+        "The company is certain to remain successful.",
+        "Every investor has made a profit.",
+        "The stock is currently trading at higher prices, but this alone does not prove it is a good investment.",
+        "The company must pay a dividend."
+      ],
+      "correctAnswer": 2
     }
   ],
   "previousLesson": "l31",
