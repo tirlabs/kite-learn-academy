@@ -851,7 +851,9 @@ body {
     line-height: 1.75;
 }
 
+.reader-story-box,
 .reader-example-box,
+.reader-tip-box,
 .reader-warning-box,
 .reader-fact-box {
     font-size: 1.05rem;
@@ -867,6 +869,16 @@ body {
 
 .reader-example-box {
     border-left-color: var(--brilliant-blue);
+}
+
+.reader-story-box {
+    border-left-color: var(--brilliant-blue);
+    background-color: #eff6ff;
+}
+
+.reader-tip-box {
+    border-left-color: var(--brilliant-green);
+    background-color: var(--fill-tip);
 }
 
 .reader-warning-box {
@@ -1328,6 +1340,8 @@ html.dark .search-result-item:hover {
     background-color: #232327;
 }
 
+html.dark .reader-story-box,
+html.dark .reader-tip-box,
 html.dark .reader-example-box,
 html.dark .reader-warning-box,
 html.dark .reader-fact-box {
