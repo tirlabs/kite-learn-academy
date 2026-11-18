@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIP Calculator – Estimate Your Mutual Fund Investment Growth | KiteLearn</title>
+  <meta name="description" content="Use KiteLearn's free SIP calculator to estimate how monthly mutual fund investments may grow over time. Understand your investment, estimated returns and assumptions.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://kitelearn.in/calculators/sip-calculator/">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/public-pages.css">
+  <link rel="stylesheet" href="/css/calculators.css">
+  <meta name="theme-color" content="#2563eb">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="KiteLearn">
+  <meta property="og:title" content="SIP Calculator | KiteLearn">
+  <meta property="og:description" content="Estimate how regular monthly investments may grow over time. Explore the inputs, result and assumptions with KiteLearn.">
+  <meta property="og:url" content="https://kitelearn.in/calculators/sip-calculator/">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"KiteLearn SIP Calculator","url":"https://kitelearn.in/calculators/sip-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"description":"An educational SIP calculator that estimates the future value of monthly investments using a user-selected assumed annual return."}
+  </script>
+  <script defer src="/js/calculators/calculator-core.js"></script>
+  <script defer src="/js/calculators/calculator-format.js"></script>
+  <script defer src="/js/calculators/modules/sip.js"></script>
+  <script defer src="/js/calculators/calculator-registry.js"></script>
+  <script defer src="/js/calculators/calculator-ui.js"></script>
+</head>
+<body>
+  <header class="kl-public-header">
+    <div class="kl-public-header-inner">
+      <a href="/" aria-label="KiteLearn home"><img class="kl-public-logo" src="/kitelearn-logo-final.png" alt="KiteLearn — A Personal Tutor for the Stock Market"></a>
+      <nav class="kl-public-nav" aria-label="Main navigation"><a href="/learn/">Learn</a><a href="/calculators/">Calculators</a><a href="/about.html">About</a></nav>
+    </div>
+  </header>
+
+  <main class="kl-public-main kl-calculator-main">
+    <div class="kl-breadcrumb"><a href="/">Home</a> / <a href="/calculators/">Calculators</a> / SIP Calculator</div>
+    <div class="kl-eyebrow">INVESTMENT CALCULATORS</div>
+    <h1 class="kl-title">SIP Calculator</h1>
+    <p class="kl-calculator-intro">Explore how regular monthly investing may grow over time. Change the amount, assumed return and duration to understand how each factor affects the estimate.</p>
+
+    <section class="kl-calculator-layout" aria-label="SIP calculator">
+      <div class="kl-calculator-card">
+        <h2>Your investment details</h2>
+        <form id="sip-form" novalidate>
+          <label class="kl-field" for="sip-monthly">
+            <span class="kl-field-label"><span>Monthly investment</span><span>₹</span></span>
+            <input id="sip-monthly" name="monthlyInvestment" type="number" inputmode="decimal" min="1" max="100000000" step="500" value="5000" required aria-describedby="sip-monthly-hint">
+            <span class="kl-field-hint" id="sip-monthly-hint">Amount you plan to invest each month.</span>
+          </label>
+          <label class="kl-field" for="sip-return">
+            <span class="kl-field-label"><span>Assumed annual return</span><span>%</span></span>
+            <input id="sip-return" name="annualReturn" type="number" inputmode="decimal" min="0" max="100" step="0.5" value="12" required aria-describedby="sip-return-hint">
+            <span class="kl-field-hint" id="sip-return-hint">An illustrative rate, not a prediction or promise.</span>
+          </label>
+          <label class="kl-field" for="sip-years">
+            <span class="kl-field-label"><span>Investment duration</span><span>Years</span></span>
+            <input id="sip-years" name="years" type="number" inputmode="numeric" min="1" max="50" step="1" value="10" required aria-describedby="sip-years-hint">
+            <span class="kl-field-hint" id="sip-years-hint">Choose a whole number between 1 and 50 years.</span>
+          </label>
+          <div class="kl-field-actions"><button class="kl-text-button" type="reset">Reset to example values</button></div>
+          <p id="sip-error" class="kl-calculator-error" role="alert" hidden></p>
+        </form>
+      </div>
+
+      <section class="kl-result-card" id="sip-results" aria-live="polite" aria-labelledby="sip-result-heading">
+        <div class="kl-result-label" id="sip-result-heading">Estimated future value</div>
+        <div class="kl-result-total" id="sip-total">₹11,50,193</div>
+        <div class="kl-result-row"><span>Total amount invested</span><strong id="sip-invested">₹6,00,000</strong></div>
+        <div class="kl-result-row"><span>Estimated growth</span><strong id="sip-growth">₹5,50,193</strong></div>
+        <div class="kl-result-chart" role="img" aria-label="Illustrative split between amount invested and estimated growth"><span class="kl-bar-invested" id="sip-bar-invested" style="width:52%"></span><span class="kl-bar-growth" id="sip-bar-growth" style="width:48%"></span></div>
+        <div class="kl-chart-legend"><span><span>Amount invested</span><b id="sip-legend-invested">₹6,00,000</b></span><span><span>Estimated growth</span><b id="sip-legend-growth">₹5,50,193</b></span></div>
+        <p class="kl-calculator-note">Illustrative estimate only. Actual mutual fund returns vary and are not guaranteed. This calculation excludes taxes, fees and inflation.</p>
+      </section>
+    </section>
+
+    <section class="kl-panel" style="margin-top:24px" aria-labelledby="sip-understand-heading">
+      <h2 id="sip-understand-heading">Understand your result</h2>
+      <p id="sip-summary" class="kl-content">Investing ₹5,000 at the end of each month for 10 years, using an assumed annual return of 12%, gives an illustrative future value. Change the inputs to explore different outcomes.</p>
+      <div class="kl-explain-grid">
+        <div class="kl-explain-card"><h3>Total amount invested</h3><p>This is the sum of all monthly contributions. It does not include any investment growth.</p></div>
+        <div class="kl-explain-card"><h3>Estimated growth</h3><p>This is the difference between the estimated future value and the total amount contributed.</p></div>
+      </div>
+    </section>
+
+    <section class="kl-panel" style="margin-top:22px" aria-labelledby="sip-formula-heading">
+      <h2 id="sip-formula-heading">How is the SIP estimate calculated?</h2>
+      <p>The calculator uses the future-value formula for a series of equal monthly contributions (an ordinary annuity):</p>
+      <div class="kl-formula" aria-label="Future value equals monthly investment multiplied by the quantity one plus monthly rate raised to the number of months minus one, divided by monthly rate">FV = P × (((1 + r)<sup>n</sup> − 1) ÷ r)</div>
+      <p><strong>P</strong> is the monthly investment, <strong>r</strong> is the assumed monthly rate (annual rate ÷ 12), and <strong>n</strong> is the total number of monthly contributions (years × 12). If the assumed return is 0%, the future value is simply the total amount invested.</p>
+      <p><strong>Timing assumption:</strong> each monthly contribution is assumed to be invested at the end of the month. The monthly rate is calculated as the annual assumed rate divided by 12, with monthly compounding.</p>
+    </section>
+
+    <section class="kl-panel" style="margin-top:22px" aria-labelledby="sip-limits-heading">
+      <h2 id="sip-limits-heading">What this estimate does not include</h2>
+      <ul>
+        <li>Market volatility or changes in actual mutual fund returns.</li>
+        <li>Expense ratios, taxes, exit loads or other charges.</li>
+        <li>The effect of inflation on future purchasing power.</li>
+        <li>Missed, delayed or changing monthly contributions.</li>
+      </ul>
+      <p class="kl-disclaimer">This tool is for financial education and illustration only. It does not recommend any mutual fund or investment, and it is not a guarantee of future performance.</p>
+    </section>
+
+    <section class="kl-panel" style="margin-top:22px" aria-labelledby="sip-related-heading">
+      <h2 id="sip-related-heading">Continue learning</h2>
+      <p>Build your understanding of regular investing with these KiteLearn lessons.</p>
+      <div class="kl-related-lessons"><a href="/learn/systematic-investment-plan-sip/">What is a SIP?</a><a href="/learn/mutual-funds/">Mutual Funds</a><a href="/learn/building-your-personal-investment-plan/">Build an Investment Plan</a></div>
+    </section>
+
+    <section class="kl-panel" style="margin-top:22px" aria-labelledby="sip-faq-heading">
+      <h2 id="sip-faq-heading">Frequently asked questions</h2>
+      <div class="kl-faq"><h3>What is a SIP?</h3><p>A Systematic Investment Plan (SIP) is a way to invest a fixed amount in a mutual fund at regular intervals, commonly every month. The calculator estimates the possible future value of those contributions using an assumed rate of return.</p></div>
+      <div class="kl-faq"><h3>How does this SIP calculator work?</h3><p>It adds the future value of each monthly contribution using a monthly rate derived from the annual assumed return. This version assumes each contribution is made at the end of the month and compounds monthly.</p></div>
+      <div class="kl-faq"><h3>Are SIP calculator returns guaranteed?</h3><p>No. The assumed annual return is only an input for illustration. Mutual fund returns vary with market conditions, and the actual value may be higher or lower, including a loss of capital.</p></div>
+      <div class="kl-faq"><h3>Does this calculator include taxes, fees or inflation?</h3><p>No. The estimate does not deduct taxes, expense ratios, exit loads or other costs, and it does not adjust the result for inflation. These factors affect the purchasing power and amount you may receive.</p></div>
+    </section>
+  </main>
+  <footer class="kl-footer">KiteLearn · Simple language. Strong concepts. Practical understanding.<br><a href="/learn/">Learn</a><a href="/calculators/">Calculators</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/about.html">About</a></footer>
+</body>
+</html>

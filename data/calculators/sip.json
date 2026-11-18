@@ -1,0 +1,21 @@
+{
+  "id": "sip",
+  "slug": "sip-calculator",
+  "name": "SIP Calculator",
+  "category": "Investment calculators",
+  "title": "SIP Calculator – Estimate Your Mutual Fund Investment Growth | KiteLearn",
+  "description": "Use KiteLearn's free SIP calculator to estimate how monthly mutual fund investments may grow over time. Understand your investment, estimated returns and assumptions.",
+  "heading": "SIP Calculator",
+  "intro": "Explore how regular monthly investing may grow over time. Change the amount, assumed return and duration to understand how each factor affects the estimate.",
+  "relatedLessons": [
+    { "title": "Systematic Investment Plan (SIP)", "url": "/learn/systematic-investment-plan-sip/" },
+    { "title": "Mutual Funds", "url": "/learn/mutual-funds/" },
+    { "title": "Building Your Personal Investment Plan", "url": "/learn/building-your-personal-investment-plan/" }
+  ],
+  "faqs": [
+    { "question": "What is a SIP?", "answer": "A Systematic Investment Plan (SIP) is a way to invest a fixed amount in a mutual fund at regular intervals, commonly every month. The calculator estimates the possible future value of those contributions using an assumed rate of return." },
+    { "question": "How does this SIP calculator work?", "answer": "It adds the future value of each monthly contribution using a monthly rate derived from the annual assumed return. This version assumes each contribution is made at the end of the month and compounds monthly." },
+    { "question": "Are SIP calculator returns guaranteed?", "answer": "No. The assumed annual return is only an input for illustration. Mutual fund returns vary with market conditions, and the actual value may be higher or lower, including a loss of capital." },
+    { "question": "Does this calculator include taxes, fees or inflation?", "answer": "No. The estimate does not deduct taxes, expense ratios, exit loads or other costs, and it does not adjust the result for inflation. These factors affect the purchasing power and amount you may receive." }
+  ]
+}
