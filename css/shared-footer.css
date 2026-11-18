@@ -1,0 +1,16 @@
+/* Shared KiteLearn marketing footer — mirrors the homepage footer */
+.app-brand-footer{position:relative;overflow:hidden;border-top:1px solid #e3ebf7;background:linear-gradient(180deg,#f4f8ff 0%,#edf4ff 100%);margin-top:7rem;padding:4.5rem 2rem 2rem;width:100%;box-sizing:border-box}
+.footer-inner-container{max-width:1060px;margin:0 auto;display:grid;grid-template-columns:minmax(280px,1.8fr) repeat(3,minmax(130px,1fr));gap:4rem}
+.footer-brand-column{max-width:330px}.footer-logo-row{display:flex;align-items:center;gap:.5rem;margin-bottom:1rem}
+.kitelearn-footer-logo{display:block;width:210px;height:auto}.footer-brand-tagline{max-width:300px;font-size:.85rem;line-height:1.65;color:#475569;margin:0}
+.footer-links-column{display:flex;flex-direction:column;align-items:flex-start;gap:.65rem}
+.footer-links-column h4{margin:0 0 .5rem;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#111827}
+.footer-links-column a{font-size:.82rem;line-height:1.4;color:#475569;text-decoration:none;font-weight:600;transition:color .15s ease,transform .15s ease}
+.footer-links-column a:hover{color:#2563eb;transform:translateX(3px)}
+.footer-copyright-bar{position:relative;z-index:2;max-width:1060px;margin:3.5rem auto 0;padding-top:1.25rem;border-top:1px solid #dbe5f3;font-size:.75rem;line-height:1.5;color:#475569;font-weight:500}
+.marketing-footer .footer-inner-container{position:relative;z-index:2}
+.footer-finance-symbols{position:absolute;inset:0;overflow:hidden;pointer-events:none;user-select:none;z-index:1}
+.finance-symbol{position:absolute;color:#2563eb;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-weight:700;line-height:1;opacity:.28}
+.symbol-rupee{left:3%;top:25%;font-size:30px}.symbol-percent{left:12%;bottom:19%;font-size:22px}.symbol-up{left:23%;top:17%;font-size:27px}.symbol-plus{right:24%;bottom:20%;font-size:23px}.symbol-down{right:15%;top:25%;font-size:24px}.symbol-dollar{right:6%;top:16%;font-size:27px}.symbol-sum{right:2.5%;bottom:21%;font-size:24px}.symbol-arrow{left:0.5%;bottom:38%;font-size:20px}
+@media(max-width:768px){.app-brand-footer{margin-top:5rem;padding:3.5rem 1.25rem 1.5rem}.footer-inner-container{grid-template-columns:repeat(2,minmax(0,1fr));gap:2.5rem 2rem}.footer-brand-column{grid-column:1/-1;max-width:100%}.footer-brand-tagline{max-width:420px}.footer-copyright-bar{margin-top:2.5rem}.kitelearn-footer-logo{width:175px}}
+@media(max-width:420px){.footer-inner-container{grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem 1.25rem}.footer-links-column a{font-size:.78rem}}
