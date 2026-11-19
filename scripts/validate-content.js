@@ -160,7 +160,19 @@ function validateLessonShape(lesson, fileName) {
         stats.lessonsWithReadingTime += 1;
     }
 
-    if (!SUPPORTED_DIFFICULTIES.has(lesson.difficulty)) {
+    const normalizedDifficulty = String(lesson.difficulty || "")
+        .replace(/^Level:\s*/i, "")
+        .trim();
+
+    const supportedDifficultyNames = new Set([
+        "Beginner",
+        "Intermediate",
+        "Advanced",
+        "All Levels",
+        "Graduate"
+    ]);
+
+    if (!supportedDifficultyNames.has(normalizedDifficulty)) {
         addError(`${fileName}: unsupported difficulty "${lesson.difficulty}"`);
     }
 
@@ -424,8 +436,16 @@ function validate() {
         entries.forEach(({ file, lesson }) => {
             ["previousLesson", "nextLesson"].forEach(field => {
                 const targetId = lesson[field];
-                if (targetId !== null && targetId !== undefined && targetId !== "" && !lessonsById.has(targetId)) {
-                    addError(`${file}: ${field} references missing lesson id "${targetId}"`);
+                if (targetId !== null && targetId !== undefined && targetId !== "") {
+                    const normalizedTarget = String(targetId).replace(/\\/g, "/");
+
+                    const targetExists =
+                        lessonsById.has(targetId) ||
+                        lessonsByFile.has(normalizedTarget);
+
+                    if (!targetExists) {
+                        addError(`${file}: ${field} references missing lesson "${targetId}"`);
+                    }
                 }
             });
 
