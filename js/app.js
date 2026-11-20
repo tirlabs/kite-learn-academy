@@ -581,7 +581,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const currentMatchElement = document.querySelector(`[data-lesson-key-id="${assetId}"]`);
             if (currentMatchElement) currentMatchElement.classList.add("node-active");
 
-            document.querySelector(".reading-viewport-frame").scrollTop = 0;
+
 
             let markup = `
     <span class="lesson-super">${stateActiveLesson.module}</span>
@@ -704,6 +704,12 @@ document.addEventListener("DOMContentLoaded", () => {
     </div>
 `;
             blockLessonRenderPayload.innerHTML = markup;
+
+            // Return to the top when a new lesson is loaded.
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
 
             const readBtn = document.getElementById("lesson-read-aloud-btn");
 
@@ -909,7 +915,10 @@ document.addEventListener("DOMContentLoaded", () => {
         speechSynthesis.cancel();
         isReadingAloud = false;
         for (const currentModule of appCurriculumRegistry) {
-            const matchingLesson = currentModule.lessons.find(l => l.id === targetId);
+            // Match both lesson IDs and lesson file paths.
+            const matchingLesson = currentModule.lessons.find(
+                lesson => lesson.id === targetId || lesson.file === targetId
+            );
             if (matchingLesson) {
                 if (currentModule.moduleId !== currentModuleScope.moduleId) {
                     enterTextbookEnvironment(currentModule, matchingLesson.file, matchingLesson.id);
