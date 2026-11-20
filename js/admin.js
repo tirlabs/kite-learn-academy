@@ -123,9 +123,11 @@
     $("m-verified").textContent = `${fmt(m.verifiedUsers)} verified`;
     $("m-new").textContent = fmt(m.newUsers);
     $("range-label").textContent = `In last ${data.range} days`;
-    $("m-active").textContent = fmt(m.activeLearners);
+    $("m-engaged").textContent = fmt(m.engagedLearners);
+    $("m-mal").textContent = fmt(m.monthlyActiveLearners);
+    $("m-returning").textContent = fmt(m.returningLearners);
     $("m-completed").textContent = fmt(m.lessonsCompleted);
-    $("m-records").textContent = `${fmt(m.lessonRecords)} tracked lesson records`;
+    $("m-records").textContent = `${fmt(m.lessonRecords)} tracked lesson records · selected period`;
     $("m-quizzes").textContent = fmt(m.quizAttempts);
     $("m-accuracy").textContent = `${m.quizAccuracy}% correct answers`;
     renderSignups(data.signups, data.range);

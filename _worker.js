@@ -1088,45 +1088,78 @@ async function getAdminOverview(request, env) {
     const range = [7, 30, 90].includes(Number(url.searchParams.get("days")))
       ? Number(url.searchParams.get("days")) : 30;
     const since = new Date(Date.now() - range * 86400000).toISOString();
+
+    // Calendar-month boundaries use India Standard Time (UTC+05:30).
+    // Convert local month starts to UTC because database timestamps are stored in UTC.
+    const now = new Date();
+    const istOffsetMs = 330 * 60 * 1000;
+    const localNow = new Date(now.getTime() + istOffsetMs);
+    const currentMonthStart = new Date(Date.UTC(
+      localNow.getUTCFullYear(), localNow.getUTCMonth(), 1
+    ) - istOffsetMs).toISOString();
+    const previousMonthStart = new Date(Date.UTC(
+      localNow.getUTCFullYear(), localNow.getUTCMonth() - 1, 1
+    ) - istOffsetMs).toISOString();
+
     const results = await env.DB.batch([
       env.DB.prepare(`SELECT COUNT(*) AS total,
         SUM(CASE WHEN email_verified = 1 THEN 1 ELSE 0 END) AS verified,
         SUM(CASE WHEN created_at >= ? THEN 1 ELSE 0 END) AS new_in_range
         FROM users WHERE status = 'active'`).bind(since),
-      env.DB.prepare(`SELECT COUNT(*) AS active FROM (
+      // Engaged learners: any lesson or quiz activity in the selected rolling period.
+      env.DB.prepare(`SELECT COUNT(*) AS engaged FROM (
           SELECT user_id FROM lesson_progress WHERE last_accessed_at >= ?
           UNION
           SELECT user_id FROM quiz_attempts WHERE attempted_at >= ?
         )`).bind(since, since),
+      // Monthly active learners: distinct accounts completing at least one lesson
+      // during the current calendar month (India time).
+      env.DB.prepare(`SELECT COUNT(DISTINCT user_id) AS monthly_active
+        FROM lesson_progress
+        WHERE status = 'completed' AND completed_at >= ?`).bind(currentMonthStart),
+      // Returning learners: completed a lesson in both the current and previous month.
+      env.DB.prepare(`SELECT COUNT(*) AS returning_learners FROM (
+          SELECT user_id
+          FROM lesson_progress
+          WHERE status = 'completed'
+            AND completed_at >= ? AND completed_at < ?
+          GROUP BY user_id
+          HAVING SUM(CASE WHEN completed_at >= ? THEN 1 ELSE 0 END) > 0
+             AND SUM(CASE WHEN completed_at < ? THEN 1 ELSE 0 END) > 0
+        )`).bind(previousMonthStart, new Date().toISOString(), currentMonthStart, currentMonthStart),
       env.DB.prepare(`SELECT COUNT(*) AS total,
-        SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS completed
-        FROM lesson_progress`),
+        SUM(CASE WHEN status = 'completed' AND completed_at >= ? THEN 1 ELSE 0 END) AS completed
+        FROM lesson_progress`).bind(since),
       env.DB.prepare(`SELECT COUNT(*) AS total, SUM(is_correct) AS correct,
         COUNT(DISTINCT user_id) AS learners FROM quiz_attempts`),
       env.DB.prepare(`SELECT substr(created_at, 1, 10) AS day, COUNT(*) AS count
         FROM users WHERE created_at >= ? AND status = 'active'
         GROUP BY substr(created_at, 1, 10) ORDER BY day`).bind(since),
-      env.DB.prepare(`SELECT lesson_id, COUNT(*) AS learners,
-        SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS completions
-        FROM lesson_progress GROUP BY lesson_id ORDER BY learners DESC LIMIT 8`),
+      env.DB.prepare(`SELECT lesson_id, COUNT(DISTINCT user_id) AS learners,
+        SUM(CASE WHEN status = 'completed' AND completed_at >= ? THEN 1 ELSE 0 END) AS completions
+        FROM lesson_progress WHERE last_accessed_at >= ?
+        GROUP BY lesson_id ORDER BY learners DESC LIMIT 8`).bind(since, since),
       env.DB.prepare(`SELECT COALESCE(p.language, 'en') AS language, COUNT(*) AS users
         FROM users u LEFT JOIN user_preferences p ON p.user_id = u.id
         WHERE u.status = 'active' GROUP BY COALESCE(p.language, 'en') ORDER BY users DESC`)
     ]);
     const first = r => r?.results?.[0] || {};
-    const u = first(results[0]), p = first(results[2]), q = first(results[3]);
+    const u = first(results[0]), p = first(results[4]), q = first(results[5]);
     return jsonResponse({
       ok: true, range,
       metrics: {
         totalUsers: Number(u.total || 0), verifiedUsers: Number(u.verified || 0),
-        newUsers: Number(u.new_in_range || 0), activeLearners: Number(first(results[1]).active || 0),
+        newUsers: Number(u.new_in_range || 0),
+        engagedLearners: Number(first(results[1]).engaged || 0),
+        monthlyActiveLearners: Number(first(results[2]).monthly_active || 0),
+        returningLearners: Number(first(results[3]).returning_learners || 0),
         lessonRecords: Number(p.total || 0), lessonsCompleted: Number(p.completed || 0),
         quizAttempts: Number(q.total || 0), correctAnswers: Number(q.correct || 0),
         quizAccuracy: Number(q.total ? Math.round((q.correct || 0) * 100 / q.total) : 0),
         quizLearners: Number(q.learners || 0)
       },
-      signups: results[4]?.results || [], popularLessons: results[5]?.results || [],
-      languages: results[6]?.results || []
+      signups: results[6]?.results || [], popularLessons: results[7]?.results || [],
+      languages: results[8]?.results || []
     });
   } catch (error) {
     console.error("Admin overview error:", error);
