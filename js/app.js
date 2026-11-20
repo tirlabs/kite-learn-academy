@@ -557,6 +557,13 @@ document.addEventListener("DOMContentLoaded", () => {
             const stream = await fetch(filePath);
             stateActiveLesson = await stream.json();
 
+            // Track meaningful learning activity after the lesson content loads.
+            window.KiteLearnAnalytics?.track("lesson_start", { lesson_id: assetId });
+            if (!localStorage.getItem("kl_first_lesson_started")) {
+                localStorage.setItem("kl_first_lesson_started", "1");
+                window.KiteLearnAnalytics?.track("first_lesson_started", { lesson_id: assetId });
+            }
+
             // Save the student's last accessed lesson
             await saveLessonAccess(assetId);
 
@@ -864,6 +871,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     })
                 });
 
+                window.KiteLearnAnalytics?.track("lesson_complete", { lesson_id: currentLessonId });
+
                 if (!studentProgress) {
                     await refreshStudentProgress();
                 }
@@ -1070,6 +1079,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     body: JSON.stringify({ name, email, password })
                 });
 
+                window.KiteLearnAnalytics?.track("sign_up", { method: "email" });
                 document.getElementById("sent-email-placeholder").textContent = email;
 
                 document.getElementById("modal-pane-register").classList.add("hidden");
@@ -1106,6 +1116,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
 
                 await showAuthenticatedDashboard(data.user);
+                window.KiteLearnAnalytics?.track("login", { method: "email" });
                 openPendingLesson();
 
                 document.getElementById("form-action-login").reset();
