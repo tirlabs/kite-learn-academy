@@ -40,6 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let lessonSearchIndex = [];
     let currentUser = null;
+    // Preserve a requested lesson while an anonymous visitor signs in.
+    let pendingLessonId = null;
 
     async function apiRequest(endpoint, options = {}) {
         const response = await fetch(endpoint, {
@@ -217,6 +219,23 @@ document.addEventListener("DOMContentLoaded", () => {
         renderAuthenticatedHub(appCurriculumRegistry);
     }
 
+    function openPendingLesson() {
+        if (!pendingLessonId) return false;
+
+        const target = findLessonById(pendingLessonId);
+        pendingLessonId = null;
+
+        if (!target) return false;
+
+        enterTextbookEnvironment(
+            target.module,
+            target.lesson.file,
+            target.lesson.id
+        );
+
+        return true;
+    }
+
     // Boot Application Pipeline Sequence
     async function initializeSystemLifecycle() {
         try {
@@ -242,7 +261,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // --------------------------------------------------
 
             const params = new URLSearchParams(window.location.search);
-            const lessonId = params.get("lesson");
+            pendingLessonId = params.get("lesson");
 
             const sessionResponse = await fetch("/api/me", {
                 credentials: "same-origin"
@@ -256,33 +275,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     await showAuthenticatedDashboard(sessionData.user);
 
-                    // Open requested lesson only after authentication
-                    if (lessonId) {
-
-                        for (const module of appCurriculumRegistry) {
-
-                            const lesson = module.lessons.find(l => l.id === lessonId);
-
-                            if (lesson) {
-                                enterTextbookEnvironment(
-                                    module,
-                                    lesson.file,
-                                    lesson.id
-                                );
-
-                                break;
-                            }
-                        }
-                    }
+                    // Restore the requested lesson after the authenticated view is ready.
+                    openPendingLesson();
 
                 }
 
-            } else if (lessonId) {
+            } else if (pendingLessonId) {
 
-                // Do not allow unauthenticated direct lesson access
+                // Keep the lesson ID in memory, but remove it from the public URL
+                // while the visitor signs in. It will be restored after login.
                 const url = new URL(window.location);
                 url.searchParams.delete("lesson");
-
                 window.history.replaceState({}, "", url);
 
                 openAuthModal("login");
@@ -1103,6 +1106,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
 
                 await showAuthenticatedDashboard(data.user);
+                openPendingLesson();
 
                 document.getElementById("form-action-login").reset();
 
