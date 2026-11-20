@@ -1105,43 +1105,61 @@ async function getAdminOverview(request, env) {
       env.DB.prepare(`SELECT COUNT(*) AS total,
         SUM(CASE WHEN email_verified = 1 THEN 1 ELSE 0 END) AS verified,
         SUM(CASE WHEN created_at >= ? THEN 1 ELSE 0 END) AS new_in_range
-        FROM users WHERE status = 'active'`).bind(since),
+        FROM users WHERE status = 'active' AND role != 'admin'`).bind(since),
       // Engaged learners: any lesson or quiz activity in the selected rolling period.
       env.DB.prepare(`SELECT COUNT(*) AS engaged FROM (
-          SELECT user_id FROM lesson_progress WHERE last_accessed_at >= ?
+          SELECT lp.user_id FROM lesson_progress lp
+          INNER JOIN users u ON u.id = lp.user_id
+          WHERE lp.last_accessed_at >= ? AND u.status = 'active' AND u.role != 'admin'
           UNION
-          SELECT user_id FROM quiz_attempts WHERE attempted_at >= ?
+          SELECT qa.user_id FROM quiz_attempts qa
+          INNER JOIN users u ON u.id = qa.user_id
+          WHERE qa.attempted_at >= ? AND u.status = 'active' AND u.role != 'admin'
         )`).bind(since, since),
       // Monthly active learners: distinct accounts completing at least one lesson
       // during the current calendar month (India time).
       env.DB.prepare(`SELECT COUNT(DISTINCT user_id) AS monthly_active
-        FROM lesson_progress
-        WHERE status = 'completed' AND completed_at >= ?`).bind(currentMonthStart),
+        FROM lesson_progress lp
+        INNER JOIN users u ON u.id = lp.user_id
+        WHERE lp.status = 'completed'
+          AND COALESCE(lp.completed_at, lp.last_accessed_at) >= ?
+          AND u.status = 'active' AND u.role != 'admin'`).bind(currentMonthStart),
       // Returning learners: completed a lesson in both the current and previous month.
       env.DB.prepare(`SELECT COUNT(*) AS returning_learners FROM (
-          SELECT user_id
-          FROM lesson_progress
-          WHERE status = 'completed'
-            AND completed_at >= ? AND completed_at < ?
-          GROUP BY user_id
-          HAVING SUM(CASE WHEN completed_at >= ? THEN 1 ELSE 0 END) > 0
-             AND SUM(CASE WHEN completed_at < ? THEN 1 ELSE 0 END) > 0
+          SELECT lp.user_id
+          FROM lesson_progress lp
+          INNER JOIN users u ON u.id = lp.user_id
+          WHERE lp.status = 'completed'
+            AND COALESCE(lp.completed_at, lp.last_accessed_at) >= ?
+            AND COALESCE(lp.completed_at, lp.last_accessed_at) < ?
+            AND u.status = 'active' AND u.role != 'admin'
+          GROUP BY lp.user_id
+          HAVING SUM(CASE WHEN COALESCE(lp.completed_at, lp.last_accessed_at) >= ? THEN 1 ELSE 0 END) > 0
+             AND SUM(CASE WHEN COALESCE(lp.completed_at, lp.last_accessed_at) < ? THEN 1 ELSE 0 END) > 0
         )`).bind(previousMonthStart, new Date().toISOString(), currentMonthStart, currentMonthStart),
       env.DB.prepare(`SELECT COUNT(*) AS total,
-        SUM(CASE WHEN status = 'completed' AND completed_at >= ? THEN 1 ELSE 0 END) AS completed
-        FROM lesson_progress`).bind(since),
+        SUM(CASE WHEN lp.status = 'completed'
+          AND COALESCE(lp.completed_at, lp.last_accessed_at) >= ? THEN 1 ELSE 0 END) AS completed
+        FROM lesson_progress lp
+        INNER JOIN users u ON u.id = lp.user_id
+        WHERE u.status = 'active' AND u.role != 'admin'`).bind(since),
       env.DB.prepare(`SELECT COUNT(*) AS total, SUM(is_correct) AS correct,
-        COUNT(DISTINCT user_id) AS learners FROM quiz_attempts`),
+        COUNT(DISTINCT user_id) AS learners FROM quiz_attempts qa
+        INNER JOIN users u ON u.id = qa.user_id
+        WHERE u.status = 'active' AND u.role != 'admin'`),
       env.DB.prepare(`SELECT substr(created_at, 1, 10) AS day, COUNT(*) AS count
-        FROM users WHERE created_at >= ? AND status = 'active'
+        FROM users WHERE created_at >= ? AND status = 'active' AND role != 'admin'
         GROUP BY substr(created_at, 1, 10) ORDER BY day`).bind(since),
-      env.DB.prepare(`SELECT lesson_id, COUNT(DISTINCT user_id) AS learners,
-        SUM(CASE WHEN status = 'completed' AND completed_at >= ? THEN 1 ELSE 0 END) AS completions
-        FROM lesson_progress WHERE last_accessed_at >= ?
-        GROUP BY lesson_id ORDER BY learners DESC LIMIT 8`).bind(since, since),
+      env.DB.prepare(`SELECT lp.lesson_id, COUNT(DISTINCT lp.user_id) AS learners,
+        SUM(CASE WHEN lp.status = 'completed'
+          AND COALESCE(lp.completed_at, lp.last_accessed_at) >= ? THEN 1 ELSE 0 END) AS completions
+        FROM lesson_progress lp
+        INNER JOIN users u ON u.id = lp.user_id
+        WHERE lp.last_accessed_at >= ? AND u.status = 'active' AND u.role != 'admin'
+        GROUP BY lp.lesson_id ORDER BY learners DESC LIMIT 8`).bind(since, since),
       env.DB.prepare(`SELECT COALESCE(p.language, 'en') AS language, COUNT(*) AS users
         FROM users u LEFT JOIN user_preferences p ON p.user_id = u.id
-        WHERE u.status = 'active' GROUP BY COALESCE(p.language, 'en') ORDER BY users DESC`)
+        WHERE u.status = 'active' AND u.role != 'admin' GROUP BY COALESCE(p.language, 'en') ORDER BY users DESC`)
     ]);
     const first = r => r?.results?.[0] || {};
     const u = first(results[0]), p = first(results[4]), q = first(results[5]);
