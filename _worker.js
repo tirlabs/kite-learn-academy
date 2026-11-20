@@ -19,7 +19,6 @@ export default {
         pathname === "/_worker.js" &&
         request.method === "POST"
       ) {
-        logVisitor(request);
         response = new Response(null, { status: 204 });
       } else if (isProtectedLessonPath(pathname)) {
         const user = await authenticateRequest(request, env);
@@ -39,7 +38,6 @@ export default {
           return applyHeaders(response, true);
         }
       } else {
-        logVisitor(request);
         response = await env.ASSETS.fetch(request);
       }
 
@@ -418,6 +416,8 @@ async function enforceAuthRateLimit(request, env, action, identity, limit, windo
   const normalizedIdentity = String(identity || "unknown").toLowerCase();
   const now = new Date().toISOString();
   const windowStart = new Date(Date.now() - windowSeconds * 1000).toISOString();
+  const rateLimitRetentionCutoff = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString();
+  await env.DB.prepare("DELETE FROM auth_rate_limits WHERE updated_at < ?").bind(rateLimitRetentionCutoff).run();
 
   async function consume(keyMaterial, keyLimit) {
     const key = await hashToken(keyMaterial);
@@ -1088,96 +1088,45 @@ async function getAdminOverview(request, env) {
     const range = [7, 30, 90].includes(Number(url.searchParams.get("days")))
       ? Number(url.searchParams.get("days")) : 30;
     const since = new Date(Date.now() - range * 86400000).toISOString();
-
-    // Calendar-month boundaries use India Standard Time (UTC+05:30).
-    // Convert local month starts to UTC because database timestamps are stored in UTC.
-    const now = new Date();
-    const istOffsetMs = 330 * 60 * 1000;
-    const localNow = new Date(now.getTime() + istOffsetMs);
-    const currentMonthStart = new Date(Date.UTC(
-      localNow.getUTCFullYear(), localNow.getUTCMonth(), 1
-    ) - istOffsetMs).toISOString();
-    const previousMonthStart = new Date(Date.UTC(
-      localNow.getUTCFullYear(), localNow.getUTCMonth() - 1, 1
-    ) - istOffsetMs).toISOString();
-
     const results = await env.DB.batch([
       env.DB.prepare(`SELECT COUNT(*) AS total,
         SUM(CASE WHEN email_verified = 1 THEN 1 ELSE 0 END) AS verified,
         SUM(CASE WHEN created_at >= ? THEN 1 ELSE 0 END) AS new_in_range
-        FROM users WHERE status = 'active' AND role != 'admin'`).bind(since),
-      // Engaged learners: any lesson or quiz activity in the selected rolling period.
-      env.DB.prepare(`SELECT COUNT(*) AS engaged FROM (
-          SELECT lp.user_id FROM lesson_progress lp
-          INNER JOIN users u ON u.id = lp.user_id
-          WHERE lp.last_accessed_at >= ? AND u.status = 'active' AND u.role != 'admin'
+        FROM users WHERE status = 'active'`).bind(since),
+      env.DB.prepare(`SELECT COUNT(*) AS active FROM (
+          SELECT user_id FROM lesson_progress WHERE last_accessed_at >= ?
           UNION
-          SELECT qa.user_id FROM quiz_attempts qa
-          INNER JOIN users u ON u.id = qa.user_id
-          WHERE qa.attempted_at >= ? AND u.status = 'active' AND u.role != 'admin'
+          SELECT user_id FROM quiz_attempts WHERE attempted_at >= ?
         )`).bind(since, since),
-      // Monthly active learners: distinct accounts completing at least one lesson
-      // during the current calendar month (India time).
-      env.DB.prepare(`SELECT COUNT(DISTINCT user_id) AS monthly_active
-        FROM lesson_progress lp
-        INNER JOIN users u ON u.id = lp.user_id
-        WHERE lp.status = 'completed'
-          AND COALESCE(lp.completed_at, lp.last_accessed_at) >= ?
-          AND u.status = 'active' AND u.role != 'admin'`).bind(currentMonthStart),
-      // Returning learners: completed a lesson in both the current and previous month.
-      env.DB.prepare(`SELECT COUNT(*) AS returning_learners FROM (
-          SELECT lp.user_id
-          FROM lesson_progress lp
-          INNER JOIN users u ON u.id = lp.user_id
-          WHERE lp.status = 'completed'
-            AND COALESCE(lp.completed_at, lp.last_accessed_at) >= ?
-            AND COALESCE(lp.completed_at, lp.last_accessed_at) < ?
-            AND u.status = 'active' AND u.role != 'admin'
-          GROUP BY lp.user_id
-          HAVING SUM(CASE WHEN COALESCE(lp.completed_at, lp.last_accessed_at) >= ? THEN 1 ELSE 0 END) > 0
-             AND SUM(CASE WHEN COALESCE(lp.completed_at, lp.last_accessed_at) < ? THEN 1 ELSE 0 END) > 0
-        )`).bind(previousMonthStart, new Date().toISOString(), currentMonthStart, currentMonthStart),
       env.DB.prepare(`SELECT COUNT(*) AS total,
-        SUM(CASE WHEN lp.status = 'completed'
-          AND COALESCE(lp.completed_at, lp.last_accessed_at) >= ? THEN 1 ELSE 0 END) AS completed
-        FROM lesson_progress lp
-        INNER JOIN users u ON u.id = lp.user_id
-        WHERE u.status = 'active' AND u.role != 'admin'`).bind(since),
+        SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS completed
+        FROM lesson_progress`),
       env.DB.prepare(`SELECT COUNT(*) AS total, SUM(is_correct) AS correct,
-        COUNT(DISTINCT user_id) AS learners FROM quiz_attempts qa
-        INNER JOIN users u ON u.id = qa.user_id
-        WHERE u.status = 'active' AND u.role != 'admin'`),
+        COUNT(DISTINCT user_id) AS learners FROM quiz_attempts`),
       env.DB.prepare(`SELECT substr(created_at, 1, 10) AS day, COUNT(*) AS count
-        FROM users WHERE created_at >= ? AND status = 'active' AND role != 'admin'
+        FROM users WHERE created_at >= ? AND status = 'active'
         GROUP BY substr(created_at, 1, 10) ORDER BY day`).bind(since),
-      env.DB.prepare(`SELECT lp.lesson_id, COUNT(DISTINCT lp.user_id) AS learners,
-        SUM(CASE WHEN lp.status = 'completed'
-          AND COALESCE(lp.completed_at, lp.last_accessed_at) >= ? THEN 1 ELSE 0 END) AS completions
-        FROM lesson_progress lp
-        INNER JOIN users u ON u.id = lp.user_id
-        WHERE lp.last_accessed_at >= ? AND u.status = 'active' AND u.role != 'admin'
-        GROUP BY lp.lesson_id ORDER BY learners DESC LIMIT 8`).bind(since, since),
+      env.DB.prepare(`SELECT lesson_id, COUNT(*) AS learners,
+        SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS completions
+        FROM lesson_progress GROUP BY lesson_id ORDER BY learners DESC LIMIT 8`),
       env.DB.prepare(`SELECT COALESCE(p.language, 'en') AS language, COUNT(*) AS users
         FROM users u LEFT JOIN user_preferences p ON p.user_id = u.id
-        WHERE u.status = 'active' AND u.role != 'admin' GROUP BY COALESCE(p.language, 'en') ORDER BY users DESC`)
+        WHERE u.status = 'active' GROUP BY COALESCE(p.language, 'en') ORDER BY users DESC`)
     ]);
     const first = r => r?.results?.[0] || {};
-    const u = first(results[0]), p = first(results[4]), q = first(results[5]);
+    const u = first(results[0]), p = first(results[2]), q = first(results[3]);
     return jsonResponse({
       ok: true, range,
       metrics: {
         totalUsers: Number(u.total || 0), verifiedUsers: Number(u.verified || 0),
-        newUsers: Number(u.new_in_range || 0),
-        engagedLearners: Number(first(results[1]).engaged || 0),
-        monthlyActiveLearners: Number(first(results[2]).monthly_active || 0),
-        returningLearners: Number(first(results[3]).returning_learners || 0),
+        newUsers: Number(u.new_in_range || 0), activeLearners: Number(first(results[1]).active || 0),
         lessonRecords: Number(p.total || 0), lessonsCompleted: Number(p.completed || 0),
         quizAttempts: Number(q.total || 0), correctAnswers: Number(q.correct || 0),
         quizAccuracy: Number(q.total ? Math.round((q.correct || 0) * 100 / q.total) : 0),
         quizLearners: Number(q.learners || 0)
       },
-      signups: results[6]?.results || [], popularLessons: results[7]?.results || [],
-      languages: results[8]?.results || []
+      signups: results[4]?.results || [], popularLessons: results[5]?.results || [],
+      languages: results[6]?.results || []
     });
   } catch (error) {
     console.error("Admin overview error:", error);
@@ -1667,24 +1616,6 @@ function jsonResponse(data, status = 200, extraHeaders = {}) {
 // VISITOR ANALYTICS
 // ============================================================
 
-function logVisitor(request) {
-  const url = new URL(request.url);
-
-  if (url.pathname.includes(".") && !url.pathname.endsWith(".html")) {
-    return;
-  }
-
-  const ip = request.headers.get("cf-connecting-ip") || "Unknown IP";
-  const userAgent = request.headers.get("user-agent") || "Unknown Device";
-  const city = request.cf?.city || "Unknown City";
-  const country = request.cf?.country || "Unknown Country";
-
-  console.log(
-    `[NEW VISITOR] IP: ${ip} | Location: ${city}, ${country} | Path: ${url.pathname} | Device: ${userAgent}`
-  );
-}
-
-
 // ============================================================
 // REGISTRATION
 // ============================================================
@@ -1726,6 +1657,11 @@ async function registerStudent(request, env) {
   const password = typeof body.password === "string"
     ? body.password
     : "";
+  const adultConfirmed = body.adultConfirmed === true;
+
+  if (!adultConfirmed) {
+    return jsonResponse({ error: "KiteLearn is intended for adults aged 18 or older." }, 400);
+  }
 
   if (name.length < 2 || name.length > 80) {
     return jsonResponse(
@@ -1765,15 +1701,17 @@ async function registerStudent(request, env) {
   const expiresAt = new Date(
     Date.now() + 24 * 60 * 60 * 1000
   ).toISOString();
+  const adultConfirmedAt = new Date().toISOString();
 
   try {
     await env.DB.batch([
       env.DB.prepare(`
                 INSERT INTO users (
-                    id, name, email, email_normalized, password_hash
+                    id, name, email, email_normalized, password_hash,
+                    adult_confirmed_at, terms_version, privacy_version
                 )
-                VALUES (?, ?, ?, ?, ?)
-            `).bind(userId, name, email, email, passwordHash),
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            `).bind(userId, name, email, email, passwordHash, adultConfirmedAt, "2026-11-20", "2026-11-20"),
 
       env.DB.prepare(`
                 INSERT INTO auth_tokens (

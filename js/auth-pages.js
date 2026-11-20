@@ -92,12 +92,14 @@
         const name = $("field-register-name").value.trim();
         const email = $("field-register-email").value.trim();
         const password = $("field-register-password").value;
+        const adultConfirmed = $("field-register-adult")?.checked === true;
+        if (!adultConfirmed) { showError("register-error", "KiteLearn is intended for adults aged 18 or older."); return; }
 
         button.disabled = true;
         button.textContent = "Creating account...";
 
         try {
-            const result = await apiRequest("/api/register", { name, email, password });
+            const result = await apiRequest("/api/register", { name, email, password, adultConfirmed });
             $("sent-email-placeholder").textContent = email;
             const note = $("registration-success-note");
             if (note) note.textContent = result.message || "If registration was successful, verification instructions will be sent.";

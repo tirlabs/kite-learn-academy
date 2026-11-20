@@ -1,6 +1,6 @@
 /* KiteLearn analytics integrations.
- * GA4 is already configured in index.html. Optional Clarity, Google Ads and Meta
- * integrations remain disabled until real account IDs are supplied.
+ * GA4 loads only after explicit analytics opt-in. Optional Clarity, Google Ads
+ * and Meta integrations remain disabled until real account IDs are supplied.
  */
 (function () {
     "use strict";
@@ -31,7 +31,25 @@
         if (typeof window.fbq === "function") window.fbq("track", name, params || {});
     }
 
+    function hasAnalyticsConsent() {
+        return safeStore.get("kitelearn_analytics_consent") === "granted";
+    }
+
+    function loadGoogleAnalytics() {
+        if (!hasAnalyticsConsent() || window.__kitelearnGaLoaded) return;
+        window.__kitelearnGaLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+        window.gtag("js", new Date());
+        window.gtag("config", CONFIG.ga4MeasurementId, { anonymize_ip: true });
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(CONFIG.ga4MeasurementId)}`;
+        document.head.appendChild(script);
+    }
+
     function track(name, params) {
+        if (!hasAnalyticsConsent()) return;
         const data = params || {};
         if (typeof window.gtag === "function") window.gtag("event", name, data);
         window.dataLayer = window.dataLayer || [];
@@ -49,6 +67,16 @@
 
     window.KiteLearnAnalytics = {
         track,
+        getAnalyticsConsent: hasAnalyticsConsent,
+        setAnalyticsConsent(granted) {
+            safeStore.set("kitelearn_analytics_consent", granted ? "granted" : "denied");
+            if (granted) {
+                loadGoogleAnalytics();
+                this.trackReturnVisit();
+            }
+            const banner = document.getElementById("kitelearn-analytics-consent");
+            if (banner) banner.hidden = true;
+        },
         trackReturnVisit() {
             const now = Date.now();
             const lastVisit = Number(safeStore.get("kl_last_visit") || 0);
@@ -62,8 +90,12 @@
         config: CONFIG
     };
 
+    // Optional third-party analytics/advertising integrations remain disabled unless
+    // separately configured and must also respect the user's analytics choice.
+    if (hasAnalyticsConsent()) loadGoogleAnalytics();
+
     // Microsoft Clarity: activated only after the real project ID is configured.
-    if (CONFIG.clarityProjectId) {
+    if (hasAnalyticsConsent() && CONFIG.clarityProjectId) {
         (function (c, l, a, r, i, t, y) {
             c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
             t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
@@ -72,7 +104,7 @@
     }
 
     // Meta Pixel: activated only after the real Pixel ID is configured.
-    if (CONFIG.metaPixelId) {
+    if (hasAnalyticsConsent() && CONFIG.metaPixelId) {
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
@@ -85,5 +117,11 @@
         window.fbq("track", "PageView");
     }
 
-    window.KiteLearnAnalytics.trackReturnVisit();
+    const banner = document.getElementById("kitelearn-analytics-consent");
+    const accept = document.getElementById("kitelearn-analytics-accept");
+    const reject = document.getElementById("kitelearn-analytics-reject");
+    if (accept) accept.addEventListener("click", () => window.KiteLearnAnalytics.setAnalyticsConsent(true));
+    if (reject) reject.addEventListener("click", () => window.KiteLearnAnalytics.setAnalyticsConsent(false));
+    if (banner && !safeStore.get("kitelearn_analytics_consent")) banner.hidden = false;
+    if (hasAnalyticsConsent()) window.KiteLearnAnalytics.trackReturnVisit();
 })();

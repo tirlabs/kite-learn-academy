@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="stock market, investing, learn investing, beginner stock market, technical analysis, fundamental analysis, mutual funds, ETF, IPO, NSE, BSE, SEBI, KiteLearn">
 
-    <meta name="author" content="TIR Learning Labs">
+    <meta name="author" content="KiteLearn">
 
     <meta name="robots" content="index,follow">
 
@@ -33,18 +33,7 @@
     <meta name="apple-mobile-web-app-title" content="KiteLearn">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="mobile-web-app-capable" content="yes">
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-664MNZY7MG"></script>
-
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-664MNZY7MG');
-    </script>
-
-    <link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
   <meta property="og:type" content="website">
   <meta property="og:title" content="KiteLearn | Learn Stock Market &amp; Investing from Beginner to Advanced">
   <meta property="og:description" content="Learn the stock market step by step with 100 beginner-friendly lessons. Understand investing, technical analysis, fundamental analysis, risk management, mutual funds, ETFs, IPOs and more.">
@@ -58,6 +47,10 @@
 </head>
 
 <body>
+    <section id="kitelearn-analytics-consent" class="kitelearn-consent-banner" hidden aria-label="Analytics preferences">
+      <div><strong>Help improve KiteLearn?</strong><p>Allow optional Google Analytics to measure visits and learning engagement. Essential sign-in and learning functions work either way. <a href="/privacy.html">Read the Privacy Policy</a>.</p></div>
+      <div class="kitelearn-consent-actions"><button type="button" id="kitelearn-analytics-reject" class="brilliant-btn-secondary btn-sm">No thanks</button><button type="button" id="kitelearn-analytics-accept" class="brilliant-btn-primary btn-sm">Allow analytics</button></div>
+    </section>
 
     <nav class="brilliant-navbar">
         <div class="nav-left-wrapper">
@@ -477,6 +470,7 @@
                     aria-label="Completion date"></span>
             </div>
 
+            <p class="certificate-education-note">KiteLearn course-completion acknowledgement only. Not a SEBI, NISM, government or professionally accredited certification.</p>
             <div class="certificate-actions">
                 <button id="cert-download-btn" class="cert-download-btn" type="button"
                     onclick="downloadCompletionCertificate()">
@@ -538,6 +532,8 @@
                     <input type="password" id="field-register-password"
                         placeholder="Create Password (minimum 8 characters)" required minlength="8" maxlength="128"
                         autocomplete="new-password">
+
+                    <label class="kitelearn-age-confirmation"><input type="checkbox" id="field-register-adult" required> I confirm that I am 18 years of age or older and agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms of Service</a> and <a href="/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</label>
 
                     <div id="register-error" class="kl-feedback kl-feedback--error hidden" role="alert" aria-live="assertive"></div>
 
@@ -614,15 +610,11 @@
     <script type="application/ld+json">
 {
  "@context":"https://schema.org",
- "@type":"EducationalOrganization",
+ "@type":"WebSite",
  "name":"KiteLearn",
  "url":"https://kitelearn.in",
- "logo":"https://kitelearn.in/logo.png",
- "description":"Interactive stock market learning platform.",
- "parentOrganization":{
-   "@type":"Organization",
-   "name":"TIR Learning Labs"
- }
+ "logo":"https://kitelearn.in/kitelearn-logo-final.png",
+ "description":"An independently developed educational platform that helps adults understand the stock market, investing and financial concepts."
 }
 </script>
     <script src="js/analytics.js"></script>

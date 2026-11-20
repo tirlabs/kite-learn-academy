@@ -4783,3 +4783,25 @@ html.dark .quiz-choice-row.is-incorrect { color:#fecaca !important; background-c
 .quiz-feedback.is-incorrect { color:#991b1b; }
 html.dark .quiz-feedback.is-correct { color:#86efac; }
 html.dark .quiz-feedback.is-incorrect { color:#fca5a5; }
+
+
+/* Consistent educational-purpose disclosure across public learning pages. */
+.kitelearn-education-note {
+  max-width: 1120px; margin: 28px auto 18px; padding: 14px 18px;
+  border: 1px solid rgba(37, 99, 235, .18); border-radius: 12px;
+  background: rgba(37, 99, 235, .045); color: #334155;
+  font-size: .88rem; line-height: 1.65;
+}
+.kitelearn-education-note strong { color: #14213d; }
+.kitelearn-education-note a { color: #2563eb; text-decoration: underline; }
+
+.certificate-education-note { margin: 10px 16px 0; color: #475569; font-size: .78rem; line-height: 1.45; text-align: center; }
+
+.kitelearn-consent-banner { position: fixed; z-index: 9999; left: 18px; right: 18px; bottom: 18px; max-width: 900px; margin: 0 auto; padding: 16px 18px; display: flex; align-items: center; justify-content: space-between; gap: 18px; border: 1px solid #dbe3ef; border-radius: 14px; background: #fff; color: #14213d; box-shadow: 0 12px 36px rgba(15,23,42,.18); }
+.kitelearn-consent-banner[hidden] { display: none; }
+.kitelearn-consent-banner p { margin: 4px 0 0; font-size: .88rem; line-height: 1.45; }
+.kitelearn-consent-banner a, .kitelearn-age-confirmation a { color: #2563eb; text-decoration: underline; }
+.kitelearn-consent-actions { display: flex; flex-shrink: 0; gap: 8px; }
+.kitelearn-age-confirmation { display: flex; align-items: flex-start; gap: 9px; margin: 10px 0 14px; font-size: .82rem; line-height: 1.5; color: #475569; }
+.kitelearn-age-confirmation input { margin-top: 3px; flex: 0 0 auto; }
+@media (max-width: 640px) { .kitelearn-consent-banner { left: 10px; right: 10px; bottom: 10px; flex-direction: column; align-items: stretch; } .kitelearn-consent-actions { justify-content: flex-end; } }

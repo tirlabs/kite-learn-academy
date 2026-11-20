@@ -1078,6 +1078,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const name = document.getElementById("field-register-name").value.trim();
             const email = document.getElementById("field-register-email").value.trim();
             const password = document.getElementById("field-register-password").value;
+            const adultConfirmed = document.getElementById("field-register-adult")?.checked === true;
+            if (!adultConfirmed) { showAuthError("register-error", "KiteLearn is intended for adults aged 18 or older."); return; }
 
             button.disabled = true;
             button.textContent = "Creating account...";
@@ -1085,7 +1087,7 @@ document.addEventListener("DOMContentLoaded", () => {
             try {
                 await apiRequest("/api/register", {
                     method: "POST",
-                    body: JSON.stringify({ name, email, password })
+                    body: JSON.stringify({ name, email, password, adultConfirmed })
                 });
 
                 window.KiteLearnAnalytics?.track("sign_up", { method: "email" });
@@ -1319,6 +1321,12 @@ document.addEventListener("DOMContentLoaded", () => {
             context.textAlign = "center";
             context.textBaseline = "middle";
             context.fillText(details.completionDate, 1135, 820, 390);
+
+            context.fillStyle = "#475569";
+            context.font = '16px Arial, Helvetica, sans-serif';
+            context.textAlign = "center";
+            context.textBaseline = "middle";
+            context.fillText("KiteLearn course-completion acknowledgement only · Not an accredited certification", 768, 970, 1380);
 
             const blob = await new Promise((resolve, reject) => {
                 canvas.toBlob(value => value ? resolve(value) : reject(new Error("Could not create certificate image.")), "image/png");
