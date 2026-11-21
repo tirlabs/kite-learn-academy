@@ -4805,3 +4805,59 @@ html.dark .quiz-feedback.is-incorrect { color:#fca5a5; }
 .kitelearn-age-confirmation { display: flex; align-items: flex-start; gap: 9px; margin: 10px 0 14px; font-size: .82rem; line-height: 1.5; color: #475569; }
 .kitelearn-age-confirmation input { margin-top: 3px; flex: 0 0 auto; }
 @media (max-width: 640px) { .kitelearn-consent-banner { left: 10px; right: 10px; bottom: 10px; flex-direction: column; align-items: stretch; } .kitelearn-consent-actions { justify-content: flex-end; } }
+
+
+/* KiteLearn unified public navigation and registration consent layout */
+.brilliant-navbar { gap: 20px; padding-inline: clamp(16px, 3vw, 40px); }
+.brilliant-navbar .nav-right { gap: clamp(12px, 1.7vw, 24px); flex-wrap: nowrap; }
+.brilliant-navbar .kl-main-nav-link { color: #334155; text-decoration: none; font-size: 14px; font-weight: 650; white-space: nowrap; transition: color .16s ease; }
+.brilliant-navbar .kl-main-nav-link:hover,
+.brilliant-navbar .kl-main-nav-link:focus-visible { color: #2563eb; text-decoration: none; }
+.brilliant-navbar #nav-auth-trigger { border-radius: 9px; padding: 10px 18px; border: 1px solid #111827; border-bottom: 2px solid #111827; }
+.modal-box input:not([type="checkbox"]) { width: 100%; }
+.modal-box .kitelearn-age-confirmation { display: grid; grid-template-columns: 18px minmax(0, 1fr); align-items: start; gap: 9px; width: 100%; margin: 12px 0 18px; color: #475569; font-size: .84rem; line-height: 1.55; }
+.modal-box .kitelearn-age-confirmation input[type="checkbox"] { appearance: auto; -webkit-appearance: checkbox; display: block; width: 16px; height: 16px; min-width: 16px; padding: 0; margin: 3px 0 0; border: initial; border-radius: 3px; background: initial; box-shadow: none; flex: none; }
+.modal-box .kitelearn-age-confirmation .kitelearn-age-copy { display: block; min-width: 0; overflow-wrap: normal; word-break: normal; }
+.modal-box .kitelearn-age-confirmation a { display: inline; white-space: normal; }
+@media (max-width: 900px) {
+  .brilliant-navbar { height: auto; min-height: 64px; padding: 10px 16px; align-items: center; }
+  .brilliant-navbar .nav-right { gap: 10px; overflow-x: auto; max-width: 75vw; scrollbar-width: none; }
+  .brilliant-navbar .nav-right::-webkit-scrollbar { display: none; }
+  .brilliant-navbar .kl-main-nav-link { font-size: 13px; }
+}
+@media (max-width: 560px) {
+  .brilliant-navbar { flex-wrap: wrap; }
+  .brilliant-navbar .nav-left-wrapper { flex: 0 0 auto; }
+  .brilliant-navbar .nav-right { order: 3; flex: 1 1 100%; max-width: 100%; padding: 4px 0 2px; justify-content: flex-start; }
+  .kitelearn-header-logo { width: 158px; }
+  .modal-box { padding: 2rem 1.35rem; }
+}
+
+
+/* v1.2: align the shared marketing/legal header to the same centered content grid as public learning pages. */
+.brilliant-navbar {
+    box-sizing: border-box;
+    padding-left: max(24px, calc((100vw - 1240px) / 2 + 24px));
+    padding-right: max(24px, calc((100vw - 1240px) / 2 + 24px));
+}
+.brilliant-navbar .kl-main-nav-link[aria-current="page"] {
+    color: #2563eb;
+    font-weight: 800;
+    position: relative;
+}
+.brilliant-navbar .kl-main-nav-link[aria-current="page"]::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -9px;
+    height: 2px;
+    border-radius: 2px;
+    background: #2563eb;
+}
+@media (max-width: 900px) {
+    .brilliant-navbar {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

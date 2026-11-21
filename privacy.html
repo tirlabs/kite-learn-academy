@@ -69,8 +69,11 @@
             <!-- <button class="brilliant-btn-secondary btn-sm platform-dark-mode-toggle" style="margin-right: 12px;">🌙 Dark
                 Mode</button> -->
             <!-- <button id="nav-dashboard-back-btn" class="brilliant-btn-secondary btn-sm hidden"> Dashboard</button> -->
-            <a href="/learn/" class="brilliant-btn-secondary btn-sm">Learn</a>
-            <a href="/calculators/" class="brilliant-btn-secondary btn-sm">Calculators</a>
+            <a class="kl-main-nav-link" href="/learn/">Learn</a>
+            <a class="kl-main-nav-link" href="/glossary/">Glossary</a>
+            <a class="kl-main-nav-link" href="/references/">Guides</a>
+            <a class="kl-main-nav-link" href="/calculators/">Calculators</a>
+            <a class="kl-main-nav-link" href="/about.html">About</a>
             <button id="nav-auth-trigger" class="brilliant-btn-primary btn-sm" onclick="openAuthModal('login')">Sign
                 In</button>
             <button id="nav-signout-trigger" class="brilliant-btn-secondary btn-sm hidden">Sign Out</button>
@@ -200,7 +203,10 @@
                         placeholder="Create Password (minimum 8 characters)" required minlength="8" maxlength="128"
                         autocomplete="new-password">
 
-                    <label class="kitelearn-age-confirmation"><input type="checkbox" id="field-register-adult" required> I confirm that I am 18 years of age or older and agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms of Service</a> and <a href="/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</label>
+                    <label class="kitelearn-age-confirmation">
+                        <input type="checkbox" id="field-register-adult" required>
+                        <span class="kitelearn-age-copy">I confirm that I am 18 years of age or older and agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms of Service</a> and <a href="/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span>
+                    </label>
 
                     <div id="register-error" class="kl-feedback kl-feedback--error hidden" role="alert"
                         aria-live="assertive"></div>
