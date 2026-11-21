@@ -29,3 +29,62 @@ a:hover{text-decoration:underline}
 .kl-footer{border-top:1px solid var(--kl-line);background:#fff;color:var(--kl-muted);font-size:13px;padding:24px;text-align:center}
 .kl-footer a{margin:0 8px}
 @media(max-width:600px){.kl-public-header-inner{padding:14px 18px}.kl-public-logo{width:145px}.kl-public-nav{gap:12px;font-size:13px}.kl-public-main{padding:30px 18px 52px}.kl-content p{font-size:16px}.kl-related{flex-direction:column}}
+
+
+/* Unified KiteLearn navigation across all public learning and resource pages */
+.kl-public-header { position: sticky; top: 0; z-index: 1000; background: rgba(255,255,255,.96); backdrop-filter: blur(12px); box-shadow: 0 1px 0 rgba(20,33,61,.06); }
+.kl-public-header-inner { max-width: 1240px; min-height: 72px; padding: 12px clamp(18px, 3vw, 36px); gap: 24px; }
+.kl-public-logo { width: 176px; max-height: 48px; object-fit: contain; }
+.kl-public-nav { display: flex; align-items: center; justify-content: flex-end; flex-wrap: nowrap; gap: clamp(13px, 1.8vw, 25px); font-size: 14px; font-weight: 650; white-space: nowrap; }
+.kl-public-nav a { color: #334155; text-decoration: none; transition: color .16s ease, background .16s ease; }
+.kl-public-nav a:hover, .kl-public-nav a:focus-visible, .kl-public-nav a[aria-current="page"] { color: #2563eb; text-decoration: none; }
+.kl-public-nav a[aria-current="page"] { font-weight: 800; }
+.kl-public-nav .kl-public-signin { display: inline-flex; align-items: center; justify-content: center; padding: 9px 17px; border-radius: 9px; background: #111827; color: #fff; border: 1px solid #111827; font-weight: 750; }
+.kl-public-nav .kl-public-signin:hover, .kl-public-nav .kl-public-signin:focus-visible { background: #2563eb; border-color: #2563eb; color: #fff; }
+@media (max-width: 850px) {
+  .kl-public-header-inner { flex-wrap: wrap; gap: 8px 16px; padding-block: 10px; }
+  .kl-public-nav { order: 2; flex: 1 1 100%; justify-content: flex-start; overflow-x: auto; padding: 5px 0 3px; scrollbar-width: none; }
+  .kl-public-nav::-webkit-scrollbar { display: none; }
+}
+@media (max-width: 480px) {
+  .kl-public-logo { width: 150px; }
+  .kl-public-nav { gap: 17px; font-size: 13px; }
+  .kl-public-nav .kl-public-signin { padding: 8px 13px; }
+}
+
+/* Shared educational disclosure: keep it in the public-page stylesheet
+   because lesson, glossary, reference and calculator pages do not load style.css. */
+.kitelearn-education-note {
+  display: block;
+  position: relative;
+  clear: both;
+  width: min(1120px, calc(100% - 48px));
+  max-width: 1120px;
+  margin: 28px auto 18px;
+  padding: 14px 18px;
+  box-sizing: border-box;
+  border: 1px solid rgba(37, 99, 235, .18);
+  border-radius: 12px;
+  background: rgba(37, 99, 235, .045);
+  color: #334155;
+  font-size: .88rem;
+  line-height: 1.65;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+.kitelearn-education-note strong { color: #14213d; }
+.kitelearn-education-note a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.kitelearn-education-note a:hover { color: #1d4ed8; }
+@media (max-width: 600px) {
+  .kitelearn-education-note {
+    width: calc(100% - 32px);
+    margin: 22px auto 16px;
+    padding: 13px 14px;
+    font-size: .82rem;
+  }
+}
