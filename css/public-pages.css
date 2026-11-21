@@ -88,3 +88,26 @@ a:hover{text-decoration:underline}
     font-size: .82rem;
   }
 }
+
+
+/* Reliable active-page indicator for the shared public navigation.
+   aria-current is already present in each section's navigation markup. */
+header.kl-public-header .kl-public-header-inner nav.kl-public-nav > a[aria-current="page"] {
+  color: #2563eb !important;
+  font-weight: 800 !important;
+  position: relative;
+  text-decoration: none !important;
+}
+header.kl-public-header .kl-public-header-inner nav.kl-public-nav > a[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -8px;
+  height: 2px;
+  border-radius: 2px;
+  background: #2563eb;
+}
+header.kl-public-header .kl-public-header-inner nav.kl-public-nav > a[aria-current="page"].kl-public-signin::after {
+  display: none;
+}
